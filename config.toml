@@ -1,5 +1,4 @@
 baseURL = "https://fairbrieft.cib.de/"
-# baseURL = "http://localhost:1313/"
 languageCode = "de"
 title = "CIB fairBrieft: Serienbriefe mit einem Klick kuvertieren und versenden"
 DefaultContentLanguage = "de"
