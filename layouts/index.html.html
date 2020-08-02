@@ -375,19 +375,19 @@
 
                     <div class="col-lg-4">
                         <img class="" src="/images/Hybrid-mail.svg" width="220" height="220">
-                        <h3 class="pb-4" v-html="">{{.Params.Advantages.UpdatesTitle}} <br></h3>
+                        <h3 class="pb-4" v-html="">{{safeHTML .Params.Advantages.UpdatesTitle}} <br></h3>
                         <p class="card-text px-3"><br>{{.Params.Advantages.UpdatesText}}
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <img class="" src="/images/serienbriefe.svg" width="220" height="220">
-                        <h3 class="pb-4" v-html="">{{.Params.Advantages.AdsTitle}}</h3>
+                        <h3 class="pb-4" v-html="">{{safeHTML .Params.Advantages.AdsTitle}}</h3>
                         <p class="card-text px-3">{{.Params.Advantages.AdsText}}
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <img class="" src="/images/green-umwelt.svg" width="220" height="220">
-                        <h3 class="pb-4">{{.Params.Advantages.SupportTitle}}</h3>
+                        <h3 class="pb-4">{{safeHTML .Params.Advantages.SupportTitle}}</h3>
                         <p class="card-text px-3">{{.Params.Advantages.SupportText}}
                         </p>
                     </div>
