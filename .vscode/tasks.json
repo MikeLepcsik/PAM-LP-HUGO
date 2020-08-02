@@ -11,7 +11,12 @@
         {
             "label": "Generate static site",
             "type": "shell",
-            "command": "hugo"
+            "command": "hugo",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
