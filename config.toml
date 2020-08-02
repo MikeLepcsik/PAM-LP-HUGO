@@ -1,0 +1,23 @@
+baseURL = "https://fairbrieft.cib.de/"
+languageCode = "de"
+title = "CIB fairBrieft: Serienbriefe mit einem Klick kuvertieren und versenden"
+DefaultContentLanguage = "de"
+[params]
+    subtitle = "Ingeniero de Telecomunicación"
+    background = "/assets/img/intro-bg.jpg"
+    [params.contact]
+        action = "https://rnupq2r4ig.execute-api.eu-central-1.amazonaws.com/production/contacto"
+        address = "Cangas, Pontevedra (Spain)"
+        phone = "+34665529205" 
+        email = "jairochapela@gmail.com"
+        [params.social]
+            Twitter = "https://twitter.com/jairochapela"
+            Linkedin = "https://www.linkedin.com/in/jairochapela/"
+    [params.blog]
+        background = "/assets/img/overlay-bg.jpg"
+[languages]
+    [languages.de]
+        LanguageName = "Deutsch"
+    [languages.es]
+        LanguageName = "Español"
+        title = "CIB fairBrieft: Correspondencia online de forma rápida, segura y fácil"
