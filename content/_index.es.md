@@ -6,7 +6,7 @@
 	"menu": {
 		"Ausblicke": "",
 		"Vorteile": "Ventajas",
-		"So-geht-es": "Cómo funciona",
+		"So_geht_es": "Cómo funciona",
 		"Kalkulator": "Calculadora",
 		"Funktionen": "Funcionalidades",
 		"Tuev": " TÜV SÜD",
@@ -146,8 +146,8 @@
 		"MyVersion": "Auf welche CIB xxxx Version bezieht sich Ihre Frage?"
 		
 	},
-	"CTA-Title": "Probado por TÜV SÜD Sec-IT",
-	"CTA-TUEV": "“CIB fairBrieft ha sido probado por expertos en seguridad independientes de TÜV SÜD Sec-IT GmbH en el marco de una prueba de penetración siguiendo el Manual de la Metodología Abierta de Testeo de Seguridad (OSSTMM) y las directrices para la realización de pruebas de penetración publicadas por la Oficina Federal de Seguridad de la Información de Alemania.“",
+	"CTA_Title": "Probado por TÜV SÜD Sec-IT",
+	"CTA_TUEV": "“CIB fairBrieft ha sido probado por expertos en seguridad independientes de TÜV SÜD Sec-IT GmbH en el marco de una prueba de penetración siguiendo el Manual de la Metodología Abierta de Testeo de Seguridad (OSSTMM) y las directrices para la realización de pruebas de penetración publicadas por la Oficina Federal de Seguridad de la Información de Alemania.“",
 	"CallToAction": "¿Quiere saber más sobre CIB fairBrieft?",
 	"CallToActionSub": "",
 	"ProductConsultation": "Dudas o preguntas?",
