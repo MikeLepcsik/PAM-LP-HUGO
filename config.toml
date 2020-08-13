@@ -1,10 +1,10 @@
-baseURL = "https://fairbrieft.cib.de/"
+baseURL = "https://template.cib.de/"
 languageCode = "de"
-title = "CIB fairBrieft: Serienbriefe mit einem Klick kuvertieren und versenden"
+title = "CIB Group: Ideen mit System"
 DefaultContentLanguage = "de"
 [languages]
     [languages.de]
         LanguageName = "Deutsch"
     [languages.es]
         LanguageName = "Español"
-        title = "CIB fairBrieft: Correspondencia online de forma rápida, segura y fácil"
+        title = "CIB Group: Ideas con sistemáticas"

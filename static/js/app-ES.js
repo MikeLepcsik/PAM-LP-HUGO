@@ -36,10 +36,10 @@
 			currentLanguage: function (lang) {
 				if (!lang) return i18n.locale;
 				if (lang == this.languages[0]) {
-					document.title = 'CIB fairBrieft: Serienbriefe mit einem Klick kuvertieren und versenden';
+					document.title = 'CIB Group: Ideen mit System';
 				}
 				else {
-				document.title = 'CIB fairBrieft: Correspondencia online de forma rápida, segura y fácil';
+				document.title = 'CIB Group: Ideas con sistemáticas';
 				}
 				return fetchTranslation(lang).then(function () {
 					i18n.locale = lang;
