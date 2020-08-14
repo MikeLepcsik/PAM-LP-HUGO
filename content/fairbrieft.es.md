@@ -38,7 +38,7 @@
 	},
 
 	"header": {
-		"Titel": "Correspondencia online de forma rápida, segura y fácil.",
+		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",
 		"Text": "Diga adiós a imprimir y ensobrar: con CIB fairBrieft puede crear y enviar cartas individuales o en serie sin moverse de su asiento.",
 		"Button": "Más info"
