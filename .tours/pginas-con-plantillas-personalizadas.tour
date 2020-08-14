@@ -1,0 +1,30 @@
+{
+  "title": "Páginas con plantillas personalizadas",
+  "steps": [
+    {
+      "file": "layouts/_default/fairbrieft.html",
+      "line": 1,
+      "description": "La plantilla para la página personalizada va dentro de _default, con el nombre que se desee. Ejemplo: layouts/_default/fairbrieft.html"
+    },
+    {
+      "file": "content/fairbrieft.md",
+      "line": 2,
+      "description": "En el contenido se indicará el layout que se desea aplicar a esta página en el frontmatter. El nombre coincidirá con el de la plantilla.",
+      "selection": {
+        "start": {
+          "line": 2,
+          "character": 1
+        },
+        "end": {
+          "line": 3,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "content/fairbrieft.es.md",
+      "line": 2,
+      "description": "Hacemos lo mismo con todas las traducciones de la página."
+    }
+  ]
+}

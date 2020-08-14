@@ -1,5 +1,5 @@
 {
-
+	"layout": "fairbrieft",
 	"en": "English",
 	"es": "Spanisch",
 	"de": "Deutsch",
