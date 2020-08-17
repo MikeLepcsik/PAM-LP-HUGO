@@ -1,4 +1,5 @@
 {
+	"layout": "fairbrieft",
 	"en": "Inglés",
 	"es": "Español",
 	"de": "Alemán",
