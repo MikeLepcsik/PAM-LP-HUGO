@@ -7,15 +7,15 @@
 	"menu": {
 		"Solutions": "Lösungen",
 		"Products": "Produkte",
-		"Service": "Dienstleistungen",
+		"Service": "Consulting & Support",
 		"Companies": "CIB Gruppe",
-		"CIBSolutions": "myCIB",
+		"CIBSolutions": "CIB solutions",
 		"Bestellen": "Anfragen"
 	},
 	"menuSolutions": {
 		"Title": "Unsere Lösungen",
 		"DocumentCapture": "Dokumentenerfassung",
-		"DocumentCaptureText": "Dokumente jedes Format zentral auf allen analogen und digitalen Kanälen ausgeben",
+		"DocumentCaptureText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr..",
 		"DocumentManagement": "Dokument Management",
 		"CorrespondenceManagement": "Korrespondenzmanagement",
 		"ForFinancialInstitutions": "Für Finanzinstitute",
@@ -32,12 +32,25 @@
 	},
 
 	"menuProducts": {
-		"Title": "Unsere Produkte"
+		"Title": "Unsere Produkte",
+		"coSys": "Das EcoSystem für den gesamten Dokumentenlebenszyklus",
+		"doXiview": "Der Viewer mit leistungsstarken Zusatzfunktionen",
+		"deepER": "OCR Erkennung auf Basis von Künstlicher Intelligenz (Ki)",
+		"toolbox": "Der Experte zum Bearbeiten von PDF-Dokumenten",
+		"doXisign": "Die vielseitige Signaturfunktion von CIB",
+		"brewer": "Die proffesionelle PDF-Erstellung",
+		"fluxkomprimator": "Für die starke nahezu verlustfrei pdf-Kompression",
+		"doXigate": "Dokumenten Austausch Plattform",
+		"doXisafe": "Zum Laden, Bearbeiten und Teilen von Dokumeten",
+		"fairBrieft": "Papierpost online abwickeln - schnell, sicher & einfach!",
+		"kanzleiapp": "Zum sicheren Dokumentenaustausch",
+		"LibreOffice": "Opensource inklusive CIB Services und Integration",
+		"doXiboxCrate": "Beste Scanergebnisse für unterwegs"
 	},
 
 	"menuService": {
 		"Title": "Unsere Dienstleistungen",
-		"Consulting": "Die CIB Berater stehen Ihnen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung mit Rat und Tat zur Seite.",
+		"Consulting": "Unsere Kompetenz - Ihr Erfolg Maßgeschneiderte Lösungen Vom hochqualifizierten Entwickler bis hin zum IT-Projektleiter einzelne Experten eingespielte Teams oder komplette Projektübernahme in allen gefragten Programmiersprachen für alle gängigen Hardware-Plattformen",
 		"Seminars": "Seminare",
 		"SeminarsText": "Die Seminare der CIB Berater finden in den Räumen des Kunden statt. Dadurch entfallen zum einen Reisezeiten und Reisekosten der Teilnehmer, zum anderen können diese die gewohnte Produktivumgebung nutzen.",
 		"Migration": "Migration",
@@ -55,8 +68,9 @@
 	},
 
 	"menuCompanies": {
-		"Title": "Unsere CIB Gruppe",
-		"Projects": "Forschungsprojekte",
+		"Title": "CIB Unternehmensgruppe",
+		"Projects": "Forschung & Entwicklung",
+		"ProjectsTitle": "Unsere Forschungsprojekte",
 		"ProjectsText": "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten.",
 		"Career": "Karriere",
 		"CareerText": "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen.",
@@ -84,9 +98,9 @@
 		"Titel": "Umweltschonend unterwegs mit CIB fairBrieft",
 		"UpdatesTitle": "Hybridpost",
 		"UpdatesText": "Der Empfänger erhält Ihr Schreiben zunächst in digitaler Form.  Auf Wunsch kann er das Dokument in Papierform aus dem Dokumentenportal bestellen.",
-		"AdsTitle": "Serienbriefe <br> komfortabel versenden",
+		"AdsTitle": "Serienbriefe  komfortabel versenden",
 		"AdsText": "Zeitersparnis! Profitieren Sie von CIB fairBrieft Vorteilen auch bei Serienbriefaktionen.",
-		"SupportTitle": "CIB fairBrieft green: <br>lokal und umweltfreundlich",
+		"SupportTitle": "CIB fairBrieft green: lokal und umweltfreundlich",
 		"SupportText": "Ihre Briefe werden automatisch im nächstgelegenen Druckzentrum des Empfängers gedruckt."
 	},
 	"Features": {

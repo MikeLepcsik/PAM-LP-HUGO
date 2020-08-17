@@ -1,5 +1,5 @@
 {
-
+	"layout": "fluxi",
 	"en": "English",
 	"es": "Spanisch",
 	"de": "Deutsch",
@@ -83,9 +83,9 @@
 	},
 
 	"header": {
-		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
+		"Titel": "fluxi",
 		"SubTitle": "",
-		"Text": "Mit 30 Jahren Erfahrung sind wir die Experten im Bereich des Document Lifecycle Managements. Hinzu entwickelt  CIB innovative Lösungen und führt bahnbrechende Forschungsprojekte durch. Mit unserer Vision sind wir immer einen Schritt voraus: Ob Deep Learning, BPM oder Cloud - hier dürfen sich die Spezialisten der Zukunft ausleben!",
+		"Text": "Nie wieder Briefe ausdrucken und kuvertieren: Mit CIB fairBrieft verschicken Sie sicher einzelne Briefe, Serienbriefe oder auch Hybridpost - umweltschonend und lokal.",
 		"Button": "Mehr Info"
 	},
 	"Button": {
@@ -98,9 +98,9 @@
 		"Titel": "Umweltschonend unterwegs mit CIB fairBrieft",
 		"UpdatesTitle": "Hybridpost",
 		"UpdatesText": "Der Empfänger erhält Ihr Schreiben zunächst in digitaler Form.  Auf Wunsch kann er das Dokument in Papierform aus dem Dokumentenportal bestellen.",
-		"AdsTitle": "Serienbriefe <br> komfortabel versenden",
+		"AdsTitle": "Serienbriefe  komfortabel versenden",
 		"AdsText": "Zeitersparnis! Profitieren Sie von CIB fairBrieft Vorteilen auch bei Serienbriefaktionen.",
-		"SupportTitle": "CIB fairBrieft green: <br>lokal und umweltfreundlich",
+		"SupportTitle": "CIB fairBrieft green: lokal und umweltfreundlich",
 		"SupportText": "Ihre Briefe werden automatisch im nächstgelegenen Druckzentrum des Empfängers gedruckt."
 	},
 	"Features": {
