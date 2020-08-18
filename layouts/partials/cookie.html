@@ -7,20 +7,20 @@
     <div class="modal-dialog modal-dialog-cookie modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1>{{.Params.Cookie.HeaderText}}</h1>
+                <h1>{{T "cookie_HeaderText"}}</h1>
             </div>
             <div class="modal-body">
                 <div>
-                    <p class="card-text">{{.Params.Cookie.BodyText}} <a class="modal-links" target="_blank"
+                    <p class="card-text">{{T "cookie_BodyText"}} <a class="modal-links" target="_blank"
                             onClick="gtag('event', 'action', {'event_category': 'link-Datenschutzerklärung', 'event_label': 'link-Datenschutzerklärung','value': 'value'});"
-                            href="https://www.cib.de/de/datenschutz.html">{{.Params.Cookie.Datenschutzerklaerung}}.</a>
+                            href="https://www.cib.de/de/datenschutz.html">{{T "cookie_Datenschutzerklaerung"}}</a>
                     </p>
                     <a href="https://fairbrieft.cib.de/privacy/" target="_blank" rel="noopener noreferrer"
                         id="bs-gdpr-cookies-modal-more-link"></a>
                 </div>
 
                 <div>
-                    <h6 class="font-weight-bold pb-2">{{.Params.Cookie.CookieEinstellungen}}</h6>
+                    <h6 class="font-weight-bold pb-2">{{T "cookie_CookieEinstellungen"}}</h6>
                     <div class="accordion" id="accordionExample">
                         <div class="">
                             <div class="" id="headingOne">
@@ -28,7 +28,7 @@
                                     <label class="checkbox"><input type="checkbox" id="subscribeNews5"
                                             checked="checked" disabled="disabled"
                                             style="background-color: #bec8d2;"><span
-                                            class="card-text-disabled mb-3 pr-3">{{.Params.Cookie.Notwendig}}
+                                            class="card-text-disabled mb-3 pr-3">{{T "cookie_Notwendig"}}
                                         </span></label>
                                     <button
                                         class="btn-cookies1 collapsed btna glyphicon glyphicon-minus pl-0"
@@ -41,7 +41,7 @@
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    {{.Params.Cookie.NotwendigText}}
+                                    {{T "cookie_NotwendigText"}}
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                                     <label class="checkbox"><input type="checkbox"
                                             id="enable-google-cookies"
                                             onClick="gtag('event', 'action', {'event_category': 'Button-Statistik', 'event_label': 'Cookie-Statistik','value': 'value'});"
-                                            checked><span class="card-text">{{.Params.Cookie.Statistik}}
+                                            checked><span class="card-text">{{T "cookie_Statistik"}}
                                         </span></label>
                                     <button class="btn-cookies2 collapsed btna glyphicon glyphicon-minus"
                                         type="button" data-toggle="collapse" data-target="#collapseTwo"
@@ -62,7 +62,7 @@
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
-                                    {{.Params.Cookie.StatistikText}}
+                                    {{T "cookie_StatistikText"}}
                                 </div>
                             </div>
                         </div>
@@ -71,8 +71,8 @@
                 <div>
                     <button
                         onClick="gtag('event', 'action', {'event_category': 'Button-Cookie-Akzeptieren', 'event_label': 'Cookie-Akzeptieren','value': 'value'});"
-                        class="btn btn-block btn-danger lp-button btn-line-height-Basis general-links mt-4"
-                        id="accept-cookies" data-dismiss="modal">{{.Params.Cookie.Akzeptieren}}</button>
+                        class="btn btn-CTA1 mt-4"
+                        id="accept-cookies" data-dismiss="modal">{{T "cookie_Akzeptieren"}}</button>
                 </div>
             </div>
         </div>

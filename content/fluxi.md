@@ -1,182 +1,178 @@
 {
 	"layout": "fluxi",
 	
-	"header": {
-		"Titel": "fluxi",
-		"SubTitle": "",
-		"Text": "Nie wieder Briefe ausdrucken und kuvertieren: Mit CIB fairBrieft verschicken Sie sicher einzelne Briefe, Serienbriefe oder auch Hybridpost - umweltschonend und lokal.",
-		"Button": "Mehr Info"
+	"Slider": {
+        "Title": "CIB fluXkomprimator am Beispiel",
+        "Subtitle": "PDF-Dokumente schnell versenden",
+        "Header": "Sie verarbeiten täglich eine Unzahl an Unterlagen und versenden diese dann an Ihre Kunden?",
+        "Text": "CIB fluXkomprimator komprimiert die Dateigröße von Dokumenten deutlich - ohne sichtbaren Qualitätsverlust und in der Regel auf weit unter 100 KB pro Seite."
 	},
-	"Button": {
-		"Senden": "Senden"
-	},
-	"AvailableLanguage": {
-		"Title": "Funktionen für den professionellen Einsatz"
-	},
-	"Advantages": {
-		"Titel": "Umweltschonend unterwegs mit CIB fairBrieft",
-		"UpdatesTitle": "Hybridpost",
-		"UpdatesText": "Der Empfänger erhält Ihr Schreiben zunächst in digitaler Form.  Auf Wunsch kann er das Dokument in Papierform aus dem Dokumentenportal bestellen.",
-		"AdsTitle": "Serienbriefe  komfortabel versenden",
-		"AdsText": "Zeitersparnis! Profitieren Sie von CIB fairBrieft Vorteilen auch bei Serienbriefaktionen.",
-		"SupportTitle": "CIB fairBrieft green: lokal und umweltfreundlich",
-		"SupportText": "Ihre Briefe werden automatisch im nächstgelegenen Druckzentrum des Empfängers gedruckt."
-	},
-	"Features": {
-		"Titel": "Ihre Vorteile",
-		"CostSavingsTitle": "Schlanke und günstige Prozesse",
-		"CostSavings": "Sparen Sie Zeit bei der Brieferstellung. Dank schlanker Prozesse können Sie sich auf das Wesentliche konzentrieren.",
-		"MaterialCostsTitle": "Kosten einsparen",
-		"MaterialCostsText": "Neben niedrigeren Personal- und Materialkosten, profitieren Sie von unseren attraktiven Konditionen für Material und Porto.",
-		"HighQualityTitle": "Garantiert hochwertiger Service",
-		"HighQualityText": "Überlassen Sie CIB fairBrieft die Abwicklung Ihrer Briefe und genießen Sie den automatischen Postverarbeitungsservice.",
-		"TimeSavingTitle": "Schnelle Abwicklung",
-		"TimeSavingText": "Der Versanddienstleister holt Ihre Post beim Druckzentrum ab und stellt sie am nächsten Tag zu.",
-		"DataTransmissionTitle": "Sichere Datenübermittlung",
-		"DataTransmissionText": "Dank einer zusätzlichen Verschlüsselung sind die Briefe bei der Übermittlung an unser zertifiziertes Rechenzentrum extra abgesichert.",
-		"CostControlTitle": "Volle Kostenkontrolle",
-		"CostControlText": "Welche Abteilung verschickt die meisten Briefe? Mit Hilfe unserer detaillierten Rechnung behalten Sie den Überblick über Ihre Kosten."
-	},
-	"Steps": {
-		"Titel": "So geht`s",
-		"CreateCorrespondence": "Individuelle Korrespondenz erstellen",
-		"CreateCorrespondenceText": "Entwerfen Sie die Korrespondenz in Ihrer gewohnten Anwendung. Bei der Erstellung der Vorlagen gibt es ein paar Vorgaben zu beachten, hierbei stehen Ihnen unsere erfahrenen Berater zur Seite.",
-		"ShippingApplication": "Versand aus Ihrer Anwendung",
-		"ShippingApplicationText": "Durch Integration der CIB fairBrieft-Schnittstelle in Ihrer Anwendung, sparen Sie sich den Druck- und Verarbeitungsprozess.",
-		"ShippingPrinterdriver": "Qualitäts<wbr>sicherung vor dem Versand",
-		"ShippingPrinterdriverText": "Durch das CIB fairBrieft Plug-In prüft der Druckertreiber <a href=\"https://pdfbrewer.cib.de/\" target=\"_blank\" class=\"text-danger footer-text\">CIB pdf brewer</a> lokal, ob bei der Korrespondenz die Vorgaben der Post eingehalten wurden.",
-		"GDPRcompliant": "DSGVO-Konform",
-		"GDPRcompliantText": "Über eine sichere Verbindung wird der Brief an unser Rechenzentrum in Deutschland übermittelt und verarbeitet. Notfalls sind Stornierungen einzelner Sendungen bis zur Übergabe an die Post möglich.",
-		"SupportTitle": "CIB fairBrieft-green - gut für die Umwelt",
-		"SupportText": "Ihre Korrespondenzins Ausland wird mit der fairBrieft-green Option automatisch in dem adressierten Land oder dem nächstgelegenen Druckzentrum gedruckt.",
-		"RecipientData": "Kontrolle der Empfängerdaten",
-		"RecipientDataText": "Durch Validierung der Empfängeradresse stellen wir den korrekten Versand sicher. So schonen wir die Umwelt und korrigieren gleichzeitig falsche Datensätze.",
-		"Correspondence": "Optimale Verarbeitung Ihrer Korrespondenz",
-		"CorrespondenceText": "Die Verarbeitung erfolgt in einem geschlossenen Kreislauf, der sicherstellt, dass jedes Schreiben das Druckzentrum verlässt.",
-		"Billing": "Transparenz dank detaillierter Abrechnung",
-		"BillingText": "Über die Abrechnung können Sie genau nachvollziehen, wer wie viel Korrespondenz verschickt.",
-		"EasyBilling": "Abrechnung leicht gemacht",
-		"EasyBillingText": "Die Abrechnung erfolgt über ein bei uns hinterlegtes Guthaben oder per Lastschriftverfahren."
-	},
-	"Kalkulator": {
-		"Kalkulator": "CIB fairBrieft lohnt sich!",
-		"KalkulatorSub": "Unser Kalkulator",
-		"FreeSubtitle": "die All-in-One Lösung",
-		"Functions": "Enthält alle aus der Benutzeroberfläche auswählbaren Funktionen",
-		"Free": "Garantiert kostenlos",
-		"Setup": "Installation über interaktives Setup",
-		"BusinessSubtitle": "der \"brewer\" mit dem Plus",
-		"E-InvoiceFormats": "Uneingeschränkte Erstellung aller e-Rechnungsformate",
-		"RollOut": "Silent Roll-Out als MSI-Setup",
-		"InstallationSettings": "Vorgeben und Einschränken von Einstellungen bei Installation",
-		"TerminalServer": "Installation auf Terminal Server \/ Citrix",
-		"PrintServer": "Installation auf Print Server",
-		"API": "API-Benutzung",
-		"Pricing": "Preisübersicht"
-	},
-	"System": {
-		"Title": "Systemvoraussetzungen"
-	},
-	"DetailsNeeded": "",
-	"YourInformation": "Ihre Daten",
-	"Business": {
-		"Title": "Ihre Anfrage CIB fairBrieft",
-		"LicensesNumber": "Anzahl der Lizenzen*:",
-		"CompanyOrderTitle": "Bei Bestellungen von Firmen:",
-		"NameLegalForm": "Firmenname/Rechtsform: (z.B.: CIB software)",
-		"UStID": "UStID:",
-		"LegalRepresentative": "Gesetzl. Vertreter",
-		"PrivateAndContact": "Bestellungen von Privatpersonen sowie Ansprechpartner obiger Firma:",
-		"FormofAddressMale": "Herr",
-		"FormofAddressFemale": "Frau",
-		"StreetReq": "Straße und Nummer*",
-		"CityReq": "Ort*",
-		"Phone": "Telefon",
-		"Rechtliches": "Rechtliches",
-		"AGB": "Mit den <a href=\"https://www.doxisafe.me/#/safe/retrieve/eagb\" target=\"_blank\" class=\"text-danger footer-text\">Allgemeinen Geschäftsbedingungen</a> der CIB software GmbH bin ich einverstanden.",
-		"Widerruf": "Ich stimme der Ausführung des Vertrages <a href=\"https://www.cib.de/fileadmin/media/deutsch/agb/regelung_widerrufsrecht.pdf\" target=\"_blank\" class=\"text-danger footer-text\">vor Ablauf der Widerrufsfrist</a> ausdrücklich zu. Ich habe zur Kenntnis genommen, dass das Widerrufsrecht mit Beginn der Ausführung des Vertrages erlischt.",
-		"Newsletter": "Anmeldung für unseren Newsletter per E-Mail, der Sie über Updates und Neuigkeiten informiert."
-	},
-	"Prices": {
-		"LicensesNumber": "Anzahl der Lizenzen",
-		"LicensePrice": "Preis pro Lizenz und Jahr"
-	},
-	"Forms": {
-		"FirstName": "Vorname*",
-		"LastName": "Nachname*",
-		"PostalCodeMessage": "Bitte geben Sie ein 5 stellige Zahl ein.",
-		"PostalCode": "Postleitzahl",
-		"E-Mail": "E-Mail*",
-		"StreetHouse": "Straße und Nummer",
-		"City": "Ort",
-		"Company": "Unternehmen",
-		"Phone": "Telefon",
-		"Other": "Sonstiges",
-		"BecomeAware": "Wie sind Sie auf uns aufmerksam geworden?",
-		"SearchEngine": "über Suchmaschinen (z.B. Google)",
-		"DownloadPortal": "über einen CIB Berater",
-		"Acquaintances": "über Bekannte",
-		"FurtherHelp": "Ihre Nachricht",
-		"Thanks": "Vielen Dank!",
-		"ThanksText": "Ihre Nachricht wurde erfolgreich versendet.",
-		"Failure": "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:cibsupport@cib.de\">cibsupport@cib.de</a>.",
-		"ContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
-	},
-	"Companies": {
-		"Title": "Diese und weitere Unternehmen setzen auf unseren \"brewer\""
-	},
-	"News": {
-		"Title": "Was ist neu?",
-		"Subtitle": "Alle News rund um den CIB fairBrieft in unserem Blog"
-	},
-	"Consultation": {
-		"Title": "CIB fairBrieft",
-		"MyVersion": "Auf welche CIB xxxx Version bezieht sich Ihre Frage?",
-		"NPORequest": "Anfrage für eine Non-Profit-Organisation"
-	},
-	"CTA_Title": "TÜV SÜD Sec-IT geprüft",
-	"CTA_TUEV": "Von unabhängigen Sicherheitsexperten geprüft<br><br>Im Rahmen eines Penetrationstests basierend auf dem “Open Source Security Testing Methodology Manual“ (OSSTMM) sowie dem Leitfaden zur Durchführung von Penetrationstests vom Bundesamt für Sicherheit in der Informationstechnik wurde CIB fairBrieft von unabhängigen Sicherheitsexperten der TÜV SÜD Sec-IT GmbH geprüft.",
-	"CallToAction": "Haben Sie Fragen zum Produkt oder Lizensierung?",
-	"CallToActionSub": "",
-	"ProductConsultation": "Fragen?",
-	"Footer": {
-		"HomepageLink": "https://www.cib.de/de/startseite.html",
-		"PrivacyLink": "https://www.cib.de/de/datenschutz.html",
-		"ImprintLink": "https://www.cib.de/de/impressum.html",
-		"Consultation": "Beratung und Bestellung",
-		"Installation": "Installation & Drittseiten",
-		"RelatedProducts": "Weitere CIB Lösungen",
-		"Legal": "Rechtliche Informationen",
-		"AGB": "AGB",
-		"Nutzungsbedingungen": "Nutzungsbedingungen",
-		"Widerrufserklärung": "Widerrufserklärung",
-		"Datenschutz": "Datenschutz",
-		"Impressum": "Impressum",
-        "Weblösungen": "CIB Weblösungen",
-        "WeitereLösungen": "Weitere CIB Lösungen",
-        "Unternehmen": "Unternehmen",
-		"InfoBeratung": "Info & Beratung",
-		"Phone": "+49 89 143 60 - 300",
-		"PhoneSupport": "+49 89 143 60 - 111",
-		"MailTo": "mailto:info@cib.de",
-		"Mail": "info@cib.de",
-		"SupportTime": "Mo-Fr 8:00 - 19:00 Uhr"
-	},
-	"Cookie": {
-        "HeaderText": "Cookies auf dieser Website",
-        "BodyText": "Diese Website verwendet Cookies, um einen fehlerfreien und sicheren Betrieb der Website zu gewährleisten und um unsere Services stetig zu verbessern. Durch die Bestätigung des Buttons \"Akzeptieren\" stimmen Sie der Verwendung zu. Unter \"Cookies\" können Sie Ihre Auswahl jederzeit ändern. Weitere Infos in unserer",
-        "Datenschutzerklaerung": "Datenschutzerklärung",
-        "CookieEinstellungen": "Ihre Cookie-Einstellungen:",
-        "Notwendig": "Notwendig",
-        "NotwendigText": "Diese Cookies sind für das reibungslose Funktionieren der Website unbedingt erforderlich. Diese Kategorie enthält nur Cookies, die die grundlegenden Funktionen und Sicherheitsmerkmale der Website gewährleisten. Auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese Cookies gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste.",
-        "Statistik": "Statistik ",
-        "StatistikText": "Wir setzen Cookies zu statistischen Zwecken ein, um Ihr Nutzerverhalten besser zu verstehen und Sie bei Ihrer Navigation auf unseren Angebotsseiten zu unterstützen. Damit ist es uns zudem möglich, Ihre Navigation auf unseren Angebotsseiten zu erfassen und für die bedarfsgerechte Gestaltung unserer Services zu nutzen. ",
-        "Akzeptieren": "Akzeptieren"
-    },
-	"Lorem": "",
-	"AGBs": "https://www.doxisafe.me/#/safe/retrieve/eagb",
-	"stoerer": "images/fuer-null-euro.svg",
-	"InstallationGuide": "Installationsanleitung",
-	"image": "img/doxiview_HEADER_new.png"
 
+    "header": {
+        "Titel": "PDF komprimieren: Mit CIB fluXkomprimator deutlich an Speicherplatz sparen!",
+        "Text": "Große PDF-Dateien mit <i>fluXi</i> nahezu verlustfrei komprimieren,  IT-Ressourcen frei machen und blitzschnell versenden.",
+
+        "Fragen": "You ask, we answer:"
+    },
+    "Forms": {
+        "FirstName": "Vorname*",
+        "LastName": "Nachname*",
+        "PostalCodeMessage": "Bitte geben Sie ein 5 stellige Zahl ein.",
+        "PostalCode": "Postleitzahl",
+        "E-Mail": "E-Mail*",
+        "StreetHouse": "Straße und Nummer",
+        "City": "Ort",
+        "Company": "Unternehmen",
+        "Phone": "Telefon",
+        "Other": "Sonstiges",
+        "BecomeAware": "Wie sind Sie auf uns aufmerksam geworden?",
+        "SearchEngine": "über Suchmaschinen (z.B. Google)",
+        "DownloadPortal": "über Downloadportale (z.B. Chip.de)",
+        "Acquaintances": "über Bekannte",
+        "FurtherHelp": "Ihre Nachricht",
+        "Thanks": "Vielen Dank!",
+        "ThanksText": "Ihre Nachricht wurde erfolgreich versendet.",
+        "modalContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
+        "Failure": "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:CIBpdfSupport@cib.de\">CIBpdfSupport@cib.de</a>."
+    },
+
+    "Consultation": {
+		"Title": "CIB fluXkomprimator",
+		"MyVersion": "Auf welche CIB pdf brewer Version bezieht sich Ihre Frage?",
+		"NPORequest": "Anfrage für eine Non-Profit-Organisation"
+    },
+    
+    "Interest": "Wie können wir Ihnen behilflich sein?",
+    "DetailsNeeded": "",
+    "YourInformation": "Ihre Daten",
+    "Button": {
+        "OnlineSupport": "Free Online Support",
+        "doxisafe": "doXisafe.me",
+        "Senden": "Senden",
+        "Anfragen": "Anfragen",
+        "Anfrage": "Anfrage"
+    },
+
+    "UseCases": {
+        "Titel": "Das bietet LibreOffice powered by CIB:",
+        "TextPunkte1": "LibreOffice powered by CIB for Business",
+        "TextPunkte2": "LibreOffice powered by CIB LTS",
+        "TextPunkte3": "LibreOffice Online powered by CIB",
+        "TextPunkte4": "Auslieferung getesteter LibreOffice-Versionen.",
+        "TextPunkte5": "Deutschsprachiger Langzeitsupport (LTS) sowie Sicherheitsupdates für mindestens drei Jahre.",
+        "TextPunkte6": "Erweiterte Support-Angebote inkl. Kundenfixes im Paket.",
+        "TextPunkte7": "Professionelle Anwendungsbetreuung (Level 1 & 2) durch deutschsprachigen Telefon-Support und Online-Portal.",
+        "TextPunkte8": "Zertifizierte LibreOffice-Entwickler für effiziente Fehlerbehebung (Level 3) und fehlerklassenabhängige, gesicherte Reaktionszeiten.",
+        "TextPunkte9": "Planbare Kosten für die Fehlerbehebung und Unterstützung anhand von transparenten Kostenmodellen."
+    },
+
+    "ModalOrder": {
+        "modalTitle": "LibreOffice-Support",
+        "modalSubTitle": "Unsere Experten sind für Sie da, verlässlich und kompetent!",
+        "modalTitleText1": "Stellen Sie hier Ihre Support-Anfragen rund um LibreOffice und OpenOffice.",
+        "modalTitleText2": "Sie erhalten Ihre Antwort binnen zwei Arbeitstagen (bei schwierigen Problemen mit einer Abschätzung unseres Teams von zertifizierten Entwicklern für die endgültige Lösung bzw. Aufwände für einen Bugfix).",
+        "modalFormTitel": "Ihr Produkt",
+        "modalPlaceholderVersion": "Version z.B.: 5.0.5",
+        "modalPlaceholderName": "Name*",
+        "modalPlaceholderVorname": "Vorname*",
+        "modalSystem": "Ihr System",
+        "modalProblem": "Ihr Problem",
+        "modalDetails": "Ihre Details",
+        "modalPlaceholderEmail": "E-Mail*",
+        "modalPlaceholderEmailWiederholen": "E-Mail wiederholen*",
+        "modalPlaceholderTelefon": "Telefon*",
+        "modalLibreOffice": "LibreOffice",
+        "modalpoweredByCIB": "LibreOffice powered by CIB",
+        "modalApache": "Apache OpenOffice",
+        "modalOnline": "LibreOffice Online",
+        "modalOnlinePoweredByCIB": "LibreOffice Online powered by CIB",
+        "modalWindows": "Windows",
+        "modalLinux": "Linux",
+        "modalOSX": "OS X",
+        "modalAndere": "Andere",
+        "modalProblems": "Art des Problems",
+        "modalFehler": "Fehler",
+        "modalVerbesserungsvorschlag": "Verbesserungsvorschlag",
+        "modalAllgemeines": "Allgemeines Problem",
+        "send": "Senden"
+    },
+
+    "ModalContact": {
+        "modalTitle": "Kontakt",
+        "modalSubTitle": "Ihre Anfrage",
+        "modaltext": "Ihre Nachricht",
+        "send": "Senden"
+    },
+
+    "Features": {
+        "Vorteile": "Vorteile",
+        "Datenkompression": "Hohe Datenkompression mit Mixed Raster Content (MRC) Technologie",
+        "DatenkompressionText": "Dokumente um ein Vielfaches (100:1) der Originalgröße reduzieren.",
+        "Datenversand": "Einstellbare Kompressionsstufen",
+        "DatenversandText": "Durch auswählbare Kompressionstufen Qualität flexibel bestimmen.",
+        "Archivierung": "Platzsparende Archivierung",
+        "ArchivierungText": "Durch hohe Datenkompression Archivkosten reduzieren.",
+        "Qualitaet": "Gleichbleibende Qualität",
+        "QualitaetText": "Dokumente erheblich komprimieren und dabei Qualität behalten.",
+		"Breitband": "Optimale Breitbandausnutzung",
+		"BreitbandText": "Dank extremer Datenkompression Server entlasten und Dateien schnell versenden.",
+		"Integration": "Nahtlose Integration",
+		"IntegrationText": "Einfach in Ihre Systemlandschaft einbauen und loslegen."
+    },
+
+    "Leistungsspektrum": {
+        "LeistungsspektrumTitel": "Das Leistungsspektrum von LibreOffice powered by CIB",
+        "Support": "Telefon-Support",
+        "SupportText": "Sie bekommen eine Telefonnummer, die Sie anrufen können, wenn Ihre LibreOffice Anwendung nicht funktioniert oder Probleme auftauchen.",
+        "Individuelles": "Individuelles Support-Modell",
+        "IndividuellesText": "Wir vereinbaren mit Ihnen ein individuelles Support-Modell, das Ihren Ansprüchen an den Support genügt und die Kosten dafür planbar machen.",
+        "Bugfixing": "Bugfixing",
+        "BugfixingText": "Wir beheben die von Ihnen gemeldeten Fehler in Ihrer LibreOffice-Version und pflegen auch die Community-Version.",
+        "Anwendungsentwicklung": "Ergänzung von Features und Anwendungsentwicklung",
+        "AnwendungsentwicklungText": "Wir entwickeln neue Features oder Anwendungen nach Ihren Vorgaben, wenn Ihnen Schnittstellen oder Funktionalitäten in LibreOffice fehlen oder Sie Anwendungen auf Basis von LibreOffice benötigen.",
+        "Beratungen": "Schulung und Beratungen",
+        "BeratungenText": "Wir liefern kundenindividuelle Schulungen und Beratung."
+    },
+
+    "Testimonial": {
+        "Titel": "Referenzen",
+        "Person": "Jon Peddie",
+        "Company": "Softwareentwickler, Redner und Publisher von (Tech Watch and Graphics Speak), Kalifornien, USA",
+        "Text": "Als Softwareentwickler mit fast 40 Jahren Erfahrung, habe ich, bis auf wenige Ausnahmen, keine großen Erwartungen an Supportservices für Software. Meine Erfahrung mit dem technischen Support für LibreOffice powered by CIB war, aufgrund der überdurchschnittlichen Professionalität und Problemlösungsfähigkeiten, erstaunlichen Geduld und ungewöhnlichen Sorgfalt, rundum zufriedenstellend. Die Anwendungen sind großartig und die Unterstützung anlässlich von fachlicher Kompetenz, eine der wenigen ausgezeichneten in Europa."
+    },
+
+    "Systemvoraussetzungen": {
+        "Titel": "Systemvoraussetzungen",
+        "Text": "Grundsätzlich werden folgende Betriebssystem-Plattformen* für die LibreOffice powered by CIB Version unterstützt:",
+        "Features": "*für einige Features wird Java benötigt",
+        "link": "Die Systemanforderungen entsprechen den allgemeinen für <a style=\"color: #e11e19;\" href=\"https://de.libreoffice.org/get-help/system-requirements/\">LibreOffice</a>.",
+        "linux": "Linux Kernel ab Version 2.6.18 ‌‌| glibc2 ab Version 2.5 | GTK ab Version 2.10.4"
+    },
+
+    "CallToAction": "Möchten Sie mehr erfahren? Wir beraten Sie gern.",
+    "CallToActionSubtitel": "xxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.",
+    "CallToActionSubtitel2": "xxxxxxxxxxxxx xxxxxxx",
+     
+    "Kontakt": {
+        "Kontakt": "Kontakt",
+        "KontaktText": "Haben Sie Fragen zum Produkt oder zur Lizenzierung?",
+        "Anfragen": "Anfragen",
+        "modalAnfragen": "Vielen Dank!",
+        "modalAnfragenNichtErfolgreich": "Etwas ist schief gelaufen.",
+        "modalAnfragenText": "Ihre Anfrage konnte erfolgreich gesendet werden. Wir melden uns in Kürze bei Ihnen.",
+        "modalAnfragenTextNichtErfolgreich": "Ihre Anfrage konnte leider nicht gesendet werden. Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:libreoffice@cib.de\">libreoffice@cib.de</a>"
+    },
+    "Footer": {
+        "Beratung": "Beratung und Lizensierung",
+        "Tel": "+49 89 143 60-111",
+        "Produkte": "Weitere CIB Lösungen",
+        "Rechtliches": "Rechtliche Informationen",
+        "AGB": "AGB",
+        "Datenschutz": "Datenschutz",
+        "Impressum": "Impressum"  
+    },
+
+    "Cookie": "Um unsere Webseite für Sie fortlaufend verbessern zu können, verwenden wir Cookies. Weitere Informationen erhalten Sie in unserer <a href=\"https://www.cib.de/de/datenschutz.html\">Datenschutzerklärung.</a>",
+
+    "image": "img/doxiview_HEADER_new.png"
 }

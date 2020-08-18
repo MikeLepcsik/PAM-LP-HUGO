@@ -2,23 +2,15 @@
     <div class="container d-none d-md-block">
         <div class="row mb-5">
 
+            {{ partial "footer/footer_index.html" . }}
             <div class="col">
-                <span class="footer-text-title">{{.Params.Footer.Consultation}}</span>
-                <ul class="custom-list-footer">
-                    <li><a href='{{.Params.Footer.Phone}}'>{{.Params.Footer.Phone}}</a></li>
-                    <li><a href='{{.Params.Footer.MailTo}}' class="footer-text">
-                            {{.Params.Footer.Mail}}</a></li>
-                    <!--<li><a href="https://my.cib.de/#!/" target="_blank">Reseller</a></li>-->
-                </ul>
-            </div>
-            <div class="col">
-                <span class="footer-text-title">{{.Params.Footer.Weblösungen}}</span>
+                <span class="footer-text-title">{{T "footer_Webloesungen"}}</span>
                 <ul class="custom-list-footer">
                     <li><a href="https://www.doxisafe.me/" target="_blank">CIB doXisafe</a></li>
                     <li><a href="https://doxigate.cib.de/" target="_blank">CIB doXigate</a></li>
                     <li><a href="https://doxiview.cib.de/showcase/" target="_blank">CIB doXiview</a></li>
                 </ul>
-                <span class="footer-text-title">{{.Params.Footer.WeitereLösungen}}</span>
+                <span class="footer-text-title">{{T "footer_WeitereLoesungen"}}</span>
                 <ul class="custom-list-footer">
                     <li><a href="https://pdfbrewer.cib.de/" target="_blank">CIB pdf brewer</a></li>
                     <li><a href="https://kanzlei-app.cib.de/" target="_blank">CIB kanzlei app</a></li>
@@ -38,7 +30,7 @@
                 </ul>
             </div>
             <div class="col">
-                <span class="footer-text-title">{{.Params.Footer.Unternehmen}}</span>
+                <span class="footer-text-title">{{T "footer_Unternehmen"}}</span>
                 <ul class="custom-list-footer">
                     <li><a href="https://www.cib.de/de/startseite.html" target="_blank">cib.de</a></li>
                     <li><a href="https://karriere.cib.de" target="_blank">karriere.cib.de</a></li>
@@ -48,8 +40,8 @@
                 </ul>
                 <span class="footer-text-title mt-5">CIB Support</span>
                 <ul class="custom-list-footer">
-                    <li>{{.Params.Footer.SupportTime}}</li>
-                    <li><a href='{{.Params.Footer.PhoneSupport}}'>{{.Params.Footer.PhoneSupport}}</a></li>
+                    <li>{{T "footer_SupportTime"}}</li>
+                    <li><a href='{{.Params.Footer.PhoneSupport}}'>{{T "footer_PhoneSupport"}}</a></li>
                     <li><a href="mailto:cibsupport@cib.de">
                             cibsupport@cib.de</a></li>
                 </ul>
@@ -93,20 +85,20 @@
         <div class="row ml-2">
             <ul class="custom-list-footer footer-list-mobile">
                 <li><a data-toggle="collapse" data-target="#beratung" href="index.html#">
-                        <span class="footer-text-title">{{.Params.Footer.Consultation}}</span>
+                        <span class="footer-text-title">{{T "footer_Consultation"}}</span>
                     </a>
                     <div class="collapse" id="beratung">
                         <ul class="custom-list-footer">
-                            <li><a href='{{.Params.Footer.Phone}}'>{{.Params.Footer.Phone}}</a></li>
+                            <li><a href='{{.Params.Footer.Phone}}'>{{T "footer_Phone"}}</a></li>
                             <li><a href='{{.Params.Footer.MailTo}}' class="footer-text">
-                                    {{.Params.Footer.Mail}}</a></li>
+                                {{T "footer_Mail"}}</a></li>
                             <!--<li><a href="https://my.cib.de/#!/" target="_blank">Reseller</a></li>-->
                         </ul>
                     </div>
                 </li>
 
                 <li><a data-toggle="collapse" data-target="#komplettloesungen" href="index.html#">
-                        <span class="footer-text-title">{{.Params.Footer.Weblösungen}}</span>
+                        <span class="footer-text-title">{{T "footer_Webloesungen"}}</span>
                     </a>
                     <div class="collapse" id="komplettloesungen">
                         <ul class="custom-list-footer">
@@ -118,7 +110,7 @@
                     </div>
                 </li>
                 <li><a data-toggle="collapse" data-target="#module" href="index.html#">
-                        <span class="footer-text-title">{{.Params.Footer.WeitereLösungen}}</span>
+                        <span class="footer-text-title">{{T "footer_WeitereLoesungen"}}</span>
                     </a>
                     <div class="collapse" id="module">
                         <ul class="custom-list-footer">
@@ -147,7 +139,7 @@
                     </div>
                 </li>
                 <li><a data-toggle="collapse" data-target="#unternehmen" href="index.html#">
-                        <span class="footer-text-title">{{.Params.Footer.Unternehmen}}</span>
+                        <span class="footer-text-title">{{T "footer_Unternehmen"}}</span>
                     </a>
                     <div class="collapse" id="unternehmen">
                         <ul class="custom-list-footer">
@@ -169,9 +161,9 @@
                     </a>
                     <div class="collapse" id="support">
                         <ul class="custom-list-footer">
-                            <li>{{.Params.Footer.SupportTime}}</li>
+                            <li>{{T "footer_SupportTime"}}</li>
                             <li><a
-                                    href='{{.Params.Footer.PhoneSupport}}'>{{.Params.Footer.PhoneSupport}}</a>
+                                    href='{{.Params.Footer.PhoneSupport}}'>{{T "footer_PhoneSupport"}}</a>
                             </li>
                             <li><a href="mailto:cibsupport@cib.de">
                                     cibsupport@cib.de</a></li>

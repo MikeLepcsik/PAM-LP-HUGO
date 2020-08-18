@@ -22,37 +22,55 @@ other = "CIB solutions"
 other = "Solicitar"
 
 [menuSolutions_Title]
-other = "Soluciones CIB"
-[menuSolutions_DocumentCapture]
-other = "Gestión documental"
-[menuSolutions_DocumentCaptureText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.."
-[menuSolutions_DocumentManagement]
-other = "Procesamiento de documentos"
-[menuSolutions_CorrespondenceManagement]
-other = "Correspondencia documental"
-[menuSolutions_ForFinancialInstitutions]
-other = "Para Institutos financieros"
-[menuSolutions_ForLogistics]
-other = "Para Logística"
-[menuSolutions_DocumentGeneration]
-other = "Generador de Documentos"
-[menuSolutions_DocumentCompression]
-other = "Compresión de Documentos"
-[menuSolutions_OutputManagementShipping]
-other = "Output management + Versand"
-[menuSolutions_ForTaxAdvisors]
-other = "Para Asesores fiscales"
-[menuSolutions_ForHospitals]
-other = "Para Sanidad y Hospitales"
-[menuSolutions_InvoiceProcessing]
-other = "Gestión de Facturas"
-[menuSolutions_LegallySecureArchiving]
-other = "Archivamiento legal"
-[menuSolutions_ProcessAutomation]
-other = "Automatización de procesos"
-[menuSolutions_ForAuthorities]
-other = "Para la Adminsitación pública"
+other = "Nuestras soluciones"
+[menuSolutions_IncomingMailProcessing]
+other = "Procesamiento de correo entrante"
+[menuSolutions_IncomingMailProcessingText]
+other = "Correo entrante digital o escaneado."
+[menuSolutions_DynamicDocumentGeneration]
+other = "Generación dinámica de documentos"
+[menuSolutions_DynamicDocumentGenerationText]
+other = "Preparación, interacción y máxima dinámica"
+[menuSolutions_MobileReceiptEntry]
+other = "Entrada de recibo móvil"
+[menuSolutions_MobileReceiptEntryText]
+other = "cxcxcxccx"
+[menuSolutions_TextRecognition]
+other = "Reconocimiento de texto, búsqueda de texto, análisis sintáctico"
+[menuSolutions_TextRecognitionText]
+other = "cxcxcxccx"
+[menuSolutions_DocumentPreparation]
+other = "Preparación de documentos"
+[menuSolutions_DocumentPreparationText]
+other = "cxcxcxccx"
+[menuSolutions_PostProcessing]
+other = "Postprocesamiento de documentos"
+[menuSolutions_PostProcessingText]
+other = "cxcxcxccx"
+[menuSolutions_DocumentDisplay]
+other = "Visualización del documento"
+[menuSolutions_DocumentDisplayText]
+other = "cxcxcxccx"
+[menuSolutions_OmnichannelDocumentDistribution]
+other = "Distribución de documentos omnicanal"
+[menuSolutions_OmnichannelDocumentDistributionText]
+other = "cxcxcxccx"
+[menuSolutions_Einvoicing]
+other = "facturación electrónica"
+[menuSolutions_EinvoicingText]
+other = "cxcxcxccx"
+[menuSolutions_LongTermArchiving]
+other = "Archivo a largo plazo"
+[menuSolutions_LongTermArchivingText]
+other = "cxcxcxccx"
+[menuSolutions_ProcessOptimization]
+other = "Optimización de procesos"
+[menuSolutions_ProcessOptimizationText]
+other = "cxcxcxccx"
+[menuSolutions_DocumentOptimization]
+other = "Optimización de documentos"
+[menuSolutions_DocumentOptimizationText]
+other = "cxcxcxccx"
 
 [menuProducts_Title]
 other = "Nuestros productos"
@@ -142,6 +160,10 @@ other = "Quiénes somos, qué hacemos y cómo actuamos"
 other = "Compromiso social"
 [menuCompanies_SocialEngagementText]
 other = "Quiénes somos, qué hacemos y cómo actuamos"
+[menuCompanies_AntivirusProgram]
+other = "Programa de Antivirus"
+[menuCompanies_AntivirusProgramText]
+other = "Nuestro compromiso en tiempos de corona"
 
 [menuchoose_country]
 other = "Seleccionar país"
@@ -149,3 +171,65 @@ other = "Seleccionar país"
 other = "Alemania"
 [menu_country_spain]
 other = "España"
+
+[footer_HomepageLink]
+other = "https://www.cib.de/de/startseite.html"
+[footer_PrivacyLink]
+other = "https://www.cib.de/de/datenschutz.html"
+[footer_ImprintLink]
+other = "https://www.cib.de/de/impressum.html"
+[footer_Consultation]
+other = "Consultas y Licencias"
+[footer_Installation]
+other = "Instalación"
+[footer_RelatedProducts]
+other = "Soluciones CIB para web"
+[footer_Legal]
+other = "Rechtliche Informationen"
+[footer_AGB]
+other = "Térmminos y condiciones legales"
+[footer_Nutzungsbedingungen]
+other = "Nutzungsbedingungen"
+[footer_Widerrufserklaerung]
+other = "Widerrufserklärung"
+[footer_Datenschutz]
+other = "Protección de datos"
+[footer_Impressum]
+other = "Aviso legal"
+[footer_Webloesungen]
+other = "Soluciones CIB para web"
+[footer_WeitereLoesungen]
+other = "Otras soluciones CIB"
+[footer_Unternehmen]
+other = "Sobre CIB"
+[footer_InfoBeratung]
+other = "Consultas y licencias"
+[footer_Phone]
+other = "+34 828 12 88 23"
+[footer_PhoneSupport]
+other = "+34 (828) 128820"
+[footer_MailTo]
+other = "mailto:soluciones@ciblabs.es"
+[footer_Mail]
+other = "soluciones@ciblabs.es"
+[footer_SupportTime]
+other = "Lu-Vi 8:00 - 19:00"
+
+[cookie_HeaderText]
+other = "Cookies auf dieser Website"
+[cookie_BodyText]
+other = "Diese Website verwendet Cookies, um einen fehlerfreien und sicheren Betrieb der Website zu gewährleisten und um unsere Services stetig zu verbessern. Durch die Bestätigung des Buttons Akzeptieren stimmen Sie der Verwendung zu. Unter Cookies können Sie Ihre Auswahl jederzeit ändern. Weitere Infos in unserer"
+[cookie_Datenschutzerklaerung]
+other = "Datenschutzerklärung."
+[cookie_CookieEinstellungen]
+other = "Ihre Cookie-Einstellungen:"
+[cookie_Notwendig]
+other = "Notwendig"
+[cookie_NotwendigText]
+other = "Diese Cookies sind für das reibungslose Funktionieren der Website unbedingt erforderlich. Diese Kategorie enthält nur Cookies, die die grundlegenden Funktionen und Sicherheitsmerkmale der Website gewährleisten. Auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO werden diese Cookies gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste."
+[cookie_Statistik]
+other = "Statistik "
+[cookie_StatistikText]
+other = "Wir setzen Cookies zu statistischen Zwecken ein, um Ihr Nutzerverhalten besser zu verstehen und Sie bei Ihrer Navigation auf unseren Angebotsseiten zu unterstützen. Damit ist es uns zudem möglich, Ihre Navigation auf unseren Angebotsseiten zu erfassen und für die bedarfsgerechte Gestaltung unserer Services zu nutzen. "
+[cookie_Akzeptieren]
+other = "Akzeptieren"
