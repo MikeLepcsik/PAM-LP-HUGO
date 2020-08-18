@@ -8,8 +8,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description"
-        content="Serienbriefe online versenden - Schnell, sicher & einfach! Einzelne Briefe, Serienbriefe & Hybridpost kinderleicht zu attraktiven Preisen DSGVO-konform versenden.">
-    <meta name="keywords" content="Serienbriefe, Sereinpost, Hybridpost, Post online, Briefversand service">
+        content="CIB Master">
+    <meta name="keywords" content="CIB Master">
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png?v=oLJx8gaR9y">
@@ -80,7 +80,7 @@
      End Google Analytics -->
 
     <!-- Google Analytics
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64370383-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16015151-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -89,7 +89,7 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'UA-64370383-1', {
+        gtag('config', 'UA-16015151-1', {
             'storage': 'none',
             'anonymize_ip': true,
             '_setAllowAnchor': true
@@ -237,15 +237,13 @@
             <!-- Nav -->
             {{ partial "menu.html" . }}
 
-            <!-- Header -->
-            
-            {{ partial "header.html" . }}
-
+            <!-- Content -->
             {{ block "base" . }}
             {{ end }}
-            
+
             <!-- New Footer -->
             {{ partial "footer.html" . }}
+
             <!-- Arrow -->
             {{ partial "arrow.html" . }}
 
@@ -253,254 +251,17 @@
             {{ partial "copyright.html" . }}
 
             <!-- NEW Cookie -->
-
-            <!-- Cookies JavaScript -->
-            <script src="/js/cookies.js"></script>
-
-            <!-- Modal Cookie -->
-
-            <div class="modal fade pt-3" id="modal-cookies" role="dialog">
-                <div class="modal-dialog modal-dialog-cookie modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1>{{.Params.Cookie.HeaderText}}</h1>
-                        </div>
-                        <div class="modal-body">
-                            <div>
-                                <p class="card-text">{{.Params.Cookie.BodyText}} <a class="modal-links" target="_blank"
-                                        onClick="gtag('event', 'action', {'event_category': 'link-Datenschutzerklärung', 'event_label': 'link-Datenschutzerklärung','value': 'value'});"
-                                        href="https://www.cib.de/de/datenschutz.html">{{.Params.Cookie.Datenschutzerklaerung}}.</a>
-                                </p>
-                                <a href="https://fairbrieft.cib.de/privacy/" target="_blank" rel="noopener noreferrer"
-                                    id="bs-gdpr-cookies-modal-more-link"></a>
-                            </div>
-
-                            <div>
-                                <h6 class="font-weight-bold pb-2">{{.Params.Cookie.CookieEinstellungen}}</h6>
-                                <div class="accordion" id="accordionExample">
-                                    <div class="">
-                                        <div class="" id="headingOne">
-                                            <h4 class="mb-0">
-                                                <label class="checkbox"><input type="checkbox" id="subscribeNews5"
-                                                        checked="checked" disabled="disabled"
-                                                        style="background-color: #bec8d2;"><span
-                                                        class="card-text-disabled mb-3 pr-3">{{.Params.Cookie.Notwendig}}
-                                                    </span></label>
-                                                <button
-                                                    class="btn-cookies1 collapsed btna glyphicon glyphicon-minus pl-0"
-                                                    type="button" data-toggle="collapse" data-target="#collapseOne"
-                                                    aria-expanded="false" aria-controls="collapseOne">
-                                                </button>
-                                            </h4>
-                                        </div>
-
-                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                {{.Params.Cookie.NotwendigText}}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="">
-                                        <div class="" id="headingTwo">
-                                            <h4 class="mb-0">
-                                                <label class="checkbox"><input type="checkbox"
-                                                        id="enable-google-cookies"
-                                                        onClick="gtag('event', 'action', {'event_category': 'Button-Statistik', 'event_label': 'Cookie-Statistik','value': 'value'});"
-                                                        checked><span class="card-text">{{.Params.Cookie.Statistik}}
-                                                    </span></label>
-                                                <button class="btn-cookies2 collapsed btna glyphicon glyphicon-minus"
-                                                    type="button" data-toggle="collapse" data-target="#collapseTwo"
-                                                    aria-expanded="false" aria-controls="collapseTwo">
-                                                </button>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                {{.Params.Cookie.StatistikText}}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <button
-                                    onClick="gtag('event', 'action', {'event_category': 'Button-Cookie-Akzeptieren', 'event_label': 'Cookie-Akzeptieren','value': 'value'});"
-                                    class="btn btn-block btn-danger lp-button btn-line-height-Basis general-links mt-4"
-                                    id="accept-cookies" data-dismiss="modal">{{.Params.Cookie.Akzeptieren}}</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            {{ partial "cookie.html" . }}
 
             <!-- Modals -->
-
             <!-- Modal Kontaktformular erfolgreich-->
-
-            <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
-                aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-sm" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h2 class="modal-title w-100">
-                                <span>{{.Params.Forms.Thanks}}</span>
-                            </h2>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-
-                        <div class="modal-body mx-3 text-center py-5">
-
-                            <div class="form-group mb-0 text-center">
-                                <span>{{.Params.Forms.ThanksText}}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{ partial "modalFormSuccessfully.html" . }}
 
             <!-- Modal Kontaktformular nicht erfolgreich-->
-
-            <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
-                aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-sm" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h2 class="modal-title w-100">
-                                <span>{{.Params.Forms.Thanks}}</span>
-                            </h2>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-
-                        <div class="modal-body mx-3 text-center">
-
-                            <div class="form-group mb-0">
-                                <span>{{.Params.Forms.Failure}}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{ partial "modalFormNOSuccessfully.html" . }}
 
             <!-- Modal Anfrage -->
-
-            <div class="modal fade" id="modalAnfrageForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                aria-hidden="true">
-                <div style="display:none;" id="loader"></div>
-                <div class="modal-dialog modal-dialog-sm" role="document">
-                    <div class="modal-content">
-
-                        <div class="modal-header text-center">
-                            <h2 class="modal-title w-100">{{.Params.Consultation.Title}}</h2>
-                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-                                aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-
-                        <div class="modal-body modal-boby-bestellung mx-3">
-                            <div class="row justify-content-center">
-                                <p class="font-small card-text mx-3">
-                                </p>
-                            </div>
-
-                            <div class="row justify-content-center">
-                                <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
-                            </div>
-                            <form name="anfrageForm" action="index.html" id="anfrageForm"
-                                onsubmit="sendEmailAnfrage(); return false">
-
-                                <div class="form-group mb-0" style="margin-top: 30px;">
-                                    <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
-                                        placeholder='{{.Params.Forms.FurtherHelp}}'></textarea>
-                                    <label data-error="wrong" data-success="right" for="form8"></label>
-                                </div>
-
-                                <div class="form-group mb-0 mt-3">
-                                    <h5>{{.Params.YourInformation}}</h5>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input required="required" name="vorname" required type="text" id="form29"
-                                        class="form-control validate" placeholder='{{.Params.Forms.FirstName}}'>
-                                    <label data-error="wrong" data-success="right" for="form29"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input required="required" name="nachname" type="text" id="form29"
-                                        class="form-control validate" placeholder='{{.Params.Forms.LastName}}'>
-                                    <label data-error="wrong" data-success="right" for="form29"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input data-required="required" name="eMail" type="email" required id="form32"
-                                        class="form-control validate" placeholder='{{.Params.Forms.E_Mail}}'>
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input name="unternehmen" type="text" id="form32" class="form-control validate"
-                                        placeholder='{{.Params.Forms.Company}}'>
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input name="strasse" type="text" id="form32" class="form-control validate"
-                                        placeholder='{{.Params.Forms.StreetHouse}}'>
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input pattern="[0-9]{5}$" maxlength="5" title='{{.Params.Forms.PostalCodeMessage}}'
-                                        value="" name="postleitzahl" type="number" id="form32"
-                                        class="form-control validate" placeholder='{{.Params.Forms.PostalCode}}'
-                                        oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input name="ort" type="text" id="form32" class="form-control validate"
-                                        placeholder='{{.Params.Forms.City}}'>
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <input name="telefon" type="tel" maxlength="14" id="form32"
-                                        class="form-control validate" placeholder='{{.Params.Forms.Phone}}'>
-                                    <label data-error="wrong" data-success="right" for="form32"></label>
-                                </div>
-
-                                <div class="form-group mb-0">
-                                    <h5>{{.Params.Forms.Other}}</h5>
-                                    <div class="form-group">
-                                        <select name="gefunden" class="form-control order-text" id="Select1">
-                                            <option class="order-text" disabled selected>{{.Params.Forms.BecomeAware}}
-                                            </option>
-                                            <option class="order-text">{{.Params.Forms.SearchEngine}}</option>
-                                            <option class="order-text">{{.Params.Forms.DownloadPortal}}</option>
-                                            <option class="order-text">{{.Params.Forms.Acquaintances}}</option>
-                                            <option class="order-text">{{.Params.Forms.Other}}</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <p class="kontakt-note">{{.Params.Forms.ContactNote}}</p>
-                                <div class="modal-footer-bestellung d-flex justify-content-center ">
-                                    <button class="btn btn-danger lp-button myDiv" title="Senden" id="anfrageFormButton"
-                                        onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden', 'event_label': 'Senden','value': 'value'});"
-                                        type="submit">{{.Params.Button.Senden}}</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{ partial "modalRequest.html" . }}
 
             <!-- div="app" -->
         </div>
@@ -624,8 +385,8 @@
     <script type="text/javascript">
 
         var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-64370383-1']);
-        _gaq.push(['_setDomainName', 'fairbrieft.cib.de']);
+        _gaq.push(['_setAccount', 'UA-16015151-1']);
+        _gaq.push(['_setDomainName', 'cib.de']);
         _gaq.push(['_trackPageview']);
 
         (function () {

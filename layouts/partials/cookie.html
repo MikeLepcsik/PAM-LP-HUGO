@@ -1,0 +1,80 @@
+<!-- Cookies JavaScript -->
+<script src="/js/cookies.js"></script>
+
+<!-- Modal Cookie -->
+
+<div class="modal fade pt-3" id="modal-cookies" role="dialog">
+    <div class="modal-dialog modal-dialog-cookie modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>{{.Params.Cookie.HeaderText}}</h1>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <p class="card-text">{{.Params.Cookie.BodyText}} <a class="modal-links" target="_blank"
+                            onClick="gtag('event', 'action', {'event_category': 'link-Datenschutzerklärung', 'event_label': 'link-Datenschutzerklärung','value': 'value'});"
+                            href="https://www.cib.de/de/datenschutz.html">{{.Params.Cookie.Datenschutzerklaerung}}.</a>
+                    </p>
+                    <a href="https://fairbrieft.cib.de/privacy/" target="_blank" rel="noopener noreferrer"
+                        id="bs-gdpr-cookies-modal-more-link"></a>
+                </div>
+
+                <div>
+                    <h6 class="font-weight-bold pb-2">{{.Params.Cookie.CookieEinstellungen}}</h6>
+                    <div class="accordion" id="accordionExample">
+                        <div class="">
+                            <div class="" id="headingOne">
+                                <h4 class="mb-0">
+                                    <label class="checkbox"><input type="checkbox" id="subscribeNews5"
+                                            checked="checked" disabled="disabled"
+                                            style="background-color: #bec8d2;"><span
+                                            class="card-text-disabled mb-3 pr-3">{{.Params.Cookie.Notwendig}}
+                                        </span></label>
+                                    <button
+                                        class="btn-cookies1 collapsed btna glyphicon glyphicon-minus pl-0"
+                                        type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                    </button>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    {{.Params.Cookie.NotwendigText}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="" id="headingTwo">
+                                <h4 class="mb-0">
+                                    <label class="checkbox"><input type="checkbox"
+                                            id="enable-google-cookies"
+                                            onClick="gtag('event', 'action', {'event_category': 'Button-Statistik', 'event_label': 'Cookie-Statistik','value': 'value'});"
+                                            checked><span class="card-text">{{.Params.Cookie.Statistik}}
+                                        </span></label>
+                                    <button class="btn-cookies2 collapsed btna glyphicon glyphicon-minus"
+                                        type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                    </button>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    {{.Params.Cookie.StatistikText}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button
+                        onClick="gtag('event', 'action', {'event_category': 'Button-Cookie-Akzeptieren', 'event_label': 'Cookie-Akzeptieren','value': 'value'});"
+                        class="btn btn-block btn-danger lp-button btn-line-height-Basis general-links mt-4"
+                        id="accept-cookies" data-dismiss="modal">{{.Params.Cookie.Akzeptieren}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

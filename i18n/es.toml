@@ -1,0 +1,140 @@
+[en]
+other = "English"
+[es]
+other = "Spanisch"
+[de]
+other = "Deutsch"
+[page]
+other = "Grupo CIB"
+[menu_Solutions]
+other = "Soluciones"
+[menu_Products]
+other = "Productos"
+[menu_Projects]
+other = "I + D"
+[menu_Service]
+other = "Consultoría y Soporte"
+[menu_Companies]
+other = "Grupo CIB"
+[Button_CIBSolutions]
+other = "CIB solutions"
+[Button_Request]
+other = "Solicitar"
+
+[menuSolutions_Title]
+other = "Soluciones CIB"
+[menuSolutions_DocumentCapture]
+other = "Gestión documental"
+[menuSolutions_DocumentCaptureText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.."
+[menuSolutions_DocumentManagement]
+other = "Procesamiento de documentos"
+[menuSolutions_CorrespondenceManagement]
+other = "Correspondencia documental"
+[menuSolutions_ForFinancialInstitutions]
+other = "Para Institutos financieros"
+[menuSolutions_ForLogistics]
+other = "Para Logística"
+[menuSolutions_DocumentGeneration]
+other = "Generador de Documentos"
+[menuSolutions_DocumentCompression]
+other = "Compresión de Documentos"
+[menuSolutions_OutputManagementShipping]
+other = "Output management + Versand"
+[menuSolutions_ForTaxAdvisors]
+other = "Para Asesores fiscales"
+[menuSolutions_ForHospitals]
+other = "Para Sanidad y Hospitales"
+[menuSolutions_InvoiceProcessing]
+other = "Gestión de Facturas"
+[menuSolutions_LegallySecureArchiving]
+other = "Archivamiento legal"
+[menuSolutions_ProcessAutomation]
+other = "Automatización de procesos"
+[menuSolutions_ForAuthorities]
+other = "Para la Adminsitación pública"
+
+[menuProducts_Title]
+other = "Nuestros productos"
+[menuProducts_coSys]
+other = "El EcoSystem para todo el ciclo de vida del documento"
+[menuProducts_doXiview]
+other = "El visor multifuncional con potentes funciones adicionales"
+[menuProducts_deepER]
+other = "Reconocimiento de texto OCR basado en inteligencia artificial (IA) <br><br>"
+[menuProducts_toolbox]
+other = "El experto en editar documentos PDF"
+[menuProducts_doXisign]
+other = "Firmar documentos digitalmente - sin discontinuidad de medios y sin instalación"
+[menuProducts_brewer]
+other = "crear, editar y muchos más archivos PDF gratuitos"
+[menuProducts_fluxkomprimator]
+other = "¡Comprima PDF, ahorre espacio en disco! <br><br>"
+[menuProducts_doXigate]
+other = "Plataforma de intercambio de documentos en tiempo real"
+[menuProducts_doXisafe]
+other = "Compartir, editar, compartir con otros servicios en la nube <br><br>"
+[menuProducts_fairBrieft]
+other = "Inserte y envíe cartas modelo con un clic <br><br>"
+[menuProducts_kanzleiapp]
+other = "La solución innovadora, personalizada y móvil para procesos comerciales simplificados"
+[menuProducts_LibreOffice]
+other = "Fuente abierta que incluye servicios e integración CIB"
+[menuProducts_doXiboxCrate]
+other = "Las cajas de escáner de uso flexible para un escaneo óptimo incluso sobre la marcha"
+
+[menuService_Title]
+other = "Nuestros servicios"
+[menuService_Consulting]
+other = "Nuestra competencia: su éxito Soluciones a medida Desde desarrolladores altamente calificados hasta gerentes de proyectos de TI, expertos individuales, equipos bien ensayados o adquisición completa del proyecto en todos los lenguajes de programación populares para todas las plataformas de hardware comunes"
+[menuService_Seminars]
+other = "Seminarios"
+[menuService_SeminarsText]
+other = "Los seminarios de los consultores CIB tienen lugar en las instalaciones del cliente. Esto por un lado elimina el tiempo de viaje y los costos de viaje para los participantes, y por otro lado pueden utilizar el entorno productivo familiar"
+[menuService_Migration]
+other = "Migración"
+[menuService_MigrationText]
+other = "Los consultores de CIB que llevan a cabo la migración por usted traen consigo los conocimientos técnicos necesarios y muchos años de experiencia de varios proyectos"
+[menuService_ProjectSupport]
+other = "apoyo al proyecto"
+[menuService_ProjectSupportText]
+other = "El equipo de consultores de CIB le apoya en todas las cuestiones de gestión de correspondencia <br>"
+[menuService_AdviceOffer]
+other = "servicio de asesoramiento"
+[menuService_AdviceOfferText]
+other = "Con el Día del Consultor CIB, recibe una oferta flexible a un precio fijo"
+[menuService_TemplateService]
+other = "Servicio de plantillas"
+[menuService_TemplateServiceText]
+other = "Los consultores de CIB crean y mantienen sus plantillas"
+[menuService_Support]
+other = "Nuestro equipo de soporte es su primer punto de contacto para preguntas sobre todos los productos CIB"
+[menuService_Hotline]
+other = "Hotline: +49 89 14360 111"
+[menuService_EMail]
+other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
+
+[menuCompanies_Title]
+other = "Grupo CIB"
+[menuCompanies_Projects]
+other = "Investigación y desarrollo"
+[menuCompanies_ProjectsTitle]
+other = "Nuestros proyectos de investigación"
+[menuCompanies_ProjectsText]
+other = "La cooperación Fraunhofer IAIS y CIB le ofrece una excelente oportunidad para hacer una contribución importante al proyecto de IA financiado por el Ministerio Federal de Investigación (BMBF)"
+[menuCompanies_Career]
+other = "carrera"
+[menuCompanies_CareerText]
+other = "¡Encuentre el trabajo de sus sueños con nosotros y comience su carrera en CIB! Descubra su pasión y desarrolle soluciones orientadas al futuro"
+[menuCompanies_Blog]
+other = "Blog"
+[menuCompanies_BlogText]
+other = "Únase a otros 122 suscriptores y siga nuestras últimas noticias"
+[menuCompanies_Contact]
+other = "Contacto"
+[menuCompanies_ContactAdress]
+other = "Resumen internacional de las sucursales de CIB"
+[menuCompanies_AboutUs]
+other = "Acerca de nosotros"
+[menuCompanies_AboutUsText]
+other = "Quiénes somos, qué hacemos y cómo actuamos"

@@ -1,17 +1,4 @@
 {
-
-	"en": "English",
-	"es": "Spanisch",
-	"de": "Deutsch",
-	"page": "CIB Group",
-	"menu": {
-		"Solutions": "Lösungen",
-		"Products": "Produkte",
-		"Service": "Consulting & Support",
-		"Companies": "CIB Gruppe",
-		"CIBSolutions": "CIB solutions",
-		"Bestellen": "Anfragen"
-	},
 	"menuSolutions": {
 		"Title": "Unsere Lösungen",
 		"DocumentCapture": "Dokumentenerfassung",
@@ -61,7 +48,6 @@
 		"AdviceOfferText": "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis.",
 		"TemplateService": "Vorlagen-Service",
 		"TemplateServiceText": "Die CIB Berater erstellen und pflegen Ihre Vorlagen.",
-
 		"Support": "Unser Support Team ist Ihr erster Ansprechpartner bei Fragen zu allen CIB Produkten",
 		"Hotline": "Hotline: +49 89 14360 111",
 		"EMail": "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"

@@ -1,0 +1,111 @@
+<!-- Modal Anfrage -->
+
+<div class="modal fade" id="modalAnfrageForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div style="display:none;" id="loader"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.Consultation.Title}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body modal-boby-bestellung mx-3">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
+                </div>
+                <form name="anfrageForm" action="index.html" id="anfrageForm"
+                    onsubmit="sendEmailAnfrage(); return false">
+
+                    <div class="form-group mb-0" style="margin-top: 30px;">
+                        <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                            placeholder='{{.Params.Forms.FurtherHelp}}'></textarea>
+                        <label data-error="wrong" data-success="right" for="form8"></label>
+                    </div>
+
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{.Params.YourInformation}}</h5>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" required type="text" id="form29"
+                            class="form-control validate" placeholder='{{.Params.Forms.FirstName}}'>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29" class="form-control validate"
+                            placeholder='{{.Params.Forms.LastName}}'>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form32"
+                            class="form-control validate" placeholder='{{.Params.Forms.E_Mail}}'>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="unternehmen" type="text" id="form32" class="form-control validate"
+                            placeholder='{{.Params.Forms.Company}}'>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="strasse" type="text" id="form32" class="form-control validate"
+                            placeholder='{{.Params.Forms.StreetHouse}}'>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input pattern="[0-9]{5}$" maxlength="5" title='{{.Params.Forms.PostalCodeMessage}}' value=""
+                            name="postleitzahl" type="number" id="form32" class="form-control validate"
+                            placeholder='{{.Params.Forms.PostalCode}}'
+                            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="ort" type="text" id="form32" class="form-control validate"
+                            placeholder='{{.Params.Forms.City}}'>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="telefon" type="tel" maxlength="14" id="form32" class="form-control validate"
+                            placeholder='{{.Params.Forms.Phone}}'>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <h5>{{.Params.Forms.Other}}</h5>
+                        <div class="form-group">
+                            <select name="gefunden" class="form-control order-text" id="Select1">
+                                <option class="order-text" disabled selected>{{.Params.Forms.BecomeAware}}
+                                </option>
+                                <option class="order-text">{{.Params.Forms.SearchEngine}}</option>
+                                <option class="order-text">{{.Params.Forms.DownloadPortal}}</option>
+                                <option class="order-text">{{.Params.Forms.Acquaintances}}</option>
+                                <option class="order-text">{{.Params.Forms.Other}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="kontakt-note">{{.Params.Forms.ContactNote}}</p>
+                    <div class="modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-danger lp-button myDiv" title="Senden" id="anfrageFormButton"
+                            onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden', 'event_label': 'Senden','value': 'value'});"
+                            type="submit">{{.Params.Button.Senden}}</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

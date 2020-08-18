@@ -45,9 +45,9 @@ $(document).ready(function () {
 function allowCookies() {
     let allowStats = getCookie("allowStats");
     if (allowStats === "1") {
-        window['ga-disable-UA-64370383-1'] = false;
+        window['ga-disable-UA-16015151-1'] = false;
     } else {
-        window['ga-disable-UA-64370383-1'] = true;
+        window['ga-disable-UA-16015151-1'] = true;
     }
 }
 

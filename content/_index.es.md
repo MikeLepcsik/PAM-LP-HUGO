@@ -1,16 +1,5 @@
 {
-	"en": "Inglés",
-	"es": "Español",
-	"de": "Alemán",
-	"page": "CIB Grupo",
-	"menu": {
-		"Solutions": "Soluciones",
-		"Products": "Productos",
-		"Service": "Consultoría y Soporte",
-		"Companies": "Grupo CIB",
-		"CIBSolutions": "CIB solutions",
-		"Bestellen": "Contacto"
-	},
+
 	"menuSolutions": {
 		"Title": "Soluciones CIB",
 		"DocumentCapture": "Gestión documental",
@@ -60,7 +49,6 @@
 		"TemplateService": "Vorlagen-Service",
 		"TemplateServiceText": "Die CIB Berater erstellen und pflegen Ihre Vorlagen.",
 
-		"Support": "Unser Support Team ist Ihr erster Ansprechpartner bei Fragen zu allen CIB Produkten",
 		"Hotline": "Hotline: +49 89 14360 111",
 		"EMail": "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
 	},

@@ -1,4 +1,36 @@
-{{ define "main" }}
+{{ define "base" }}
+<!-- Header -->
+<header class="header-text-top">
+    <div class="container">
+        <div class="shape-top"></div>
+        <div class="shape-left"></div>
+        <div class="row">
+            <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+                <img src="/images/product/CIB_fairBrieft.svg" height="40">
+                <h1 class="pb-4 font-weight-bold">{{.Params.header.Titel}}</h1>
+
+                <h3 class="pb-4">{{.Params.header.Text}}
+                </h3>
+
+                <div class="row pb-5 d-flex justify-content-left ">
+                    <div class="col-12 col-xl-4">
+                        <a class="btn btn-block btn-CTA2" role="button" aria-pressed="true"
+                            onClick="gtag('event', 'action', {'event_category': 'Mehr-Info-header', 'event_label': 'Mehr-Info','value': 'value'});"
+                            href="#Ausblicke" target="_blank">{{.Params.header.Button}}</a>
+                        <!-- <a href="#Kalkulator" class="btn btn-block mt-2 mx-3 button-white btn-line-height-Basis btn-lg active" role="button" aria-pressed="true">zum Kalkulator</a>-->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
+                <img src="/images/HG_CIBfairBrieft.svg" class="img-fluid" height="400">
+            </div>
+
+        </div>
+    </div>
+</header>
+
 <!-- Views -->
 
 <div class="container section text-center" id="Ausblicke">
