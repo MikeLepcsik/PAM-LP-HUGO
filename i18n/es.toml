@@ -138,3 +138,14 @@ other = "Resumen internacional de las sucursales de CIB"
 other = "Acerca de nosotros"
 [menuCompanies_AboutUsText]
 other = "Quiénes somos, qué hacemos y cómo actuamos"
+[menuCompanies_SocialEngagement]
+other = "Compromiso social"
+[menuCompanies_SocialEngagementText]
+other = "Quiénes somos, qué hacemos y cómo actuamos"
+
+[menuchoose_country]
+other = "Seleccionar país"
+[menu_country_germany]
+other = "Alemania"
+[menu_country_spain]
+other = "España"

@@ -28,7 +28,7 @@ other = "Dokumentenerfassung"
 [menuSolutions_DocumentCaptureText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.."
 [menuSolutions_DocumentManagement]
-other = "Dokument Management"
+other = "Dokumentenverwaltung"
 [menuSolutions_CorrespondenceManagement]
 other = "Korrespondenzmanagement"
 [menuSolutions_ForFinancialInstitutions]
@@ -61,7 +61,7 @@ other = "Das EcoSystem für den gesamten Dokumentenlebenszyklus"
 [menuProducts_doXiview]
 other = "Der Multifunktionsviewer mit leistungsstarken Zusatzfunktionen"
 [menuProducts_deepER]
-other = "OCR Text-Erkennung auf Basis von künstlicher Intelligenz (KI) <br><br>"
+other = "OCR Text-Erkennung auf Basis von künstlicher Intelligenz (KI)"
 [menuProducts_toolbox]
 other = "Der Experte zum Bearbeiten von PDF-Dokumenten"
 [menuProducts_doXisign]
@@ -69,19 +69,19 @@ other = "Dokumente digital unterschreiben - medienbruchfrei und ohne Installatio
 [menuProducts_brewer]
 other = "kostenlos PDFs erstellen, bearbeiten und vieles mehr"
 [menuProducts_fluxkomprimator]
-other = "PDF komprimieren, Speicherplatz sparen! <br><br>"
+other = "PDF komprimieren, Speicherplatz sparen!"
 [menuProducts_doXigate]
 other = "Dokumenten-Austausch-Plattform in Echtzeit"
 [menuProducts_doXisafe]
-other = "Teilen, bearbeiten, mit anderen Cloud-Diensten teilen <br><br>"
+other = "Teilen, bearbeiten, mit anderen Cloud-Diensten teilen"
 [menuProducts_fairBrieft]
-other = "Serienbriefe mit einem Klick kuvertieren und versenden <br><br>"
+other = "Serienbriefe mit einem Klick kuvertieren und versenden"
 [menuProducts_kanzleiapp]
 other = "Die innovative, personalisierte und mobile Lösung für vereinfachte Geschäftsprozesse"
 [menuProducts_LibreOffice]
 other = "Opensource inklusive CIB Services und Integration"
 [menuProducts_doXiboxCrate]
-other = "Die flexibel einsetzbare Scannerboxen für den optimalen <br>Scan auch unterwegs"
+other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unterwegs"
 
 [menuService_Title]
 other = "Unsere Dienstleistungen"
@@ -119,7 +119,7 @@ other = "CIB Unternehmensgruppe"
 [menuCompanies_Projects]
 other = "Forschung & Entwicklung"
 [menuCompanies_ProjectsTitle]
-other = "Unsere Forschungsprojekte"
+other = "CIB Forschung & Entwicklung"
 [menuCompanies_ProjectsText]
 other = "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten."
 [menuCompanies_Career]
@@ -138,3 +138,14 @@ other = "Internationale Übersicht der CIB Niederlassungen"
 other = "Über uns"
 [menuCompanies_AboutUsText]
 other = "Wer wir sind, was wir tun und wie wir handeln"
+[menuCompanies_SocialEngagement]
+other = "Soziales Engagement "
+[menuCompanies_SocialEngagementText]
+other = "Wer wir sind, was wir tun und wie wir handeln"
+
+[menuchoose_country]
+other = "Land auswählen"
+[menu_country_germany]
+other = "Deutschland"
+[menu_country_spain]
+other = "Spanien"
