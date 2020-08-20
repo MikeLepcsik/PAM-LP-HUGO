@@ -110,45 +110,6 @@
     <script src="https://unpkg.com/vuelidate/dist/validators.min.js"></script>
     <script src="https://unpkg.com/vuelidate-error-extractor/dist/vuelidate-error-extractor.js"></script>
 
-    <script>
-        function startInvoicing() {
-            var form = document.getElementById("bestellscheinForm");
-            console.log(bestellscheinForm['land'].text)
-            debugger;
-            $.ajax({
-                type: 'POST',
-                url: 'start_invoicing.php',
-                data: {
-                    typeForm: 'order',
-                    numberOfLicenses: bestellscheinForm['numberLicense'].value,
-                    companyName: bestellscheinForm['firmenname'].value,
-                    legalForm: bestellscheinForm['rechtsform'].value,
-                    salesTax: bestellscheinForm['ustid'].value,
-                    salesTaxnr: bestellscheinForm['ustidnr'].value,
-                    representative: bestellscheinForm['vertreter'].value,
-                    salutation: bestellscheinForm['anrede'].value,
-                    firstName: bestellscheinForm['vorname'].value,
-                    lastName: bestellscheinForm['nachname'].value,
-                    address: bestellscheinForm['strasse'].value,
-                    postalCode: bestellscheinForm['postleitzahl'].value,
-                    location: bestellscheinForm['ort'].value,
-                    country: bestellscheinForm['land'][bestellscheinForm['land'].selectedIndex].text,
-                    email: bestellscheinForm['eMail'].value,
-                    phone: bestellscheinForm['telefon'].value,
-                    checkboxTerms: bestellscheinForm['checkboxAgb'].checked,
-                    checkboxWithdrawal: bestellscheinForm['checkboxWiderrufsrecht'].checked,
-                    checkboxNews: bestellscheinForm['checkboxNewsletter'].checked
-                },
-                success: function (data) {
-                    console.log("Process started");
-                },
-                error: function (error) {
-                }
-            });
-            return false;
-        }
-    </script>
-
     <!-- Get Version And Size for Download -->
     <script>
         $(function () {

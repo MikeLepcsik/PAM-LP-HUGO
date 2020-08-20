@@ -19,7 +19,7 @@
         "LastName": "Nachname*",
         "PostalCodeMessage": "Bitte geben Sie ein 5 stellige Zahl ein.",
         "PostalCode": "Postleitzahl",
-        "E-Mail": "E-Mail*",
+        "EMail": "E-Mail*",
         "StreetHouse": "Straße und Nummer",
         "City": "Ort",
         "Company": "Unternehmen",

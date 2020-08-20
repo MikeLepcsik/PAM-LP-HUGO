@@ -488,6 +488,57 @@ aria-hidden="true">
     </div>
 </div>
 
+<!-- Modal Kontaktformular erfolgreich-->
+
+<div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Forms.Thanks}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body mx-3 text-center py-5">
+
+                <div class="form-group mb-0 text-center">
+                    <span>{{.Params.Forms.ThanksText}}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+<div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Forms.Thanks}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body mx-3 text-center">
+
+                <div class="form-group mb-0">
+                    <span v-html="$t('Forms.Failure')"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Newsletter -->
 <script>
     function sendNewsletterForm(event) {

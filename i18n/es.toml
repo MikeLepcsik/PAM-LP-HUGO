@@ -71,6 +71,18 @@ other = "cxcxcxccx"
 other = "Optimización de documentos"
 [menuSolutions_DocumentOptimizationText]
 other = "cxcxcxccx"
+[menuSolutions_ForFinancialInstitutes]
+other = "Para instituciones financieras"
+[menuSolutions_ForFinancialInstitutesText]
+other = "cxcxcxccx"
+[menuSolutions_ForTaxConsultants]
+other = "Para asesores fiscales"
+[menuSolutions_ForTaxConsultantsText]
+other = "cxcxcxccx"
+[menuSolutions_ForPublicInstitutions]
+other = "Para instituciones públicas"
+[menuSolutions_ForPublicInstitutionsText]
+other = "cxcxcxccx"
 
 [menuProducts_Title]
 other = "Nuestros productos"

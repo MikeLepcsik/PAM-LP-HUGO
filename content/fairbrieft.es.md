@@ -8,6 +8,7 @@
 		"Button": "Más info"
 	},
 	"Button": {
+		"Anfragen": "Su consulta",
 		"Senden": "Enviar"
 	},
 	"AvailableLanguage": {
@@ -106,7 +107,7 @@
 		"LastName": "Apellidos*",
 		"PostalCodeMessage": "El CP debe de tener 5 cifras.",
 		"PostalCode": "Código postal",
-		"E-Mail": "Correo electrónico*",
+		"EMail": "Correo electrónico*",
 		"StreetHouse": "Calle, Número",
 		"City": "Ciudad o localidad",
 		"Company": "Empresa",

@@ -8,6 +8,7 @@
 		"Button": "Mehr Info"
 	},
 	"Button": {
+		"Anfragen": "Anfragen",
 		"Senden": "Senden"
 	},
 	"AvailableLanguage": {
@@ -106,7 +107,7 @@
 		"LastName": "Nachname*",
 		"PostalCodeMessage": "Bitte geben Sie ein 5 stellige Zahl ein.",
 		"PostalCode": "Postleitzahl",
-		"E-Mail": "E-Mail*",
+		"EMail": "E-Mail*",
 		"StreetHouse": "Straße und Nummer",
 		"City": "Ort",
 		"Company": "Unternehmen",
@@ -156,10 +157,10 @@
         "WeitereLösungen": "Weitere CIB Lösungen",
         "Unternehmen": "Unternehmen",
 		"InfoBeratung": "Info & Beratung",
-		"Phone": "+49 89 143 60 - 300yyy",
+		"Phone": "+49 89 143 60 - 300",
 		"PhoneSupport": "+49 89 143 60 - 111",
 		"MailTo": "mailto:info@cib.de",
-		"Mail": "info@cib.deyyy",
+		"Mail": "info@cib.de",
 		"SupportTime": "Mo-Fr 8:00 - 19:00 Uhr"
 	},
 	"Cookie": {
