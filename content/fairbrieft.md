@@ -156,10 +156,10 @@
         "WeitereLösungen": "Weitere CIB Lösungen",
         "Unternehmen": "Unternehmen",
 		"InfoBeratung": "Info & Beratung",
-		"Phone": "+49 89 143 60 - 300",
+		"Phone": "+49 89 143 60 - 300yyy",
 		"PhoneSupport": "+49 89 143 60 - 111",
 		"MailTo": "mailto:info@cib.de",
-		"Mail": "info@cib.de",
+		"Mail": "info@cib.deyyy",
 		"SupportTime": "Mo-Fr 8:00 - 19:00 Uhr"
 	},
 	"Cookie": {

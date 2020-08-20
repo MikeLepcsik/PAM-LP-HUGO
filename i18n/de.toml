@@ -215,6 +215,17 @@ other = "info@cib.de"
 [footer_SupportTime]
 other = "Mo-Fr 8:00 - 19:00 Uhr"
 
+[footer_Phone_Fluxi]
+other = "+49 89 143 60 - 300xxx"
+[footer_PhoneSupport_Fluxi]
+other = "+49 89 143 60 - 111"
+[footer_MailTo_Fluxi]
+other = "mailto:info@cib.de"
+[footer_Mail_Fluxi]
+other = "info@cib.dexxx"
+[footer_SupportTime_Fluxi]
+other = "Mo-Fr 8:00 - 19:00 Uhr"
+
 [cookie_HeaderText]
 other = "Cookies auf dieser Website"
 [cookie_BodyText]

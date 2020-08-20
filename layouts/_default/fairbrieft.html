@@ -5,7 +5,7 @@
     <meta name="description"
         content="Serienbriefe online versenden - Schnell, sicher & einfach! Einzelne Briefe, Serienbriefe & Hybridpost kinderleicht zu attraktiven Preisen DSGVO-konform versenden.">
     <meta name="keywords" content="Serienbriefe, Sereinpost, Hybridpost, Post online, Briefversand service">
-    
+
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/product/favicon/apple-touch-icon.png?v=YAXJeX89jg">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/product/favicon/favicon-32x32.png?v=YAXJeX89jg">
@@ -35,7 +35,7 @@
                     <div class="col-12 col-xl-4">
                         <a class="btn btn-block btn-CTA2" role="button" aria-pressed="true"
                             onClick="gtag('event', 'action', {'event_category': 'Mehr-Info-header', 'event_label': 'Mehr-Info','value': 'value'});"
-                            href="#Ausblicke" target="_blank">{{.Params.header.Button}}</a>
+                            href="#modalKontaktForm" data-toggle="modal" data-target="#modalKontaktForm">{{.Params.header.Button}}</a>
                         <!-- <a href="#Kalkulator" class="btn btn-block mt-2 mx-3 button-white btn-line-height-Basis btn-lg active" role="button" aria-pressed="true">zum Kalkulator</a>-->
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="col-9 text-left">
-                        <p class="card-title font-weight-bold" v-html="$t('Features.MaterialCostsTitle')">
+                        <p class="card-title font-weight-bold">
                             {{.Params.Features.MaterialCostsTitle}}
                         </p>
                         <p class="card-text">{{.Params.Features.MaterialCostsText}}
@@ -124,7 +124,7 @@
                     </div>
 
                     <div class="col-9 text-left">
-                        <p class="card-title font-weight-bold" v-html="$t('Features.HighQualityTitle')">
+                        <p class="card-title font-weight-bold">
                             {{.Params.Features.HighQualityTitle}}</p>
 
                         <p class="card-text">{{.Params.Features.HighQualityText}}
@@ -144,9 +144,9 @@
                     </div>
 
                     <div class="col-9 text-left">
-                        <p class="card-title font-weight-bold" v-html="$t('Features.TimeSavingTitle')">
+                        <p class="card-title font-weight-bold">
                             {{.Params.Features.TimeSavingTitle}}</p>
-                        <p class="card-text" v-html="$t('Features.TimeSavingText')">{{.Params.Features.TimeSavingText}}
+                        <p class="card-text">{{.Params.Features.TimeSavingText}}
                         </p>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                     </div>
 
                     <div class="col-9 text-left">
-                        <p class="card-title font-weight-bold" v-html="$t('Features.CostControlTitle')">
+                        <p class="card-title font-weight-bold">
                             {{.Params.Features.CostControlTitle}}</p>
                         <p class="card-text">{{.Params.Features.CostControlText}}
                         </p>
@@ -209,8 +209,7 @@
                                                 data-target="#collapse1"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left"
-                                                v-html="$t('Steps.CreateCorrespondence')">
+                                            <div class="link-text-accordion text-left">
                                                 {{.Params.Steps.CreateCorrespondence}}
                                             </div>
                                         </td>
@@ -250,8 +249,7 @@
                                                 data-target="#collapse2"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left"
-                                                v-html="$t('Steps.ShippingApplication')">
+                                            <div class="link-text-accordion text-left">
                                                 {{.Params.Steps.ShippingApplication}}
                                             </div>
                                         </td>
@@ -289,8 +287,7 @@
                                                 data-target="#collapse3"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left"
-                                                v-html="$t('Steps.ShippingPrinterdriver')">
+                                            <div class="link-text-accordion text-left">
                                                 {{.Params.Steps.ShippingPrinterdriver}}
                                             </div>
                                         </td>
@@ -300,7 +297,7 @@
                         </div>
                         <div id="collapse3" class="collapse border rounded" aria-labelledby="heading3"
                             data-parent="#accordionExample">
-                            <div class="card-body order-text p-0 m-3" v-html="$t('Steps.ShippingPrinterdriverText')">
+                            <div class="card-body order-text p-0 m-3">
                             </div>
                         </div>
                     </div>
@@ -326,8 +323,7 @@
                                                 data-target="#collapse4"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left"
-                                                v-html="$t('Steps.GDPRcompliant')">{{.Params.Steps.GDPRcompliant}}
+                                            <div class="link-text-accordion text-left">{{.Params.Steps.GDPRcompliant}}
                                             </div>
                                         </td>
                                     </tr>
@@ -367,8 +363,7 @@
                                                 data-target="#collapse5"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left"
-                                                v-html="$t('Steps.RecipientData')">{{.Params.Steps.RecipientData}}
+                                            <div class="link-text-accordion text-left">{{.Params.Steps.RecipientData}}
                                             </div>
                                         </td>
                                     </tr>
@@ -404,8 +399,7 @@
                                                 data-target="#collapse6"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left"
-                                                v-html="$t('Steps.Correspondence')">{{.Params.Steps.Correspondence}}
+                                            <div class="link-text-accordion text-left">{{.Params.Steps.Correspondence}}
                                             </div>
                                         </td>
                                     </tr>
@@ -441,7 +435,7 @@
                                                 data-target="#collapse7"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left" v-html="$t('Steps.Billing')">
+                                            <div class="link-text-accordion text-left">
                                                 {{.Params.Steps.Billing}}
                                             </div>
                                         </td>
@@ -478,7 +472,7 @@
                                                 data-target="#collapse8"></div>
                                         </td>
                                         <td>
-                                            <div class="link-text-accordion text-left" v-html="$t('Steps.EasyBilling')">
+                                            <div class="link-text-accordion text-left">
                                                 {{.Params.Steps.EasyBilling}}
                                             </div>
                                         </td>
@@ -558,7 +552,7 @@
 
 <div class="section section-mobile CTA-bg" id="Tuev">
     <div class="container text-center">
-        <h1 class="text-white pb-4" v-html="$t('CTA-Title')">{{.Params.CTA_Title}}</h1>
+        <h1 class="text-white pb-4">{{.Params.CTA_Title}}</h1>
         <div class="call-to-action">
             <img src="/images/product/fairbrieft/test_tuv.svg" height="150" width="150"
                 class="img-fluid center margin-top-header mb-3" style="height: 150px;" alt="logo">
@@ -566,7 +560,7 @@
 
         <div class="row mt-4">
             <div class="col-lg d-flex align-items-end justify-content-end mb-3">
-                <div class="card-text text-white text-md-center font-italic px-4" v-html="$t('CTA-TUEV')">
+                <div class="card-text text-white text-md-center font-italic px-4">
                     {{.Params.CTA_TUEV}}
                 </div>
             </div>
@@ -605,7 +599,265 @@
         </div>
     </div>
 </div>
-{{ partial "footer/footer_fairbrieft.html" . }}
+
+<!-- Modal Kontaktieren NPOs -->
+
+<div class="modal fade" id="modalKontaktForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div style="display:none;" id="newloader"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">CIB pdf brewer für NPOs</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body modal-boby-bestellung mx-3 text-left">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">Schicken Sie uns bitte über dieses Formular</p>
+                </div>
+                <form name="kontaktForm" action="/product/fairbrieft/send_email.php" method="post" enctype="multipart/form-data"
+                    id="kontaktForm" class="needs-validation" novalidate>
+                    <div class="form-group mb-0 mt-3">
+                        <h5>Ihre Daten</h5>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" required type="text" id="form29"
+                            class="form-control validate" placeholder="FirstName">
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29" class="form-control validate"
+                            placeholder="LastName">
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="strasse" type="text" id="form32" class="form-control validate"
+                            placeholder="StreetHouse">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input pattern="[0-9]{5}$" maxlength="5" :title="PostalCodeMessage" value=""
+                            name="postleitzahl" type="number" required id="form32" class="form-control validate"
+                            placeholder="PostalCode"
+                            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="ort" type="text" id="form32" class="form-control validate"
+                            placeholder="Forms.City')">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="unternehmen" type="text" id="form32" class="form-control validate"
+                            placeholder="Forms.Company')">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form32"
+                            class="form-control validate" placeholder="Forms.E-Mail')">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="telefon" type="tel" maxlength="14" id="form32"
+                            class="form-control validate" placeholder="Forms.Phone')">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0 hidden">
+                        <label for="honeypot"></label>
+                        <input type="text" placeholder="Nachname" class="form-control" name="honeypot" id="honeypot">
+                    </div>
+
+                    <div class="file-input pl-0">
+                        <input type="file" name="file[]" id="file" accept=".pdf" multiple />
+
+                        <span class="button">SelectFiles</span>
+                        <br />
+                        <label class="label" id="selected-files" data-js-label>NoFiles</label>
+
+                    </div>
+                    <button class="btn btn-CTA2-gray btn-CTA-2-tab removeFiles hidden mb-3" id="remove-files"
+                        onclick="removeFiles(event)">DeleteFiles</button>
+
+                    <div class="form-group mb-0">
+                        <h5>Other</h5>
+                        <div class="form-group">
+                            <select name="gefunden" class="form-control order-text" id="Select1">
+                                <option class="order-text" disabled selected>BecomeAware
+                                </option>
+                                <option class="order-text">SearchEngine</option>
+                                <option class="order-text">DownloadPortal</option>
+                                <option class="order-text">Acquaintances</option>
+                                <option class="order-text">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mb-0">
+                        <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                            placeholder="Forms.FurtherHelp')"></textarea>
+                        <label data-error="wrong" data-success="right" for="form8"></label>
+                    </div>
+                    <p v-html="Forms.Hinweis')"></p>
+
+                    <div class="modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-block btn-CTA2 ml-auto myDiv" value="Senden" onclick="sendForm(event)"
+                            type="submit">Senden</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mail upload -->
+<script>
+    var inputs = document.querySelectorAll('.file-input')
+
+    for (var i = 0, len = inputs.length; i < len; i++) {
+        customInput(inputs[i])
+    }
+
+    function humanizeSize(size) {
+        var unit = 0
+        const units = ['B', 'kB', 'MB', 'GB', 'TB', 'PB']
+        while (size >= 1024) {
+            size /= 1024.0;
+            unit++;
+        }
+        return size.toFixed(1) + " " + units[unit];
+    }
+
+    function customInput(el) {
+        const fileInput = el.querySelector('[type="file"]')
+        const label = el.querySelector('[data-js-label]')
+        const removeFilesButton = document.getElementById('remove-files')
+
+        fileInput.onchange =
+            fileInput.onmouseout = function () {
+                if (!fileInput.value) return
+
+                var value = ''
+                for (let i = 0; i < fileInput.files.length; i++) {
+                    value += fileInput.files.item(i).name + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " + humanizeSize(fileInput.files.item(i).size)
+                        + '<br/>';
+                }
+
+                if (fileInput.files.length > 0) {
+                    removeFilesButton.classList.remove('hidden')
+                }
+
+                //var value = fileInput.value.replace(/^.*[\\\/]/, '')
+                el.className += ' -chosen'
+                label.innerHTML = value
+            }
+
+
+    }
+
+    function removeFiles(e) {
+        const fileInput = document.getElementById('file')
+        const label = document.getElementById('selected-files')
+        const removeFilesButton = document.getElementById('remove-files')
+
+        fileInput.value = ''
+        label.innerHTML = 'Keine Datei ausgewählt'
+        removeFilesButton.classList.add('hidden')
+        e.preventDefault();
+        e.stopPropagation();
+    }
+
+</script>
+<script>
+    const MAX_FILE_SIZE = 10 * 1024 * 1024;
+    const MAX_FILES = 5;
+
+    function sendForm(event) {
+
+        var form = document.getElementById('kontaktForm');
+        var formData = new FormData(form);
+        const fileInput = document.getElementById('file')
+
+        form.classList.add('was-validated');
+
+        if (form.checkValidity() === false) {
+            //TODO: show error
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // check number of files
+        if (fileInput.files.length > MAX_FILES) {
+            //TODO: validated 
+            event.preventDefault();
+            event.stopPropagation();
+            $('#KontaktFormularMAX5FILS').modal('show');
+            return false;
+        }
+
+        for (let i = 0; i < fileInput.files.length; i++) {
+            if (fileInput.files.item(i).size > MAX_FILE_SIZE) {
+                // TODO: validated
+                event.preventDefault();
+                event.stopPropagation();
+                $('#KontaktFormularMAX10MB').modal('show');
+                return false;
+            }
+        }
+
+        $('#modalKontaktForm').modal('hide');
+
+        document.getElementById("newloader").style.display = "block";
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/product/fairbrieft/send_email.php', false);
+        xhr.send(formData);
+
+        if (xhr.status == 200) $('#KontaktFormularErfolgreich').modal('show');
+        else $('#KontaktFormularNichtErfolgreich').modal('show');
+
+        document.getElementById("newloader").style.display = "none";
+
+        event.preventDefault();
+    }
+</script>
+
+<!-- Validacion Form -->
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
 
 {{ end }}
-

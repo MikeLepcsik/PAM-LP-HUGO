@@ -2,7 +2,16 @@
     <div class="container d-none d-md-block">
         <div class="row mb-5">
 
-            {{ partial "footer/footer_index.html" . }}
+            <!-- footer -->
+            <div class="col">
+                <span class="footer-text-title">{{T "footer_Consultation"}}</span>
+                <ul class="custom-list-footer">
+                    <li><a href='{{.Params.Footer.Phone}}'>{{.Params.Footer.Phone}}</a></li>
+                    <li><a href='{{.Params.Footer.MailTo}}' class="footer-text">
+                        {{.Params.Footer.Mail}}</a></li>
+                    <!--<li><a href="https://my.cib.de/#!/" target="_blank">Reseller</a></li>-->
+                </ul>
+            </div>
             <div class="col">
                 <span class="footer-text-title">{{T "footer_Webloesungen"}}</span>
                 <ul class="custom-list-footer">
@@ -55,8 +64,8 @@
             <div class="col">
                 <div class="row justify-content-end">
                     <a href="https://www.cib.de/de/startseite.html" title="cib.de" target="_blank">
-                        <img src="/images/CIB_Logo.svg" height="50px" width="auto"
-                            class="img-fluid footer-icon-cib" alt="logo">
+                        <img src="/images/CIB_Logo.svg" height="50px" width="auto" class="img-fluid footer-icon-cib"
+                            alt="logo">
                     </a></div>
                 <div class="row mt-4 justify-content-end">
                     <span class="social-links mr-1">
@@ -64,8 +73,8 @@
                                 class="fab fa-twitter fa-lg"></i></a>
                     </span>
                     <span class="social-links mr-1">
-                        <a href="https://www.youtube.com/user/CIBSoftwareGmbH" title="YouTube"
-                            target="_blank"><i class="fab fa-youtube fa-lg"></i>
+                        <a href="https://www.youtube.com/user/CIBSoftwareGmbH" title="YouTube" target="_blank"><i
+                                class="fab fa-youtube fa-lg"></i>
                         </a>
                     </span>
                     <span class="social-links mr-1">
@@ -73,8 +82,8 @@
                                 class="fab fa-linkedin-in fa-lg"></i></a>
                     </span>
                     <span class="social-links">
-                        <a href="https://www.xing.com/companies/cibunternehmensgruppe" title="Xing"
-                            target="_blank"><i class="fab fa-xing fa-lg"></i></a>
+                        <a href="https://www.xing.com/companies/cibunternehmensgruppe" title="Xing" target="_blank"><i
+                                class="fab fa-xing fa-lg"></i></a>
                     </span>
                 </div>
             </div>
@@ -91,7 +100,7 @@
                         <ul class="custom-list-footer">
                             <li><a href='{{.Params.Footer.Phone}}'>{{T "footer_Phone"}}</a></li>
                             <li><a href='{{.Params.Footer.MailTo}}' class="footer-text">
-                                {{T "footer_Mail"}}</a></li>
+                                    {{T "footer_Mail"}}</a></li>
                             <!--<li><a href="https://my.cib.de/#!/" target="_blank">Reseller</a></li>-->
                         </ul>
                     </div>
@@ -122,13 +131,11 @@
                             <!-- <li><a href="https://pdftoolbox.cib.de/test">CIB pdf toolbox</a></li> -->
                             <li><a href="https://deeper-cib.de/" target="_blank">CIB deepER</a></li>
                             <li><a href="https://markup.cib.de/" target="_blank">CIB markUp</a></li>
-                            <li><a href="https://www.cib.de/de/produkte/cib-invoice.html"
-                                    target="_blank">CIB
+                            <li><a href="https://www.cib.de/de/produkte/cib-invoice.html" target="_blank">CIB
                                     invoicE</a>
                             </li>
                             <li><a href="index.html" target="_blank">CIB fairBrieft</a></li>
-                            <li><a href="https://www.cib.de/de/produkte/cib-zugferd-sdk.html"
-                                    target="_blank">CIB
+                            <li><a href="https://www.cib.de/de/produkte/cib-zugferd-sdk.html" target="_blank">CIB
                                     ZUGFeRD
                                     SDK</a>
                             </li>
@@ -144,8 +151,7 @@
                     <div class="collapse" id="unternehmen">
                         <ul class="custom-list-footer">
                             <ul class="custom-list-footer">
-                                <li><a href="https://www.cib.de/de/startseite.html"
-                                        target="_blank">cib.de</a>
+                                <li><a href="https://www.cib.de/de/startseite.html" target="_blank">cib.de</a>
                                 </li>
                                 <li><a href="https://karriere.cib.de" target="_blank">karriere.cib.de</a>
                                 </li>
@@ -162,8 +168,7 @@
                     <div class="collapse" id="support">
                         <ul class="custom-list-footer">
                             <li>{{T "footer_SupportTime"}}</li>
-                            <li><a
-                                    href='{{.Params.Footer.PhoneSupport}}'>{{T "footer_PhoneSupport"}}</a>
+                            <li><a href='{{.Params.Footer.PhoneSupport}}'>{{T "footer_PhoneSupport"}}</a>
                             </li>
                             <li><a href="mailto:cibsupport@cib.de">
                                     cibsupport@cib.de</a></li>
@@ -188,8 +193,8 @@
         <div class="row d-flex align-items-end justify-content-center mt-4 mb-5">
             <div class="mr-2">
                 <a href="https://www.cib.de/de/startseite.html" title="cib.de" target="_blank">
-                    <img src="/images/CIB_Logo.svg" height="50px" width="auto"
-                        class="img-fluid footer-icon-cib" alt="logo">
+                    <img src="/images/CIB_Logo.svg" height="50px" width="auto" class="img-fluid footer-icon-cib"
+                        alt="logo">
                 </a></div>
             <div>
                 <span class="social-links mr-1">
@@ -197,8 +202,8 @@
                             class="fab fa-twitter fa-lg"></i></a>
                 </span>
                 <span class="social-links mr-1">
-                    <a href="https://www.youtube.com/user/CIBSoftwareGmbH" title="YouTube"
-                        target="_blank"><i class="fab fa-youtube fa-lg"></i>
+                    <a href="https://www.youtube.com/user/CIBSoftwareGmbH" title="YouTube" target="_blank"><i
+                            class="fab fa-youtube fa-lg"></i>
                     </a>
                 </span>
                 <span class="social-links mr-1">
@@ -206,8 +211,8 @@
                             class="fab fa-linkedin-in fa-lg"></i></a>
                 </span>
                 <span class="social-links">
-                    <a href="https://www.xing.com/companies/cibunternehmensgruppe" title="Xing"
-                        target="_blank"><i class="fab fa-xing fa-lg"></i></a>
+                    <a href="https://www.xing.com/companies/cibunternehmensgruppe" title="Xing" target="_blank"><i
+                            class="fab fa-xing fa-lg"></i></a>
                 </span>
             </div>
         </div>
