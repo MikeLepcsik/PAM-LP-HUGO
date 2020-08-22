@@ -1,6 +1,6 @@
 {
 	"layout": "fluxi",
-	
+    "translationKey": "fluxi",	
 	"Slider": {
         "Title": "CIB fluXkomprimator am Beispiel",
         "Subtitle": "PDF-Dokumente schnell versenden",

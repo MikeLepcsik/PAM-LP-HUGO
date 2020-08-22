@@ -1,0 +1,35 @@
+{
+  "title": "Traducciones",
+  "steps": [
+    {
+      "file": "layouts/partials/menu.html",
+      "line": 744,
+      "description": "Para cada página habrá una colección de traducciones, cada una con su permalink. Iteramos dicha colección y ponemos los enlaces a las traducciones en el menú."
+    },
+    {
+      "file": "layouts/partials/menu.html",
+      "line": 748,
+      "description": "También incorporamos un enlace a la traducción actual."
+    },
+    {
+      "file": "content/fairbrieft.md",
+      "line": 3,
+      "description": "Es necesario indicar una translationKey en cada archivo de contenido, que servirá para relacionar todas las traducciones de una misma página.",
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 1
+        },
+        "end": {
+          "line": 4,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "content/fairbrieft.es.md",
+      "line": 3,
+      "description": "Utilizamos la misma \"translationKey\" para todas las traducciones de una misma página."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
 	"layout": "fairbrieft",
-	
+	"translationKey": "fairbrieft",
 	"header": {
 		"Titel": "Papierpost online abwickeln - schnell, sicher & einfach!",
 		"SubTitle": "",

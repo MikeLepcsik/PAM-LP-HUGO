@@ -740,8 +740,12 @@
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    {{ range $.Site.Home.AllTranslations }}
-                    <a class="nav-link nav-link-dropdown dropdown-item btn-pointer pl-2 py-1"
+                    {{ if .IsTranslated }}
+                        {{ range .Translations }}
+                        <a class="nav-link nav-link-dropdown dropdown-item btn-pointer pl-2 py-1"
+                            href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                        {{ end }}
+                        <a class="nav-link nav-link-dropdown dropdown-item btn-pointer pl-2 py-1"
                         href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
                     {{ end }}
                     <!-- Level two dropdown-->
