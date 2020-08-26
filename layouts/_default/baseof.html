@@ -7,8 +7,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png?v=oLJx8gaR9y">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png?v=oLJx8gaR9y">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png?v=oLJx8gaR9y">
+    <link rel="manifest" href="img/favicon/site.webmanifest?v=oLJx8gaR9y">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg?v=oLJx8gaR9y" color="#e11e19">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico?v=oLJx8gaR9y">
+    <meta name="msapplication-TileColor" content="#e11e19">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Bootstrap 4 CSS -->
-    <link href="https://templatemaster.cib.de/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -17,13 +27,17 @@
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
     <!-- Main css -->
-    <link href="https://templatemaster.cib.de/css/cibstyle.css" rel="stylesheet">
-    <link href="https://templatemaster.cib.de/css/style-cookie.css" rel="stylesheet">
+    <link href="/css/cibstyle.css" rel="stylesheet">
+    <link href="/css/style-cookie.css" rel="stylesheet">
     <link href="/css/new-style.css" rel="stylesheet">
 
     <!-- jQuery and Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Counterup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
     <!-- Libs Video.JS-->
     <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
@@ -341,6 +355,16 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
+
+    </script>
+
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });
+        $('.counter').addClass('animated fadeInDownBig');
+        $('h3').addClass('animated fadeIn');
 
     </script>
 </body>

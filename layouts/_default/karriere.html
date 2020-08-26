@@ -1,0 +1,483 @@
+{{ define "base" }}
+
+<head>
+    <title>Karriere bei CIB: Jobs und Ausbildung in der IT-Branche.</title>
+    <meta name="description"
+        content="Karriere bei CIB: unsere Angebote für Schüler, Studenten, Absolventen, Berufserfahrene, Quereinsteiger und Initiativbewerber in der IT-Branche.">
+    <meta name="keywords" content="Jobs, Ausbildung, Karriere">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png?v=oLJx8gaR9y">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png?v=oLJx8gaR9y">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png?v=oLJx8gaR9y">
+    <link rel="manifest" href="/img/favicon/site.webmanifest?v=oLJx8gaR9y">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg?v=oLJx8gaR9y" color="#e11e19">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico?v=oLJx8gaR9y">
+    <meta name="msapplication-TileColor" content="#e11e19">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<!-- Header -->
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="display-2 text-white mb-2 mt-5 font-weight-bold">WILLKOMMEN IM TEAM</h1>
+                <a class="btn btn-CTA2" role="button" aria-pressed="true"
+                    onClick="gtag('event', 'action', {'event_category': 'Mehr-Info-header', 'event_label': 'Mehr-Info','value': 'value'});"
+                    href="#Jobs">{{.Params.header.Button}}</a>
+                <div class="btn-container-wrapper p-relative d-block">
+                    <a class="btn btn-link btn-lg mt-md-3 mb-4 scroll align-self-center text-light" href="#begin">
+                        <i class="fa fa-angle-down fa-4x text-light"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Views -->
+
+<div class="container section text-center" id="begin">
+    <h2 class="jumbotron-heading section-title">{{.Params.Views.Titel}}</h2>
+
+    <div class="row justify-content-md-center">
+        <h3 class="jumbotron-heading section-title col col-lg-8">{{.Params.Views.TitelSub}}</h3>
+        <p class="jumbotron-heading section-title col col-lg-8">{{.Params.Views.TitelSubText}}</p>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <img class="" src="/images/karriere/tu-was-du-liebst-1.svg" width="100" height="100">
+            <h3 class="pb-4">{{.Params.Views.IMG1}}</h3>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="/images/karriere/gestalte-deine-zukunft-3.svg" width="100" height="100">
+            <h3 class="pb-4">{{.Params.Views.IMG2}}</h3>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="/images/karriere/sei-du-selbst-3.svg" width="100" height="100">
+            <h3 class="pb-4">{{.Params.Views.IMG3}}</h3>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="/images/karriere/wachse-mit-uns-3.svg" width="100" height="100">
+            <h3 class="pb-4">{{.Params.Views.IMG4}}</h3>
+        </div>
+
+    </div>
+</div>
+
+<!-- Divider -->
+<div class="container">
+    <div class="row justify-content-sm-center hrDivider"></div>
+</div>
+
+<!-- Zur Jobs -->
+
+<div class="container section text-center" id="Jobs">
+    <h2 class="jumbotron-heading section-title">{{.Params.ToJobs.Titel}}</h2>
+
+    <div class="row justify-content-md-center">
+        <h3 class="jumbotron-heading section-title col col-lg-8">{{.Params.ToJobs.TitelSub}}</h3>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="contentJob">
+                <a href='{{"schueler"|relLangURL}}'>
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="/images/karriere/Schueler.png" width="310" height="480">
+                    <div class="top-left ">
+                        <h3 class="text-white font-weight-bold">{{.Params.ToJobs.IMG1}}</h3>
+                    </div>
+                    <div class="content-details content-details-firstLine fadeIn-left mb-4">
+                        <p class="hrJob "></p>
+                    </div>
+                    <div class="content-details content-details-firstLine-text fadeIn-left">
+                        <p class="">{{.Params.ToJobs.HoverText}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="contentJob">
+                <a href='{{"studenten"|relLangURL}}'>
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="/images/karriere/Student.png" width="310" height="480">
+                    <div class="top-left text-left">
+                        <h3 class="text-white font-weight-bold">{{.Params.ToJobs.IMG2}}</h3>
+                    </div>
+                    <div class="content-details fadeIn-left mb-4">
+                        <p class="hrJob "></p>
+                    </div>
+                    <div class="content-details content-details-text fadeIn-left">
+                        <p class="">{{.Params.ToJobs.HoverText}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="contentJob">
+                <a href="#" target="_blank">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="/images/karriere/Berufserfahrene.png" width="310" height="480">
+                    <div class="top-left ">
+                        <h3 class="text-white font-weight-bold">{{.Params.ToJobs.IMG3}}</h3>
+                    </div>
+                    <div class="content-details content-details-firstLine fadeIn-left mb-4">
+                        <p class="hrJob "></p>
+                    </div>
+                    <div class="content-details content-details-firstLine-text fadeIn-left">
+                        <p class="">{{.Params.ToJobs.HoverText}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="contentJob">
+                <a href="#" target="_blank">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="/images/karriere/QUEREINSTEIGER.png" width="310" height="480">
+                    <div class="top-left text-left">
+                        <h3 class="text-white font-weight-bold">{{.Params.ToJobs.IMG4}}</h3>
+                    </div>
+                    <div class="content-details fadeIn-left mb-4">
+                        <p class="hrJob "></p>
+                    </div>
+                    <div class="content-details content-details-text fadeIn-left">
+                        <p class="">{{.Params.ToJobs.HoverTextCandidate}}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-sm-center pb-5 mb-5">
+    <h3 class="">{{.Params.ToJobs.FooterText}}{{.Params.ToJobs.FooterTextLink | safeHTML }}</h3>
+</div>
+
+<!-- process-->
+
+<div class="section light-bg">
+    <div class="container">
+        <div class="section-title">
+            <h1>{{.Params.Process.Title}}</h1>
+            <h3 class="pt-3">{{.Params.Process.Header}}</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-2 pt-card">
+                <div class="row">
+                    <div class="col feature-icon justify-content-left pb-3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 pt-card">
+                <div class="row justify-content-center">
+                    <div class="animation-text pl-3 pr-3">
+                        <p class="card-text font-weight-bold">{{.Params.Process.Subtitle1}}
+                        </p>
+                        <p class="card-text">{{.Params.Process.Text1 | safeHTML}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 pt-card">
+                <div class="row">
+                    <div class="col feature-icon justify-content-left pb-3">
+                        <img src="/images/karriere/prozess1.JPG" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-12 col-lg-2 pt-card">
+                <div class="row">
+                    <div class="col feature-icon justify-content-left pb-3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 pt-card">
+                <div class="row">
+                    <div class="col feature-icon justify-content-left pb-3">
+                        <img src="/images/karriere/prozess2.JPG" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 pt-card">
+                <div class="row justify-content-center">
+                    <div class="animation-text pl-3 pr-3">
+                        <p class="card-text font-weight-bold">{{.Params.Process.Subtitle2}}
+                        </p>
+                        <p class="card-text">{{.Params.Process.Text2 | safeHTML}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-12 col-lg-2 pt-card">
+                <div class="row">
+                    <div class="col feature-icon justify-content-left pb-3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 pt-card">
+                <div class="row justify-content-center">
+                    <div class="animation-text pl-3 pr-3">
+                        <p class="card-text font-weight-bold">{{.Params.Process.Subtitle3}}
+                        </p>
+                        <p class="card-text">{{.Params.Process.Text3 | safeHTML}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 pt-card">
+                <div class="row">
+                    <div class="col feature-icon justify-content-left pb-3">
+                        <img src="/images/karriere/prozess3.JPG" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-sm-center pt-5 mt-5 pb-5 mb-5">
+        <h3 class="">{{.Params.Process.FooterText}}{{.Params.Process.FooterTextLink | safeHTML }}</h3>
+    </div>
+</div>
+
+
+<!-- Photo Grid -->
+
+<div class="section">
+    <div class="container">
+        <div class="section-title">
+            <h1>{{.Params.Grid.Title}}</h1>
+            <h3 class="pt-3">{{.Params.Grid.Header}}</h3>
+        </div>
+
+        <div class="rowGrid">
+            <div class="column">
+                <div class="contentGrid">
+                    <a href="#" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="" src="/images/karriere/collage1.jpg" style="width:100%">
+                        <div class="content-details content-details-text fadeIn-left">
+                            <p class="link-text22">{{.Params.Grid.img1}}</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contentGrid">
+                    <a href="#" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="" src="/images/karriere/collage4.jpg" style="width:100%">
+                        <div class="content-details content-details-text fadeIn-left">
+                            <p class="link-text22">{{.Params.Grid.img4}}</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="contentGrid">
+                    <a href="#" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="" src="/images/karriere/collage2.jpg" style="width:100%">
+                        <div class="content-details content-details-text fadeIn-left">
+                            <p class="link-text22">{{.Params.Grid.img2}}</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contentGrid">
+                    <a href="#" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="" src="/images/karriere/collage5b.jpg" style="width:100%">
+                        <div class="content-details content-details-text fadeIn-left">
+                            <p class="link-text22">{{.Params.Grid.img5}}</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="column">
+                    <div class="contentGrid">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="" src="/images/karriere/collage6.jpg" style="width:100%">
+                            <div class="content-details content-details-text fadeIn-left">
+                                <p class="link-text22">{{.Params.Grid.img6}}</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contentGrid">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="" src="/images/karriere/collage3.jpg" style="width:100%">
+                            <div class="content-details content-details-text fadeIn-left">
+                                <p class="link-text22">{{.Params.Grid.img3}}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-sm-center pt-5 mt-5 pb-5 mb-5">
+            <h3>{{.Params.Grid.FooterTextLink | safeHTML }}</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Benefits -->
+<div class="section dark-bg">
+    <div class="container text-center">
+        <h2 class="jumbotron-heading section-title text-white">{{.Params.Benefits.Titel}}</h2>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/homeoffice.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG1}}</h3>
+            </div>
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/transportkosten.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG2}}</h3>
+            </div>
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/firmenwagen.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG3}}</h3>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/obst-und-kaffee.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG1}}</h3>
+            </div>
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/weiterbildung.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG2}}</h3>
+            </div>
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/vermoegenswirksame-leistung.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG3}}</h3>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/firmenevents-kalender.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG1}}</h3>
+            </div>
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/kinderbetreuung.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG2}}</h3>
+            </div>
+            <div class="col-lg-4">
+                <img class="" src="/images/karriere/unfallversicherung.svg" width="200" height="200">
+                <h3 class="pb-4 text-white">{{.Params.Benefits.IMG3}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Counter -->
+
+<div class="section">
+    <div class="container text-center">
+        <h2 class="jumbotron-heading section-title">{{.Params.Counter.Titel}}</h2>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <h1><span class="counter font-weight-bold">166</span></h1>
+                <h3 class="pb-4 ">{{.Params.Counter.Counter1}}</h3>
+            </div>
+            <div class="col-lg-3">
+                <h1><span class="counter font-weight-bold">
+                        161000
+                    </span></h1>
+                <h3 class="pb-4">{{.Params.Counter.Counter2}}</h3>
+            </div>
+            <div class="col-lg-3">
+                <h1><span class="counter font-weight-bold">487
+                    </span></h1>
+                <h3 class="pb-4">{{.Params.Counter.Counter3}}</h3>
+            </div>
+            <div class="col-lg-3">
+                <h1><span class="counter font-weight-bold">
+                        30
+                    </span></h1>
+                <h3 class="pb-4">{{.Params.Counter.Counter4}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Divider -->
+<div class="container">
+    <div class="row justify-content-sm-center hrDivider"></div>
+</div>
+
+<!-- Slider -->
+<div class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{.Params.Slider.Titel}}</h2>
+        </div>
+
+    </div>
+    <div id="carouselExampleIndicators2" class="carousel slide padding-slider" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <div class="col-6 text-center">
+                        <p class="points mb-0">{{.Params.Slider.Header1}}</p>
+                        <div
+                            class="row main justify-content-center section-features-details section-features-details-padding-top pb-5">
+                            <div class="col-md-8 text-element pl-0 pr-0">
+                                <div class="text-content">
+                                    <div class="card-text text-center pt-4 font-italic">
+                                        {{.Params.Slider.Text1}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-6 text-center">
+                        <p class="points mb-0">{{.Params.Slider.Header1}}</p>
+                        <div
+                            class="row main justify-content-center section-features-details section-features-details-padding-top pb-5">
+                            <div class="col-md-8 text-element pl-0 pr-0">
+                                <div class="text-content">
+                                    <div class="card-text text-center pt-4 font-italic">
+                                        {{.Params.Slider.Text1}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev none" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <img class="" src="/img/left-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next none" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <img class="" src="/img/right-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!-- END SLIDER  -->
+
+<!-- Filter -->
+{{ partial "filter.html" . }}
+
+<!-- CTA -->
+{{ partial "jobcontact.html" . }}
+
+{{ end }}

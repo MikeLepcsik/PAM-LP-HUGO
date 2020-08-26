@@ -1,50 +1,93 @@
 {
-	"layout": "fluxi",
-	"translationKey": "fluxi",
-	"Slider": {
-        "Title": "CIB fluXkomprimator am Beispiel",
-        "Subtitle": "PDF-Dokumente schnell versenden",
-        "Header": "Sie verarbeiten täglich eine Unzahl an Unterlagen und versenden diese dann an Ihre Kunden?",
-        "Text": "CIB fluXkomprimator komprimiert die Dateigröße von Dokumenten deutlich - ohne sichtbaren Qualitätsverlust und in der Regel auf weit unter 100 KB pro Seite."
-	},
+	"layout": "karriere",
 
     "header": {
-        "Titel": "PDF komprimieren: Mit CIB fluXkomprimator deutlich an Speicherplatz sparen!",
-        "Text": "Große PDF-Dateien mit <i>fluXi</i> nahezu verlustfrei komprimieren,  IT-Ressourcen frei machen und blitzschnell versenden.",
+        "Titel": "WILLKOMMEN IM TEAM",
+        "Button": "zur Jobbörse"
+    },
 
-        "Fragen": "You ask, we answer:"
-    },
-    "Forms": {
-        "FirstName": "Vorname*",
-        "LastName": "Nachname*",
-        "PostalCodeMessage": "Bitte geben Sie ein 5 stellige Zahl ein.",
-        "PostalCode": "Postleitzahl",
-        "EMail": "E-Mail*",
-        "StreetHouse": "Straße und Nummer",
-        "City": "Ort",
-        "Company": "Unternehmen",
-        "Phone": "Telefon",
-        "Other": "Sonstiges",
-        "BecomeAware": "Wie sind Sie auf uns aufmerksam geworden?",
-        "SearchEngine": "über Suchmaschinen (z.B. Google)",
-        "DownloadPortal": "über Downloadportale (z.B. Chip.de)",
-        "Acquaintances": "über Bekannte",
-        "FurtherHelp": "Ihre Nachricht",
-        "Thanks": "Vielen Dank!",
-        "ThanksText": "Ihre Nachricht wurde erfolgreich versendet.",
-        "modalContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
-        "Failure": "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:CIBpdfSupport@cib.de\">CIBpdfSupport@cib.de</a>."
-    },
+    "Views": {
+		"Titel": "Karriere bei CIB",
+        "TitelSub": "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen.",
+        "TitelSubText": "Wir sind ein international aufgestelltes Softwareunternehmen und IT-Beratungshaus mit 30 Jahren Erfahrung. Als Experten im Bereich Dokumenten-Management entwickeln wir zukunftsorientierte Lösungen und führen bahnbrechende Forschungsprojekte durch. Neueste IT-Anforderungen sind für uns die nächste Herausforderung: Ob Deep Learning, BPM oder Cloud – hier dürfen sich die Spezialisten der Zukunft ausleben und ihre Karriere starten!",
+		"IMG1": "Tu, was du liebst",
+		"IMG2": "Gestalte deine Zukunft",
+        "IMG3": "Sei du selbst",
+        "IMG4": "Wachse mit uns"
+	},
+
+    "ToJobs": {
+		"Titel": "Entdecke deine Zukunft bei CIB",
+		"IMG1": "SCHÜLER",
+		"IMG2": "STUDENTEN UND ABSOLVENTEN",
+        "IMG3": "BERUFSERFAHRENE",
+        "IMG4": "QUEREINSTEIGER UND INITIATIVBEWERBER",
+        "HoverText": "> Zu unseren Angeboten",
+        "HoverTextCandidate": "> Zum Bewerbung",
+        "FooterText": "> Hier geht es zu unseren",
+        "FooterTextLink": " <a class=\"text-danger; link-text22\" href=\"http://ciblabs.es/\" target=\"_blank\">Stellenanzeigen in Spanien!</a>"
+	},
+
+    "Process": {
+        "Title": "Dein Weg zu uns",
+        "Header": "Interviewprozess in drei einfachen Schritten",
+        "Subtitle1": "Online-Bewerbung",
+        "Text1": "Traumstelle gefunden? Super, das freut uns sehr. Schicke uns deine kompletten Unterlagen (Anschreiben, Lebenslauf, relevante Zeugnisse, Gehaltsvorstellung und möglicher Eintrittstermin) <b>per E-Mail oder über das Bewerbungsformular im PDF-Format zu.</b>",
+        "Subtitle2": "Gesprächsphase​",
+        "Text2": "Wir passen zueinander! Bei dem ersten Gespräch lernen wir uns telefonisch oder persönlich kennen. Sollte von beiden Seiten alles passen, <b>laden wir dich zu uns vor Ort ein</b>. Wir möchten mehr von dir erfahren und dir die Möglichkeit geben, unsere Kolleg/innen und die Firma live zu sehen.",
+        "Subtitle3": "Entscheidung und Einstellung",
+        "Text3": "Du hast uns überzeugt! Wir möchten dir ein Angebot unterbreiten. Gerne klären wir noch letzte offene Fragen und nach deiner Unterschrift heißt es dann: Herzlichen Glückwunsch und <b>willkommen an Bord!</b>",
+        "FooterText": "Hast du weitere Fragen? Einfach anrufen: ",
+        "FooterTextLink": " <a class=\"text-danger; link-text22\" href=\"tel: +49 89 14360-101\" target=\"_blank\">+49 89 14360-101</a>"
+	},
+
+    "Grid": {
+        "Title": "Das sind wir:",
+        "img1": "Innovativ",
+        "img2": "Lösungsorientiert",
+        "img3": "Teamplayer",
+        "img4": "Kommunikativ",
+        "img5": "Umweltbewusst",
+        "img6": "International unterwegs",
+        "FooterTextLink": "Erfahre, was unsere Mitarbeiter im <a class=\"text-danger; link-text22\" href=\"https://blog.cib.de/category/cib-people/\" target=\"_blank\">CIB Blog</a> berichten"
+	},
+
+    "Benefits": {
+		"Titel": "Karriere bei CIB",
+		"IMG1": "Flexible Arbeitszeiten mit Kernzeit/HomeOffice",
+		"IMG2": "Fahrtkostenerstattung für öffentliche Verkehrsmittel",
+        "IMG3": "Firmenwagen",
+        "IMG4": "Obst, Kaffee, Tee, Frühstücksmüsli",
+        "IMG5": "Schulung und Fortbildung",
+        "IMG6": "Vermögenswirksame Leistungen",
+        "IMG7": "Firmenevents und Teambuilding",
+        "IMG8": "Kinderbetreuung",
+        "IMG9": "Gruppenunfallversicherung"
+	},
+
+    "Counter": {
+		"Titel": "CIB in Zahlen",
+		"Counter1": "Mitarbeiter",
+		"Counter2": "Privat- und Geschäftskunden",
+        "Counter3": "Kickerspiele",
+        "Counter4": "Jahre Erfahrung"
+	},
+
+    "Slider": {
+		"Titel": "Aktuelle Kampagnen",
+		"Header1": "Studienabbruch? 2. Chance CIB!",
+		"Text1": "Unsicher, ob dein Studium das Richtige für dich ist? Ob Quereinstieg, Ausbildung oder Praktika: wir möchten dich kennenlernen!",
+        "Header1": "CIB impulsa",
+		"Text1": "Wir unterstützen in Form von gesponserten Projekten und innovativen Ideen von Jugendlichen, die sich für Forschung und Technologie interessieren"
+	},
 
     "Consultation": {
-		"Title": "CIB fluXkomprimator",
 		"MyVersion": "Auf welche CIB pdf brewer Version bezieht sich Ihre Frage?",
 		"NPORequest": "Anfrage für eine Non-Profit-Organisation"
     },
     
     "Interest": "Wie können wir Ihnen behilflich sein?",
     "DetailsNeeded": "",
-    "YourInformation": "Ihre Daten",
     "Button": {
         "OnlineSupport": "Free Online Support",
         "doxisafe": "doXisafe.me",
@@ -100,7 +143,7 @@
     "ModalContact": {
         "modalTitle": "Kontakt",
         "modalSubTitle": "Ihre Anfrage",
-        "modaltext": "Ihre Nachricht",
+      
         "send": "Senden"
     },
 
@@ -148,10 +191,6 @@
         "link": "Die Systemanforderungen entsprechen den allgemeinen für <a style=\"color: #e11e19;\" href=\"https://de.libreoffice.org/get-help/system-requirements/\">LibreOffice</a>.",
         "linux": "Linux Kernel ab Version 2.6.18 ‌‌| glibc2 ab Version 2.5 | GTK ab Version 2.10.4"
     },
-
-    "CallToAction": "Möchten Sie mehr erfahren? Wir beraten Sie gern.",
-    "CallToActionSubtitel": "xxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.",
-    "CallToActionSubtitel2": "xxxxxxxxxxxxx xxxxxxx",
      
     "Kontakt": {
         "Kontakt": "Kontakt",

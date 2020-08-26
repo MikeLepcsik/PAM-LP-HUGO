@@ -928,6 +928,12 @@ header {
     line-height: 1.5em
 }
 
+.link-text22 {
+    font-size: 22px;
+    white-space: normal !important;
+    line-height: 1.5em
+}
+
 .link-text14 {
     font-size: 14px;
     white-space: normal !important;

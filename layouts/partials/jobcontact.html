@@ -1,0 +1,270 @@
+<!-- CTA -->
+
+<div class="section text-center dark-bg">
+    <h2 class="jumbotron-heading text-white pb-4">{{T "jobcontact_CallToAction"}}</h2>
+    <h3 class="jumbotron-heading text-white pb-4">{{T "jobcontact_CallToActionSubtitel"}}</h3>
+
+    <div class="d-flex flex-row justify-content-center flex-wrap flex-grow-1">
+
+        <div class="row d-flex justify-content-center">
+            <div class="">
+                <a class="btn btn-CTA3"
+                    onClick="gtag('event', 'action', {'event_category': 'Produkt-Anfrage', 'event_label': 'Anfrage','value': 'value'});"
+                    data-toggle="modal" data-target="#modalKontaktForm">
+                    {{T "jobcontact_Button_Anfragen"}}</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal Kontaktieren -->
+
+<div class="modal fade" id="modalKontaktForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div style="display:none;" id="newloader"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{T "jobcontact_Consultation_Title"}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body modal-boby-bestellung mx-3">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">
+                    </p>
+                </div>
+
+                <form name="kontaktForm" action="/product/karriere/send_email.php" method="post"
+                    enctype="multipart/form-data" id="kontaktForm" class="needs-validation" novalidate>
+
+                    <div class="form-group mb-0" style="margin-top: 30px;">
+                        <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                            placeholder='{{T "form_modaltext"}}'></textarea>
+                        <label data-error="wrong" data-success="right" for="form8"></label>
+                    </div>
+
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{T "form_YourInformation"}}</h5>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" required type="text" id="form29"
+                            class="form-control validate" placeholder='{{T "form_FirstName"}}'>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29" class="form-control validate"
+                            placeholder='{{T "form_LastName"}}'>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form32"
+                            class="form-control validate" placeholder='{{T "form_EMail"}}'>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <p class="kontakt-note">{{T "form_modalContactNote" | safeHTML }}</p>
+
+                    <div class="modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-block btn-CTA2" title="Senden" id="anfrageFormButton"
+                            onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden', 'event_label': 'Senden','value': 'value'});"
+                            type="submit">{{T "form_Send"}}</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Kontaktformular erfolgreich-->
+
+<div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{T "form_Thanks"}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body mx-3 text-center py-5">
+
+                <div class="form-group mb-0 text-center">
+                    <span>{{T "form_ThanksText"}}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+<div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{T "form_Thanks"}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body mx-3 text-center">
+
+                <div class="form-group mb-0">
+                    <span>{{T "form_Failure" | safeHTML }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mail upload -->
+<script>
+    var inputs = document.querySelectorAll('.file-input')
+
+    for (var i = 0, len = inputs.length; i < len; i++) {
+        customInput(inputs[i])
+    }
+
+    function humanizeSize(size) {
+        var unit = 0
+        const units = ['B', 'kB', 'MB', 'GB', 'TB', 'PB']
+        while (size >= 1024) {
+            size /= 1024.0;
+            unit++;
+        }
+        return size.toFixed(1) + " " + units[unit];
+    }
+
+    function customInput(el) {
+        const fileInput = el.querySelector('[type="file"]')
+        const label = el.querySelector('[data-js-label]')
+        const removeFilesButton = document.getElementById('remove-files')
+
+        fileInput.onchange =
+            fileInput.onmouseout = function () {
+                if (!fileInput.value) return
+
+                var value = ''
+                for (let i = 0; i < fileInput.files.length; i++) {
+                    value += fileInput.files.item(i).name + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " + humanizeSize(fileInput.files.item(i).size)
+                        + '<br/>';
+                }
+
+                if (fileInput.files.length > 0) {
+                    removeFilesButton.classList.remove('hidden')
+                }
+
+                //var value = fileInput.value.replace(/^.*[\\\/]/, '')
+                el.className += ' -chosen'
+                label.innerHTML = value
+            }
+
+
+    }
+
+    function removeFiles(e) {
+        const fileInput = document.getElementById('file')
+        const label = document.getElementById('selected-files')
+        const removeFilesButton = document.getElementById('remove-files')
+
+        fileInput.value = ''
+        label.innerHTML = 'Keine Datei ausgewählt'
+        removeFilesButton.classList.add('hidden')
+        e.preventDefault();
+        e.stopPropagation();
+    }
+
+</script>
+<script>
+    const MAX_FILE_SIZE = 10 * 1024 * 1024;
+    const MAX_FILES = 5;
+
+    function sendForm(event) {
+
+        var form = document.getElementById('kontaktForm');
+        var formData = new FormData(form);
+        const fileInput = document.getElementById('file')
+
+        form.classList.add('was-validated');
+
+        if (form.checkValidity() === false) {
+            //TODO: show error
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        }
+
+        // check number of files
+        if (fileInput.files.length > MAX_FILES) {
+            //TODO: validated 
+            event.preventDefault();
+            event.stopPropagation();
+            $('#KontaktFormularMAX5FILS').modal('show');
+            return false;
+        }
+
+        for (let i = 0; i < fileInput.files.length; i++) {
+            if (fileInput.files.item(i).size > MAX_FILE_SIZE) {
+                // TODO: validated
+                event.preventDefault();
+                event.stopPropagation();
+                $('#KontaktFormularMAX10MB').modal('show');
+                return false;
+            }
+        }
+
+        $('#modalKontaktForm').modal('hide');
+
+        document.getElementById("newloader").style.display = "block";
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/product/fairbrieft/send_email.php', false);
+        xhr.send(formData);
+
+        if (xhr.status == 200) $('#KontaktFormularErfolgreich').modal('show');
+        else $('#KontaktFormularNichtErfolgreich').modal('show');
+
+        document.getElementById("newloader").style.display = "none";
+
+        event.preventDefault();
+    }
+</script>
+
+<!-- Validacion Form -->
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>

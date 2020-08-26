@@ -72,7 +72,7 @@
 		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",
 		"Text": "Mit 30 Jahren Erfahrung sind wir die Experten im Bereich des Document Lifecycle Managements. Hinzu entwickelt  CIB innovative Lösungen und führt bahnbrechende Forschungsprojekte durch. Mit unserer Vision sind wir immer einen Schritt voraus: Ob Deep Learning, BPM oder Cloud - hier dürfen sich die Spezialisten der Zukunft ausleben!",
-		"Button": "Mehr Info"
+		"Button": "zur Jobbörse"
 	},
 	"Button": {
 		"Senden": "Senden"

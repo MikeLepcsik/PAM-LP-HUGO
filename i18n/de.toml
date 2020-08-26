@@ -239,6 +239,67 @@ other = "info@cib.dexxx"
 [footer_SupportTime_Fluxi]
 other = "Mo-Fr 8:00 - 19:00 Uhr"
 
+[jobcontact_CallToAction]
+other = "Besuche unsere Jobbörse und bewirb dich!"
+[jobcontact_CallToActionSubtitel]
+other = "Hast du Fragen? Schicke uns eine Nachricht!"
+[jobcontact_Button_Anfragen]
+other = "Anfragen"
+[jobcontact_Consultation_Title]
+other = "Kontakt"
+
+[form_YourInformation]
+other = "Ihre Daten"
+[form_modaltext]
+other = "Ihre Nachricht"
+[form_FirstName]
+other = "Vorname*"
+[form_LastName]
+other = "Nachname*"
+[form_PostalCodeMessage]
+other = "Bitte geben Sie ein 5 stellige Zahl ein."
+[form_PostalCode]
+other = "Postleitzahl"
+[form_EMail]
+other = "E-Mail*"
+[form_StreetHouse]
+other = "Straße und Nummer"
+[form_City]
+other = "Ort"
+[form_Send]
+other = "Senden"
+[form_Company]
+other = "Unternehmen"
+[form_Phone]
+other = "Telefon"
+[form_Other]
+other = "Sonstiges"
+[form_BecomeAware]
+other = "Wie sind Sie auf uns aufmerksam geworden?"
+[form_SearchEngine]
+other = "über Suchmaschinen (z.B. Google)"
+[form_DownloadPortal]
+other = "über Downloadportale (z.B. Chip.de)"
+[form_Acquaintances]
+other = "über Bekannte"
+[form_Thanks]
+other = "Vielen Dank!"
+[form_ThanksText]
+other = "Ihre Nachricht wurde erfolgreich versendet."
+[form_modalContactNote]
+other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
+[form_Failure]
+other = "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:CIBpdfSupport@cib.de\">CIBpdfSupport@cib.de</a>."
+
+[submenu_schueler]
+other = "SCHÜLER"
+[submenu_studenten]
+other = "SCHÜLER"
+[submenu_professionals]
+other = "BERUFSERFAHRENE"
+[submenu_beginners]
+other = "QUEREINSTEIGER UND INITIATIVBEWERBER"
+
 [cookie_HeaderText]
 other = "Cookies auf dieser Website"
 [cookie_BodyText]
