@@ -1,5 +1,6 @@
 {
-	"layout": "praktikum-praxissemester-in-der-softwareentwicklung",
+    "type": "jobs",
+    "Titel": "Praktikum im IT-Unternehmen gesucht? Bei CIB bist du genau Richtig.",
 
     "header": {
         "Titel": "Unser Angebot für Studenten und Absolventen",

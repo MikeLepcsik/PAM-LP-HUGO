@@ -1,5 +1,5 @@
 {
-	"layout": "karriere",
+	"type": "karriere",
 
     "header": {
         "Titel": "WILLKOMMEN IM TEAM",

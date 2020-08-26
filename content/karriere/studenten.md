@@ -1,5 +1,6 @@
 {
 	"layout": "studenten",
+    "type": "karriere",
 
     "header": {
         "Titel": "Unser Angebot für Studenten und Absolventen",
