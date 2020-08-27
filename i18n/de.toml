@@ -235,7 +235,7 @@ other = "+49 89 143 60 - 111"
 [footer_MailTo_Fluxi]
 other = "mailto:info@cib.de"
 [footer_Mail_Fluxi]
-other = "info@cib.dexxx"
+other = "info@cib.de"
 [footer_SupportTime_Fluxi]
 other = "Mo-Fr 8:00 - 19:00 Uhr"
 
@@ -299,6 +299,19 @@ other = "STUDENTEN UND ABSOLVENTEN"
 other = "BERUFSERFAHRENE"
 [submenu_beginners]
 other = "QUEREINSTEIGER UND INITIATIVBEWERBER"
+
+[jobrightsidebar_Name]
+other = "Mirka Tumova"
+[jobrightsidebar_Recruiting]
+other = "Recruiting"
+[jobrightsidebar_Tel]
+other = "+49 89 14360 -101"
+[jobrightsidebar_EMail]
+other = "jobs@cib.de"
+[jobrightsidebar_recomend]
+other = "Empfehle uns weiter!"
+[jobrightsidebar_Button]
+other = "Jetzt bewerben"
 
 [cookie_HeaderText]
 other = "Cookies auf dieser Website"

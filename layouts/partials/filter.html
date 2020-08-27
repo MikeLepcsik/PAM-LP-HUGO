@@ -16,82 +16,201 @@
 </style>
 <div class="container section">
     <h2>{{.Params.header.Titel}}</h2>
+    <div>{{.Params.NoShow | safeHTML }}
+        <nav class="navbar float-right">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light" id="myBtnContainer">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" onclick="filterSelection('all')">{{.Params.Filtermenu.All}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu1')">{{.Params.Filtermenu.Menu1}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu2')">{{.Params.Filtermenu.Menu2}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu3')">{{.Params.Filtermenu.Menu3}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu4')">{{.Params.Filtermenu.Menu4}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu5')">{{.Params.Filtermenu.Menu5}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu6')">{{.Params.Filtermenu.Menu6}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="filterSelection('Menu7')">{{.Params.Filtermenu.Menu7}}</a>
+                </li>
+            </ul>
+        </nav>
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-light" id="myBtnContainer">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" onclick="filterSelection('all')">Alle</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="filterSelection('Praxissemester')">Praxissemester</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="filterSelection('Werkstudenten')">Werkstudenten</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="filterSelection('Master')">Bachelor/Master</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="filterSelection('Studium')">Duales Studium</a>
-            </li>
-        </ul>
-    </nav>
 
-    <div class="container">
-
-        <div class="card-deck">
-            <div class="card">
-                <a class="" href='{{"jobs/praktikum-praxissemester-in-der-softwareentwicklung"|relLangURL}}'>
-                    <div class="card-body">
-                        <p class="card-text filterDiv Praxissemester">Praktikum / Praxissemester in der
-                            Softwareentwicklung
-                        </p>
-                    </div>
-                </a>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card ">
+                    <a class="" href='{{"jobs/praktikum-praxissemester-in-der-softwareentwicklung"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu1">{{.Params.Filtermenu.Job1}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu1">{{.Params.Filtermenu.Job2}}</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job3}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <a class="" href='{{"schueler"|relLangURL}}'>
-                    <div class="card-body">
-                        <p class="card-text filterDiv Praxissemester">Werkstudent Softwareentwicklung (m/w/d)</p>
-                    </div>
-                </a>
+
+            <div class="card-deck mt-4">
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job4}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"jobs/bachelorarbeit-masterarbeit-in-der-softwareentwicklung"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job5}}</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job6}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <a class="" href='{{"schueler"|relLangURL}}'>
-                    <div class="card-body">
-                        <p class="card-text filterDiv Praxissemester">Praktikum / Praxissemester in der
-                            Softwareentwicklung
-                        </p>
-                    </div>
-                </a>
+
+            <div class="card-deck mt-4">
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job7}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job8}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job9}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-deck mt-4">
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job10}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job11}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job12}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-deck mt-4">
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job13}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job14}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a class="" href='{{"schueler"|relLangURL}}'>
+                        <div class="card-body">
+                            <p class="card-text filterDiv Menu2">{{.Params.Filtermenu.Job14}}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h4 class="mb-5 mt-5">{{.Params.Content.TextLine1 | safeHTML }}</h4>
+    <h4 class="mb-5 mt-5">{{.Params.Content.TextLine2 | safeHTML }}</h4>
+    <p class="card-text">{{.Params.Content.TextLine3 | safeHTML }}</p>
+    <p class="card-text">{{.Params.Content.TextLine4 | safeHTML }}</p>
+</div>
+<div>{{.Params.NoShowButton | safeHTML }}
+        <div class="mt-5">
+            <div class="row justify-content-center">
+                <a class="btn btn-CTA3"
+                    onClick="gtag('event', 'action', {'event_category': 'Produkt-Anfrage', 'event_label': 'Anfrage','value': 'value'});"
+                    data-toggle="modal" data-target="#modalKontaktForm">
+                    {{T "jobrightsidebar_Button"}}</a>
             </div>
         </div>
+    </div>
 
-        <div class="card-deck mt-4">
-            <div class="card">
-                <a class="" href='{{"schueler"|relLangURL}}'>
-                    <div class="card-body">
-                        <p class="card-text filterDiv Werkstudenten">Junior Java Entwickler (m/w/d) in Frankfurt
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a class="" href='{{"jobs/bachelorarbeit-masterarbeit-in-der-softwareentwicklung"|relLangURL}}'>
-                    <div class="card-body">
-                        <p class="card-text filterDiv Master">Bachelorarbeit / Masterarbeit in der Softwareentwicklung
-                            (m/w/d)</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a class="" href='{{"schueler"|relLangURL}}'>
-                    <div class="card-body">
-                        <p class="card-text filterDiv Studium">Duales Studium (Wirtschafts-)Informatik (B.Sc./M.Sc)
-                        </p>
-                    </div>
-                </a>
-            </div>
+</div>
+
+<!-- IHK IMG-->
+
+<div class="section pt-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            {{.Params.IMG | safeHTML }}
+
         </div>
     </div>
 </div>

@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+.text-red {
+    color: #E11E19;
+}
+
+.no-border {
+    border: unset;
+}
+
 .megamenu-title {
     font-size: 1.5rem;
 }
@@ -359,4 +367,32 @@ i {
     left: 0px;
     right: 0px;
     bottom: 0px;
+}
+
+/* FILTER */
+
+@media (min-width: 576px) {
+    .card-deck .card {
+        padding-bottom: 15px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-deck .card:hover {
+        background-color: aliceblue;
+    }
+}
+
+input[type=search] {
+	background: #fff url(http://hp-proliant.co.uk/qual_images/mob-search-icon.png) no-repeat 9px center;
+	border: solid 1px rgba(0, 0, 0, .125);
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+}
+input[type=search]:focus {
+	width: 600px;
+	background-color: aliceblue;;
+	border-color: #333;
+	border: solid 1px #fff;
 }

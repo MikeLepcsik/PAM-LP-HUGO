@@ -167,7 +167,7 @@
     "Footer": {
         "Beratung": "Beratung und Lizensierung",
         "Phone": "+49 89 143 60-111",
-        "Mail": "info@cib.dexxx",
+        "Mail": "info@cib.de",
         "Produkte": "Weitere CIB Lösungen",
         "Rechtliches": "Rechtliche Informationen",
         "AGB": "AGB",

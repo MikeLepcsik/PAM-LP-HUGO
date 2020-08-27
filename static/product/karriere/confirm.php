@@ -38,13 +38,13 @@ try {
     // $mail->Port = 2525;
     
     $mail->setFrom('kanzlei-app@cib.de');
-    //$mail->addAddress('mike.lepcsik@cib.de', 'Lepcsik');
-    $mail->addAddress('Kirsten.Hoffmeyer@cib.de');
+    $mail->addAddress('mike.lepcsik@cib.de', 'Lepcsik');
+    //$mail->addAddress('Kirsten.Hoffmeyer@cib.de');
     //$mail->addAddress('Yolanda.RocaArencibia@cib.de');
-    $recipients = array(
-        'Verena.Reitemeier@cib.de' => 'Verena',
+    //$recipients = array(
+    //    'Verena.Reitemeier@cib.de' => 'Verena',
         // ..
-     );
+     //);
      foreach($recipients as $email => $name)
      {
         $mail->AddCC($email, $name);

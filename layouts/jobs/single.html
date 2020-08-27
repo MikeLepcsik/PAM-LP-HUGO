@@ -1,10 +1,10 @@
 {{ define "base" }}
 
 <head>
-  <title>{{.Title}}</title>
-  <meta name="description"
-    content="Karriere bei CIB: unsere Angebote für Schüler, Studenten, Absolventen, Berufserfahrene, Quereinsteiger und Initiativbewerber in der IT-Branche.">
-  <meta name="keywords" content="Jobs, Ausbildung, Karriere">
+    <title>{{.Title}}</title>
+    <meta name="description"
+        content="Karriere bei CIB: unsere Angebote für Schüler, Studenten, Absolventen, Berufserfahrene, Quereinsteiger und Initiativbewerber in der IT-Branche.">
+    <meta name="keywords" content="Jobs, Ausbildung, Karriere">
 </head>
 
 <!-- slideshow -->
@@ -12,30 +12,132 @@
 
 <!-- Job content -->
 <div class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-9">
-        <div class="card">
-          <div class="card-body">
-            <h1 class="mb-5">{{.Params.Job.Title | safeHTML }}</h1>
-            <p class="card-text">{{.Params.Job.TextLine1 | safeHTML }}</p>
-            <p class="card-text">{{.Params.Job.TextLine2 | safeHTML }}</p>
-            <p class="card-text">{{.Params.Job.TextLine3 | safeHTML }}</p>
-            <p class="card-text">{{.Params.Job.TextLine4 | safeHTML }}</p>
-          </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="card no-border">
+                    <div class="card-body">
+                        <h1 class="mb-5 text-red">{{.Params.Job.Title | safeHTML }}</h1>
+                        <p class="card-text">{{.Params.Job.TextLine1 | safeHTML }}</p>
+                        <p class="card-text">{{.Params.Job.TextLine2 | safeHTML }}</p>
+                        <p class="card-text">{{.Params.Job.TextLine3 | safeHTML }}</p>
+                        <p class="card-text">{{.Params.Job.TextLine4 | safeHTML }}</p>
+                        <h3 class="mb-5 mt-4 text-red">{{.Params.Job.HeadLine1 | safeHTML }}</h3>
+                        <table class="custom-list-header">
+                            <tbody>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine1Point1 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine1Point2 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine1Point3 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine1Point4 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine1Point5 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine1Point6 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine1Point7 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine1Point8 | safeHTML }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3 class="mb-5 mt-4 text-red">{{.Params.Job.HeadLine2 | safeHTML }}</h3>
+                        <table class="custom-list-header">
+                            <tbody>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine2Point1 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine2Point2 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine2Point3 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-3">{{.Params.Job.HeadLine2Point4 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine2Point5 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine2Point6 | safeHTML }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pb-3 pr-2 align-top"><span
+                                            class="material-icons align-text-bottom">done</span>
+                                    </td>
+                                    <td class="pb-4">{{.Params.Job.HeadLine2Point7 | safeHTML }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="card-text mb-5">{{.Params.Job.FooterLine | safeHTML }}</p>
+                        <!-- Divider -->
+                        <div class="container">
+                            <div class="row justify-content-sm-center hrDivider"></div>
+                        </div>
+                        <h3 class="mb-3 mt-5 text-red">{{.Params.Job.JobFooterTitle | safeHTML }}</h3>
+                        <p class="card-text">{{.Params.Job.JobFooterTextLine1 | safeHTML }}</p>
+                        <p class="card-text mb-3">{{.Params.Job.JobFooterTextLine2 | safeHTML }}</p>
+                        <p class="card-text">{{.Params.Job.JobFooterLink | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- CTA -->
+            {{ partial "jobrightsidebar.html" . }}
         </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 
 
