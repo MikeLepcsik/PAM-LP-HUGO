@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="img/favicon/favicon.ico?v=oLJx8gaR9y">
     <meta name="msapplication-TileColor" content="#e11e19">
     <meta name="theme-color" content="#ffffff">
-    
+
 </head>
 <!-- Header -->
 <header class="header-text-top light-bg pb-4">
@@ -43,14 +43,15 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
 
-                                <h1 class="pb-4 font-weight-bold">Slider 3</h1>
+                                <h1 class="pb-4 font-weight-bold">{{.Params.header.Slide2Titel}}</h1>
 
                                 <h3 class="pb-5 mb-5">{{.Params.header.Text}}
                                 </h3>
 
                             </div>
                             <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
-                                <img src="/images/solutions infografic.svg" class="img-fluid" height="500">
+                                <div class="py-3 px-5" style="height:400px;" id="lottie">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,14 +59,29 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
 
-                                <h1 class="pb-4 font-weight-bold">Slider 4</h1>
+                                <h1 class="pb-4 font-weight-bold">{{.Params.header.Slide3Titel}}</h1>
 
                                 <h3 class="pb-5 mb-5">{{.Params.header.Text}}
                                 </h3>
 
                             </div>
                             <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
-                                <img src="/images/solutions infografic.svg" class="img-fluid" height="500">
+                                <img src="/images/product/fluxi/HG_CIB_fluXkomprimator.svg" class="img-fluid" height="500">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                                <h1 class="pb-4 font-weight-bold">{{.Params.header.Slide4Titel}}</h1>
+
+                                <h3 class="pb-5 mb-5">{{.Params.header.Text}}
+                                </h3>
+
+                            </div>
+                            <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
+                                <img src="/images/product/deeper/HG-deeper.svg" class="img-fluid" height="500">
                             </div>
                         </div>
                     </div>

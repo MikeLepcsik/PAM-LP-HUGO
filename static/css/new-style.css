@@ -79,7 +79,7 @@
 }
 
 .carousel-control-next {
-    right: 100px;
+    right: -50px;
 }
 
 .carousel-control-next,
@@ -96,7 +96,7 @@
 }
 
 .carousel-control-prev {
-    left: 100px;
+    left: -50px;
 }
 
 

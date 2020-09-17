@@ -69,9 +69,12 @@
 	},
 
 	"header": {
-		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
+		"Titel": "CIB solutions: Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",
 		"Text": "Mit 30 Jahren Erfahrung sind wir die Experten im Bereich des Document Lifecycle Managements. Hinzu entwickelt  CIB innovative Lösungen und führt bahnbrechende Forschungsprojekte durch. Mit unserer Vision sind wir immer einen Schritt voraus: Ob Deep Learning, BPM oder Cloud - hier dürfen sich die Spezialisten der Zukunft ausleben!",
+		"Slide2Titel": "CIB pdf brewer: über 3 Millionen Dokumenten jährlich mit dem brewer erzeugt",
+		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren: Mit CIB fluXkomprimator deutlich an Speicherplatz sparen!",
+		"Slide4Titel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz",
 		"Button": "zur Jobbörse"
 	},
 	"Button": {
