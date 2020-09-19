@@ -1,0 +1,33 @@
+name: hugo publish
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+      # with:
+      #   submodules: true
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.74.3'
+
+    - name: Build
+      run: hugo --minify
+      
+    - name: deploy to server
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        ARGS: "-e -c -r --delete"
+        SERVER_PORT: ${{ secrets.SERVER_PORT }}
+        FOLDER: "./public"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: ${{ secrets.USERNAME }}
+        SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
