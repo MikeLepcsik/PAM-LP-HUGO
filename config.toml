@@ -8,3 +8,5 @@ DefaultContentLanguage = "de"
     [languages.es]
         LanguageName = "Español"
         title = "CIB Group: Ideas con sistemáticas"
+[outputs]
+    section = ["JSON", "HTML"]

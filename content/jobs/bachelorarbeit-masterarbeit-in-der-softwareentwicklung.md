@@ -1,6 +1,7 @@
 {
     "type": "jobs",
     "Titel": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
+    "title": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
 
     "header": {
         "Titel": "Unser Angebot für Studenten und Absolventen",

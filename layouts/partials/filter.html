@@ -19,7 +19,7 @@
     <div>{{.Params.NoShow | safeHTML }}
         <nav class="navbar float-right">
             <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" id="search-input" type="text" placeholder="Loading..." name="search">
             </form>
         </nav>
         <nav class="navbar navbar-expand-sm bg-light navbar-light" id="myBtnContainer">
@@ -51,6 +51,7 @@
             </ul>
         </nav>
 
+        <section id="search-results" class="search"></section>
 
         <div class="container">
             <div class="card-deck">

@@ -1,0 +1,10 @@
+[
+    {{ range $index, $value := where .Site.Pages "Type" "jobs" }}
+    {{ if $index }}, {{ end }}
+    {
+        "url": "{{ .RelPermalink }}",
+        "title": "{{ .Title }}",
+        "content": {{ (print .Params.Job.TextLine1 " " .Params.Job.TextLine2 " " .Params.Job.TextLine3) | plainify | jsonify }}
+    }
+    {{ end }}
+]
