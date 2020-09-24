@@ -4,6 +4,8 @@
     {
         "url": "{{ .RelPermalink }}",
         "title": "{{ .Title }}",
+        "tags": "{{ range .Params.tags }} {{ . }} {{ end }}",        
+        "categories": "{{ range .Params.categories }} {{ . }} {{ end }}",
         "content": {{ (print .Params.Job.TextLine1 " " .Params.Job.TextLine2 " " .Params.Job.TextLine3) | plainify | jsonify }}
     }
     {{ end }}

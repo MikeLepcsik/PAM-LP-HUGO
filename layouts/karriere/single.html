@@ -223,6 +223,14 @@ function renderSearchResults(results){
 }
 //...
 
+function filterJobs(cat) {
+        // run fuzzy search
+        var results = idx.search('categories:' + cat + '*')
+
+        // render results
+        renderSearchResults(results)    
+}
+
 //...
 function registerSearchHandler() {
 
@@ -271,6 +279,8 @@ fetch('/jobs/index.json', {
         idx = lunr(function() {
             this.ref('url')
             this.field('title')
+            this.field('categories')
+            this.field('tags')
             this.field('content')
 
             res.forEach(function(doc) {

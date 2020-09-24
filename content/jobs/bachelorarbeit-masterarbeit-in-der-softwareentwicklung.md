@@ -2,6 +2,8 @@
     "type": "jobs",
     "Titel": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
     "title": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
+    "tags": ["Softwareentwicklung"],
+    "categories": ["Ausbildung"],
 
     "header": {
         "Titel": "Unser Angebot für Studenten und Absolventen",
