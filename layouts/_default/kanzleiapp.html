@@ -1,0 +1,797 @@
+{{ define "base" }}
+
+<head>
+    <title>{{.Params.headTitel}}</title>
+    <!-- Required meta tags -->
+    <html translate="no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="google" content="notranslate">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description"
+            content="Die mobile Lösung zur Prozessdigitalisierung mit Datenkomprimierung und direkter Übermittlung von Belegen an DATEV Unternehmen online.">
+        <meta name="keywords"
+            content="Mobile Lösung, Prozessdigitalisierung, Datenkomprimierung, DATEV Unternehmen Online, Belegerfassung, App Kostenlos erstellen">
+</head>
+
+<!-- Header -->
+
+            <header class="header-text-top">
+                <div class="container">
+                    <div class="shape-top"></div>
+                    <div class="shape-left"></div>
+                    <div class="row">
+                        <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                            <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+            
+                            <h3 class="pb-4">
+                                {{.Params.header.Text}}
+                            </h3>
+
+                            <div class="row pb-5 d-flex justify-content-left ">
+                                <div class="col-12 col-xl-4">
+                                    <a class="btn btn-block btn-CTA2" role="button" aria-pressed="true"
+                                        onClick="gtag('event', 'action', {'event_category': 'Bestellen-header', 'event_label': 'Bestellen','value': 'value'});"
+                                        data-toggle="modal" data-target="#modalRedirect">{{.Params.Button.Bestellen}}</a>
+                                </div>
+                                <div class="col-12 col-xl-5 btn-head-top-padding">
+                                    <a class="btn btn-block btn-CTA2-gray"
+                                        onClick="gtag('event', 'action', {'event_category': 'App-Demo-menu', 'event_label': 'App-Demo','value': 'value'});"
+                                        target="_blank" href="#QR"> {{.Params.Button.AppDemo}}</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
+                            <img src="/images/product/kanzleiapp/headerIMG.svg" class="img-fluid" height="354">
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+ <!-- Features -->
+
+            <div class="section" id="Vorteile">
+
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>{{.Params.Features.Vorteile}}</h2>
+                        <p class="header-text">{{.Params.Features.Titel}}</p>
+                    </div>
+
+                    <!-- row 1 -->
+
+                    <div class="row mb-md-4 mx-3">
+                        <div class="col-12 col-lg-4">
+                            <div class="row mb-4">
+                                <div class="col-3 feature-icon justify-content-left pb-3">
+                                    <img src="/images/product/kanzleiapp/individuell-kApp-icon.svg" class="img-fluid">
+                                </div>
+                                <div class="col text-left">
+                                    <p class="card-title font-weight-bold">{{.Params.Features.Garantiert}}</p>
+                                    <p class="card-text"> {{.Params.Features.GarantiertText}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row mb-4">
+                                <div class="col-3 feature-icon justify-content-left pb-3">
+                                    <img src="/images/product/kanzleiapp/spartZeit.svg" class="img-fluid">
+                                </div>
+                                <div class="col text-left">
+                                    <p class="card-title font-weight-bold">{{.Params.Features.Digital}}</p>
+                                    <p class="card-text">{{.Params.Features.DigitalText}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row mb-4">
+                                <div class="col-3 feature-icon justify-content-left pb-3">
+                                    <img src="/images/product/kanzleiapp/sicherheit-icon.svg" class="img-fluid">
+                                </div>
+                                <div class="col text-left">
+                                    <p class="card-title font-weight-bold">{{.Params.Features.Sicher}}</p>
+                                    <p class="card-text">{{.Params.Features.SicherText}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row 2 -->
+
+                    <div class="row mb-md-4 mx-3">
+                        <div class="col-12 col-lg-4">
+                            <div class="row mb-4">
+                                <div class="col-3 feature-icon justify-content-left pb-3">
+                                    <img src="/images/product/kanzleiapp/sparen-icon.svg" class="img-fluid">
+                                </div>
+                                <div class="col text-left">
+                                    <p class="card-title font-weight-bold">{{.Params.Features.WiederGespart}}</p>
+                                    <p class="card-text">
+                                        {{.Params.Features.WiederGespartText | safeHTML}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row mb-4">
+                                <div class="col-3 feature-icon justify-content-left pb-3">
+                                    <img src="/images/product/kanzleiapp/Effizienz-icon.svg" class="img-fluid">
+                                </div>
+
+                                <div class="col text-left">
+                                    <p class="card-title font-weight-bold">{{.Params.Features.Effizient}}</p>
+                                    <p class="card-text">{{.Params.Features.EffizientText}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row mb-4">
+                                <div class="col-3 feature-icon justify-content-left pb-3">
+                                    <img src="/images/product/kanzleiapp/infos-plus.svg" class="img-fluid">
+                                </div>
+
+                                <div class="col text-left">
+                                    <p class="card-title font-weight-bold">{{.Params.Features.Mandanten}}</p>
+                                    <p class="card-text">{{.Params.Features.MandantenText}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Preise -->
+
+            <div id="Preise" class="section light-bg">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>{{.Params.VersionPreis.VersionenUndPreiseTitel}}</h2>
+                        <p class="header-text">{{.Params.VersionPreis.VersionenUndPreiseText}}</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg d-flex justify-content-center mb-4">
+                            <div class="card pricing rounded-0 h-100" style="max-width: 600px;">
+                                <div class="card-head">
+                                    <div class="sale-box sale-box-basis rounded-0">
+                                        <span class="on_sale title_shop sale-box-span-1400">{{.Params.VersionPreis.SaleBox}}
+                                            <br>{{.Params.VersionPreis.SaleBox1}}</span>
+                                    </div>
+                                    <span class="card-pricing-titel font-weight-bold call-to-action-subtext">{{.Params.VersionPreis.CIBKanzleiApp}}
+                                    </span>
+                                    <div class="header-text price-subtext-1400">{{.Params.VersionPreis.CIBKanzleiAppText}}</div>
+                                    <div class="price card-pricing">0
+                                        <small>€</small></div>
+                                    <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                            target="_blank" href="#Bestellen" data-toggle="modal"
+                                            data-target="#modalRedirect"
+                                            onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXibox','value': 'value'});"
+                                            aria-pressed="true" class="btn btn-CTA2">{{.Params.Button.Bestellen}}</a></div>
+                                    <!-- <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                            target="_blank" href="#Schnellvergleich" data-toggle="modal"
+                                            data-target="#Schnellvergleich"
+                                            onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXibox','value': 'value'});"
+                                            aria-pressed="true" class="btn btn-CTA4-white ">Alle Funktionen und Preise im
+                                            Schnellvergleich</a>
+                                    </div> -->
+                                </div>
+                                <div class="card-body">
+                                    <table class="custom-list-header list-group-item">
+                                        <tbody>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.Individuell}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.DatenschutzTouchID}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.DATEVSmartLogin}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.OCR}}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.Belegaufnahme}}</td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.ImportVersand}}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.OfflineFähigkeit}}</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg d-flex justify-content-center mb-4">
+                            <div class="card pricing rounded-0 h-100" style="max-width: 600px;">
+                                <div class="card-head">
+                                    <div class="sale-box sale-box-basis rounded-0">
+                                        <span class="on_sale title_shop sale-box-span-1400">{{.Params.VersionPreis.SaleBox}}
+                                            <br>{{.Params.VersionPreis.SaleBox1}}</span>
+                                    </div>
+                                    <span class="card-pricing-titel font-weight-bold call-to-action-subtext">{{.Params.VersionPreis.CIBKanzleiAppPremium}}
+                                    </span> <br>
+                                    <div class="price card-pricing">69
+                                        <small>€</small></div>
+                                    <div class="card-pricing-price mb-2">{{.Params.VersionPreis.CIBKanzleiAppUst}}</div>
+                                    <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                            target="_blank" href="#Bestellen" data-toggle="modal"
+                                            data-target="#modalRedirect"
+                                            onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXicrate','value': 'value'});"
+                                            aria-pressed="true" class="btn btn-CTA2">{{.Params.Button.Bestellen}}</a></div>
+                                    <!-- <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                            target="_blank" href="#Schnellvergleich" data-toggle="modal"
+                                            data-target="#Schnellvergleich"
+                                            onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXibox','value': 'value'});"
+                                            aria-pressed="true" class="btn btn-CTA4-white">Alle Funktionen und Preise im
+                                            Schnellvergleich</a>
+                                    </div> -->
+                                </div>
+                                <div class="card-body">
+                                    <table class="custom-list-header list-group-item">
+                                        <tbody>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.CIBKanzleiVorteilFunktion}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.AppIconAppNamen}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.Datenkomprimierung}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.KanzleiInfo}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.TeamInfo}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.WebsiteAndSocialMedia}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.KontaktPerKlick}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.Öffnungszeiten}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pb-3 pr-2 align-top"><span
+                                                        class="material-icons align-text-bottom">done</span></td>
+                                                <td class="pb-3">{{.Params.VersionPreis.Impressum}}</td>
+                                            </tr>
+
+                                            <!-- Content for Popover -->
+                                            <!-- <div class="hidden container" id="Popover">
+                                                <div class="popover-heading">Bitte beachten Sie:</div>
+                                                <div class="popover-body row">
+                                                    <div class="col pop-card">
+                                                        <div class="row justify-content-center">
+                                                            <div class="animation-text pl-3 mb-5">
+                                                                <p class="card-pricing-price card-text mx-3">Für die
+                                                                    Veröffentlichung in
+                                                                    den App Stores (<a
+                                                                        href="https://developer.apple.com/programs/"
+                                                                        target="_blank" class="text-danger footer-text">
+                                                                        <span style="color: #e11e19;">Apple</span></a>
+                                                                    und <a
+                                                                        href="https://developer.android.com/distribute/console"
+                                                                        target="_blank" class="text-danger footer-text">
+                                                                        <span
+                                                                            style="color: #e11e19;">Google</span></a></span>)
+                                                                    wird
+                                                                    jeweils ein Developer Account benötigt
+                                                                    (bei Apple <span class="font-weight-bold">zwingend
+                                                                        für
+                                                                        Unternehmen</span>).</p>
+                                                                <p class="card-pricing-price card-text mx-3">
+                                                                    Apple: 99 € pro Jahr <br>
+                                                                    Google: einmalig 25 €
+                                                                </p>
+                                                                <p class="card-pricing-price card-text mx-3">
+                                                                    Diese Vereinbarung wird nur zwischen Ihnen und Apple
+                                                                    bzw.
+                                                                    Google und
+                                                                    nicht mit CIB geschlossen.
+                                                                </p>
+                                                                <p class="card-pricing-price card-text mx-3">
+                                                                    > <a href="https://www.doxisafe.me/#/safe/retrieve/DeveloperAccounts"
+                                                                        target="_blank" class="text-danger footer-text">
+                                                                        <span style="color: #e11e19;">Anleitung
+                                                                            Developer
+                                                                            Accounts</span>
+                                                                    </a>
+                                                                </p>
+                                                                <p class="card-pricing-price card-text mx-3">
+                                                                    <span>Die Verwendung der PREMIUM App
+                                                                        ohne Developer Account ist möglich! In diesem
+                                                                        Fall
+                                                                        entfallen eigenes App-Icon und eigener
+                                                                        App-Name.</span>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="card-pricing-price card-text mx-3">
+                                       {{.Params.VersionPreis.Bitte1}}
+                                        <a data-toggle="popover" data-trigger="focus"
+                                            tabindex="0" data-html="true" data-popover-content="#Popover"
+                                            class="text-danger footer-text"> 
+                                            <span
+                                               style="color: #e11e19; cursor: pointer;">
+                                               {{.Params.VersionPreis.Bitte2}}
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ <!-- Add-ons -->
+            <div class="section" id="Add-ons">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>{{.Params.AddOns.Titel}}</h2>
+                        <p class="header-text">{{.Params.AddOns.Text}}</p>
+                    </div>
+                        <div class="my-0 center-block">
+                            <div class="container justify-content-center">
+                                <div class="row" style="align-items: center; justify-content: center;">
+                                    <div class="table-responsive">
+                                        <table class="table" cellpadding="15" cellspacing="0" width="745" border="1"
+                                            bordercolor="#dee2e6">
+
+                                            <tr bgcolor="#eee" style="background-color: #eee;">
+                                                <td colspan="2">
+                                                    <font color="#404040" size="4"><b>{{.Params.AddOns.TableHeaderText}}</b>
+                                                </td>
+                                                <td><b>CIB&nbsp;kanzlei&nbsp;app</b></td>
+                                                <td><b>PREMIUM</b></td>
+                                                </font>
+                                                </td>
+                                            </tr>
+                                            <tr bgcolor="#fff" style="background-color: rgb(255, 255, 255);">
+                                                <td><img src="/images/product/kanzleiapp/DATEV_addon.png" alt="DATEV" width="90" height="90">
+                                                </td>
+                                                <td>{{.Params.AddOns.DATEVConnect}}</td>
+                                                <td>
+                                                    <center>{{.Params.AddOns.CIBAppKostenlos}}</center>
+                                                </td>
+                                                <td>
+                                                    <center>{{.Params.AddOns.PremiumKostenlos}}</center>
+                                                </td>
+                                            </tr>
+                                            <tr bgcolor="#fff" style="background-color: rgb(255, 255, 255);">
+                                                <td><img src="/images/product/kanzleiapp/CIB_doXigate_addon.png" alt="CIB doXigate"
+                                                        align="justify-content-right"></td>
+                                                    <td>
+                                                    <a href="https://doxigate.cib.de/#utm_source=Add-ons-under-Prices&utm_medium=link&utm_campaign=Add-ons"
+                                                        onClick="gtag('event', 'action', {'event_category': 'doXigate-Add-ons', 'event_label': 'Add-ons','value': 'value'});"
+                                                        target="_blank" class="text-danger footer-text"> <span
+                                                            style="color: #e11e19; font-size: 18px;"> {{.Params.AddOns.CIBDoxigate}}
+                                                        </span></a>{{.Params.AddOns.CIBDoxigateText}}
+                                                    </td>
+                                                    <td>
+                                                        <center>{{.Params.AddOns.CIBKanzleiAppKostenlos}}</center>
+                                                    </td>
+                                                <td align="center">{{.Params.AddOns.CIBKanzleiAppPRE}}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+ <!-- Animation -->
+            
+            <div class="section light-bg" id="sogehts">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-12 col-lg-1">
+                            <div class="row">
+                                <div class="col pb-3">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-5">
+                            <div class="row">
+                                <div class="col justify-content-left pb-3">
+                                    <div class="py-3 px-3" style="width: 450px" id="lottie">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="row justify-content-center">
+                                <div class="col-12 pl-3 pr-3 pt-5">
+                                        <h2>{{.Params.Animation.Titel}}</h2>
+                                        <p class="header-text">{{.Params.Animation.Text}}
+                                        </p>
+                                        <p class="card-text font-weight-bold"><br>{{.Params.Animation.MyCIB}}
+                                        </p>
+                                    <table class="table table-borderless list-group-item mb-3 py-1 pl-0">
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <img src="/images/ic_done_black_24px.svg" height="20" width="20">
+                                                </th>
+                                                <td>{{.Params.Animation.MyCIBLogo}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <img src="/images/ic_done_black_24px.svg" height="20" width="20">
+                                                </th>
+                                                <td>{{.Params.Animation.MyCIBAnpassen}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <img src="/images/ic_done_black_24px.svg" height="20" width="20">
+                                                </th>
+                                                <td>{{.Params.Animation.MyCIBLösung}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <a class="btn btn-block btn-CTA2-gray" target="_blank"
+                                        onClick="gtag('event', 'action', {'event_category': 'myCIB-Animation', 'event_label': 'myCIB','value': 'value'});"
+                                        data-toggle="modal" data-target="#modalRedirect">
+                                        {{.Params.Button.MyCIB}}
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+  <!-- Subscribe -->
+
+            <div class="section" id="subscribe">
+
+                <div class="container contact-form text-center">
+                    <div class="text-center">
+                        <h2>{{.Params.Newsletter.NewsletterTitel}}</h2>
+                        <p class="header-text">{{.Params.Newsletter.NewsletterText}}</p>
+                        <div style="display:none;" id="loadercontactForm"></div>
+                    </div>
+                    <a class="btn btn-CTA1 mt-4" target="_blank"
+                        onClick="gtag('event', 'action', {'event_category': 'Newsletter-Anmeldung', 'event_label': 'Newsletter','value': 'value'});"
+                        data-toggle="modal" data-target="#modalNewsletter">
+                        {{.Params.Button.Anmelden}}
+                    </a>
+                </div>
+            </div>
+
+<!-- Testimonial -->
+
+            <div class="section light-bg" id="Referenzen">
+
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>{{.Params.Testimonial.Titel}}</h2>
+                        <p class="header-text">{{.Params.Testimonial.Text}}</p>
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+                        <div>
+                            <div class="d-flex justify-content-center"><img style="width: 250px;"
+                                    src="/images/product/kanzleiapp/sterne.svg" />
+                            </div>
+                            <div class="text-center mt-4">{{.Params.Testimonial.SliderText1}}</div>
+                            <div class="text-center">{{.Params.Testimonial.SliderText2}}</div>
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-1 d-flex justify-content-end align-items-start"><img
+                                        style="width: 30px;" src="/images/product/kanzleiapp/klammerAuf.svg" alt="icon" /></div>
+                                <div class="col-7 card-text text-md-center font-italic px-4">
+                                    {{.Params.Testimonial.SliderText3}}
+                                </div>
+                                <div class="col-1 d-flex justify-content-start align-items-end"> <img
+                                    style="width: 30px;" src="/images/product/kanzleiapp/klammer-zu.svg" alt="icon" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ <!-- QR code-->
+
+            <div class="section" id="QR">
+
+                <div class="container">
+                    <div class="section-title">
+                        <h2>{{.Params.QRCode.Titel}}</h2>
+                        <p class="header-text">{{.Params.QRCode.Text}}</p>
+                    </div>
+                    <div class="my-0 center-block">
+                        <div class="container justify-content-center">
+                            <div class="row" style="align-items: center; justify-content: center; text-align: center;">
+                                <div class="col-xs-6" style="padding: 0 10px 30px 0;">
+                                    <div>
+                                        <a href="https://itunes.apple.com/de/app/cib-kanzlei-app/id1196671391?mt=8"
+                                            title="Demo im App Store" target="_blank"
+                                            onClick="gtag('event', 'action', {'event_category': 'APPStore-CTA', 'event_label': 'Demo','value': 'value'});">
+                                            <img src="/images/product/kanzleiapp/apple_store_.svg" height="80" width="225" alt="icon">
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <a href="https://itunes.apple.com/de/app/cib-kanzlei-app/id1196671391?mt=8"
+                                            title="Demo im App Store" target="_blank"
+                                            onClick="gtag('event', 'action', {'event_category': 'APPStore-CTA', 'event_label': 'Demo','value': 'value'});">
+                                            <img src="/images/product/kanzleiapp/QR_Apple.svg" height="120" width="120" alt="QR">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6" style="padding: 0 10px 30px 0;">
+                                    <div>
+                                        <a title="Google Play"
+                                            href="https://play.google.com/store/apps/details?id=de.cib.kanzlei.android"
+                                            target="_blank"
+                                            onClick="gtag('event', 'action', {'event_category': 'GooglePlay-CTA', 'event_label': 'Demo','value': 'value'});">
+                                            <img src="/images/product/kanzleiapp/google-play-badge-yr.svg" height="80" width="260"
+                                                alt="icon">
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <a class="lp-cursor" title="Demo in Google Play"
+                                            href="https://play.google.com/store/apps/details?id=de.cib.kanzlei.android"
+                                            target="_blank"
+                                            onClick="gtag('event', 'action', {'event_category': 'GooglePlay-CTA', 'event_label': 'Demo','value': 'value'});">
+                                            <img src="/images/product/kanzleiapp/QR_Android.svg" height="120" width="120" alt="QR">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+
+            </div>
+
+  <!-- NEWS IN DEM BLOG -->
+
+            <div class="section light-bg" id="News">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>{{.Params.News.Titel}}</h2>
+                        <p class="header-text">{{.Params.News.Text}}</p>
+                    </div>
+                    <div class="row container-fluid mx-0" id="newsContainer"></div>
+                    <div class="row text-center justify-content-center mx-1"><a id="blogButton"
+                            class="btn btn-block btn-CTA2-gray mb-4" target="_blank"
+                            onclick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
+                            href="https://blog.cib.de/category/cib-kanzlei-app/">{{.Params.Button.ZumBlog}}</a></div>
+                </div>
+            </div>
+
+ <!-- Veranstaltungen -->
+
+            <div class="section white-bg" id="Termine">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>{{.Params.Veranstaltungen.TableTitel}}</h2>
+                    </div>
+                    <div class="my-0 center-block">
+                        <div class="container justify-content-center">
+                            <div class="row" style="align-items: center; justify-content: center;">
+                                <div class="table-responsive">
+                                    <table class="table" cellpadding="15" cellspacing="0" width="745" border="1"
+                                        bordercolor="#dee2e6">
+                                        <!-- <tr bgcolor="#f8f9fa">
+                                            <td colspan="2">
+                                                <font color="#404040" size="6"><b>2020</b></font>
+                                            </td>
+                                            <td><b></b></td>
+                                            <td colspan="2">
+                                                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                        <tr valign="top">
+                                            <td colspan="2">Webinar</td>
+                                            <td>Vorstellung der CIB kanzlei app<br>
+                                                <a class="text-link" href="#" data-toggle="modal"
+                                                    data-target="#modalWebinar">Anmeldung zum Webinar</a>
+                                            </td>
+                                            <td>online</td>
+                                            <td>5.&nbsp;Juni<br>9:00 - 10:00 Uhr</td>
+                                        </tr> 
+                                        <tr valign="top">
+                                            <td colspan="2">Webinar</td>
+                                            <td>Vorstellung der CIB kanzlei app und <a href="https://doxigate.cib.de/"
+                                                    target="_blank" class="text-link">CIB doXigate</a><br>
+                                                <a class="text-link" target="_blank"
+                                                    href="https://newsletter.cib.de/cib-webinar/webinar-anmeldung-17-10.html?utm_source=3._Webinar_CIB_Kanzlei-L%C3%B6sungen&utm_medium=IMG&utm_campaign=3._Webinar-Web-kanzlei">Anmeldung
+                                                    zum Webinar</a>
+                                            </td>
+                                            <td>online</td>
+                                            <td>17.&nbsp;Juli<br>9:00 - 9:45 Uhr</td>
+                                        </tr>-->
+                                        <tr bgcolor="#f8f9fa">
+                                            <td style="border-right: 0px solid #dee2e6;" colspan="2">
+                                                <font color="#404040" size="6"><b>2021</b></font>
+                                            </td>
+                                            <td
+                                                style="border-left: 0px solid #dee2e6; border-right: 0px solid #dee2e6;">
+                                                <b></b></td>
+                                            <td style="border-left: 0px solid #dee2e6;" colspan="2">
+                                                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                            </td>
+                                        </tr>
+                                        <tr valign="top">
+                                            <td colspan="2">{{.Params.Veranstaltungen.StB}}</td>
+                                            <td>{{.Params.Veranstaltungen.FachmesseText}}<br>
+                                                <a class="text-link-16" href="http://www.stb-expo.de"
+                                                    target="_blank">stb-expo.de</a><br><a class="text-link-16"
+                                                    href="https://www.kanzleientwickler.com/services/ "
+                                                    target="_blank">{{.Params.Veranstaltungen.Veranstalter}} ></a>
+                                            </td>
+                                            <td>{{.Params.Veranstaltungen.Stadt}}</td>
+                                            <td>21.&nbsp;{{.Params.Veranstaltungen.Monat}} </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+ <!-- Call to action -->
+
+            <div class="section text-center dark-bg">
+                <h2 class="jumbotron-heading text-white pb-4">{{.Params.CallAction.Titel}}</h2>
+                <p class="header-text-white">{{.Params.CallAction.Text}}</p>
+                    <div class="d-flex flex-row justify-content-center flex-wrap flex-grow-1">
+
+                        <div class="row">
+                            <div class="col">
+                                <a class="btn btn-CTA3" href="#Bestellen" data-toggle="modal" data-target="#modalRedirect"
+                                    onClick="gtag('event', 'action', {'event_category': 'JetztBestellen-Button', 'event_label': 'CTA','value': 'value'});">
+                                    {{.Params.Button.Bestellen}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                <p class="text-white mt-5">{{.Params.CallAction.DemoVersion}}</p>
+                <div class="d-flex">
+                    <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                        <a href="https://itunes.apple.com/de/app/cib-kanzlei-app/id1196671391?mt=8" class="lp-cursor"
+                            title="Demo im App Store" target="_blank"
+                            onClick="gtag('event', 'action', {'event_category': 'APPStore-CTA', 'event_label': 'Demo','value': 'value'});">
+                            <img src="/images/product/kanzleiapp/apple_store_.svg" class="mb-3" height="auto" width="225" alt="icon"></a>
+                    </div>
+
+                    <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+                        <a class="lp-cursor" title="Google Play"
+                            href="https://play.google.com/store/apps/details?id=de.cib.kanzlei.android" target="_blank"
+                            onClick="gtag('event', 'action', {'event_category': 'GooglePlay-CTA', 'event_label': 'Demo','value': 'value'});">
+                            <img src="/images/product/kanzleiapp/google-play-badge-yr.svg" class="mb-3" height="auto" width="260"
+                                alt="icon"></a>
+                    </div>
+                </div>
+            </div>
+
+<!-- Kontakt -->
+
+            <div class="section light-bg contact-form-foot" id="Kontakt">
+
+                <div class="container contact-form">
+                    <div class="section-title">
+                        <h2>{{.Params.Kontakt.Kontakt}}</h2>
+                        <p class="header-text">{{.Params.Kontakt.KontaktText}}</p>
+                        <div style="display:none;" id="loadercontactForm"></div>
+                    </div>
+                    <form class="text-left" name="contactForm" action="" id="contactForm"
+                        onsubmit="sendEmailContact(); return false">
+
+                        <div class="form-group">
+                            <input required="required" name="name" type="name"
+                                class="form-control contact-form-tab text-left" id="InputName"
+                                aria-describedby="nameHelp" placeholder="Name*">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="email" required="required" type="email" required
+                                class="form-control contact-form-tab" id="InputEmail" aria-describedby="emailHelp"
+                                placeholder="E-Mail*">
+
+                        </div>
+                        <div class="form-group">
+                            <select name="about" required="required"
+                                class="form-control order-text contact-form-tab contact-form-dropdown"
+                                id="exampleSelect1" placeholder="Wie sind Sie auf uns aufmerksam geworden?">
+                                <option class="order-text">{{.Params.Kontakt.Grund}}</option>
+                                <option class="order-text">{{.Params.Kontakt.GrundGoogle}}</option>
+                                <option class="order-text">{{.Params.Kontakt.GrundDATEV}}</option>
+                                <option class="order-text">{{.Params.Kontakt.GrundBekannte}}</option>
+                                <option class="order-text">{{.Params.Kontakt.GrundSonstiges}}</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" class="form-control contact-form-tab" id="exampleTextarea" rows="3"
+                                placeholder="{{.Params.Kontakt.Nachricht}}"></textarea>
+                        </div>
+                        <p class="contact-note">{{.Params.Kontakt.Datenschutzerklärung1}}<a
+                            href="https://www.cib.de/de/datenschutz.html" target="_blank"
+                            class="text-link-14">{{.Params.Kontakt.Datenschutzerklärung}}</a>{{.Params.Kontakt.Datenschutzerklärung2}}</p>
+                        <div class="d-flex">
+                            <button class="btn btn-CTA1 ml-auto" id="contactFormButton"
+                                onClick="gtag('event', 'action', {'event_category': 'Senden-Button', 'event_label': 'Kontakt','value': 'value'});"
+                                type="submit">{{.Params.Button.Senden}}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{{ end }}

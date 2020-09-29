@@ -1,0 +1,343 @@
+
+{{ define "base" }}
+
+<head>
+    <title>{{.Params.headTitel}}</title>
+    <meta name="description" content="Bilder und PDF komprimieren ohne Qualitätsverlust und Speicherplatz gewinnen.">
+    <meta name="keywords"
+        content="Datenkompression, Datenkomprimierung, Verlustfreie Datenkompression, PDF komprimieren, Bilder komprimieren, PDF komprimieren ohne Qualitätsverlust">
+</head>
+
+<!-- Header -->
+<header class="header-text-top">
+    <div class="container">
+        <div class="shape-top"></div>
+        <div class="shape-left"></div>
+        <div class="row">
+            <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+
+                <h3 class="pb-4">{{.Params.header.Text| safeHTML}}</h3>
+
+                <div class="row pb-5 d-flex justify-content-left ">
+                    <div class="col-12 col-xl-4">
+                        <a class="btn btn-block btn-CTA2" role="button" target="_blank"
+                            onClick="gtag('event', 'action', {'event_category': 'OCRstarten-header', 'event_label': 'OCRstarten','value': 'value'});"
+                            href="https://ocr.team/?utm_source=Button&utm_medium=Button-Header&utm_campaign=Button-OCR-DE"
+                            target="_blank">{{.Params.Button.OCRstarten}}</a>
+                    </div>
+                    <div class="col-12 col-xl-5 btn-head-top-padding">
+                        <a class="btn btn-block btn-CTA2-gray" href="#Bestellen" data-toggle="modal"
+                            data-target="#modalContactForm"
+                            onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'Header','value': 'value'});">
+                            {{.Params.Button.Anfragen}}</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
+                <img src="\images\product\deeper\HG-deeper.svg" class="img-fluid" height="500">
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!-- Features -->
+
+<div class="section" id="Vorteile">
+
+    <div class="container">
+
+        <div class="section-title pb-5">
+            <h1>{{.Params.Features.Vorteile}}</h1>
+        </div>
+        <!--row 1-->
+        <div class="row mx-3 mb-lg-5">
+            <div class="col-12 col-lg-6">
+                <div class="row mb-4">
+                    <div class="col-3 feature-icon justify-content-left pb-3">
+                        <img src="\images\product\deeper\dpEr-Texterkennung.svg" height="125" width="125" class="img-fluid" alt="logo">
+                    </div>
+                    <div class="col-8 text-left">
+                        <p class="card-title font-weight-bold">{{.Params.Features.KIBasis}}</p>
+                        <p class="card-text">{{.Params.Functions.KIBasisText|safeHTML}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="row mb-4">
+                    <div class="col-3 feature-icon justify-content-left pb-3">
+                        <img src="\images\product\deeper\dpER_+_dokummente.svg" height="125" width="125" class="img-fluid" alt="logo">
+                    </div>
+                    <div class="col-8 text-left">
+                        <p class="card-title font-weight-bold">{{.Params.Functions.Dokumentformate}}</p>
+                        <p class="card-text">{{.Params.Functions.SchnittstelleText}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--row 2-->
+        <div class="row mx-3">
+            <div class="col-12 col-lg-6">
+                <div class="row mb-4">
+                    <div class="col-3 feature-icon justify-content-left pb-3">
+                        <img src="/images/product/deeper/dpER_sicherheit.svg" height="125" width="125" class="img-fluid" alt="logo">
+                    </div>
+
+                    <div class="col-8 text-left">
+                        <p class="card-title font-weight-bold">{{.Params.Functions.DatenSicher}}</p>
+                        <p class="card-text">{{.Params.Functions.DatenSicherText}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="row mb-4">
+                    <div class="col-3 feature-icon justify-content-left pb-3">
+                        <img src="/images/product/deeper/dpER_API.svg" height="125" width="125" class="img-fluid" alt="logo">
+                    </div>
+                    <div class="col-8 text-left">
+                        <p class="card-title font-weight-bold">{{.Params.Functions.Schnittstelle}}</p>
+                        <p class="card-text">{{.Params.Functions.DokumentformateText}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Price Tab-->
+
+<div class="section light-bg" id="Vorteile">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{.Params.Features.StepTitle}}</h2>
+        </div>
+        <div class="row">
+            <div class="comparison">
+                <table class="span12 mt-4 bg-white">
+                    <thead>
+                        <tr>
+                            <th class="price-info text-left pl-5 compare-heading-top" style="width: 80%;">
+                                <h3 class="feature-header-titel"></h3>
+                            </th> 
+                            <th class="price-info price-info-col" style="width: 50%;">
+                                <div class="price-now">
+                                    <p class="compare-heading">{{.Params.Features.Free}}</p>
+                                </div>
+                            </th> 
+                            <th class="price-info price-info-col" style="width: 51%;">
+                                <div class="price-now">
+                                    <p class="compare-heading">{{.Params.Features.Business}}</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead> 
+                    <tbody>
+                        <tr>
+                            <td></td> 
+                            <td colspan="4" class="tab-text">{{.Params.Features.KIBasis}} 
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 bg-color-tab tab-text"><a href="#KI-Basis" class="link">{{.Params.Features.KIBasis}} </a>
+                            </td> 
+                            <td class="bg-color-tab-mobile"><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" class="img-fluid" alt="logo">
+                            </td> 
+                            <td class="bg-color-tab-mobile"><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" class="img-fluid" alt="logo">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>&nbsp;
+                            </td> 
+                            <td colspan="4" class="tab-text">{{.Params.Features.Texterkennung}} 
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 tab-text"><a href="#Dokumentformate" class="link">{{.Params.Features.Texterkennung}} </a>
+                            </td> 
+                            <td><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td> 
+                            <td><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>&nbsp;</td> 
+                            <td colspan="4" class="tab-text">{{.Params.Features.Seiten}}                        
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 bg-color-tab tab-text"><a href="#bisZu10Seiten" class="link">{{.Params.Features.Seiten}} </a>
+                            </td> <td class="bg-color-tab-mobile"><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td> 
+                            <td class="bg-color-tab-mobile"><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>&nbsp;</td> 
+                            <td colspan="4" class="tab-text">{{.Params.Features.Gespeichert}}
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 tab-text"><a href="#IhreDatensicher" class="link">{{.Params.Features.Gespeichert}} </a>
+                            </td> 
+                            <td></td> 
+                            <td><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>&nbsp;</td> 
+                            <td colspan="4" class="tab-text">{{.Params.Features.mehr10Seiten}} </td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 bg-color-tab tab-text"><a href="#bisZu10Seiten" class="link">{{.Params.Features.mehr10Seiten}} </a>
+                            </td> 
+                            <td class="bg-color-tab-mobile"></td> 
+                            <td class="bg-color-tab-mobile"><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>&nbsp;</td> 
+                            <td colspan="4" class="tab-text">{{.Params.Features.API}}</td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 tab-text"><a href="#API" class="link">{{.Params.Features.API}}</a>
+                            </td> 
+                            <td></td> 
+                            <td><img src="/images/product/deeper/ic_done_black_24px.svg" height="30" width="30" alt="logo">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td colspan="4" class="img-hidden"></td>
+                        </tr> 
+                        <tr>
+                            <td class="pl-5 bg-color-tab tab-text"><a href="#bisZu10Seiten" class="link"></a>
+                            </td> 
+                            <td class="bg-color-tab-mobile py-4"></td> 
+                            <td class="bg-color-tab-mobile py-4"><a href="#Bestellen" data-toggle="modal" data-target="#modalContactForm" 
+                                onclick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'Vorteile-Tabele','value': 'value'});" 
+                                class="btn btn-CTA2-gray btn-CTA-2-tab">{{.Params.Button.Anfragen}}</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Preise -->
+
+<section class="bg-color-page section-features-details my-5 py-5">
+    <div class="container">
+        <div class="row main align-items-center section-features-details">
+            <div class="col-md-8 text-element">
+                <div class="text-content">
+                    <h4>{{.Params.Functions.Preise}}</h4> 
+                    <div class="header-text py-4">
+                        {{.Params.Functions.PreiseText}}
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-4 image-element img-hidden">
+                <div class="text-center"><img src="/images/product/deeper/Sparschwein-grau.svg" height="auto" width="200" title="Icon-Texterkennung">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NEWS IN DEM BLOG -->
+
+<div id="News" class="section light-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{.Params.News.NewsTitel}}</h2> 
+            <p class="header-text pt-2">{{.Params.News.NewsText}}</p>
+        </div> 
+        <div id="newsContainer" class="row container-fluid px-0 ml-0"></div>
+
+       <div class="row text-center justify-content-center mx-1">
+         <a id="blogButton" target="_blank" 
+         onclick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});" 
+         href="https://blog.cib.de/category/cib-deeper/" 
+         class="btn btn-block btn-CTA2-gray mb-4">{{.Params.Button.ZumBlog}}</a>
+       </div>
+    </div>
+</div>
+
+<!-- OCR mit CIB doXiview ausprobieren -->
+
+<div class="section text-center dark-bg">
+    <h2 class="jumbotron-heading text-white pb-4">{{.Params.CallToAction}}</h2> 
+    <div class="d-flex flex-row justify-content-center flex-wrap flex-grow-1">
+        <div class="row">
+            <div class="col">
+                <a onclick="gtag('event', 'action', {'event_category': 'OCRstarten-Button', 'event_label': 'CTA','value': 'value'});" 
+                href="https://ocr.team/?utm_source=Button&amp;utm_medium=Button-CTA&amp;utm_campaign=Button-OCR-DE" target="_blank" 
+                class="btn btn-block btn-CTA3">{{.Params.Button.OCRstarten}}</a>
+            </div> 
+            <div class="col">
+                <a role="button" href="#Bestellen" data-toggle="modal" data-target="#modalContactForm" 
+                onclick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});" 
+                class="btn btn-block btn-CTA3-gray">{{.Params.Button.Anfragen}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kontakt-Formular -->
+
+<div id="Kontakt" class="section light-bg">
+  <div class="container contact-form">
+        <div class="section-title">
+            <h2>{{.Params.Kontakt.Kontakt}}</h2> 
+            <p class="header-text">{{.Params.Kontakt.KontaktText}}</p> 
+            <div id="loadercontactForm" style="display: none;">
+            </div>
+        </div> 
+     <form name="contactForm" action="" id="contactForm" 
+         onsubmit="sendEmailContact(); return false" 
+         class="text-left">
+         <div class="form-group">
+             <input required="required" name="name" type="name" id="InputName" aria-describedby="nameHelp" placeholder="Name*" 
+             class="form-control contact-form-tab text-left">
+         </div> 
+         <div class="form-group">
+             <input name="email" required="required" type="email" id="InputEmail" aria-describedby="emailHelp" placeholder="E-Mail*" 
+             class="form-control contact-form-tab">
+         </div> 
+         <div class="form-group">
+             <select name="about" required="required" id="exampleSelect1" placeholder="Wie sind Sie auf uns aufmerksam geworden?" 
+             class="form-control order-text contact-form-tab contact-form-dropdown">
+             <option class="order-text">{{.Params.ModalOrder.modalGefunden}}</option> 
+             <option class="order-text">{{.Params.ModalOrder.modalSuchmaschinen}}</option> 
+             <option class="order-text">{{.Params.ModalOrder.modalFraunhofer}}</option> 
+             <option class="order-text">{{.Params.ModalOrder.modalBekannte}}</option> 
+             <option class="order-text">{{.Params.ModalOrder.modalSonstiges}}</option>
+             </select>
+        </div> 
+      <div class="form-group">
+         <textarea name="message" id="exampleTextarea" rows="3" placeholder="{{.Params.Kontakt.Nachricht}}" 
+         class="form-control contact-form-tab"></textarea>
+      </div> 
+      <p class="contact-note">
+        {{.Params.ModalOrder.modalContactNote|safeHTML}}
+      </p> 
+       <div class="d-flex">
+         <button type="submit" onclick="gtag('event', 'action', {'event_category': 'Senden-Button', 'event_label': 'Kontakt','value': 'value'});" 
+         class="btn btn-block btn-CTA2 ml-auto">{{.Params.Button.Senden}}</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{{ end }}

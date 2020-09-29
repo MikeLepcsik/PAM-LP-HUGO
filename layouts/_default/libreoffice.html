@@ -1,0 +1,352 @@
+{{ define "base" }}
+
+<head>
+    <title>{{.Params.headTitelLibreOffice}}</title>
+    <!-- Required meta tags -->
+    <html translate="no">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description"
+        content="LibreOffice powered by CIB bietet vollständigen Long-Time Support für Firmen und Organisationen, die LibreOffice professionell und sicher einsetzen wollen.">
+    <meta name="keywords"
+        content="LibreOffice, LTS, document foundation, openoffice, enterprise, support, bugfixing, Office, Support, Textprogrammierung">
+ 
+</head>
+
+ <!-- Header -->
+  <header class="header-text-top">
+    <div class="container">
+        <div class="shape-top"></div>
+        <div class="shape-left"></div>
+        <div class="row">
+            <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+
+                <h3 class="pb-4">{{.Params.header.Text | safeHTML}}</h3>
+
+                <div class="row pb-5 d-flex justify-content-left ">
+                    <div class="col-12 col-xl-4">
+                        <a class="btn btn-block btn-CTA2"
+                            onClick="gtag('event', 'action', {'event_category': 'Free-Online-Support-header', 'event_label': 'Free-Online-Support','value': 'value'});"
+                            href="#Bestellen" data-toggle="modal" data-target="#modalContactForm">
+                            Free Online Support</a>
+                    </div>
+                    <div class="col-12 col-xl-5 btn-head-top-padding">
+                        <a class="btn btn-block btn-CTA2-gray" target="_blank"
+                            href="https://www.microsoft.com/store/apps/9N91KZK25007"
+                            onClick="gtag('event', 'action', {'event_category': 'BuyNow-header', 'event_label': 'BuyNow','value': 'value'});">
+                            {{.Params.Button.BuyNow}}</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
+                <img src="/images/product/libreoffice/HG_LibreOffice_poweredbyCIB.svg" class="img-fluid" height="400">
+            </div>
+
+        </div>
+    </div>
+</header>
+
+ <!-- Views -->
+
+<div class="container section text-center" id="Leistung">
+    <h2 class="jumbotron-heading section-title">{{.Params.Leistungsspektrum.LeistungsspektrumTitel}}</h2>
+    <div class="row">
+
+        <div class="col-lg-2">
+            <img class="pb-3" src="/images/product/libreoffice/telefonSupport.svg" width="150" height="150">
+            <h3 class="pb-4">{{.Params.Leistungsspektrum.Support}}</h3>
+            <p class="card-text px-3">{{.Params.Leistungsspektrum.SupportText}}
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="/images/product/libreoffice/individuellesSupport.svg" width="150" height="150">
+            <h3 class="pb-4">{{.Params.Leistungsspektrum.Individuelles}}</h3>
+            <p class="card-text px-3">{{.Params.Leistungsspektrum.IndividuellesText}}
+            </p>
+        </div>
+        <div class="col-lg-2">
+            <img class="" src="/images/product/libreoffice/bugsfix.svg" width="150" height="150">
+            <h3 class="pb-4">{{.Params.Leistungsspektrum.Bugfixing}}</h3>
+            <p class="card-text px-3">{{.Params.Leistungsspektrum.BugfixingText}}
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="/images/product/libreoffice/ergenzung-von-features.svg" width="150" height="150">
+            <h3 class="pb-4">{{.Params.Leistungsspektrum.Anwendungsentwicklung}}</h3>
+            <p class="card-text px-3">{{.Params.Leistungsspektrum.AnwendungsentwicklungText}}
+            </p>
+        </div>
+        <div class="col-lg-2">
+            <img class="" src="/images/product/libreoffice/schulung.svg" width="150" height="150">
+            <h3 class="pb-4">{{.Params.Leistungsspektrum.Beratungen}}</h3>
+            <p class="card-text px-3">{{.Params.Leistungsspektrum.BeratungenText}}
+            </p>
+        </div>
+
+    </div>
+</div>
+
+ <!-- Features -->
+
+<div class="section light-bg" id="Vorteile">
+
+    <div class="container">
+
+        <div class="section-title pb-5">
+            <h2>{{.Params.Features.Vorteile}}</h2>
+        </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-6 pt-card">
+                    <div class="row pb-5">
+                        <div class="col-2 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/libreoffice/kostensparnis.svg" height="125" width="125" class="img-fluid" alt="logo">
+                        </div>
+
+                        <div class="col-8 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Features.Kostenersparnis}}</p>
+                            <p class="card-text">{{.Params.Features.KostenersparnisText}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 pt-card">
+                    <div class="row">
+                        <div class="col-2 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/libreoffice/updates.svg" height="125" width="125" class="img-fluid" alt="logo">
+                        </div>
+
+                        <div class="col-8 text-left pb-5">
+                            <p class="card-title font-weight-bold">{{.Params.Features.KostenersparnisEffiziente}}</p>
+                            <p class="card-text">{{.Params.Features.KostenersparnisEffizienteText}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-6 pt-card">
+                    <div class="row">
+                        <div class="col-2 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/libreoffice/zeitsparen.svg" height="125" width="125" class="img-fluid" alt="logo">
+                        </div>
+
+                        <div class="col-8 text-left pb-5">
+                            <p class="card-title font-weight-bold">{{.Params.Features.Zeitersparnis}}</p>
+                            <p class="card-text">{{.Params.Features.ZeitersparnisText}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 pt-card">
+                    <div class="row">
+                        <div class="col-2 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/libreoffice/ressourcen.svg" height="125" width="125" class="img-fluid" alt="logo">
+                        </div>
+
+                        <div class="col-8 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Features.Ressourcen}}</p>
+                            <p class="card-text">{{.Params.Features.RessourcenText}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+ <!-- Use cases details -->
+
+<div class="section text-center" id="Uberblick">
+    <h2 class="jumbotron-heading pb-4">{{.Params.UseCases.Titel}}</h2>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 order-3 order-lg-3 pt-3">
+
+                <table class="card-text">
+                    <tbody>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte1}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte2}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte3}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte4}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte5}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte6}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte7}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte8}}</td>
+                        </tr>
+                        <tr>
+                            <td class="pb-3 pr-2"><span class="material-icons align-text-bottom">done</span>
+                            </td>
+                            <td class="pb-3 text-left">{{.Params.UseCases.TextPunkte9}}</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-lg-6 porder-1 order-lg-1 pt-3" style="text-align: -webkit-center;">
+                <img src="/images/product/libreoffice/LibreOfficepoweredbyCIB.svg" class="img-fluid" width="230"
+                    title="LibreOffice powered by CIB">
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Testimonial -->
+
+<div class="section light-bg" id="Referenzen">
+
+    <div class="container">
+
+        <div class="section-title" style="margin-bottom: 62px;">
+            <h2>{{.Params.Testimonial.Titel}}</h2>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+            <div>
+                <div class="d-flex justify-content-center"><img style="width: 250px;" src="/images/product/libreoffice/sterne.svg" />
+                </div>
+                <div class="text-center mt-4">{{.Params.Testimonial.Person}}</div>
+                <div class="text-center">{{.Params.Testimonial.Company}}</div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-1 d-flex justify-content-end align-items-start"><img style="width: 30px;"
+                            src="/images/product/libreoffice/klammerAuf.svg" alt="icon" /></div>
+                    <div class="col-7 card-text text-md-center font-italic px-4">{{.Params.Testimonial.Text}}
+                    </div>
+                    <div class="col-1 d-flex justify-content-start align-items-end"> <img style="width: 30px;"
+                            src="/images/product/libreoffice/klammer-zu.svg" alt="icon" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- System-->
+
+<div class="section" id="">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="pb-5">{{.Params.Systemvoraussetzungen.Titel}}</h2>
+            <p class="points pb-5">{{.Params.Systemvoraussetzungen.Text}}</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-4 pt-card">
+                <div class="row pb-5">
+                    <div class="col-4 feature-icon justify-content-left pb-3">
+                        <img src="/images/product/libreoffice/windows-logo.svg" height="125" width="125" class="img-fluid" alt="logo">
+                    </div>
+
+                    <div class="col-8 text-left pr-0">
+                        <p class="card-title font-weight-bold">Microsoft Windows</p>
+                        <p class="card-text">{{.Params.Systemvoraussetzungen.windows}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 pt-card">
+                <div class="row">
+                    <div class="col-4 feature-icon justify-content-left pb-3 pl-4">
+                        <img src="/images/product/libreoffice/linux-logo.svg" height="125" width="125" class="img-fluid" alt="logo">
+                    </div>
+
+                    <div class="col-8 text-left">
+                        <p class="card-title font-weight-bold">Linux</p>
+                        <p class="card-text">{{.Params.Systemvoraussetzungen.linux}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-title">
+            <p class="card-text font-italic ">{{.Params.Systemvoraussetzungen.Features}}</p>
+        </div>
+        <div class="section-title">
+            <p class="card-text pb-5">{{.Params.Systemvoraussetzungen.link| safeHTML}}</p>
+        </div>
+    </div>
+</div>
+
+ <!-- NEWS IN DEM BLOG -->
+
+ <div class="section light-bg" id="News" :style="$t('Display')">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{.Params.LibreOfficeNews.Titel}}</h2>
+            <p class="header-text-news">{{.Params.LibreOfficeNews.Text}}</p>
+        </div>
+        <div class="row container-fluid mx-0" id="newsContainer"></div>
+        <div class="row text-center justify-content-center mx-1">
+            <a id="blogButton" class="btn btn-block btn-CTA2-gray mb-4" target="_blank"
+                onclick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
+                href="https://blog.cib.de/category/libreoffice-powered-by-cib/">{{.Params.Button.ZumBlog}}
+            </a>
+        </div>
+    </div>
+</div>
+
+ <!-- CTA -->
+
+<div class="section text-center dark-bg">
+    <h2 class="jumbotron-heading text-white pb-4">{{.Params.CallToAction}}</h2>
+    <h3 class="text-white pb-4 px-3">{{.Params.CallToActionSubtitel}}</h3>
+    <h3 class="text-white pb-4 px-3">{{.Params.CallToActionSubtitel2}}</h3>
+
+    <div class="d-flex flex-row justify-content-center flex-wrap flex-grow-1">
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-6 pb-4">
+                <a target="_blank" href="https://www.microsoft.com/store/apps/9N91KZK25007"
+                    onclick="gtag('event', 'action', {'event_category': 'BuyNow-Button', 'event_label': 'CTA','value': 'value'});"
+                    class="btn btn-block btn-CTA3">{{.Params.Button.BuyNow}}</a>
+            </div>
+            <div class="col-12 col-lg-6">
+                <a class="btn btn-block btn-CTA3-gray" href="#Anfrage" data-toggle="modal"
+                    data-target="#ModalGoogle"
+                    onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">{{.Params.Button.Anfrage}}</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{ end }}

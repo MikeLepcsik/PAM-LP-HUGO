@@ -396,3 +396,41 @@ input[type=search]:focus {
 	border-color: #333;
 	border: solid 1px #fff;
 }
+
+/*Sale-box(kanzleiapp)*/
+
+.sale-box span.on_sale {
+    background: #7cb892; 
+}
+
+/*Add-ons (kanzleiapp)Table Beginn*/
+
+.table {
+    width: 745px;
+}
+
+.table-responsive {
+    width: auto;
+}
+
+.table-borderless {
+    border: none
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+.list-group-item {
+    background-color: transparent!important;
+}
+
+/*Add-ons (kanzleiapp)Table end*/
+
+
+
