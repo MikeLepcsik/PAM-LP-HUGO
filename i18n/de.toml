@@ -11,13 +11,19 @@ other = "Lösungen"
 [menu_Products]
 other = "Produkte"
 [menu_Projects]
-other = "Forschung & Entwicklung"
+other = "F&E"
+[menu_Consulting]
+other = "CIB consulting"
 [menu_Service]
-other = "Consulting & Support"
+other = "Beratung & Support"
+[menu_Career]
+other = "Karriere"
 [menu_Companies]
-other = "CIB Gruppe"
-[Button_CIBSolutions]
-other = "cib store"
+other = "Über uns"
+[menu_Blog]
+other = "Blog"
+[Button_CIBcash]
+other = "CIB cash"
 [Button_Request]
 other = "Anfragen"
 
@@ -114,53 +120,64 @@ other = "Opensource inklusive CIB Services und Integration"
 [menuProducts_doXiboxCrate]
 other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unterwegs"
 
-[menuService_Title]
+[menuConsulting_Title]
 other = "Unsere Dienstleistungen"
-[menuService_Consulting]
-other = "Unsere Kompetenz - Ihr Erfolg Maßgeschneiderte Lösungen Vom hochqualifizierten Entwickler bis hin zum IT-Projektleiter einzelne Experten eingespielte Teams oder komplette Projektübernahme in allen gefragten Programmiersprachen für alle gängigen Hardware-Plattformen"
-[menuService_Seminars]
-other = "Seminare"
-[menuService_SeminarsText]
-other = "Die Seminare der CIB Berater finden in den Räumen des Kunden statt. Dadurch entfallen zum einen Reisezeiten und Reisekosten der Teilnehmer, zum anderen können diese die gewohnte Produktivumgebung nutzen."
-[menuService_Migration]
+[menuConsulting_IntegrationMigration]
+other = "Integration & Migration"
+[menuConsulting_Consulting]
+other = "TEXT XXX"
+[menuConsulting_PlanningDevelopment]
+other = "Planung & Entwicklung"
+[menuConsulting_SeminarsTraining]
+other = "Seminare & Schulungen"
+
+[menuSupport_Title]
+other = "Unsere Dienstleistungen"
+[menuSupport_Dokumentationen]
+other = "Dokumentationen"
+[menuSupport_CIB_Consultation]
+other = "CIB Berater"
+[menuSupport_Consultation]
+other = "Beratung"
+[menuSupport_Migration]
 other = "Migration"
-[menuService_MigrationText]
+[menuSupport_MigrationText]
 other = "Das benötigte Know-how und mehrjährige Erfahrung aus vielfältigen Projekten bringen die CIB Berater mit, die für Sie die Migration durchführen."
-[menuService_ProjectSupport]
+[menuSupport_ProjectSupport]
 other = "Projektunterstützung"
-[menuService_ProjectSupportText]
+[menuSupport_ProjectSupportText]
 other = "Das CIB Beraterteam unterstützt Sie in allen Fragen des Korrespondenzmanagements.<br>"
-[menuService_AdviceOffer]
+[menuSupport_AdviceOffer]
 other = "Beratungsangebot"
-[menuService_AdviceOfferText]
+[menuSupport_AdviceOfferText]
 other = "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis."
-[menuService_TemplateService]
+[menuSupport_TemplateService]
 other = "Vorlagen-Service"
-[menuService_TemplateServiceText]
+[menuSupport_TemplateServiceText]
 other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
-[menuService_Support]
+[menuSupport_Support]
 other = "Unser Support Team ist Ihr erster Ansprechpartner bei Fragen zu allen CIB Produkten"
-[menuService_Hotline]
+[menuSupport_Hotline]
 other = "Hotline: +49 89 14360 111"
-[menuService_EMail]
+[menuSupport_EMail]
 other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
 
-[menuCompanies_Title]
-other = "CIB Unternehmensgruppe"
-[menuCompanies_Projects]
-other = "Forschung & Entwicklung"
-[menuCompanies_ProjectsTitle]
-other = "CIB Forschung & Entwicklung"
+[menuCompanies_Guideline]
+other = "Leitlinie"
+[menuCompanies_GuidelineText]
+other = "Leitlinie TEXT XXX"
+[menuCompanies_History]
+other = "Geschichte"
+[menuCompanies_HistoryText]
+other = "Geschichte TEXT XXX"
+[menuCompanies_MediaCenter]
+other = "Media Center"
+[menuCompanies_MediaCenterText]
+other = "Media Center TEXT XXX"
 [menuCompanies_ProjectsText]
 other = "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten."
-[menuCompanies_Career]
-other = "Karriere"
 [menuCompanies_CareerText]
 other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen."
-[menuCompanies_Blog]
-other = "Blog"
-[menuCompanies_BlogText]
-other = "Schließe dich 122 anderen Abonnenten an und Folge unsere neuesten Nachrichten"
 [menuCompanies_Contact]
 other = "Kontakt"
 [menuCompanies_ContactAdress]
