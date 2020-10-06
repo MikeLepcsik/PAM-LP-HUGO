@@ -128,12 +128,23 @@
         "Mail": "libreoffice@cib.de",
         "Produkte": "Verwandte Produkte",
         "Rechtliches": "Rechtliche Informationen",
-        "AGB": "AGB",
-        "Datenschutz": "Datenschutz",
+		"HomepageLink": "https://www.cib.de/de/startseite.html",
+		"PrivacyLink": "https://www.cib.de/de/datenschutz.html",
+		"ImprintLink": "https://www.cib.de/de/impressum.html",
+		"Consultation": "Beratung und Bestellung",
+		"Installation": "Anleitungen & Drittseiten",
+		"RelatedProducts": "Weitere CIB Lösungen",
+		"Legal": "Rechtliche Informationen",
+		"AGB": "AGB",
+		"AGBLink": "https://www.doxisafe.me/#/safe/retrieve/brewer3agb",
+		"Nutzungsbedingungen": "Nutzungsbedingungen",
+		"Widerrufserklärung": "Widerrufserklärung",
+		"Datenschutz": "Datenschutz",
+		"Impressum": "Impressum",
         "Weblösungen": "CIB Weblösungen",
         "WeitereLösungen": "Weitere CIB Lösungen",
         "Unternehmen": "Unternehmen",
-        "Impressum": "Impressum"
+        "InfoBeratung": "Info & Beratung"
     },
 
     "Cookie": {

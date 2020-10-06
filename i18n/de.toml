@@ -176,8 +176,14 @@ other = "Media Center"
 other = "Media Center TEXT XXX"
 [menuCompanies_ProjectsText]
 other = "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten."
+[menuCompanies_Career]
+other = "Karriere"
 [menuCompanies_CareerText]
 other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen."
+[menuCompanies_Blog]
+other = "Blog"
+[menuCompanies_BlogText]
+other = "Schließe dich 122 anderen Abonnenten an und Folge unsere neuesten Nachrichten"
 [menuCompanies_Contact]
 other = "Kontakt"
 [menuCompanies_ContactAdress]
@@ -201,6 +207,9 @@ other = "Land auswählen"
 other = "Deutschland"
 [menu_country_spain]
 other = "Spanien"
+
+[blog_button]
+other = "Zum Blog"
 
 [footer_HomepageLink]
 other = "https://www.cib.de/de/startseite.html"

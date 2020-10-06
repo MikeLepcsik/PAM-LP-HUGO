@@ -1,4 +1,3 @@
-
 {{ define "base" }}
 
 <head>
@@ -38,7 +37,7 @@
             </div>
 
             <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
-                <img src="\images\product\deeper\HG-deeper.svg" class="img-fluid" height="500">
+                <img src="/images/product/deeper/HG-deeper.svg" class="img-fluid" height="500">
             </div>
 
         </div>
@@ -59,7 +58,7 @@
             <div class="col-12 col-lg-6">
                 <div class="row mb-4">
                     <div class="col-3 feature-icon justify-content-left pb-3">
-                        <img src="\images\product\deeper\dpEr-Texterkennung.svg" height="125" width="125" class="img-fluid" alt="logo">
+                        <img src="/images/product/deeper/dpEr-Texterkennung.svg" height="125" width="125" class="img-fluid" alt="logo">
                     </div>
                     <div class="col-8 text-left">
                         <p class="card-title font-weight-bold">{{.Params.Features.KIBasis}}</p>
@@ -71,7 +70,7 @@
             <div class="col-12 col-lg-6">
                 <div class="row mb-4">
                     <div class="col-3 feature-icon justify-content-left pb-3">
-                        <img src="\images\product\deeper\dpER_+_dokummente.svg" height="125" width="125" class="img-fluid" alt="logo">
+                        <img src="/images/product/deeper/dpER_+_dokummente.svg" height="125" width="125" class="img-fluid" alt="logo">
                     </div>
                     <div class="col-8 text-left">
                         <p class="card-title font-weight-bold">{{.Params.Functions.Dokumentformate}}</p>
@@ -338,6 +337,187 @@
       </div>
     </form>
   </div>
+</div>
+
+<!-- Modals -->
+
+<!-- Modal Kontaktformular erfolgreich-->
+
+<div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Kontakt.modalAnfragen}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body mx-3 text-center">
+
+                <div class="form-group mb-0">
+                    {{.Params.Kontakt.modalAnfragenText|safeHTML}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+<div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Kontakt.modalAnfragenNichtErfolgreich}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body mx-3 text-center">
+
+                <div class="form-group mb-0">
+                    {{.Params.Kontakt.modalAnfragenTextNichtErfolgreich|safeHTML}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Kontaktformular -->
+
+<!-- Modal Order -->
+
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.ModalOrder.modalTitle}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body modal-boby-bestellung mx-3">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">{{.Params.ModalOrder.modalTitleText}}</p>
+                </div>
+                <form name="bestellscheinForm" action="" id="bestellscheinForm"
+                    onsubmit="sendEmailOrder(); return false">
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{.Params.ModalOrder.modalFormTitel}}</h5>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" type="text" id="form29"
+                            class="form-control validate"
+                            placeholder={{.Params.ModalOrder.modalPlaceholderVorname}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29"
+                            class="form-control validate"
+                            placeholder={{.Params.ModalOrder.modalPlaceholderNachname}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="strasse" type="text" id="form32"
+                            class="form-control validate"
+                            placeholder={{.Params.ModalOrder.modalPlaceholderStraße}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="true" pattern="[0-9]{5}$" maxlength="5"
+                            title="Bitte geben Sie ein 5 stellige Zahl ein." value="" name="postleitzahl"
+                            type="number" required id="form32" class="form-control validate"
+                            placeholder={{.Params.ModalOrder.modalPlaceholderPostleitzahl}}
+                            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="ort" type="text" id="form32"
+                            class="form-control validate" placeholder={{.Params.ModalOrder.modalPlaceholderOrt}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form32"
+                            class="form-control validate" placeholder={{.Params.ModalOrder.modalPlaceholderEmail}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="telefon" type="number" id="form32"
+                            class="form-control validate"
+                            placeholder={{.Params.ModalOrder.modalPlaceholderTelefon}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <h5>{{.Params.ModalOrder.modalSonstiges}}</h5>
+                        <div class="form-group">
+                            <select name="gefunden" class="form-control order-text" id="Select1">
+                                <option class="order-text">{{.Params.ModalOrder.modalGefunden}}</option>
+                                <option class="order-text">{{.Params.ModalOrder.modalSuchmaschinen}}</option>
+                                <option class="order-text">{{.Params.ModalOrder.modalBekannte}}</option>
+                                <option class="order-text">{{.Params.ModalOrder.modalSonstiges}}</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="mitarbeiter" class="form-control order-text" id="Select2">
+                                <option class="order-text">{{.Params.ModalOrder.modalMitarbeiter}}</option>
+                                <option class="order-text">1-5</option>
+                                <option class="order-text">6-10</option>
+                                <option class="order-text">11-25</option>
+                                <option class="order-text">26-49</option>
+                                <option class="order-text">50-249</option>
+                                <option class="order-text">250-999</option>
+                                <option class="order-text">1000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="kunden" class="form-control order-text" id="Select3">
+                                <option class="order-text">{{.Params.ModalOrder.modalKunden}}</option>
+                                <option class="order-text">1-5</option>
+                                <option class="order-text">6-10</option>
+                                <option class="order-text">11-25</option>
+                                <option class="order-text">26-49</option>
+                                <option class="order-text">50-249</option>
+                                <option class="order-text">250-999</option>
+                                <option class="order-text">1000+</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mb-0">
+                        <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                            placeholder={{.Params.ModalOrder.modalPlaceholderNachricht}}></textarea>
+                        <label data-error="wrong" data-success="right" for="form8"></label>
+                    </div>
+                    <p class="kontakt-note">
+                        {{.Params.ModalOrder.modalContactNote|safeHTML}}
+                    </p>
+                    <div class="modal-footer modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-block btn-CTA2 ml-auto"
+                            type="submit">{{.Params.Button.Senden}}</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
 {{ end }}

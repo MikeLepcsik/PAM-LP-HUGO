@@ -13,7 +13,9 @@
         "MyCIB": "myCIB",
         "Anmelden": "Anmelden",
         "ZumBlog": "Zum Blog",
-        "Senden": "Senden"
+        "Senden": "Senden",
+        "ZurWebsite": "Zur Webseite",
+        "WeiterZuMyCIB": "Weiter zu MyCIB"
     },
     "Features": {
         "Vorteile": "Ihre Vorteile",
@@ -81,7 +83,18 @@
     },
     "Newsletter": {
         "NewsletterTitel": "Newsletter",
-        "NewsletterText": "Jetzt anmelden und auf dem Laufenden bleiben"
+        "NewsletterText": "Jetzt anmelden und auf dem Laufenden bleiben",
+        "GibName": "Bitte geben Sie Ihren Nachnamen ein",
+        "GibVorname": "Bitte geben Sie Ihren Vornamen ein",
+        "GibEmail": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+        "Ichbin": "Ich bin mit den",
+        "Datenschutzrichtlinien": "Datenschutzrichtlinien",
+        "Einverstanden": "einverstanden.",
+        "Zustimmen": "Bitte stimmen Sie den Datenschutzrichtlinien zu",
+        "PlaceholderNachname": "Nachname*",
+        "PlaceholderVorname": "Vorname*",
+        "PlaceholderEmail": "Ihre E-Mail-Adresse*",
+        "Nachname": "Nachname"
     },
     "Testimonial": {
         "Titel": "Unsere Kunden über die App",
@@ -111,6 +124,76 @@
         "Text": "Machen Sie es sich einfach einfach.",
         "DemoVersion": "Demo-Version"
     },
+    "ModalSchnellvergleich": {
+        "Titel": "Alle Funktionen im Überblick",
+        "BASIS": "BASIS",
+        "zzg": "zzgl. USt. /Monat",
+        "PREMIUM": "PREMIUM",
+        "Individuell": "Individuell mit Logo und Farben",
+        "TouchID": "Datenschutz durch Touch oder Face ID in der App",
+        "Belegtransfer": "Sicherer Belegtransfer per DATEVconnect online",
+        "Smartlogin": "Schnittstelle und DATEV SmartLogin",
+        "Texterkennung": "Automatische Texterkennung (OCR)",
+        "Belegaufnahme": "Optimale Belegaufnahme und -bearbeitung",
+        "ImportVersand": "Import und Versand außerhalb der App gespeicherten Dokumente",
+        "Offline": "Offline-Fähigkeit",
+        "Impressum": "Impressum",
+        "AppIconName": "Mit individuellem App-Icon und -Namen",
+        "Datenkomprimierung": "Datenkomprimierung zur kostensparenden",
+        "Belegspeicherung": "Belegspeicherung bei DATEV Unternehmen online",
+        "KanzleiInfo": "Kanzlei Info (mit Foto und Text)",
+        "TeamInfo": "Team Info (mit Fotos, Kompetenzen und Kontaktdaten)",
+        "LinkSocialMedia": "Link auf Kanzlei-Website und Social Media",
+        "KontaktperKlick": "Kontakt per Klick (Direktanruf, E-Mail, Google Maps)",
+        "Oeffnungszeiten": "Öffnungszeiten",
+        "FuerDieVeroeffentlichung1": "*Für die Veröffentlichung in den App Stores wird ein",
+        "DevAccount": "Developer Account",
+        "FuerDieVeroeffentlichung2": " benötigt: ",
+        "AppleGoogle": "Apple: 99 € pro Jahr / Google: einmalig 25 €",
+        "AnleitungAccounts": "Anleitung Developer Accounts"
+    },
+    "ModalPickerApp": {
+        "Titel": "Ihre Mandanten, Ihre App!",
+        "HeaderTitel1": "Mit PREMIUM Mandanten langfristig binden:",
+        "Text1": "Treten Sie ab sofort mit Ihrer eigenen App auf. Dafür brauchen Sie einen eigenen Developer Account bei Google und Apple.",
+        "HeaderTitel2": "Keine Developer Accounts gewünscht?",
+        "Text2": "Verschaffen Sie sich trotzdem einen Vorteil gegenüber Ihrer Konkurrenz.",
+        "Text3": "Nähere Infos finden Sie auf dieser Website unter Preisen und Versionen."
+    },
+    "ModalRedirect": {
+        "Titel": "Ihre Bestellung in myCIB",
+        "Thanks": "Vielen Dank, dass Sie sich für die CIB kanzlei app entschieden haben!",
+        "Text1": " Sie werden jetzt auf unser myCIB Portal umgeleitet. Dort möchten wir Sie bitten, sich kostenlos zu registrieren. Im Anschluss können Sie Ihre Bestellung abschließen und direkt in myCIB Ihre App konfigurieren.",
+        "Text2": "Zukünftig haben Sie über das Portal einfachen Zugriff auf alle Ihre CIB Lösungen."
+    },
+    "ModalKontaktformularohneCheck": {
+        "Thanks": "Vielen Dank für Ihre ",
+        "Email": "E-Mail!",
+        "Text": "Sobald die CIB kanzlei app PREMIUM PLUS zur Verfügung steht, setzen wir uns mit Ihnen in Verbindung!"
+    },
+    "ModalWebinarformularCheck": {
+        "Thanks": "Vielen Dank für Ihre Anmeldung!",
+        "Text1": "Wir freuen uns auf Sie.",
+        "Text2": "Ihr CIB kanzlei app Team"
+    },
+    "ModalKontaktformularMitCheck": {
+        "ThanksForEmail": "Vielen Dank für Ihre E-Mail!",
+        "Text1": "Einer unserer Mitarbeiter wird sich mit Ihnen für eine Beratung in Verbindung setzen!"
+    },
+    "ModalNewsletterformularErfolgreich": {
+        "ThanksForEmail": "Vielen Dank!",
+        "Text1": "Sie erhalten in Kürze in Ihrem Postfach eine <strong>Bestätigungsmail</strong>. Bitte klicken Sie auf den dort enthaltenen <strong>Bestätigungslink</strong>, um Ihre Anmeldung abzuschließen."
+    },
+    "ModalKontaktformularErfolgreich": {
+        "ThanksForEmail": "Vielen Dank!",
+        "NichtVersendet": "Ihre Nachricht konnte leider nicht gesendet werden.",
+        "NichtVersendet1": "Bitte kontaktieren Sie uns direkt unter",
+        "LinkCib": "kanzlei-app@cib.de"
+    },
+    "ModalKontaktformularNichtErfolgreich": {
+        "ThanksForEmail": "Vielen Dank!",
+        "Versendet": "Ihre Nachricht wurde erfolgreich versendet."
+    },
     "Kontakt": {
         "Kontakt": "Kontakt",
         "KontaktText": "Wir helfen gern weiter.",
@@ -126,13 +209,29 @@
     },
     "Footer": {
         "Beratung": "Beratung und Lizensierung",
-        "Phone": "+49 89 143 60-111",
-        "Mail": "info@cib.de",
-        "Produkte": "Weitere CIB Lösungen",
+        "Phone": "+49 89 143 60 - 300",
+        "PhoneSupport": "+49 89 143 60 - 111",
+        "Mailto": "mailto:libreoffice@cib.de",
+        "Mail": "libreoffice@cib.de",
+        "Produkte": "Verwandte Produkte",
         "Rechtliches": "Rechtliche Informationen",
-        "AGB": "AGB",
-        "Datenschutz": "Datenschutz",
-        "Impressum": "Impressum"  
+		"HomepageLink": "https://www.cib.de/de/startseite.html",
+		"PrivacyLink": "https://www.cib.de/de/datenschutz.html",
+		"ImprintLink": "https://www.cib.de/de/impressum.html",
+		"Consultation": "Beratung und Bestellung",
+		"Installation": "Anleitungen & Drittseiten",
+		"RelatedProducts": "Weitere CIB Lösungen",
+		"Legal": "Rechtliche Informationen",
+		"AGB": "AGB",
+		"AGBLink": "https://www.doxisafe.me/#/safe/retrieve/brewer3agb",
+		"Nutzungsbedingungen": "Nutzungsbedingungen",
+		"Widerrufserklärung": "Widerrufserklärung",
+		"Datenschutz": "Datenschutz",
+		"Impressum": "Impressum",
+        "Weblösungen": "CIB Weblösungen",
+        "WeitereLösungen": "Weitere CIB Lösungen",
+        "Unternehmen": "Unternehmen",
+        "InfoBeratung": "Info & Beratung"
     },
 
     "Cookie": {

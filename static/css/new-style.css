@@ -78,8 +78,12 @@
     color: #E11E19;
 }
 
-.carousel-control-next {
+/* .carousel-control-next {
     right: -50px;
+} */
+
+.carousel-control-next img{
+   margin-left: 50px;
 }
 
 .carousel-control-next,
@@ -403,7 +407,26 @@ input[type=search]:focus {
     background: #7cb892; 
 }
 
-/*Add-ons (kanzleiapp)Table Beginn*/
+.sale-box span.on_sale{
+    font-size: 18px;
+    background: #7cb892;
+    color: #fff;
+    padding: 39px 43px 3px 75px;
+    width: 281px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: -29px;
+    top: -41px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
+    transform: rotate(40deg); 
+}
+
+/*Add-ons (kanzleiapp)Table start*/
 
 .table {
     width: 745px;
@@ -432,5 +455,163 @@ input[type=search]:focus {
 
 /*Add-ons (kanzleiapp)Table end*/
 
+/*Salebox(pdfbrewer)*/
+
+.sale-box span.on_sale1 {
+    font-size: 18px;
+    background: #96a0a5;
+    color: #fff;
+    padding: 69px 60px 7px 76px;
+    font-weight: 300;
+    width: 281px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: -29px;
+    top: -41px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
+    transform: rotate(40deg);
+}
+
+.sale-box-basis span.on_sale1 {
+    background: #a7cfb6 !important;
+}
+
+/* Slider (pdfbrewer)*/
+
+.carousel-indicators-red li {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #e95653;
+}
+
+.carousel-indicators .active {
+    border: 1px solid #e95653 !important;
+}
+
+.carousel-indicators-red li:hover {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 1px solid #e95653;
+}
+
+.padding-slider {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media (max-width: 992px) {
+    .padding-slider {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .noneX {
+        display: none;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 5% !important;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 25%;
+}
+
+/*TESTIMONIALS (pdfbrewer) */
+
+.testimonial-subtitel {
+    font-size: 24px !important;
+    font-weight: 400;
+    color: #404040;
+    margin: 0 auto;
+    line-height: 40px;
+}
 
 
+/*Modal (pdfbrewer)*/
+
+.list-group-item-tab {
+    position: relative;
+    display: table !important;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px solid rgba(0, 0, 0, .125) !important;
+}
+
+/*  6.1 PRICING Modal (pdfbrewer)*/
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.5rem + -5px) !important;
+}
+
+.list-group-item-tab {
+    position: relative;
+    display: table !important;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px solid rgba(0, 0, 0, .125) !important;
+}
+
+/* Modal form (pdfbrewer)*/
+
+.file-input {
+    display: inline-block;
+    text-align: left;
+    background: #fff;
+    padding: 16px;
+    width: 450px;
+    position: relative;
+    border-radius: 3px;
+  }
+  
+  .file-input > [type='file'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .file-input > .button {
+    display: inline-block;
+    cursor: pointer;
+    background: #eee;
+    padding: 8px 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+  }
+  
+  .file-input:hover > .button {
+    background: #e95653;
+    color: white;
+  }
+  
+  .file-input > .label {
+    color: #333;
+    white-space: none;
+    opacity: .3;
+  }
+  
+  .file-input.-chosen > .label {
+    opacity: 1;
+  }
+
+  .hidden {
+      display: none; 
+  }

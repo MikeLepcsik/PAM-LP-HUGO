@@ -790,8 +790,1111 @@
                 </div>
             </div>
 
+ 
+<!-- Modals -->
+
+<!-- Modal Newsletter -->
+
+            <div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div style="display:none;" id="loader"></div>
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">{{.Params.Newsletter.NewsletterTitel}}</h2>
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body modal-boby-bestellung mx-3">
+
+                            <div class="row justify-content-center">
+                                <p class="header-text">{{.Params.Newsletter.NewsletterText}}</p>
+                            </div>
+
+                            <form class="form-control border-0" id="newsletter" action="subscribe.php" method="POST" novalidate>
+                                <div style="display:none;" id="loader"></div>
+                                <div class="form-group mb-0">
+                                    <label for="vorname"></label>
+                                    <input type="text" placeholder={{.Params.Newsletter.PlaceholderVorname}} class="form-control" name="vorname"
+                                        id="vorname" required>
+                                    <div class="invalid-feedback">{{.Params.Newsletter.GibVorname}}</div>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <label for="nachname"></label>
+                                    <input type="text" placeholder={{.Params.Newsletter.PlaceholderNachname}} class="form-control" name="nachname"
+                                        id="nachname" required>
+                                    <div class="invalid-feedback">{{.Params.Newsletter.GibName}}</div>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <label for="email"></label>
+                                    <input type="email" placeholder={{.Params.Newsletter.PlaceholderEmail}} class="form-control"
+                                        name="email" id="email" required>
+                                    <div class="invalid-feedback">{{.Params.Newsletter.GibEmail}}</div>
+                                </div>
+
+                                <div class="form-group mb-0 hidden">
+                                    <label for="honeypot"></label>
+                                    <input type="text" placeholder={{.Params.Newsletter.Nachname}} class="form-control" name="honeypot"
+                                        id="honeypot">
+                                </div>
+
+                                <div class="custom-control custom-checkbox mb-4 mt-3 text-left">
+                                    <input type="checkbox" class="custom-control-input" id="agreement" name="agreement"
+                                        required>
+                                    <label class="custom-control-label" for="agreement">{{.Params.Newsletter.Ichbin}} <a
+                                            class="text-danger link-text-AGB"
+                                            href="https://www.cib.de/de/datenschutz.html"
+                                            target="_blank">{{.Params.Newsletter.Datenschutzrichtlinien}}</a> {{.Params.Newsletter.Einverstanden}}</label>
+                                    <div class="invalid-feedback">{{.Params.Newsletter.Zustimmen}}</div>
+                                </div>
+
+                                <div class="form-group text-center mb-5">
+                                    <input class="btn btn-danger lp-button ml-auto" type="submit" value="Anmelden"
+                                        onclick="sendNewsletterForm(event)">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+  <!-- Modal Schnellvergleich -->
+
+            <div class="modal fade bottom" id="Schnellvergleich" tabindex="-1" role="dialog"
+            aria-labelledby="SchnellvergleichLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content pl-3 pr-3 pb-3 rounded-0">
+                        <div class="modal-header comparison-border-top">
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body comparison">
+
+                            <div class="comparison">
+
+                                <table class="span12">
+                                    <thead class="compare-row-header">
+                                        <tr>
+                                            <th class="price-info text-left pl-5 compare-heading-top"
+                                                style="width: 60%">
+                                                <h2 class="compare-heading-titel">CIB kanzlei app</h2>
+                                                <div class="header-text compare-heading-subtitel">{{.Params.ModalSchnellvergleich.Titel}}</div>
+                                            </th>
+                                            <th class="price-info price-info-col" style="width: 34%">
+                                                <div class="price-now">
+                                                    <p class="compare-heading compare-heading-pb">{{.Params.ModalSchnellvergleich.BASIS}}</p>
+                                                    <span class="price card-pricing">
+                                                        <big class="compare-price">0</big>
+                                                        <small class="compare-price">€</small>
+                                                    </span>
+                                                    <br>
+                                                    <span class="price-small compare-vat">
+                                                        {{.Params.ModalSchnellvergleich.zzg}}
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </th>
+                                            <th class="price-info price-info-col" style="width: 34%">
+                                                <div class="price-now">
+                                                    <p class="compare-heading compare-heading-pb">
+                                                        {{.Params.ModalSchnellvergleich.PREMIUM}}
+                                                    </p>
+                                                    <span class="price card-pricing">
+                                                        <big class="compare-price">69</big>
+                                                        <small class="compare-price">€*</small>
+                                                    </span>
+                                                    <br>
+                                                    <span class="price-small compare-vat">
+                                                        {{.Params.ModalSchnellvergleich.zzg}}
+                                                      </span>
+                                                    </span>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Individuell}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Individuell}}</td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.TouchID}}</td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.TouchID}}</td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Belegtransfer}}
+                                                <br>{{.Params.ModalSchnellvergleich.Smartlogin}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Belegtransfer}}
+                                                <br> {{.Params.ModalSchnellvergleich.Smartlogin}}</td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Texterkennung}}</td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Texterkennung}}</td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Belegaufnahme}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Belegaufnahme}}</td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.ImportVersand}}
+                                            </td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.ImportVersand}}
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Offline}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Offline}}</td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Impressum}}</td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Impressum}}</td>
+                                            <td>
+
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4"><b>{{.Params.ModalSchnellvergleich.AppIconName}}</b>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5"><b>{{.Params.ModalSchnellvergleich.AppIconName}}</b>
+                                            </td>
+                                            <td>
+
+                                            </td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Datenkomprimierung}}
+                                                <br> {{.Params.ModalSchnellvergleich.Belegspeicherung}}</td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Datenkomprimierung}}
+                                                <br> {{.Params.ModalSchnellvergleich.Belegspeicherung}}</td>
+                                            <td></td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.KanzleiInfo}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.KanzleiInfo}}</td>
+                                            <td></td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.TeamInfo}}
+                                            </td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.TeamInfo}}
+                                            </td>
+                                            <td></td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.LinkSocialMedia}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.LinkSocialMedia}}</td>
+                                            <td></td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.KontaktperKlick}}
+                                            </td>
+                                        </tr>
+                                        <tr class="compare-row">
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.KontaktperKlick}}
+                                            </td>
+                                            <td></td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.Oeffnungszeiten}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pl-5">{{.Params.ModalSchnellvergleich.Oeffnungszeiten}}</td>
+                                            <td></td>
+                                            <td>
+                                                <img src="/images/product/kanzleiapp/ic_done_black_24px.svg" height="30" width="30" class=""
+                                                    alt="logo">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4">{{.Params.ModalSchnellvergleich.FuerDieVeroeffentlichung1}}
+                                                <a href="https://developer.apple.com/programs/"
+                                                    target="_blank" class="text-danger footer-text">
+                                                    {{.Params.ModalSchnellvergleich.DevAccount}}
+                                                </a> {{.Params.ModalSchnellvergleich.FuerDieVeroeffentlichung2}}
+                                                    <br> {{.Params.ModalSchnellvergleich.AppleGoogle}}
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="borderR0 pl-5">{{.Params.ModalSchnellvergleich.FuerDieVeroeffentlichung1}}
+                                                <a href="https://developer.apple.com/programs/"
+                                                target="_blank" class="text-danger footer-text">
+                                                {{.Params.ModalSchnellvergleich.DevAccount}}
+                                                </a> {{.Params.ModalSchnellvergleich.FuerDieVeroeffentlichung2}}
+                                                {{.Params.ModalSchnellvergleich.AppleGoogle}}
+                                                <br>> <a
+                                                    href="https://www.doxisafe.me/#/safe/retrieve/DeveloperAccounts"
+                                                    target="_blank" class="text-danger footer-text"> <span
+                                                        style="color: #e11e19;">{{.Params.ModalSchnellvergleich.AnleitungAccounts}}</span> </a>
+                                            </td>
+                                            <td class="borderL0 borderR0 noneDisplay"></td>
+                                            <td class="borderL0 noneDisplay">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="modal-footer close">
+                                    <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ <!-- Modal Info-App -->
+
+            <div class="modal fade" id="modalInfoApp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="mt-5" style="display:none;" id="loader"></div>
+                <div class="modal-dialog modal-dialog-md" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header modal-header-line text-center">
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body modal-boby-bestellung mx-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col pt-card">
+                                        <div class="row justify-content-center">
+                                            <div class="animation-text pl-3 mb-5">
+                                                <p class="card-pricing-price card-text mx-3">*zzgl. 5 €/Monat pro
+                                                    Mandant</p>
+                                                <p class="card-pricing-price card-text mx-3">Für die Veröffentlichung in
+                                                    den App Stores (<a href="https://developer.apple.com/programs/"
+                                                        target="_blank" class="text-danger footer-text"> <span
+                                                            style="color: #e11e19;">Apple</span></a> und <a
+                                                        href="https://developer.android.com/distribute/console"
+                                                        target="_blank" class="text-danger footer-text"> <span
+                                                            style="color: #e11e19;">Google</span></a></span>) wird
+                                                    jeweils ein Developer Account
+                                                    (bei Apple <span class="font-weight-bold">zwingend für
+                                                        Unternehmen</span>) benötigt.</p>
+                                                <p class="card-pricing-price card-text mx-3">
+                                                    Apple: 99 € pro Jahr / Google: einmalig 25 €
+                                                </p>
+                                                <p class="card-pricing-price card-text mx-3">
+                                                    Diese Vereinbarung wird nur zwischen Ihnen und Apple bzw. Google und
+                                                    nicht mit CIB geschlossen.
+                                                </p>
+                                                <p class="card-pricing-price card-text mx-3">
+                                                    > <a href="https://www.doxisafe.me/#/safe/retrieve/DeveloperAccounts"
+                                                        target="_blank" class="text-danger footer-text"> <span
+                                                            style="color: #e11e19;">Anleitung Developer Accounts</span>
+                                                    </a>
+                                                </p>
+                                                <p class="card-pricing-price card-text mx-3">
+                                                    <span>Die Verwendung der PREMIUM App
+                                                        ohne Developer Account ist möglich! Eigenes App-Icon und eigener
+                                                        App-Name entfallen!</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+<!-- Modal Veranstaltungen -->
+
+            <div class="modal fade" id="modalWebinar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+              <div style="display:none;" id="loader"></div>
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">Anmeldung zum Webinar</h2>
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body modal-boby-bestellung mx-3">
+
+                            <div class="row justify-content-center">
+                                <p class="font-small card-text mx-3 pb-3 text-center">Es freut uns, dass Sie an der
+                                    Vorstellung der CIB kanzlei app teilnehmen möchten! Einen Teilnahmelink erhalten Sie
+                                    rechtzeitig
+                                    vor Beginn des Webinars.
+                                </p>
+                            </div>
+
+                            <form name="webinarForm" action="" id="webinarForm" onsubmit="sendEmailWebiner(); return false">
+
+                                <div class="form-group mb-0 pt-3">
+                                    <input required="required" name="vorname" required type="text" id="form29"
+                                        class="form-control validate" placeholder="Vorname*">
+                                    <label data-error="wrong" data-success="right" for="form29"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="nachname" type="text" id="form29"
+                                        class="form-control validate" placeholder="Nachname*">
+                                    <label data-error="wrong" data-success="right" for="form29"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input data-required="required" name="eMail" type="email" required id="form32"
+                                        class="form-control validate" placeholder="E-Mail*">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+                                <p class="kontakt-note">Mit dem Absenden dieses Formulars, erklären Sie sich damit
+                                    einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer
+                                    <a href="https://www.cib.de/de/datenschutz.html" target="_blank"
+                                        class="text-link">Datenschutzerklärung</a>
+                                    verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.</p>
+                                <div class="modal-footer-bestellung d-flex justify-content-center ">
+                                    <button class="btn btn-danger lp-button myDiv" title="Senden" id="webinarFormButton"
+                                        onClick="gtag('event', 'action', {'event_category': 'Senden-Button', 'event_label': 'Webinar','value': 'value'});"
+                                        type="submit">Senden</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Modal Redirect -->
+
+            <div class="modal fade" id="modalRedirect" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2"
+            aria-hidden="true">
+                <div role="document" class="modal-dialog modal-dialog-sm">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div style="width: 100%; font-family: &quot;Segoe UI Web (West European)&quot;;">
+                                <div style="float: right;">
+                                    <button data-dismiss="modal" 
+                                    style="font-size: 1.5rem; font-weight: 700; line-height: 1; 
+                                    color: rgb(0, 0, 0); opacity: 0.5; cursor: pointer; border: none; 
+                                    background: none; outline: none;">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div> 
+                                <div style="text-align: center;">
+                                    <p style="font-size: 42px;">{{.Params.ModalRedirect.Titel}}
+                                    </p>
+                                </div> 
+                                <div style="border-top: 1px solid rgba(0, 0, 0, 0.125);"></div> 
+                                <form name="redirect" id="redirectModalForm" novalidate="novalidate">
+                                    <div style="text-align: center;">
+                                        <p style="font-size: 22px; margin-top: 20px; margin-right: 40px; margin-left: 40px;">
+                                            {{.Params.ModalRedirect.Thanks}}
+                                    </p> 
+                                    <p style="margin-right: 40px; margin-left: 40px;">
+                                        {{.Params.ModalRedirect.Text1}}                  
+                                    </p> 
+                                    <p style="margin-bottom: 50px; margin-right: 40px; margin-left: 40px;">
+                                        {{.Params.ModalRedirect.Text2}}        
+                                    </p>
+                                    </div> 
+                                    <div class="row d-flex justify-content-center pb-5">
+                                        <a role="button" aria-pressed="true" 
+                                        onclick="gtag('event', 'action', {'event_category': 'Bestellen-header', 'event_label': 'Bestellen','value': 'value'});" 
+                                        title="Weiter zu myCIB" target="_blank" class="btn btn-block btn-CTA2">
+                                        {{.Params.Button.WeiterZuMyCIB}}    
+                                    </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal Order -->
+
+            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+              <div class="mt-5" style="display:none;" id="loader"></div>
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">CIB kanzlei app PREMIUM PLUS</h2>
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body modal-boby-bestellung mx-3">
+                            <div class="row justify-content-center">
+                                <p class="font-small card-text mx-3">Wir freuen uns über Ihr Interesse an der CIB
+                                    kanzlei app PREMIUM PLUS.
+                                </p>
+                            </div>
+                            <div class="row justify-content-center">
+                                <p class="font-small card-text mx-3">Für Ihre Vorbestellung benötigen wir einige Daten.
+                                </p>
+                            </div>
+                            <form name="bestellscheinForm" action="" id="bestellscheinForm"
+                                onsubmit="sendEmailOrder(); return false">
+                                <div class="form-group mb-0 mt-3">
+                                    <h5>Ihre Daten</h5>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="vorname" required type="text" id="form29"
+                                        class="form-control validate" placeholder="Vorname*">
+                                    <label data-error="wrong" data-success="right" for="form29"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="nachname" type="text" id="form29"
+                                        class="form-control validate" placeholder="Nachname*">
+                                    <label data-error="wrong" data-success="right" for="form29"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="strasse" type="text" id="form32"
+                                        class="form-control validate" placeholder="Straße und Nummer*">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="true" pattern="[0-9]{5}$" maxlength="5"
+                                        title="Bitte geben Sie ein 5 stellige Zahl ein." value="" name="postleitzahl"
+                                        type="number" required id="form32" class="form-control validate"
+                                        placeholder="Postleitzahl*"
+                                        oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="ort" type="text" id="form32"
+                                        class="form-control validate" placeholder="Ort*">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="unternehmen" type="text" id="form32"
+                                        class="form-control validate" placeholder="Unternehmen*">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input data-required="required" name="eMail" type="email" required id="form32"
+                                        class="form-control validate" placeholder="E-Mail*">
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+
+                                <div class="form-group mb-0">
+                                    <input required="required" name="telefon" type="tel" maxlength="14" id="form32"
+                                        class="form-control form-control-tel validate telephoneInput" placeholder="Telefon"
+                                        disabled>
+                                    <label data-error="wrong" data-success="right" for="form32"></label>
+                                </div>
+
+                                <div class="row">
+                                    <!--
+                                        <p class="font-small card-text mx-3">Bitte wählen Sie die gewünschte Version Ihrer
+                                            CIB kanzlei app</p> 
+                                    </div> -->
+
+                                    <!-- <fieldset class="form-group row">
+                                        <h5 class="col-form-legend col-sm-3 pt-4">Meine Version</h5>
+                                        <div class="col-sm-12">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input name="version" class="form-check-input" type="radio" id="version"
+                                                        value="Basis Version">
+                                                    <span class="order-text">BASIS (kostenfrei)</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input name="version" class="form-check-input" type="radio" id="version"
+                                                        value="Premium Version">
+                                                    <span class="order-text">PREMIUM (69 € netto mtl.)*</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input name="version" class="form-check-input" type="radio" id="version"
+                                                        value="Premium Plus Version">
+                                                    <span class="order-text">PREMIUM Plus (168 € netto mtl. + 5
+                                                        €/Mandant im
+                                                        Monat)*</span>
+                                                </label>
+                                            </div> -->
+                                    <div class="form-group row ml-0">
+                                        <div class="col-sm-12">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input onclick="telephoneRequired()" name="checkboxKontakt"
+                                                        class="form-check-input" type="checkbox">
+                                                    <span class="order-text">Bitte kontaktieren Sie mich telefonisch
+                                                        für
+                                                        eine Beratung.</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </fieldset>
+
+                                <div class="form-group mb-0">
+                                    <h5>Sonstiges</h5>
+                                    <div class="form-group">
+                                        <select name="gefunden" class="form-control order-text" id="Select1">
+                                            <option class="order-text">Wie sind Sie auf uns aufmerksam geworden?
+                                            </option>
+                                            <option class="order-text">über Suchmaschinen (z.B. Google)</option>
+                                            <option class="order-text">über die DATEV</option>
+                                            <option class="order-text">über Bekannte</option>
+                                            <option class="order-text">Sonstiges</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                                        placeholder="Wie können wir Ihnen noch behilflich sein?"></textarea>
+                                    <label data-error="wrong" data-success="right" for="form8"></label>
+                                </div>
+                                <p class="kontakt-note">Mit dem Absenden dieses Formulars, erklären Sie sich damit
+                                    einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer
+                                    <a href="https://www.cib.de/de/datenschutz.html" target="_blank"
+                                        class="text-link">Datenschutzerklärung</a>
+                                    verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.</p>
+                                <div class="modal-footer-bestellung d-flex justify-content-center ">
+                                    <button class="btn btn-danger lp-button myDiv" title="Senden" id="orderFormButton"
+                                        type="submit">Senden</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal Picker-App -->
+
+            <div class="modal fade" id="modalChoose" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+                <div class="mt-5" style="display:none;" id="loader"></div>
+                <div class="modal-dialog modal-dialog-md" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header modal-header-line text-center pb-0">
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body modal-boby-bestellung mx-3 pt-0">
+                            
+                            <h2 class="text-center jumbotron-heading pb-4">{{.Params.ModalPickerApp.Titel}}</h2>
+
+                            <div class="container">
+
+                                <div class="row">
+                                    <div class="col-lg-7 order-3 order-lg-3 pt-3">
+
+                                        <table class="card-text">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="pb-3 text-left font-weight-bold"><br>
+                                                        {{.Params.ModalPickerApp.HeaderTitel1}}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-3 text-left">
+                                                        {{.Params.ModalPickerApp.Text1}}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-3 text-left font-weight-bold"><br>
+                                                        {{.Params.ModalPickerApp.HeaderTitel2}}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-3 text-left">
+                                                        {{.Params.ModalPickerApp.Text2}}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-3 text-left">
+                                                        {{.Params.ModalPickerApp.Text3}}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pb-3 text-left">
+                                                        <a class="btn btn-block btn-CTA2 mt-5"
+                                                            onClick="gtag('event', 'action', {'event_category': 'Weiter zur Website', 'event_label': 'Modal','value': 'value'});"
+                                                            target="_blank" data-dismiss="modal" href="#">
+                                                            {{.Params.Button.ZurWebsite}}
+                                                        </a>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="col-lg-5 porder-1 order-lg-1 pt-3" style="text-align: -webkit-center;">
+                                        <img src="/images/product/kanzleiapp/handy_mit_stoerer.svg" class="img-fluid" width="250">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal Kontaktformular ohne Check-->
+
+            <div class="modal fade" id="KontaktFormularNoCheck" tabindex="-1" role="dialog"
+            aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">
+                                <span>{{.Params.ModalKontaktformularohneCheck.Thanks}}</span><span style="white-space: nowrap;">{{.Params.ModalKontaktformularohneCheck.Email}}</span>
+                            </h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body mx-3 text-center py-5">
+
+                            <div class="form-group mb-0 text-center">
+                                <span>
+                                    {{.Params.ModalKontaktformularohneCheck.Text}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Modal Webinarformular Check-->
+
+            <div class="modal fade" id="WebinarFormularCheck" tabindex="-1" role="dialog"
+            aria-labelledby="WebinarFormularCheck" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h3 class="modal-title w-100">
+                                <span>{{.Params.ModalWebinarformularCheck.Thanks}}</span>
+                            </h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body mx-3 text-center py-5">
+
+                            <div class="form-group mb-0 text-center">
+                                <span>{{.Params.ModalWebinarformularCheck.Text1}}<br>
+                                    {{.Params.ModalWebinarformularCheck.Text2}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Modal Kontaktformular mit Check-->
+
+            <div class="modal fade" id="KontaktFormularWithCheck" tabindex="-1" role="dialog"
+            aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">
+                                <span>{{.Params.ModalKontaktformularMitCheck.ThanksForEmail}}</span>
+                            </h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body mx-3 text-center py-5">
+
+                            <div class="form-group mb-0 text-center">
+                                <span>
+                                    {{.Params.ModalKontaktformularMitCheck.Text1}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!-- Modal Newsletterformular erfolgreich-->
+
+            <div class="modal fade" id="NewsletterformularErfolgreich" tabindex="-1" role="dialog"
+            aria-labelledby="ModalNewsletterformularErfolgreich" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">
+                                <span>{{.Params.ModalNewsletterformularErfolgreich.ThanksForEmail}}</span>
+                            </h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body mx-3 text-center py-5">
+
+                            <div class="form-group mb-0 text-center">
+                                <span>
+                                    {{.Params.ModalNewsletterformularErfolgreich.Text1}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Modal Kontaktformular erfolgreich-->
+
+            <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+            aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">
+                                <span>{{.Params.ModalKontaktformularErfolgreich.ThanksForEmail}}</span>
+                            </h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body mx-3 text-center py-5">
+
+                            <div class="form-group mb-0 text-center">
+                                <span>
+                                    {{.Params.ModalKontaktformularErfolgreich.Versendet}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+            <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+            aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100">
+                                <span> {{.Params.ModalKontaktformularErfolgreich.ThanksForEmail}}</span>
+                            </h2>
+                            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body mx-3 text-center">
+
+                            <div class="form-group mb-0">
+                                <span>{{.Params.ModalKontaktformularErfolgreich.NichtVersendet}}
+                                    <br> {{.Params.ModalKontaktformularErfolgreich.NichtVersendet1}}
+                                    <a class="mailto" href="mailto:kanzlei-app@cib.de">{{.Params.ModalKontaktformularErfolgreich.LinkCib}}</a>.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
         </div>
     </div>
 </div>
+
+<!-- show modal-choose -->
+<script type="text/javascript">
+    function showModal() {
+        $('#modalChoose').modal('show');
+    }
+    //setTimeout(function () { showModal(); }, 0);
+    // Show After 12 Seconds
+    setTimeout(function () { showModal(); }, 12000);
+</script>
+
+<!-- Spinner-->
+    <script>
+        function spiner(id) {
+            document.getElementById(id).style.display = "block";
+        }
+    </script>
+
+<!-- hide send button for modalContactForm-->
+    <script>
+        function submitOff(id) {
+            document.getElementById(id).disabled = true;
+        }
+    </script>
+
+<!-- To Top Button-->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            //$('#back-to-top').tooltip('show');
+        });
+    </script>
+
+<!-- Newsletter -->
+    <script>
+        function sendNewsletterForm(event) {
+
+            var form = document.getElementById('newsletter');
+            var formData = new FormData(form);
+
+            form.classList.add('was-validated');
+
+            if (form.checkValidity() === false) {
+                //TODO: show error
+                event.preventDefault();
+                event.stopPropagation();
+                return false;
+            }
+
+            $('#modalNewsletter').modal('hide');
+
+            document.getElementById("loader").style.display = "block";
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'subscribe.php', false);
+            xhr.send(formData);
+
+            if (xhr.status == 200) $('#NewsletterformularErfolgreich').modal('show');
+            else $('#KontaktFormularNichtErfolgreich').modal('show');
+
+            document.getElementById("loader").style.display = "none";
+
+            event.preventDefault();
+        }
+    </script>
+
+<!-- Validacion Form -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+<!-- enable telephone input-->
+    <script>
+        function telephoneRequired() {
+            var telehponeItem = document.getElementsByClassName("telephoneInput");
+            if (telehponeItem[0].disabled == true) {
+                telehponeItem[0].disabled = false;
+            } else {
+                telehponeItem[0].disabled = true;
+            }
+        }
+    </script>
+
+    <script>
+        $(function () {
+            $("[data-toggle=popover]").popover({
+                html: true,
+                content: function () {
+                    var content = $(this).attr("data-popover-content");
+                    return $(content).children(".popover-body").html();
+                },
+                title: function () {
+                    var title = $(this).attr("data-popover-content");
+                    return $(title).children(".popover-heading").html();
+                }
+            });
+        });
+    </script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-93596203-1']);
+    _gaq.push(['_setDomainName', 'kanzlei-app.cib.de']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
 
 {{ end }}

@@ -356,6 +356,77 @@ h5 {
     cursor: pointer;
 }
 
+/*ButtonGreen(pdfbrewer)*/
+
+.btn-CTA2-green {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    line-height: 46px;
+    background-color: #a7cfb6;
+    border-color: #a7cfb6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-CTA2-green:focus {
+    color: #fff
+}
+
+.btn-CTA2-green:visited {
+    background-color: #a7cfb6;
+    border-color: #a7cfb6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-CTA2-green:active {
+    background-color: #a7cfb6;
+    border-color: #a7cfb6;
+    cursor: pointer;
+}
+
+.btn-CTA2-green:hover {
+    background-color: #fff;
+    border-color: #a7cfb6;
+    color: #a7cfb6;
+    cursor: pointer;
+}
+
+.btn-CTA2-green-white {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    line-height: 46px;
+    background-color: #fff; 
+    border-color: #a7cfb6;
+    color: #a7cfb6;
+    cursor: pointer;
+}
+
+.btn-CTA2-green-white:focus {
+    color: #a7cfb6
+}
+
+.btn-CTA2-green-white:visited {
+    background-color: #fff;
+    border-color: #a7cfb6; 
+    color: #a7cfb6; 
+    cursor: pointer;
+}
+
+.btn-CTA2-green-white:active {
+    background-color: #a7cfb6; 
+    border-color: #a7cfb6; 
+    cursor: pointer;
+}
+
+.btn-CTA2-green-white:hover {
+    background-color: #a7cfb6;  
+    border-color: #a7cfb6;  
+    color: #fff;
+    cursor: pointer;
+}
 
 .btn-CTA3 {
     font-size: 18px;
@@ -429,7 +500,7 @@ h5 {
 
 .btn-CTA4-white {
     font-size: 16px;
-    width: 380px;  /* 290px */
+    width: 380px;  /*290px*/ 
     height: 40px;
     line-height: 36px;
     background-color: #fff; 
