@@ -1,0 +1,804 @@
+{{ define "base" }}
+<head>
+    <title>CIB doXigate</title>
+    <!-- Required meta tags -->
+    <html translate="no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="La plataforma de comunicación digital contínua con sus clientes">
+    <meta name="keywords" content="CIB doXigate">
+</head>
+
+ <!-- Header -->
+    <header class="header-text-top">
+        <div class="container">
+            <div class="shape-top"></div>
+            <div class="shape-left"></div>
+            <div class="row">
+                <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                    <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+
+                    <table class="custom-list-header">
+                        <tbody>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span
+                                        class="material-icons align-text-bottom">done</span>
+                                </td>
+                                <td class="pb-3">{{.Params.header.TextPunkte1}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span
+                                        class="material-icons align-text-bottom">done</span>
+                                </td>
+                                <td class="pb-3">{{.Params.header.TextPunkte2}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span
+                                        class="material-icons align-text-bottom">done</span>
+                                </td>
+                                <td class="pb-3">{{.Params.header.TextPunkte3}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span
+                                        class="material-icons align-text-bottom">done</span>
+                                </td>
+                                <td class="pb-3">{{.Params.header.TextPunkte4}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span
+                                        class="material-icons align-text-bottom">done</span>
+                                </td>
+                                <td class="pb-4">{{.Params.header.TextPunkte5}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-3">
+                    <img src="/images/product/doxigate/HG-doXigate-mit-cib-kanzlei-app.svg" class="img-fluid" height="420">
+                </div>
+
+            </div>
+        </div>
+    </header>
+<!-- Features -->
+
+    <div class="section" id="Vorteile">
+
+        <div class="container">
+            <div>
+              
+                <div class="section-title"> 
+                  <h2>{{.Params.Features.Video}}</h2>
+                </div> 
+                <video id="MY_VIDEO_1" class="video-js vjs-theme-sea myVideo" controls preload="auto" 
+                poster="MY_VIDEO_POSTER.jpg" data-setup="{}"> 
+                <source src="/images/product/doxigate/video/CIB_doXigate_v10_web.mp4" type='video/mp4'> 
+                    <source src="MY_VIDEO.webm" type='video/webm'> 
+                        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that 
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p> 
+                    </video>
+            </div>
+
+            <div class="section-title mt-0">
+                <h2>{{.Params.Features.Titel}}</h2>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-12 col-lg-3">
+                    <div class="card-body">
+                        <span class="feature-icon">
+                            <img src="/images/product/doxigate/dokumentenbearbeitung.svg" height="150" width="150"
+                                class="img-fluid center mb-3" alt="logo">
+                        </span>
+                        <div class="media">
+                            <div class="media-body section-center">
+                                <h4 class="card-title font-weight-bold">{{.Params.Features.Dokumentenbearbeitung}}
+                                </h4>
+                                <p class="card-text">{{.Params.Features.FasterProcessing}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card-body">
+                        <span class="feature-icon">
+                            <img src="/images/product/doxigate/zusammenarbeit.svg" height="150" width="150"
+                                class="img-fluid center margin-top-header mb-3" alt="logo">
+                        </span>
+                        <div class="media">
+                            <div class="media-body section-center">
+                                <h4 class="card-title font-weight-bold">{{.Params.Features.Zusammenarbeit}}</h4>
+                                <p class="card-text">{{.Params.Features.BearbeitungDurch}},
+                                    {{.Params.Features.DokumenteAustauschen}},
+                                    {{.Params.Features.Erinnerungsfunktion}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card-body">
+                        <span class="feature-icon">
+                            <img src="/images/product/doxigate/direktes-loslegen.svg" height="150" width="150"
+                                class="img-fluid center margin-top-header mb-3" alt="logo">
+                        </span>
+                        <div class="media">
+                            <div class="media-body section-center">
+                                <h4 class="card-title font-weight-bold">{{.Params.Features.DirektesLoslegen}}</h4>
+                                <p class="card-text">
+                                    {{.Params.Features.NullInstallation}}, {{.Params.Features.EinfacheBedienung}},
+                                    {{.Params.Features.NutzungVorlagen}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card-body">
+                        <span class="feature-icon">
+                            <img src="/images/product/doxigate/Integration.svg" height="150" width="150"
+                                class="img-fluid center margin-top-header mb-3" style="height: 150px;" alt="logo">
+                        </span>
+                        <div class="media">
+                            <div class="media-body section-center">
+                                <h4 class="card-title font-weight-bold">{{.Params.Features.Integration}}</h4>
+                                <p class="card-text">{{.Params.Features.Systemlandschaft}},
+                                    {{.Params.Features.Schnittstelle}}<a class="link-text" target="_blank"
+                                        href="https://kanzlei-app.cib.de">CIB kanzlei app</a>
+                                    {{.Params.Features.DMSSystem}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center pt-5 pb-5">
+                <div class="justify-content-center col-12 col-lg-10 ">
+                    <div class="footer-line">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Use cases details-->
+
+    <div class="section section-beispiel-mobile" id="Darum" style="margin-top: -148px;">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.section.Titel}}</h2>
+            </div>
+
+            <!-- row 1 -->
+
+            <div class="row mb-md-4">
+                <div class="col-12 col-lg-4 pt-card">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon d-flex justify-content-end align-items-start pb-3">
+                            <img src="/images/product/doxigate/dG-uebersichtlich.svg" height="100" width="100" class="img-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-title font-weight-bold">{{.Params.UseCases.TextPunkte1}}</p>
+                            <p class="card-text">{{.Params.UseCases.TextPunkte11}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 pt-card">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon d-flex justify-content-end align-items-start pb-3">
+                            <img src="/images/product/doxigate/dG-struktur.svg" height="100" width="100" class="img-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-title font-weight-bold">{{.Params.UseCases.TextPunkte2}}</p>
+                            <p class="card-text">{{.Params.UseCases.TextPunkte22}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 pt-card">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon d-flex justify-content-end align-items-start pb-3">
+                            <img src="/images/product/doxigate/dG-digital.svg" height="100" width="100" class="img-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-title font-weight-bold">{{.Params.UseCases.TextPunkte3}}</p>
+                            <p class="card-text">{{.Params.UseCases.TextPunkte33}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+
+            <div class="row">
+                <div class="col-12 col-lg-4 pt-card">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon d-flex justify-content-end align-items-start pb-3">
+                            <img src="/images/product/doxigate/dG-24h.svg" height="100" width="100" class="img-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-title font-weight-bold">{{.Params.UseCases.TextPunkte4}}</p>
+                            <p class="card-text">{{.Params.UseCases.TextPunkte44}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 pt-card">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon d-flex justify-content-end align-items-start pb-3">
+                            <img src="/images/product/doxigate/dG-transparenzkosten.svg" height="100" width="100" class="img-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-title font-weight-bold">{{.Params.UseCases.TextPunkte5}}</p>
+                            <p class="card-text">{{.Params.UseCases.TextPunkte55}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 pt-card">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon d-flex justify-content-end align-items-start pb-3">
+                            <img src="/images/product/doxigate/dG-spart-zeit.svg" height="100" width="100" class="img-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-title font-weight-bold">{{.Params.UseCases.TextPunkte6}}</p>
+                            <p class="card-text">{{.Params.UseCases.TextPunkte66}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Pricing -->
+
+    <div class="section light-bg" id="Preise">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.pricing.Titel}}</h2>
+                <p class="header-text pt-2">{{.Params.pricing.Untertitel}}</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg d-flex justify-content-center">
+                    <div class="card pricing rounded-0 h-100">
+                        <div class="card-head">
+                            <div class="sale-box rounded-0">
+                                <span class="on_sale sale-box-jetzt">{{.Params.pricing.Jetzt}}
+                                    <br>{{.Params.pricing.Erhältlich}}</span>
+                            </div>
+                            <span
+                                class="card-pricing-titel font-weight-bold call-to-action-subtext">{{.Params.pricing.Demoversion}}</span>
+                            <br>
+                            <div class="header-text">{{.Params.pricing.OptimaleTestLösung}}</div>
+                            <div class="price card-pricing">69
+                                <small>€*</small>
+                            </div>
+                            <div class="card-pricing-price">{{.Params.pricing.USt}}</div>
+
+                            <div class="row pb-4 d-flex justify-content-center ">
+                                <a class="btn btn-CTA2" role="button" target="_blank" href="#Anfragen"
+                                    data-toggle="modal"
+                                    data-target="#modalContactFormInfo">{{.Params.Button.Anfragen}}</a>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <table class="custom-list-header list-group-item">
+                                <tbody>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-3">{{.Params.pricing.SignierenSchwärzenKommentieren}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-3">{{.Params.pricing.TexterkennungOCR}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-3">{{.Params.pricing.Steuerberater}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-3">{{.Params.pricing.Erinnerungsfunktion}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-3">{{.Params.pricing.Geschäftspartnern}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-3">{{.Params.pricing.Personalisierten}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3 pr-2 align-top"><span
+                                                class="material-icons align-text-bottom">done</span>
+                                        </td>
+                                        <td class="pb-4">{{.Params.pricing.TAGE14}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer">
+                            <p class="mx-5 card-pricing-price">{{.Params.pricing.MwStMandant}}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<!-- FAQ -->
+
+     <div class="section section-contact-mobile contact-form-foot" id="FAQ">
+
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.FAQ.Titel}}</h2>
+            </div>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header-faq" id="heading1">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-break btna glyphicon glyphicon-minus"
+                                data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+                                aria-controls="collapse1">
+                                {{.Params.FAQ.Frage1}}
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordion">
+                        <div class="card-body">
+                            {{.Params.FAQ.Antwort1}}
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header-faq" id="heading2">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-break btna collapsed" data-toggle="collapse"
+                                data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                {{.Params.FAQ.Frage2}}
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>{{.Params.FAQ.Antwort2}}</p>
+                            <p>{{.Params.FAQ.Antwort22}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header-faq" id="heading3">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-break btna collapsed" data-toggle="collapse"
+                                data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                {{.Params.FAQ.Frage3}}
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+                        <div class="card-body">
+                            {{.Params.FAQ.Antwort3}}
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header-faq" id="heading4">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-break btna collapsed" data-toggle="collapse"
+                                data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                {{.Params.FAQ.Frage4}}
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                        <div class="card-body">
+                            {{.Params.FAQ.Antwort4}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Slider for Testimonial-->
+
+    <div class="section light-bg" id="Bewertung">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.Testimonial.Titel}}</h2>
+            </div>
+
+            <div id="carouselExampleIndicators2" class="carousel slide mb-5" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col d-flex justify-content-center">
+                            <div>
+                                <div class="d-flex justify-content-center"><img style="width: 250px;"
+                                        src="/images/product/doxigate/sterne.svg" /></div>
+                                <div class="text-center mt-4">
+                                    Margot Liedl
+                                </div>
+                                <div class="text-center">
+                                    <a target="_blank" class="text-link"
+                                        onClick="gtag('event', 'action', {'event_category': 'Liedl-Testimonial', 'event_label': 'AWI-Treuhand-link','value': 'value'});"
+                                        href="https://www.awi-treuhand.de/start/">AWI Treuhand</a></div>
+                                <div class="row justify-content-center mt-5" style="width: 100%;">
+                                    <div class="col-1 d-flex justify-content-end align-items-start"><img
+                                            style="width: 30px;" src="/images/product/doxigate/klammerAuf.svg" alt="icon" /></div>
+                                    <div class="col-7 card-text text-md-center font-italic px-4">
+                                        {{.Params.Testimonial.AWITreuhandMargotLied}}</div>
+                                    <div class="col-1 d-flex justify-content-start align-items-end"> <img
+                                            style="width: 30px;" src="/images/product/doxigate/klammer-zu.svg" alt="icon" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="col d-flex justify-content-center">
+                            <div>
+                                <div class="d-flex justify-content-center"><img style="width: 250px;"
+                                        src="/images/product/doxigate/sterne.svg" /></div>
+                                <div class="text-center mt-4">Ulrich Raab</div>
+                                <div class="text-center"><a target="_blank" class="text-link"
+                                        onClick="gtag('event', 'action', {'event_category': 'Raab-Testimonial', 'event_label': 'AWI-Treuhand-link','value': 'value'});"
+                                        href="https://www.awi-treuhand.de/start/">AWI Treuhand</a></div>
+                                <div class="row justify-content-center mt-5">
+                                    <div class="col-1 d-flex justify-content-end align-items-start"><img
+                                            style="width: 30px;" src="/images/product/doxigate/klammerAuf.svg" alt="icon" /></div>
+                                    <div class="col-7 card-text text-md-center font-italic px-4">
+                                        {{.Params.Testimonial.AWITreuhandUlrichRaab}}</div>
+                                    <div class="col-1 d-flex justify-content-start align-items-end"> <img
+                                            style="width: 30px;" src="/images/product/doxigate/klammer-zu.svg" alt="icon" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <img class="" src="/images/product/doxigate/left-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <img class="" src="/images/product/doxigate/right-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+ <!-- TÜV -->
+
+    <div class="section section-mobile CTA-bg" id="Tuev">
+        <div class="container text-center">
+            <h1 class="text-white pb-4">{{.Params.CTATitle}}</h1>
+            <div class="call-to-action">
+                <img src="/images/product/doxigate/test_tuv.svg" height="150" width="150"
+                    class="img-fluid center margin-top-header mb-3" style="height: 150px;" alt="logo">
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg d-flex align-items-end justify-content-end mb-3">
+                    <div class="card-text text-white text-md-center font-italic px-4">
+                        {{.Params.CTATUEV|safeHTML}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+<!-- NEWS IN DEM BLOG -->
+
+     <div :style="{ display: {.Params.News.german}}">
+
+        <div class="section light-bg" id="News">
+            <div class="container">
+                <div class="section-title">
+                    <h2>{{.Params.News.Titel}}</h2>
+                    <p class="header-text pt-2">{{.Params.News.SubTitle}}</p>
+                </div>
+
+                <div :style="{ display: .Params.News.german }">
+                    <div class="row container-fluid px-0 ml-0" id="newsContainer"></div>
+                </div>
+                <div :style="{ display: .Params.News.spanish }">
+                    <div class="row container-fluid px-0 ml-0" id="newsContainerES"></div>
+                </div>
+
+                <div class="row text-center justify-content-center mx-1"><a id="blogButton"
+                        class="btn btn-block btn-CTA2-gray mb-4" target="_blank"
+                        onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
+                        href="https://blog.cib.de/category/cib-doXigate/?utm_source=Button-Blog&utm_medium=Button&utm_campaign=Blog">{{.Params.News.Button}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- Veranstaltungen 
+
+        <div class="section white-bg" id="Termine">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Veranstaltungen und Termine</h2>
+                </div>
+                <div class="my-0 center-block">
+                    <div class="container justify-content-center">
+                        <div class="row" style="align-items: center; justify-content: center;">
+                            <div class="table-responsive">
+                                <table class="table" cellpadding="15" cellspacing="0" width="745" border="1"
+                                    bordercolor="#f8f9fa">
+                                    <tr bgcolor="#f8f9fa">
+                                        <td colspan="2">
+                                            <font color="#404040" size="6"><b>2020</b></font>
+                                        </td>
+                                        <td><b></b></td>
+                                        <td colspan="2">
+                                            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                                        </td>
+                                    </tr>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td colspan="2">Webinar</td>
+                                        <td>Vorstellung der <a href="https://kanzlei-app.cib.de" target="_blank"
+                                                class="text-link">CIB kanzlei app</a> und CIB doXigate<br>
+                                            <a class="text-link" target="_blank"
+                                                href="https://newsletter.cib.de/cib-webinar/webinar-anmeldung-17-10.html?utm_source=3._Webinar_CIB_Kanzlei-L%C3%B6sungen&utm_medium=IMG&utm_campaign=3._Webinar-Anmeldung-Web-doXigate">Anmeldung
+                                                zum Webinar</a>
+                                        </td>
+                                        <td>online</td>
+                                        <td>17.&nbsp;Juli<br>9:00 - 9:45 Uhr</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+        </div>-->
+
+<!-- CTA -->
+
+    <div class="section text-center dark-bg px-3">
+        <h2 class="jumbotron-heading text-white pb-4">{{.Params.CallToAction}}</h2>
+        <p class="header-text-white">{{.Params.CallToActionUntertitel}}</p>
+        <div class="d-flex flex-row justify-content-center flex-wrap flex-grow-1">
+
+            <div class="row">
+                <div class="col">
+                    <a class="btn btn-CTA3-gray" href="#Anfragen" data-toggle="modal" style="width: 280px;"
+                        data-target="#modalContactFormInfo"
+                        onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
+                        {{.Params.Button.KostenloseBeratung}}</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- Wload spinner
+
+     <div v-if="load" class="load-spinner " tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-header">
+                <h5 class="modal-title">{{.Params.ModalError.NachrichtSenden}}</h5>
+            </div>
+            <div class="modal-body">
+                <div><img class="pt-4" height="auto" width=120 src="/images/product/doxigate/waitImage.svg">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- Modal Info -->
+
+    <div class="modal fade" id="modalContactFormInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">{{.Params.ModalOrder.modalTitle}}</h2>
+                    <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body modal-boby-bestellung mx-3">
+                    <div class="row justify-content-center">
+                        <p class="font-small card-text mx-3">{{.Params.ModalOrder.modalTitleText}}</p>
+                    </div>
+                    <form name="bestellscheinForm" action="" id="bestellscheinForm"
+                        onsubmit="sendEmailOrder(); return false">
+                        <div class="form-group mb-0 mt-3">
+                            <h5>{{.Params.ModalOrder.modalFormTitel}}</h5>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="vorname" type="text" id="form29"
+                                class="form-control validate"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderVornameP}}>
+                                <label data-error="wrong" data-success="right" for="form29"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="nachname" type="text" id="form29"
+                                class="form-control validate"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderNachname}}>
+                            <label data-error="wrong" data-success="right" for="form29"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="strasse" type="text" id="form32"
+                                class="form-control validate"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderStraße}}>
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="true" pattern="[0-9]{5}$" maxlength="5"
+                                title="Bitte geben Sie ein 5 stellige Zahl ein." value="" name="postleitzahl"
+                                type="number" required id="form32" class="form-control validate"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderPostleitzahl}}
+                                oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="ort" type="text" id="form32"
+                                class="form-control validate" placeholder={{.Params.ModalOrder.modalPlaceholderOrt}}>
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input data-required="required" name="eMail" type="email" required id="form32"
+                                class="form-control validate" placeholder={{.Params.ModalOrder.modalPlaceholderEmail}}>
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="telefon" type="number" id="form32"
+                                class="form-control validate"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderTelefon}}>
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <h5>{{.Params.ModalOrder.modalSonstiges}}</h5>
+                            <div class="form-group">
+                                <select name="gefunden" class="form-control order-text" id="Select1">
+                                    <option class="order-text">{{.Params.ModalOrder.modalGefunden}}</option>
+                                    <option class="order-text">{{.Params.ModalOrder.modalSuchmaschinen}}</option>
+                                    <option class="order-text">{{.Params.ModalOrder.modalBekannte}}</option>
+                                    <option class="order-text">{{.Params.ModalOrder.modalSonstiges}}</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="mitarbeiter" class="form-control order-text" id="Select2">
+                                    <option class="order-text">{{.Params.ModalOrder.modalMitarbeiter}}</option>
+                                    <option class="order-text">1-5</option>
+                                    <option class="order-text">6-10</option>
+                                    <option class="order-text">11-25</option>
+                                    <option class="order-text">26-49</option>
+                                    <option class="order-text">50-249</option>
+                                    <option class="order-text">250-999</option>
+                                    <option class="order-text">1000+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="kunden" class="form-control order-text" id="Select3">
+                                    <option class="order-text">{{.Params.ModalOrder.modalKunden}}</option>
+                                    <option class="order-text">1-5</option>
+                                    <option class="order-text">6-10</option>
+                                    <option class="order-text">11-25</option>
+                                    <option class="order-text">26-49</option>
+                                    <option class="order-text">50-249</option>
+                                    <option class="order-text">250-999</option>
+                                    <option class="order-text">1000+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group mb-0">
+                            <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderNachricht}}></textarea>
+                            <label data-error="wrong" data-success="right" for="form8"></label>
+                        </div>
+                        <p class="kontakt-note">
+                            {{.Params.ModalOrder.modalContactNote|safeHTML}}
+                        </p>
+                        <div class="modal-footer modal-footer-bestellung d-flex justify-content-center ">
+                            <button class="btn btn-block btn-CTA2 ml-auto"
+                                type="submit">{{.Params.Button.Senden}}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal Kontaktformular -->
+
+<!-- Modal Kontaktformular erfolgreich-->
+
+    <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">
+                        <span>{{.Params.Kontakt.Anfragen}}</span>
+                    </h2>
+                    <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3 py-5 text-center">
+
+                    <div class="form-group mb-0">
+                        {{.Params.Kontakt.modalAnfragenText}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+    <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">
+                        <span>{{.Params.Kontakt.modalAnfragenNichtErfolgreich}}</span>
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3 py-5 text-center">
+
+                    <div class="form-group mb-0">
+                        {{.Params.Kontakt.modalAnfragenTextNichtErfolgreich}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{ end }}

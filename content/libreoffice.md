@@ -159,6 +159,5 @@
         "Akzeptieren": "Akzeptieren"
     },
 
-    "Display": "",
-    "image": "img/doxiview_HEADER_new.png"
+    "Display": ""
 }

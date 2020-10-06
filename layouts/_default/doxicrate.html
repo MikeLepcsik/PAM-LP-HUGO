@@ -1,0 +1,706 @@
+{{ define "base" }}
+<head>
+    <title>{{.Params.head}}</title>
+
+    <!-- Required meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description"
+        content="CIB doXibox & doXicrate sind tragbare Scannerboxen aus Karton. Zusammen mit CIB doXisafe das perfekte Team zum Dokumenten einscannen, archivieren und teilen!">
+    <meta name="keywords"
+        content="Dokumentenscanner, Scannerbox, Scanbox, mit dem Handy scannen, Scanner fürs Handy, Dokumente mit dem Handy einscannen">
+</head>
+
+<!-- Header -->
+
+    <header class="header-text-top">
+        <div class="container">
+            <div class="shape-top"></div>
+            <div class="shape-left"></div>
+            <div class="row">
+                <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                    <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+
+                    <h3 class="pb-4">{{.Params.header.TextPunkte1}}</h3>
+                    <h3 class="pb-4">{{.Params.header.TextPunkte2|safeHTML}}</h3>
+                    <div class="row pb-4 d-flex justify-content-left ">
+                        <div class="col-12 col-xl-4">
+                            <a onclick="gtag('event', 'action', {'event_category': 'Preise-Header', 'event_label': 'Preise','value': 'value'});"
+                                href="#Preise" class="btn btn-block btn-CTA2">{{.Params.Button.Bestellen}}</a>
+                        </div>
+                        <div class="col-12 col-xl-5 btn-head-top-padding">
+                            <a onclick="gtag('event', 'action', {'event_category': 'Produktinfo-Header', 'event_label': 'Produktinfo','value': 'value'});"
+                                href="#Vorteile" class="btn btn-block btn-CTA2-gray">{{.Params.Button.MehrErfahren}}</a></div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-3">
+                    <img src="/images/product/doxicrate/HG_CIBdoXibox_crate.svg" class="img-fluid" height="420">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+<!-- Vorteile -->
+
+    <div class="section text-center" id="Vorteile">
+        <div class="container">
+            <h2 class="jumbotron-heading section-title">{{.Params.Features.Title}}</h2>
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <img class="" src="/images/product/doxicrate/Box_in_der_Tragetasche.svg" width="150" height="220">
+                    <p class="card-title">{{.Params.Features.Text1}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="" src="/images/product/doxicrate/Mit_jedem_Smartphone_kompatibel.svg" width="150" height="220">
+                    <p class="card-title">{{.Params.Features.Text2}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="" src="/images/product/doxicrate/scharfe_ergebnisse.svg" width="150" height="220">
+                    <p class="card-title">{{.Params.Features.Text3}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="" src="/images/product/doxicrate/mit_doXisafe_das_perfekte_Team.svg" width="150" height="220">
+                    <p class="card-title">{{.Params.Features.Text4}}</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+<!-- Usecases -->
+
+    <div class="section text-center" id="Usecases">
+        <div class="container">
+            <h2 class="jumbotron-heading section-title">{{.Params.Usecases.UseCasesHeaderText}}</h2>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="img-fluid mb-3" src="/images/product/doxicrate/Usecases1.svg" width="auto" height="300">
+                            <p class="card-title font-weight-bold">{{.Params.Usecases.TextPunkte1}}</p>
+                            <p class="card-text pb-5">{{.Params.Usecases.TextPunkte11|safeHTML}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="img-fluid mb-3" src="/images/product/doxicrate/Usecases3.svg" width="auto" height="300">
+                            <p class="card-title font-weight-bold">{{.Params.Usecases.TextPunkte2}}</p>
+                            <p class="card-text pb-5">{{.Params.Usecases.TextPunkte22}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="img-fluid mb-3" src="/images/product/doxicrate/Usecases2.svg" width="auto" height="300">
+                            <p class="card-title font-weight-bold">{{.Params.Usecases.TextPunkte3}}</p>
+                            <p class="card-text pb-5">{{.Params.Usecases.TextPunkte33}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="img-fluid mb-3" src="/images/product/doxicrate/Usecases4.svg" width="auto" height="300">
+                            <p class="card-title font-weight-bold">{{.Params.Usecases.TextPunkte4}}</p>
+                            <p class="card-text pb-5">{{.Params.Usecases.TextPunkte44}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="img-fluid mb-3" src="/images/product/doxicrate/Usecases5.svg" width="auto" height="300">
+                            <p class="card-title font-weight-bold">{{.Params.Usecases.TextPunkte5}}</p>
+                            <p class="card-text pb-5">{{.Params.Usecases.TextPunkte55}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="img-fluid mb-3" src="/images/product/doxicrate/Usecases6.svg" width="auto" height="300">
+                            <p class="card-title font-weight-bold">{{.Params.Usecases.TextPunkte6}}</p>
+                            <p class="card-text pb-5">{{.Params.Usecases.TextPunkte66}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Preise -->
+
+    <div id="Preise" class="section light-bg">
+        <div class="section light-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>{{.Params.DoxicratePreis.VersionenUndPreiseTitel}}</h2>
+                    <p class="header-text pt-2"></p>
+                </div>
+                <div class="row">
+                    <div class="col-lg d-flex justify-content-center mb-4">
+                        <div class="card pricing rounded-0 h-100 px-3" style="max-width: 500px;">
+                            <div class="card-head">
+                                <img class="" src="/images/product/doxicrate/CIB doXibox_Stativ.svg" width="150" height="150"><br><br>
+                                <span class="card-pricing-titel font-weight-bold call-to-action-subtext">CIB doXibox
+                                </span>
+                                <br>
+                                <div class="price card-pricing">19
+                                    <small>€</small>
+                                    <div class="card-pricing-price mb-2">{{.Params.DoxicratePreis.CardheaderText1}}</div>
+                                </div>
+                                <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                        target="_blank"
+                                        href="https://www.amazon.de/CIB-doXibox-einfacher-mobilen-Scannen/dp/B01G21R86O"
+                                        onclick="gtag('event', 'action', {'event_category': 'Amazon-Price', 'event_label': 'Amazon-doXibox','value': 'value'});"
+                                        aria-pressed="true" class="btn btn-CTA2">{{.Params.Button.BeiAmazonBestellen}}</a></div>
+                                <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                        target="_blank" href="#Vergleich" data-toggle="modal"
+                                        data-target="#ModalVergleich"
+                                        onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXibox','value': 'value'});"
+                                        aria-pressed="true" class="btn btn-CTA4-white px-3">{{.Params.Button.DoxiboxDoxiCrate}}</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <table class="custom-list-header list-group-item">
+                                    <tbody>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText11}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText12}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText13}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText14}}</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText15}}</td>
+                                        </tr>
+
+
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText16|safeHTML}}</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg d-flex justify-content-center mb-4">
+                        <div class="card pricing rounded-0 h-100 px-3" style="max-width: 500px;">
+                            <div class="card-head">
+                                <img class="" src="/images/product/doxicrate/CIB doXicrate_Stativ.svg" width="150"
+                                    height="150"><br><br>
+                                <span class="card-pricing-titel font-weight-bold call-to-action-subtext">CIB
+                                    doXicrate</span> <br>
+                                <div class="price card-pricing">9
+                                    <small>€</small>
+                                    <div class="card-pricing-price mb-2">{{.Params.DoxicratePreis.CardheaderText1}}</div>
+                                </div>
+                                <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                        target="_blank"
+                                        href="https://www.amazon.de/CIB-doXibox-einfacher-mobilen-Scannen/dp/B01G21R86O"
+                                        onclick="gtag('event', 'action', {'event_category': 'Amazon-Price', 'event_label': 'Amazon-doXicrate','value': 'value'});"
+                                        aria-pressed="true" class="btn btn-CTA2">{{.Params.Button.BeiAmazonBestellen}}</a></div>
+                                <div class="row pb-4 d-flex justify-content-center "><a role="button"
+                                        target="_blank" href="#Vergleich" data-toggle="modal"
+                                        data-target="#ModalVergleich"
+                                        onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXibox','value': 'value'});"
+                                        aria-pressed="true" class="btn btn-CTA4-white px-3">{{.Params.Button.DoxiboxDoxiCrate}}</a>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <table class="custom-list-header list-group-item">
+                                    <tbody>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText21}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText22}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText23}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText24}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText25}}</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText26|safeHTML}}</td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="pb-3 pr-2 align-top"><span
+                                                    class="material-icons align-text-bottom">done</span></td>
+                                            <td class="pb-3">{{.Params.DoxicratePreis.CardText27|safeHTML}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <!-- Steps -->
+
+    <div class="section text-center" id="Steps">
+        <div class="container">
+            <h2 class="jumbotron-heading section-title">{{.Params.Steps.Titel}}</h2>
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <img class="pb-3" src="/images/product/doxicrate/crate1.svg" width="220" height="220">
+                    <p class="card-title">{{.Params.Steps.Text1}}</p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="pb-3" src="/images/product/doxicrate/crate2.svg" width="220" height="220">
+                    <p class="card-title">{{.Params.Steps.Text2}}
+                    <p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="pb-3" src="/images/product/doxicrate/crate3.svg" width="220" height="220">
+                    <p class="card-title">{{.Params.Steps.Text3}}</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ <!-- Traumteam -->
+
+    <div class="section text-center light-blue-bg px-3" id="Traumteam">
+        <h2 class="jumbotron-heading pb-4">{{.Params.Traumteam.TraumHeaderTitel}}</h2>
+        <h3 class="px-3">{{.Params.Traumteam.TraumHeaderText}}
+        </h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 header-padding-button order-3 order-lg-3">
+
+                    <table class="card-text">
+                        <tbody>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span class="material-icons">done</span>
+                                </td>
+                                <td class="pb-3 text-left">{{.Params.Traumteam.TextPunkte1}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span class="material-icons">done</span>
+                                </td>
+                                <td class="pb-3 text-left">{{.Params.Traumteam.TextPunkte2}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span class="material-icons">done</span>
+                                </td>
+                                <td class="pb-3 text-left">{{.Params.Traumteam.TextPunkte3}}</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-1" style="text-align: -webkit-center;">
+                    <img src="/images/product/doxicrate/Traumteam.svg" class="img-fluid pb-5" width="500">
+
+                </div>
+
+            </div>
+            <div class="row justify-content-center"> 
+                <a class="btn btn-block btn-CTA2-gray" style="width: 235px;"
+                    role="button" aria-pressed="true" target="_blank"
+                    onClick="gtag('event', 'action', {'event_category': 'Kaufen-Header', 'event_label': 'Kaufen','value': 'value'});"
+                    href="https://doxisafe.cib.de/?utm_source=Button-Entdecken&utm_medium=link&utm_campaign=Button"
+                    target="_blank">
+                    {{.Params.Button.CIBdoXisafeEntdecken}}
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!-- Call to action -->
+
+    <div class="section call-to-action-bg" id="AppStore">
+        <div class="container">
+            <div class="call-to-action">
+                <h1 class="text-white pb-5 text-center">{{.Params.CalltoAction}}</h1>
+            </div>
+            <div class="d-flex flex-row justify-content-center flex-wrap flex-grow-1">
+
+                <div class="row pb-5 d-flex justify-content-center">
+                    <div class="text-center pb-3">
+                        <a class="lp-cursor" title="Demo im App Store" target="_blank"
+                            href="https://itunes.apple.com/de/app/cib-kanzlei-app/id1196671391?mt=8"
+                            onClick="gtag('event', 'action', {'event_category': 'APPStore-CTA', 'event_label': 'Demo','value': 'value'});">
+                            <img src="/images/product/doxicrate/apple_store.svg" class="" height="auto" width="225" alt="icon"></a>
+                    </div>
+                    <div class="text-cente mobile-padding ml-3">
+                        <a class="lp-cursor" title="Google Play"
+                            href="https://play.google.com/store/apps/details?id=de.cib.kanzlei.android"
+                            target="_blank"
+                            onClick="gtag('event', 'action', {'event_category': 'GooglePlay-CTA', 'event_label': 'Demo','value': 'value'});">
+                            <img src="/images/product/doxicrate/google_playstore.svg" class="" height="auto" width="260"
+                                alt="icon"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ <!-- Modal Anfrage -->
+
+    <div class="modal fade" id="ModalAnfragen" tabindex="-1" role="dialog" aria-labelledby="ModalAnfragenLabel"
+    aria-hidden="true">
+        <div style="display:none;" id="loaderandroidForm"></div>
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <form name="androidForm" action="" id="androidForm" onsubmit="sendEmailAndroid(); return false">
+                    <div class="modal-header text-center">
+                        <h1 class="modal-title w-100">{{.Params.ModalOrder.modalTitle}}</h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class=" text-center pt-4 pb-4">
+                        <p class="modal-text">{{.Params.ModalOrder.modalTitleText}}</p>
+                    </div>
+
+                    <div class="modal-body mx-3">
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="name" type="text" id="form29"
+                                class="form-control validate"  placeholder={{.Params.ModalOrder.modalPlaceholderName}}>
+                            <label data-error="wrong" data-success="right" for="form29"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input required="required" name="email" type="email" id="form32"
+                                class="form-control validate" placeholder={{.Params.ModalOrder.modalPlaceholderEmail}}>
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <input name="telefon" type="number" id="form32" class="form-control validate"
+                                placeholder={{.Params.ModalOrder.modalPlaceholderTelefon}}>
+                            <label data-error="wrong" data-success="right" for="form32"></label>
+                        </div>
+
+                        <div class="form-group mb-0">
+                            <textarea name="message" type="text" id="form8" class="form-control" rows="4"
+                                placeholder={{.Params.ModalContact.modaltext}}></textarea>
+                            <label data-error="wrong" data-success="right" for="form8"></label>
+                        </div>
+                    </div>
+                    <p class="kontakt-note mx-5">{{.Params.ModalOrder.modalDatenschutz}}</p>
+                    <div class="modal-footer-bestellung d-flex justify-content-center mb-4">
+                        <button class="btn btn-danger lp-button" id="kontaktFormButton"
+                            onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden-LO', 'event_label': 'Senden','value': 'value'});"
+                            type="submit">{{.Params.Button.Senden}}</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+ <!-- Modal Vergleich -->
+
+    <div class="modal fade" id="ModalVergleich" tabindex="-1" role="dialog" aria-labelledby="ModalVergleichLabel"
+    aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 1200px;" role="document">
+            <div class="modal-content pl-3 pr-3 pb-3 rounded-0">
+                <div class="modal-header comparison-border-top">
+                    <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" style="margin-top: 10px;" alt="logo">
+                    <p style="margin-top: 16px; margin-right: 20px;">{{.Params.ModalVergleich.Ja}}</p>
+                    <img src="/images/product/doxicrate/ic_done_yellow_24px.svg" height="30" width="30" style="margin-top: 10px;" alt="logo">
+                    <p style="margin-top: 16px; margin-right: 20px;">{{.Params.ModalVergleich.Bedingt}}</p>
+                    <img src="/images/product/doxicrate/clear_24px.svg" height="30" width="30" style="margin-top: 10px;" alt="logo">
+                    <p style="margin-top: 16px;">{{.Params.ModalVergleich.Nein}}</p>
+                    <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body comparison">
+
+                    <div class="comparison">
+
+                        <table class="span12">
+                            <thead class="compare-row-header">
+                                <tr>
+                                    <th class="price-info text-left pl-4 compare-heading-top"
+                                        style="width: 60%; background: #F5F7F8;">
+                                        <h3 class="compare-heading-titel">&nbsp;</h3>
+                                    </th>
+                                    <th class="price-info price-info-col" style="width: 50%; background: #F5F7F8;">
+                                        <div class="price-now">
+                                            <img class="pt-2" src="/images/product/doxicrate/CIB doXibox_Stativ.svg" width="150"
+                                                height="150">
+                                            <p class="compare-heading compare-heading-pb">CIB doXibox</p>
+                                            <span class="price card-pricing">
+                                                <big class="compare-price">19,00</big>
+                                                <small class="compare-price">{{.Params.ModalVergleich.MwSt}}</small>
+                                            </span>
+                                        </div>
+                                    </th>
+                                    <th class="price-info price-info-col" style="width: 51%; background: #F5F7F8;">
+                                        <div class="price-now">
+                                            <img class="pt-2" src="/images/product/doxicrate/CIB doXicrate_Stativ.svg" width="150"
+                                                height="150">
+                                            <p class="compare-heading compare-heading-pb">
+                                                CIB doXicrate
+                                            </p>
+                                            <span class="price card-pricing">
+                                                <big class="compare-price">9,00</big>
+                                                <small class="compare-price">{{.Params.ModalVergleich.MwSt}}</small>
+                                            </span>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td colspan="4" valign="top">{{.Params.ModalVergleich.Text1}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pl-4" valign="top">{{.Params.ModalVergleich.Text1}}</td>
+                                    <td>
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+
+                                    </td>
+                                    <td>
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class="pt-0"
+                                            alt="logo">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text2}}</td>
+                                </tr>
+                                <tr class="compare-row">
+                                    <td class="pl-4" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text2}}</td>
+                                    <td style="background: #F5F7F8;">
+                                        <img src="/images/product/doxicrate/ic_done_yellow_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                    <td style="background: #F5F7F8;">
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4">{{.Params.ModalVergleich.Text3}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pl-4">{{.Params.ModalVergleich.Text3}}</td>
+                                    <td>
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                    <td>
+                                        <img src="/images/product/doxicrate/clear_24px.svg" height="30" width="30" class="" alt="logo">
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text4}}</td>
+                                </tr>
+                                <tr class="compare-row">
+                                    <td class="pl-4" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text4}}</td>
+                                    <td style="background: #F5F7F8;">
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                    <td style="background: #F5F7F8;">
+                                        <img src="/images/product/doxicrate/ic_done_yellow_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4">{{.Params.ModalVergleich.Text5}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pl-4">{{.Params.ModalVergleich.Text5}}</td>
+                                    <td>
+                                        <img src="/images/product/doxicrate/clear_24px.svg" height="30" width="30" class="" alt="logo">
+                                    </td>
+                                    <td>
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text6}}</td>
+                                </tr>
+                                <tr class="compare-row">
+                                    <td class="pl-4" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text6}}</td>
+                                    <td style="background: #F5F7F8;">
+                                        <img src="/images/product/doxicrate/ic_done_green_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                    <td style="background: #F5F7F8;">
+                                        <img src="/images/product/doxicrate/ic_done_yellow_24px.svg" height="30" width="30" class=""
+                                            alt="logo">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4">{{.Params.ModalVergleich.Text7}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="pl-4">{{.Params.ModalVergleich.Text7}}</td>
+                                    <td>
+                                        <p class="mb-0">{{.Params.ModalVergleich.Gewicht1}}</p>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">{{.Params.ModalVergleich.Gewicht2}}</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colspan="4" valign="top" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text8}}</td>
+                                </tr>
+                                <tr class="compare-row">
+                                    <td class="pl-4" valign="top" style="background: #F5F7F8;">{{.Params.ModalVergleich.Text8}}</td>
+                                    <td style="background: #F5F7F8;">
+                                        <p class="mb-0">{{.Params.ModalVergleich.TableText1|safeHTML}}
+                                        </p>
+                                    </td>
+                                    <td style="background: #F5F7F8;">
+                                        <p class="mb-0">{{.Params.ModalVergleich.TableText2|safeHTML}}
+
+                                        </p>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- Modal Kontaktformular erfolgreich-->
+
+    <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h1 class="modal-title w-100">
+                        <span>{{.Params.Kontakt.modalAnfragen}}</span>
+                    </h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3 text-center">
+
+                    <div class="form-group mb-0">
+                        {{.Params.Kontakt.modalAnfragenText}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal Kontaktformular -->
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+    <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+        aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h1 class="modal-title w-100">
+                        <span>{{.Params.Kontakt.modalAnfragenNichtErfolgreich}}</span>
+                    </h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3 text-center">
+
+                    <div class="form-group mb-0">
+                        {{.Params.Kontakt.modalAnfragenTextNichtErfolgreich}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{ end }}
