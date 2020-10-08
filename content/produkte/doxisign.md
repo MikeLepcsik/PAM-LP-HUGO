@@ -1,6 +1,6 @@
 {
-    "layout": "doxisign",
-	"translationKey": "doxisign",
+    "layout": "produkte/doxisign",
+	"translationKey": "produkte/doxisign",
     "headTiteldoxisign": "CIB doXisign: Dokumente digital unterschreiben - medienbruchfrei und ohne Installation",
 	"header": {
         "Titel": "Schnell und einfach Dokumente digital unterschreiben!",

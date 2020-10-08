@@ -1,21 +1,19 @@
 {
-	"layout": "karriere",
-
-    "header": {
-        "Titel": "BIENVENIDO AL EQUIPO",
-        "Button": "bolsa de trabajo"
-    },
-
-    "Views": {
-		"Titel": "CIB fairBrieft: una solución ecológica",
-		"UpdatesTitle": "Correspondencia híbrida",
-		"UpdatesText": "El destinatario recibe su carta en formato PDF por correo electrónico y puede optar seguidamente a obtenerla en papel, en cuyo caso se le envía por correo postal ordinario.",
-		"AdsTitle": "Cartas en serie con toda comodidad",
-		"AdsText": "CIB fairBrieft ahorra tiempo también en campañas de cartas en serie a partir de un proceso que gestiona de manera eficiente el envío de cartas seriales.",
-		"SupportTitle": "Impresión local",
-		"SupportText": "Los envíos internacionales se imprimen en un centro de impresión cercano al destinatario."
+	"layout": "produkte/fluXkomprimator",
+	"translationKey": "produkte/fluXkomprimator",
+	"Slider": {
+        "Title": "CIB fluXkomprimator am Beispiel",
+        "Subtitle": "PDF-Dokumente schnell versenden",
+        "Header": "Sie verarbeiten täglich eine Unzahl an Unterlagen und versenden diese dann an Ihre Kunden?",
+        "Text": "CIB fluXkomprimator komprimiert die Dateigröße von Dokumenten deutlich - ohne sichtbaren Qualitätsverlust und in der Regel auf weit unter 100 KB pro Seite."
 	},
 
+    "header": {
+        "Titel": "PDF komprimieren: Mit CIB fluXkomprimator deutlich an Speicherplatz sparen!",
+        "Text": "Große PDF-Dateien mit <i>fluXi</i> nahezu verlustfrei komprimieren,  IT-Ressourcen frei machen und blitzschnell versenden.",
+
+        "Fragen": "You ask, we answer:"
+    },
     "Forms": {
         "FirstName": "Vorname*",
         "LastName": "Nachname*",

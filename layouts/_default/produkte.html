@@ -1,0 +1,36 @@
+{{ define "base" }}
+<head>
+    <title>{{.Params.head}}</title>
+
+    <!-- Required meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description"
+        content="CIB doXibox & doXicrate sind tragbare Scannerboxen aus Karton. Zusammen mit CIB doXisafe das perfekte Team zum Dokumenten einscannen, archivieren und teilen!">
+    <meta name="keywords"
+        content="Dokumentenscanner, Scannerbox, Scanbox, mit dem Handy scannen, Scanner fürs Handy, Dokumente mit dem Handy einscannen">
+</head>
+
+<!-- Header -->
+
+    <header class="header-text-top">
+        <div class="container">
+            <div class="shape-top"></div>
+            <div class="shape-left"></div>
+            <div class="row">
+                <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                    <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-3">
+                    <img src="/images/product/doxicrate/HG_CIBdoXibox_crate.svg" class="img-fluid" height="420">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+{{ end }}

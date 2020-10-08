@@ -1,6 +1,6 @@
 {
-    "layout": "deeper",
-	"translationKey": "deeper",
+    "layout": "produkte/deeper",
+	"translationKey": "produkte/deeper",
 
     "headTitel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz",
     "header": {

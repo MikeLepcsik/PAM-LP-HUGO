@@ -1,6 +1,6 @@
 {
-    "layout": "pdfbrewer",
-	"translationKey": "pdfbrewer",
+    "layout": "produkte/pdfbrewer",
+	"translationKey": "produkte/pdfbrewer",
     "headTitelLibreOffice": "LibreOffice powered by CIB",
 	"header": {
 		"Titel": "CIB pdf brewer ist die All-In-One-Lösung für Ihre professionelle PDF-Bearbeitung.",

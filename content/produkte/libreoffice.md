@@ -1,6 +1,6 @@
 {
-    "layout": "libreoffice",
-	"translationKey": "libreoffice",
+    "layout": "produkte/libreoffice",
+	"translationKey": "produkte/libreoffice",
     "headTitelLibreOffice": "LibreOffice powered by CIB",
     "header": {
         "Titel": "LibreOffice professionell und sicher nutzen!",

@@ -219,7 +219,7 @@
             <li class="nav-item dropdown has-megamenu hr">
                 <a class="nav-link pb-0" data-toggle="dropdown"
                     onClick="gtag('event', 'action', {'event_category': 'Produkte-menu', 'event_label': 'Produkte','value': 'value'});"
-                    href="index.html#Produkte">{{T "menu_Products"}}
+                    href='{{"products"|relLangURL}}'>{{T "menu_Products"}}
                 </a>
                 <div class="dropdown-menu megamenu-dropdown-menu megamenu" role="menu">
                     <p class="megamenu-title">
@@ -245,7 +245,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"pdfbrewer"|relLangURL}}'>
+                                        <a href='{{"produkte/pdfbrewer"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_pdf_brewer.svg" height="30"></p>
@@ -256,7 +256,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"fluxi"|relLangURL}}'>
+                                        <a href='{{"produkte/fluXkomprimator"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_fluXkomprimator.svg" height="30"></p>
@@ -267,7 +267,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"fairbrieft"|relLangURL}}'>
+                                        <a href='{{"produkte/fairbrieft"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_fairBrieft.svg" height="30"></p>
@@ -296,7 +296,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"doxigate"|relLangURL}}'>
+                                        <a href='{{"produkte/doxigate"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_doXigate.svg" height="30"></p>
@@ -318,7 +318,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"doxisign"|relLangURL}}'>
+                                        <a href='{{"produkte/doxisign"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_doXisign.svg" height="30"></p>
@@ -337,7 +337,7 @@
                                 <ul class="list-unstyled">
 
                                     <li class="megamenu-field">
-                                        <a href='{{"kanzleiapp"|relLangURL}}'>
+                                        <a href='{{"produkte/kanzleiapp"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_kanzlei_app.svg" height="30"></p>
@@ -348,7 +348,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"deeper"|relLangURL}}'>
+                                        <a href='{{"produkte/deeper"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_deepER.svg" height="30"></p>
@@ -359,7 +359,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"doxicrate"|relLangURL}}'>
+                                        <a href='{{"/produkte/doxicrate"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_doXicrate.svg" height="30"></p>
@@ -370,7 +370,7 @@
                                     </li>
 
                                     <li class="megamenu-field">
-                                        <a href='{{"libreoffice"|relLangURL}}'>
+                                        <a href='{{"produkte/libreoffice"|relLangURL}}'>
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
                                                     <img src="/images/product/CIB_LibreOffice-Logo.svg" height="30">
@@ -876,12 +876,65 @@
             </li>
         </ul>
     </div>
+
+    <!-- Menu breadcrumb -->
+    <div class="container-fluid">
+        <div class="float-left btn-group btn-breadcrumb breadcrumb-default" id="siteBreadcrumb">
+            <a href="index.html"><span class="material-icons"
+                    style="font-size: 20px; vertical-align: middle;">home</span>
+            </a>
+            <a href="#" class="nav-link pt-0 ">
+                <ol class="breadcrumb"></ol>
+            </a>
+        </div>
+        <!-- Menu search -->
+        <div class="float-right">
+
+            <form class="navbar-form navbar-right" role="search">
+                <!-- Define a button to toggle the search area -->
+                <a id='search-button' style="line-height: 3.5;"><span class="material-icons"
+                        style="font-size: 22px; vertical-align: -webkit-baseline-middle;">search</span></a>
+                <!-- Create your entire search form -->
+                <div id='search-form' class="form-group">
+                    <div class="input-group">
+                        <span id='search-icon' class="input-group-addon"><span class="material-icons"
+                                style="font-size: 22px; vertical-align: -webkit-baseline-middle;">search</span></span></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        // When your page loads
+        $(function () {
+            // When the toggle areas in your navbar are clicked, toggle them
+            $("#search-button, #search-icon").click(function (e) {
+                e.preventDefault();
+                $("#search-button, #search-form").toggle();
+            });
+        })
+
+        //Breadcrumbs based on URL location
+        if ($('#siteBreadcrumb ol.breadcrumb')) {
+            var here = location.href.replace(/(\?.*)$/, '').split('/').slice(3);
+
+            var parts = [{
+                "text": 'Home',
+                "link": '/'
+            }];
+
+            for (var j = 0; j < here.length; j++) {
+                var part = here[j];
+                var pageName = part.toLowerCase();
+                pageName = part.charAt(0).toUpperCase() + part.slice(1);
+                var link = '/' + here.slice(0, j + 1).join('/');
+                $('#siteBreadcrumb ol.breadcrumb').append(' &nbsp; / &nbsp;<li><a href="' + link + '">' + pageName.replace(/\.(htm[l]?|asp[x]?|php|jsp)$/, '') + '</a></li>');
+                parts.push({
+                    "text": pageName,
+                    "link": link
+                });
+            }
+        }
+    </script>
 </nav>
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Library</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Data</li>
-    </ol>
-  </nav>
-  

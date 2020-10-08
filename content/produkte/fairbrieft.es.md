@@ -1,6 +1,6 @@
 {
-	"layout": "fairbrieft",
-	"translationKey": "fairbrieft",
+	"layout": "produkte/fairbrieft",
+	"translationKey": "produkte/fairbrieft",
 	"header": {
 		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",
