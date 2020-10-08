@@ -1,4 +1,5 @@
 {{ define "base" }}
+
 <head>
     <title>CIB pdf brewer: kostenlos PDFs erstellen, bearbeiten und vieles mehr</title>
     <!-- Required meta tags -->
@@ -20,7 +21,7 @@
         <div class="shape-top"></div>
         <div class="shape-left"></div>
         <div class="row">
-            <div class="col-lg-5 header-padding-button mt-5 order-3 order-lg-1">
+            <div class="col-lg-5 header-padding-button order-3 order-lg-1">
                 <!-- <h3 class="header-text-top">CIB pdf brewer
                 </h3> -->
                 <h1>{{.Params.header.Titel}}</h1>
@@ -31,9 +32,11 @@
                         href="#Versionen">{{.Params.Download.Download}}</a>
                 </div>
             </div>
-            <div class="col-lg-7 px-5 mt-5 order-1 order-lg-3" style="text-align: right; padding-top: 50px;"
-                id="lottie">
-            </div>
+            <span class="col-lg-7 px-5 order-1 order-lg-3" style="padding-top: 50px; text-align: -webkit-right;">
+                <div style="width: 80%; height: 80%;"
+                    id="lottie"> 
+                </div>
+            </span>
         </div>
     </div>
 </header>
@@ -64,7 +67,8 @@
             <div class="col-12 col-lg-4 pt-0">
                 <div class="card-body">
                     <span class="feature-icon">
-                        <img src="/images/product/pdfbrewer/werbefrei.svg" height="220" width="220" class="img-fluid pb-5">
+                        <img src="/images/product/pdfbrewer/werbefrei.svg" height="220" width="220"
+                            class="img-fluid pb-5">
                     </span>
                     <div class="media">
                         <div class="media-body section-center">
@@ -78,7 +82,8 @@
             <div class="col-12 col-lg-4 pb-5">
                 <div class="card-body">
                     <span class="feature-icon">
-                        <img src="/images/product/pdfbrewer/support.svg" height="220" width="220" class="img-fluid pb-5">
+                        <img src="/images/product/pdfbrewer/support.svg" height="220" width="220"
+                            class="img-fluid pb-5">
                     </span>
                     <div class="media">
                         <div class="media-body section-center">
@@ -292,8 +297,7 @@
                 <div class="card pricing rounded-0 h-100" style="max-width: 600px;">
                     <div class="card-head">
                         <div class="sale-box sale-box-basis rounded-0">
-                            <span
-                                class="on_sale1 title_shop sale-box-span-1400">{{.Params.Versions.OnSale}}
+                            <span class="on_sale1 title_shop sale-box-span-1400">{{.Params.Versions.OnSale}}
                             </span>
                         </div>
                         <span class="card-pricing-titel font-weight-bold call-to-action-subtext">CIB
@@ -338,8 +342,7 @@
             <div class="col-lg d-flex justify-content-center mb-4">
                 <div class="card pricing rounded-0 h-100" style="max-width: 600px;">
                     <div class="card-head pb-0">
-                        <div
-                            class="card-pricing-titel font-weight-bold compare-price-text call-to-action-subtext">
+                        <div class="card-pricing-titel font-weight-bold compare-price-text call-to-action-subtext">
                             CIB
                             pdf brewer
                             <span
@@ -349,9 +352,8 @@
                         </div>
                         <div class="header-text price-subtext-1400">{{.Params.Versions.BusinessSubtitle}}
                         </div>
-                        <div class="row pb-4 d-flex justify-content-center "><a role="button"
-                                target="_blank" href="#Bestellen" data-toggle="modal"
-                                data-target="#modalContactForm"
+                        <div class="row pb-4 d-flex justify-content-center "><a role="button" target="_blank"
+                                href="#Bestellen" data-toggle="modal" data-target="#modalContactForm"
                                 onclick="gtag('event', 'action', {'event_category': 'Kaufen-Price', 'event_label': 'Kaufen-doXicrate','value': 'value'});"
                                 aria-pressed="true" class="btn btn-CTA2">{{.Params.Button.Bestellen}}</a></div>
                         <div class="row d-flex justify-content-center ">
@@ -415,8 +417,8 @@
 
         <div class="row d-flex justify-content-center my-5">
             <div class="col-4 d-flex justify-content-md-end mt-5">
-                <div class="justify-content-md-end"><img src="/images/product/pdfbrewer/we-love-npos.svg" style="width: 325px;"
-                        class="img-fluid">
+                <div class="justify-content-md-end"><img src="/images/product/pdfbrewer/we-love-npos.svg"
+                        style="width: 325px;" class="img-fluid">
                 </div>
             </div>
             <div class="col- d-flex justify-content-center my-5 mx-5">
@@ -545,7 +547,7 @@
                         </p>
                         <h4 class="card-title">{{.Params.Slider.EInvoicesTitle}}
                         </h4>
-                        <p class="card-text" >{{.Params.Slider.EInvoicesText}}
+                        <p class="card-text">{{.Params.Slider.EInvoicesText}}
                         </p>
                     </div>
                 </div>
@@ -603,14 +605,14 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev none" href="#carouselExampleIndicators" role="button"
-            data-slide="prev">
-            <img class="" src="/images/product/pdfbrewer/left-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+        <a class="carousel-control-prev none" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <img class="" src="/images/product/pdfbrewer/left-arrow.svg" height="20" width="20"
+                aria-hidden="true"></img>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next none" href="#carouselExampleIndicators" role="button"
-            data-slide="next">
-            <img class="" src="/images/product/pdfbrewer/right-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+        <a class="carousel-control-next none" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <img class="" src="/images/product/pdfbrewer/right-arrow.svg" height="20" width="20"
+                aria-hidden="true"></img>
             <span class="sr-only">Next</span>
         </a>
     </div>
@@ -628,16 +630,16 @@
                 <div class="card-body text-center">
 
                     <div class="accordion" id="accordion">
-                        <div class="card-header" type="button" data-toggle="collapse"
-                            data-target="#collapse1" aria-expanded="true" aria-controls="collapse1"
+                        <div class="card-header" type="button" data-toggle="collapse" data-target="#collapse1"
+                            aria-expanded="true" aria-controls="collapse1"
                             onClick="gtag('event', 'action', {'event_category': 'Step1-accordion', 'event_label': 'So-gehts','value': 'value'});"
                             id="heading1">
                             <table>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="btnb glyphicon glyphicon-minus collapsed"
-                                                data-toggle="collapse" data-target="#collapse1"></div>
+                                            <div class="btnb glyphicon glyphicon-minus collapsed" data-toggle="collapse"
+                                                data-target="#collapse1"></div>
                                         </td>
                                         <td>
                                             <div class="link-text-accordion text-left">
@@ -668,16 +670,16 @@
             <div class="col-12 col-lg-4 pb-5">
                 <div class="card-body text-center">
                     <div class="accordion" id="accordion">
-                        <div class="card-header" type="button" data-toggle="collapse"
-                            data-target="#collapse2" aria-expanded="true" aria-controls="collapse2"
+                        <div class="card-header" type="button" data-toggle="collapse" data-target="#collapse2"
+                            aria-expanded="true" aria-controls="collapse2"
                             onClick="gtag('event', 'action', {'event_category': 'Step2-accordion', 'event_label': 'So-gehts','value': 'value'});"
                             id="heading2">
                             <table>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="btnb glyphicon glyphicon-minus collapsed"
-                                                data-toggle="collapse" data-target="#collapse2"></div>
+                                            <div class="btnb glyphicon glyphicon-minus collapsed" data-toggle="collapse"
+                                                data-target="#collapse2"></div>
                                         </td>
                                         <td>
                                             <div class="link-text-accordion text-left">
@@ -705,16 +707,16 @@
             <div class="col-12 col-lg-4 pb-5">
                 <div class="card-body text-center">
                     <div class="accordion" id="accordion">
-                        <div class="card-header" type="button" data-toggle="collapse"
-                            data-target="#collapse3" aria-expanded="true" aria-controls="collapse3"
+                        <div class="card-header" type="button" data-toggle="collapse" data-target="#collapse3"
+                            aria-expanded="true" aria-controls="collapse3"
                             onClick="gtag('event', 'action', {'event_category': 'Step3-accordion', 'event_label': 'So-gehts','value': 'value'});"
                             id="heading3">
                             <table>
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="btnb glyphicon glyphicon-minus collapsed"
-                                                data-toggle="collapse" data-target="#collapse3"></div>
+                                            <div class="btnb glyphicon glyphicon-minus collapsed" data-toggle="collapse"
+                                                data-target="#collapse3"></div>
                                         </td>
                                         <td>
                                             <div class="link-text-accordion text-left">
@@ -1585,14 +1587,14 @@
             </div>
 
         </div>
-        <a class="carousel-control-prev none" href="#carouselExampleIndicators2" role="button"
-            data-slide="prev">
-            <img class="" src="/images/product/pdfbrewer/left-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+        <a class="carousel-control-prev none" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <img class="" src="/images/product/pdfbrewer/left-arrow.svg" height="20" width="20"
+                aria-hidden="true"></img>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next none" href="#carouselExampleIndicators2" role="button"
-            data-slide="next">
-            <img class="" src="/images/product/pdfbrewer/right-arrow.svg" height="20" width="20" aria-hidden="true"></img>
+        <a class="carousel-control-next none" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <img class="" src="/images/product/pdfbrewer/right-arrow.svg" height="20" width="20"
+                aria-hidden="true"></img>
             <span class="sr-only">Next</span>
         </a>
     </div>
@@ -1624,7 +1626,8 @@
             <div class="col-12 col-lg-3  pt-0 pb-0">
                 <div class="card-body">
                     <span class="feature-icon justify-content-center">
-                        <img src="/images/product/pdfbrewer/muenchenerverein-logo.svg" height="200" width="200" class="">
+                        <img src="/images/product/pdfbrewer/muenchenerverein-logo.svg" height="200" width="200"
+                            class="">
                     </span>
                 </div>
             </div>
@@ -1666,8 +1669,7 @@
 
         <a href="#Bestellen" data-toggle="modal"
             onClick="gtag('event', 'action', {'event_category': 'Beratung-CTA', 'event_label': 'Beratung','value': 'value'});"
-            data-target="#modalAnfrageForm"
-            style="margin-top: 10px;"
+            data-target="#modalAnfrageForm" style="margin-top: 10px;"
             class="btn btn-CTA2-gray ml-2 mobile-margin">{{.Params.ProductConsultation}}</a>
     </div>
 
@@ -1678,51 +1680,51 @@
 <!-- Modal Kontaktformular erfolgreich-->
 
 <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
-aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-    <div class="modal-content">
-        <div class="modal-header text-center">
-            <h2 class="modal-title w-100">
-                <span>{{.Params.Kontakt.modalAnfragen}}</span>
-            </h2>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Kontakt.modalAnfragen}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-        <div class="modal-body mx-3 text-center">
+            <div class="modal-body mx-3 text-center">
 
-            <div class="form-group mb-0">
-                {{.Params.Kontakt.modalAnfragenText}}
+                <div class="form-group mb-0">
+                    {{.Params.Kontakt.modalAnfragenText}}
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <!-- Modal Kontaktformular nicht erfolgreich-->
 
 <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
-aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-    <div class="modal-content">
-        <div class="modal-header text-center">
-            <h2 class="modal-title w-100">
-                <span>{{.Params.Kontakt.modalAnfragenNichtErfolgreich}}</span>
-            </h2>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
+    aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Kontakt.modalAnfragenNichtErfolgreich}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-        <div class="modal-body mx-3 text-center">
+            <div class="modal-body mx-3 text-center">
 
-            <div class="form-group mb-0">
-                {{.Params.Kontakt.modalAnfragenTextNichtErfolgreich}}
+                <div class="form-group mb-0">
+                    {{.Params.Kontakt.modalAnfragenTextNichtErfolgreich}}
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <!-- Modals -->
@@ -1730,1017 +1732,1010 @@ aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
 <!-- Modal Kontaktformular erfolgreich-->
 
 <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
-aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">
-            <span>{{.Params.Forms.Thanks}}</span>
-        </h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+    aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Forms.Thanks}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-    <div class="modal-body mx-3 text-center py-5">
+            <div class="modal-body mx-3 text-center py-5">
 
-        <div class="form-group mb-0 text-center">
-            <span>{{.Params.Forms.ThanksText}}
-            </span>
+                <div class="form-group mb-0 text-center">
+                    <span>{{.Params.Forms.ThanksText}}
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Kontaktformular nicht erfolgreich-->
 
 <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
-aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">
-            <span>{{.Params.Forms.Thanks}}</span>
-        </h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+    aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">
+                    <span>{{.Params.Forms.Thanks}}</span>
+                </h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-    <div class="modal-body mx-3 text-center">
+            <div class="modal-body mx-3 text-center">
 
-        <div class="form-group mb-0">
-            <span>{{.Params.Forms.Failure}}</span>
+                <div class="form-group mb-0">
+                    <span>{{.Params.Forms.Failure}}</span>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Schnellvergleich Beginn -->
 
-<div class="modal fade bottom" id="Schnellvergleich" tabindex="-1" role="dialog"
-aria-labelledby="SchnellvergleichLabel" aria-hidden="true">
+<div class="modal fade bottom" id="Schnellvergleich" tabindex="-1" role="dialog" aria-labelledby="SchnellvergleichLabel"
+    aria-hidden="true">
 
-<div class="modal-dialog modal-dialog-tab" role="document">
-<div class="modal-content pl-3 pr-3 pb-3 rounded-0">
-    <!--<div class="modal-header comparison-border-top">-->
-    <div class="modal-header text-center">
-        <!--<h2 class="mobile-font-titel">CIB pdf brewer Business</h2>-->
-        <h2 class="modal-title w-100">CIB pdf brewer Business</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body comparison">
+    <div class="modal-dialog modal-dialog-tab" role="document">
+        <div class="modal-content pl-3 pr-3 pb-3 rounded-0">
+            <!--<div class="modal-header comparison-border-top">-->
+            <div class="modal-header text-center">
+                <!--<h2 class="mobile-font-titel">CIB pdf brewer Business</h2>-->
+                <h2 class="modal-title w-100">CIB pdf brewer Business</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body comparison">
 
-        <div class="comparison">
-            <table class="span12">
-                <thead class="compare-row-header text-left" style="background-color: #f5f7f8;">
-                    <tr>
-                        <th class="" style="width: 0px">
-                            <span class="">&nbsp;</span>
-                        </th>
-                        <th class="price-info compare-heading-top" style="width: 60%">
+                <div class="comparison">
+                    <table class="span12">
+                        <thead class="compare-row-header text-left" style="background-color: #f5f7f8;">
+                            <tr>
+                                <th class="" style="width: 0px">
+                                    <span class="">&nbsp;</span>
+                                </th>
+                                <th class="price-info compare-heading-top" style="width: 60%">
 
-                            <span
-                                class="header-text compare-heading-subtitel">{{.Params.Prices.LicensesNumber}}</span>
-                        </th>
-                        <th class="price-info compare-heading-top" style="width: 60%">
-                            <span
-                                class="header-text compare-heading-subtitel">{{.Params.Prices.LicensePrice}}</span>
-                        </th>
-                    </tr>
+                                    <span
+                                        class="header-text compare-heading-subtitel">{{.Params.Prices.LicensesNumber}}</span>
+                                </th>
+                                <th class="price-info compare-heading-top" style="width: 60%">
+                                    <span
+                                        class="header-text compare-heading-subtitel">{{.Params.Prices.LicensePrice}}</span>
+                                </th>
+                            </tr>
 
-                </thead>
-                <tbody class="text-left">
-                    <tr>
-                        <td>&nbsp;</td>
+                        </thead>
+                        <tbody class="text-left">
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">1 – 24</span>
-                        </td>
-                        <td>
-                            <span class="">13,20 EUR</span>
-                        </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">1 – 24</span>
+                                </td>
+                                <td>
+                                    <span class="">13,20 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr class="compare-row">
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">25 – 49</span>
-                        </td>
-                        <td>
-                            <span class="">12,00 EUR</span>
-                        </td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">25 – 49</span>
+                                </td>
+                                <td>
+                                    <span class="">12,00 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">50 – 99</span>
-                        </td>
-                        <td>
-                            <span class="">11,40 EUR</span>
-                        </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">50 – 99</span>
+                                </td>
+                                <td>
+                                    <span class="">11,40 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr class="compare-row">
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">100 – 249</span>
-                        </td>
-                        <td>
-                            <span class="">10,80 EUR</span>
-                        </td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">100 – 249</span>
+                                </td>
+                                <td>
+                                    <span class="">10,80 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">250 – 499</span>
-                        </td>
-                        <td>
-                            <span class="">10,20 EUR</span>
-                        </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">250 – 499</span>
+                                </td>
+                                <td>
+                                    <span class="">10,20 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr class="compare-row">
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">500 – 999</span>
-                        </td>
-                        <td>
-                            <span class="">9,60 EUR</span>
-                        </td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">500 – 999</span>
+                                </td>
+                                <td>
+                                    <span class="">9,60 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">1000 – 1999</span>
-                        </td>
-                        <td>
-                            <span class="">9,00 EUR</span>
-                        </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">1000 – 1999</span>
+                                </td>
+                                <td>
+                                    <span class="">9,00 EUR</span>
+                                </td>
 
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
 
-                    </tr>
-                    <tr class="compare-row">
-                        <td>&nbsp;</td>
-                        <td>
-                            <span class="">2000 – 2500</span>
-                        </td>
-                        <td>
-                            <span class="">7,80 EUR</span>
-                        </td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td>&nbsp;</td>
+                                <td>
+                                    <span class="">2000 – 2500</span>
+                                </td>
+                                <td>
+                                    <span class="">7,80 EUR</span>
+                                </td>
 
-                    </tr>
-                </tbody>
-            </table>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Schnellvergleich End-->
 
 <!-- Modal Download -->
 
-<div class="modal fade" id="Download" tabindex="-1" role="dialog" aria-labelledby="DownloadLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">CIB pdf brewer</h2>
-        <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-            aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body comparison">
+<div class="modal fade" id="Download" tabindex="-1" role="dialog" aria-labelledby="DownloadLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">CIB pdf brewer</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body comparison">
 
-        <div class="comparison">
+                <div class="comparison">
 
-            <div class="modal-body modal-boby-bestellung mx-3">
-                <div class="row justify-content-center">
-                    <p class="font-small card-text mx-3">{{.Params.Interest}}
-                    </p>
+                    <div class="modal-body modal-boby-bestellung mx-3">
+                        <div class="row justify-content-center">
+                            <p class="font-small card-text mx-3">{{.Params.Interest}}
+                            </p>
+                        </div>
+                        <form>
+                            <div class="form-group mb-0 mt-3 pb-4">
+                                <p class="card-text separator-top">{{.Params.Download.SO}}
+                                </p>
+                                <p class="font-small card-text">Version: <span id="Version"></span>
+                                </p>
+                                <p class="font-small card-text separator-bottom">{{.Params.Download.Size}}
+                                    <span id="DownloadSize"></span> MB
+                                </p>
+
+                            </div>
+                            <div class="modal-footer-bestellung d-flex justify-content-center">
+                                <a class="btn btn-CTA2 mb-2" title="Download" id="DownloadLink"
+                                    href="https://update.cib.de/pdfbrewer/download.php"
+                                    onClick="gtag('event', 'action', {'event_category': 'Download', 'event_label': 'Download-64bit','value': 'value'}); downloadButton();">{{.Params.Download.Download}}</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <form>
-                    <div class="form-group mb-0 mt-3 pb-4">
-                        <p class="card-text separator-top">{{.Params.Download.SO}}
-                        </p>
-                        <p class="font-small card-text">Version: <span id="Version"></span>
-                        </p>
-                        <p class="font-small card-text separator-bottom">{{.Params.Download.Size}}
-                            <span id="DownloadSize"></span> MB
-                        </p>
-
-                    </div>
-                    <div class="modal-footer-bestellung d-flex justify-content-center">
-                        <a class="btn btn-CTA2 mb-2" title="Download" id="DownloadLink"
-                            href="https://update.cib.de/pdfbrewer/download.php"
-                            onClick="gtag('event', 'action', {'event_category': 'Download', 'event_label': 'Download-64bit','value': 'value'}); downloadButton();">{{.Params.Download.Download}}</a>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 <!-- Modal Download -->
 <!-- Modal download Start -->
 
 <div class="modal fade" id="downloadStart" tabindex="-1" role="dialog" aria-labelledby="myCIBvorübergehendLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header comparison-border-top modal-titel-center" style="padding-bottom: 40px;">
-        <h2 class="modal-titel-position">CIB pdf brewer</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body comparison">
-
-        <div class="comparison">
-
-            <div class="modal-body modal-boby-bestellung mx-3">
-                <div class="row justify-content-center">
-                    <p class="font-small card-text mx-3">{{.Params.Interest}}
-                    </p>
-                </div>
-
-                <form>
-                    <div class="form-group mb-5 mt-3">
-                        <p class="card-text">
-                            {{.Params.Download.Text}}
-                        </p>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer close">
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header comparison-border-top modal-titel-center" style="padding-bottom: 40px;">
+                <h2 class="modal-titel-position">CIB pdf brewer</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+            <div class="modal-body comparison">
+
+                <div class="comparison">
+
+                    <div class="modal-body modal-boby-bestellung mx-3">
+                        <div class="row justify-content-center">
+                            <p class="font-small card-text mx-3">{{.Params.Interest}}
+                            </p>
+                        </div>
+
+                        <form>
+                            <div class="form-group mb-5 mt-3">
+                                <p class="card-text">
+                                    {{.Params.Download.Text}}
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer close">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Order -->
 
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-aria-hidden="true">
-<div class="mt-5" style="display:none;" id="loader"></div>
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
+    aria-hidden="true">
+    <div class="mt-5" style="display:none;" id="loader"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
 
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">{{.Params.Business.Title}}</h2>
-        <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-            aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-
-    <div class="modal-body modal-boby-bestellung mx-3 text-left">
-        <div class="row justify-content-center">
-            <p class="font-small card-text mx-3">
-                {{.Params.InterestSolution}}
-            </p>
-        </div>
-        <div class="row justify-content-center">
-            <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
-        </div>
-        <form name="bestellscheinForm" action=""
-            onsubmit="sendEmailOrder(); startInvoicing(); return false">
-            <div class="form-group mb-0 mt-3">
-                <h5>{{.Params.Business.LicensesNumber}}</h5>
-                <th>
-                    <input name="numberLicense" type="number" min="1" id="form29"
-                        class="form-control validate" placeholder="1" required
-                        id="InvalidNumberLicense">
-                    <label data-error="wrong" data-success="right" for="form29"></label>
-                </th>
-            </div>
-            <div class="form-group mb-0 mt-3">
-                <h5>{{.Params.Business.CompanyOrderTitle}}</h5>
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.Business.Title}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
 
+            <div class="modal-body modal-boby-bestellung mx-3 text-left">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">
+                        {{.Params.InterestSolution}}
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
+                </div>
+                <form name="bestellscheinForm" action="" onsubmit="sendEmailOrder(); startInvoicing(); return false">
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{.Params.Business.LicensesNumber}}</h5>
+                        <th>
+                            <input name="numberLicense" type="number" min="1" id="form29" class="form-control validate"
+                                placeholder="1" required id="InvalidNumberLicense">
+                            <label data-error="wrong" data-success="right" for="form29"></label>
+                        </th>
+                    </div>
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{.Params.Business.CompanyOrderTitle}}</h5>
+                    </div>
 
-            <ul class="list-group list-group-flush">
-                <table
-                    class="table list-group-item list-group-item-tab py-1 text-left">
-                    <tbody>
+
+                    <ul class="list-group list-group-flush">
+                        <table class="table list-group-item list-group-item-tab py-1 text-left">
+                            <tbody>
+                                <tr>
+
+                                    <th class="pl-0 pr-0">
+                                        <input name="firmenname" type="text" id="form29" class="form-control validate"
+                                            placeholder={{.Params.Business.NameLegalForm}}>
+                                        <label data-error="wrong" data-success="right" for="form29"></label>
+                                    </th>
+
+
+                                    <th>
+                                        <select name="rechtsform" class="form-control order-text" id="form29"
+                                            placeholder={{.Params.Business.Select}}>
+                                            <option value="" disabled selected>{{.Params.Business.Select}}
+                                            </option>
+                                            <option value=""></option>
+                                            <option value="e.K.">e.K.</option>
+                                            <option value="GmbH">GmbH</option>
+                                            <option value="gGmbH">gGmbH</option>
+                                            <option value="AG">AG</option>
+                                            <option value="VVaG">VVaG</option>
+                                            <option value="OHG">OHG</option>
+                                            <option value="eG">eG</option>
+                                            <option value="KG">KG</option>
+                                            <option value="Ltd.">Ltd.</option>
+                                            <option value="GesBR">GesBR</option>
+                                            <option value="OEG">OEG</option>
+                                            <option value="KEG">KEG</option>
+                                            <option value="KGaA">KGaA</option>
+                                            <option value="GmbH &amp; Co. KG">GmbH &amp; Co. KG</option>
+                                            <option value="GmbH &amp; Co. KGaA">GmbH &amp; Co. KGaA</option>
+                                            <option value="AG &amp; Co. KG">AG &amp; Co. KG</option>
+                                            <option value="AG &amp; Co. KGaA">AG &amp; Co. KGaA</option>
+                                        </select>
+                                    </th>
+
+                                </tr>
+                                <tr>
+
+                                    <th class="pl-0 pr-0">
+                                        <select name="ustid" class="form-control order-text" id="form29">
+                                            <option value="" disabled selected>{{.Params.Business.UStID}}
+                                            </option>
+                                            <option value="ATU">ATU</option>
+                                            <option value="BE">BE</option>
+                                            <option value="CY">CY</option>
+                                            <option value="CZ">CZ</option>
+                                            <option value="DK">DK</option>
+                                            <option value="DE">DE</option>
+                                            <option value="EE">EE</option>
+                                            <option value="EL">EL</option>
+                                            <option value="ES">ES</option>
+                                            <option value="FI">FI</option>
+                                            <option value="FR">FR</option>
+                                            <option value="GB">GB</option>
+                                            <option value="HU">HU</option>
+                                            <option value="IE">IE</option>
+                                            <option value="IT">IT</option>
+                                            <option value="LV">LV</option>
+                                            <option value="LT">LT</option>
+                                            <option value="LU">LU</option>
+                                            <option value="MT">MT</option>
+                                            <option value="NL">NL</option>
+                                            <option value="PL">PL</option>
+                                            <option value="PT">PT</option>
+                                            <option value="SE">SE</option>
+                                            <option value="SI">SI</option>
+                                            <option value="SK">SK</option>
+                                        </select>
+                                    </th>
+
+
+                                    <th>
+                                        <input name="ustidnr" type="text" id="form29" class="form-control validate"
+                                            placeholder="12345678">
+                                        <label data-error="wrong" data-success="right" for="form29"></label>
+                                    </th>
+
+                                </tr>
+                                <tr>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </ul>
+
+                    <div class="form-group">
+                        <th>
+                            <input name="vertreter" required="required" required type="text" id="form29"
+                                class="form-control validate" placeholder={{.Params.Business.LegalRepresentative}}>
+                            <label data-error="wrong" data-success="right" for="form29"></label>
+                        </th>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <h5>{{.Params.Business.PrivateAndContact}}</h5>
+                    </div>
+
+                    <div class="form-group mb-4">
                         <tr>
-
                             <th class="pl-0 pr-0">
-                                <input name="firmenname" type="text" id="form29"
-                                    class="form-control validate"
-                                    placeholder={{.Params.Business.NameLegalForm}}>
-                                <label data-error="wrong" data-success="right" for="form29"></label>
-                            </th>
-
-
-                            <th>
-                                <select name="rechtsform" class="form-control order-text" id="form29"
-                                    placeholder={{.Params.Business.Select}}>
-                                    <option value="" disabled selected>{{.Params.Business.Select}}
-                                    </option>
-                                    <option value=""></option>
-                                    <option value="e.K.">e.K.</option>
-                                    <option value="GmbH">GmbH</option>
-                                    <option value="gGmbH">gGmbH</option>
-                                    <option value="AG">AG</option>
-                                    <option value="VVaG">VVaG</option>
-                                    <option value="OHG">OHG</option>
-                                    <option value="eG">eG</option>
-                                    <option value="KG">KG</option>
-                                    <option value="Ltd.">Ltd.</option>
-                                    <option value="GesBR">GesBR</option>
-                                    <option value="OEG">OEG</option>
-                                    <option value="KEG">KEG</option>
-                                    <option value="KGaA">KGaA</option>
-                                    <option value="GmbH &amp; Co. KG">GmbH &amp; Co. KG</option>
-                                    <option value="GmbH &amp; Co. KGaA">GmbH &amp; Co. KGaA</option>
-                                    <option value="AG &amp; Co. KG">AG &amp; Co. KG</option>
-                                    <option value="AG &amp; Co. KGaA">AG &amp; Co. KGaA</option>
+                                <select name="anrede" class="form-control order-text" id="form29">
+                                    <option value="Herr">{{.Params.Business.FormofAddressMale}}</option>
+                                    <option value="Frau">{{.Params.Business.FormofAddressFemale}}</option>
                                 </select>
                             </th>
-
                         </tr>
-                        <tr>
+                    </div>
 
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" required type="text" id="form29"
+                            class="form-control validate" placeholder={{.Params.Forms.FirstName}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29" class="form-control validate"
+                            placeholder={{.Params.Forms.LastName}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="strasse" type="text" id="form29" class="form-control validate"
+                            placeholder={{.Params.Business.StreetReq}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input pattern="[0-9]{5}$" maxlength="5" title={{.Params.Forms.PostalCodeMessage}} value=""
+                            name="postleitzahl" type="number" required="required" required id="form29"
+                            class="form-control validate" placeholder={{.Params.Business.PostalCode}}
+                            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="ort" type="text" id="form29" class="form-control validate"
+                            placeholder={{.Params.Business.CityReq}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <tr>
                             <th class="pl-0 pr-0">
-                                <select name="ustid" class="form-control order-text" id="form29">
-                                    <option value="" disabled selected>{{.Params.Business.UStID}}
-                                    </option>
-                                    <option value="ATU">ATU</option>
-                                    <option value="BE">BE</option>
-                                    <option value="CY">CY</option>
-                                    <option value="CZ">CZ</option>
-                                    <option value="DK">DK</option>
-                                    <option value="DE">DE</option>
-                                    <option value="EE">EE</option>
-                                    <option value="EL">EL</option>
-                                    <option value="ES">ES</option>
-                                    <option value="FI">FI</option>
-                                    <option value="FR">FR</option>
-                                    <option value="GB">GB</option>
-                                    <option value="HU">HU</option>
-                                    <option value="IE">IE</option>
-                                    <option value="IT">IT</option>
-                                    <option value="LV">LV</option>
-                                    <option value="LT">LT</option>
-                                    <option value="LU">LU</option>
-                                    <option value="MT">MT</option>
-                                    <option value="NL">NL</option>
-                                    <option value="PL">PL</option>
-                                    <option value="PT">PT</option>
-                                    <option value="SE">SE</option>
-                                    <option value="SI">SI</option>
-                                    <option value="SK">SK</option>
-                                </select>
+                                <div class="form-group">
+                                    <select name="land" class="form-control order-text" id="form29">
+                                        <option value="DE">Deutschland
+                                        </option>
+                                        <option value="AT">Österreich
+                                        </option>
+                                        <option value="CH">Schweiz
+                                        </option>
+                                        <option value="EG">Ägypten
+                                        </option>
+                                        <option value="GQ">Äquatorialguinea
+                                        </option>
+                                        <option value="ET">Äthiopien
+                                        </option>
+                                        <option value="AF">Afghanistan
+                                        </option>
+                                        <option value="AL">Albanien
+                                        </option>
+                                        <option value="DZ">Algerien
+                                        </option>
+                                        <option value="AS">Amerikanisch-Samoa
+                                        </option>
+                                        <option value="AD">Andorra
+                                        </option>
+                                        <option value="AO">Angola
+                                        </option>
+                                        <option value="AI">Anguilla
+                                        </option>
+                                        <option value="AQ">Antarktis
+                                        </option>
+                                        <option value="AG">Antigua und Barbuda
+                                        </option>
+                                        <option value="AR">Argentinien
+                                        </option>
+                                        <option value="AM">Armenien
+                                        </option>
+                                        <option value="AW">Aruba
+                                        </option>
+                                        <option value="AZ">Aserbaidschan
+                                        </option>
+                                        <option value="AU">Australien
+                                        </option>
+                                        <option value="BS">Bahamas
+                                        </option>
+                                        <option value="BH">Bahrain
+                                        </option>
+                                        <option value="BD">Bangladesch
+                                        </option>
+                                        <option value="BB">Barbados
+                                        </option>
+                                        <option value="BY">Belarus
+                                        </option>
+                                        <option value="BE">Belgien
+                                        </option>
+                                        <option value="BZ">Belize
+                                        </option>
+                                        <option value="BJ">Benin
+                                        </option>
+                                        <option value="BM">Bermuda
+                                        </option>
+                                        <option value="BT">Bhutan
+                                        </option>
+                                        <option value="BO">Bolivien
+                                        </option>
+                                        <option value="BA">Bosnien und Herzegowina
+                                        </option>
+                                        <option value="BW">Botsuana
+                                        </option>
+                                        <option value="BV">Bouvet-Insel
+                                        </option>
+                                        <option value="BR">Brasilien
+                                        </option>
+                                        <option value="BN">Brunei Darussalam
+                                        </option>
+                                        <option value="BG">Bulgarien
+                                        </option>
+                                        <option value="BF">Burkina Faso
+                                        </option>
+                                        <option value="BI">Burundi
+                                        </option>
+                                        <option value="KY">Cayman-Inseln
+                                        </option>
+                                        <option value="CL">Chile
+                                        </option>
+                                        <option value="CN">China
+                                        </option>
+                                        <option value="CK">Cookinseln
+                                        </option>
+                                        <option value="CR">Costa Rica
+                                        </option>
+                                        <option value="CI">Cote d'Ivoire
+                                        </option>
+                                        <option value="DE">Deutschland
+                                        </option>
+                                        <option value="DM">Dominica
+                                        </option>
+                                        <option value="DO">Dominikanische Republik
+                                        </option>
+                                        <option value="DJ">Dschibuti
+                                        </option>
+                                        <option value="DK">Dänemark
+                                        </option>
+                                        <option value="EC">Ecuador
+                                        </option>
+                                        <option value="SV">El Salvador
+                                        </option>
+                                        <option value="ER">Eritrea
+                                        </option>
+                                        <option value="EE">Estland
+                                        </option>
+                                        <option value="MK">F.Y.R.O.
+                                        </option>
+                                        <option value="FK">Falklandinseln
+                                        </option>
+                                        <option value="FJ">Fidschi
+                                        </option>
+                                        <option value="FI">Finnland
+                                        </option>
+                                        <option value="FR">Frankreich
+                                        </option>
+                                        <option value="GF">Französisch-Guyana
+                                        </option>
+                                        <option value="PF">Französisch-Polynesien
+                                        </option>
+                                        <option value="TF">Französische Südgebiete
+                                        </option>
+                                        <option value="FO">Färöer
+                                        </option>
+                                        <option value="GA">Gabun
+                                        </option>
+                                        <option value="GM">Gambia
+                                        </option>
+                                        <option value="GE">Georgien
+                                        </option>
+                                        <option value="GH">Ghana
+                                        </option>
+                                        <option value="GI">Gibraltar
+                                        </option>
+                                        <option value="GD">Grenada
+                                        </option>
+                                        <option value="VC">Grenadines
+                                        </option>
+                                        <option value="GR">Griechenland
+                                        </option>
+                                        <option value="GB">Großbritannien
+                                        </option>
+                                        <option value="GL">Grönland
+                                        </option>
+                                        <option value="GP">Guadeloupe
+                                        </option>
+                                        <option value="GU">Guam
+                                        </option>
+                                        <option value="GT">Guatemala
+                                        </option>
+                                        <option value="GN">Guinea
+                                        </option>
+                                        <option value="GW">Guinea-Bissau
+                                        </option>
+                                        <option value="GY">Guyana
+                                        </option>
+                                        <option value="HT">Haiti
+                                        </option>
+                                        <option value="HM">Heard- und Mcdonald-Inseln
+                                        </option>
+                                        <option value="NL">Niederlande
+                                        </option>
+                                        <option value="HN">Honduras
+                                        </option>
+                                        <option value="HK">Hongkong
+                                        </option>
+                                        <option value="IN">Indien
+                                        </option>
+                                        <option value="ID">Indonesien
+                                        </option>
+                                        <option value="IQ">Irak
+                                        </option>
+                                        <option value="IR">Iran
+                                        </option>
+                                        <option value="IE">Irland
+                                        </option>
+                                        <option value="IS">Island
+                                        </option>
+                                        <option value="IL">Israel
+                                        </option>
+                                        <option value="IT">Italien
+                                        </option>
+                                        <option value="JM">Jamaika
+                                        </option>
+                                        <option value="SJ">Jan Mayen Islands
+                                        </option>
+                                        <option value="JP">Japan
+                                        </option>
+                                        <option value="YE">Jemen
+                                        </option>
+                                        <option value="JO">Jordanien
+                                        </option>
+                                        <option value="YU">Jugoslawien
+                                        </option>
+                                        <option value="VG">Jungferninseln (Britisch)
+                                        </option>
+                                        <option value="VI">Jungferninseln (U.S.)
+                                        </option>
+                                        <option value="KY">Kaiman-Inseln
+                                        </option>
+                                        <option value="KH">Kambodscha
+                                        </option>
+                                        <option value="CM">Kamerun
+                                        </option>
+                                        <option value="CA">Kanada
+                                        </option>
+                                        <option value="CV">Kap Verde
+                                        </option>
+                                        <option value="KZ">Kasachstan
+                                        </option>
+                                        <option value="QA">Katar
+                                        </option>
+                                        <option value="KE">Kenia
+                                        </option>
+                                        <option value="KG">Kirgisistan
+                                        </option>
+                                        <option value="KI">Kiribati
+                                        </option>
+                                        <option value="CC">Kokosinseln
+                                        </option>
+                                        <option value="CO">Kolumbien
+                                        </option>
+                                        <option value="KM">Komoren
+                                        </option>
+                                        <option value="HR">Kroatien
+                                        </option>
+                                        <option value="CU">Kuba
+                                        </option>
+                                        <option value="KW">Kuwait
+                                        </option>
+                                        <option value="LA">Laos
+                                        </option>
+                                        <option value="LS">Lesotho
+                                        </option>
+                                        <option value="LV">Lettland
+                                        </option>
+                                        <option value="LB">Libanon
+                                        </option>
+                                        <option value="LR">Liberia
+                                        </option>
+                                        <option value="LY">Libyen
+                                        </option>
+                                        <option value="LI">Liechtenstein
+                                        </option>
+                                        <option value="LT">Litauen
+                                        </option>
+                                        <option value="LU">Luxemburg
+                                        </option>
+                                        <option value="MO">Macao
+                                        </option>
+                                        <option value="MG">Madagaskar
+                                        </option>
+                                        <option value="MW">Malawi
+                                        </option>
+                                        <option value="MY">Malaysia
+                                        </option>
+                                        <option value="MV">Malediven
+                                        </option>
+                                        <option value="ML">Mali
+                                        </option>
+                                        <option value="MT">Malta
+                                        </option>
+                                        <option value="MA">Marokko
+                                        </option>
+                                        <option value="MH">Marshallinseln
+                                        </option>
+                                        <option value="MQ">Martinique
+                                        </option>
+                                        <option value="MR">Mauretanien
+                                        </option>
+                                        <option value="MU">Mauritius
+                                        </option>
+                                        <option value="YT">Mayotte
+                                        </option>
+                                        <option value="MX">Mexiko
+                                        </option>
+                                        <option value="FM">Mikronesien
+                                        </option>
+                                        <option value="MC">Monaco
+                                        </option>
+                                        <option value="MN">Mongolei
+                                        </option>
+                                        <option value="MS">Montserrat
+                                        </option>
+                                        <option value="MZ">Mosambik
+                                        </option>
+                                        <option value="MM">Myanmar
+                                        </option>
+                                        <option value="NA">Namibia
+                                        </option>
+                                        <option value="NR">Nauru
+                                        </option>
+                                        <option value="NP">Nepal
+                                        </option>
+                                        <option value="NC">Neukaledonien
+                                        </option>
+                                        <option value="NZ">Neuseeland
+                                        </option>
+                                        <option value="NI">Nicaragua
+                                        </option>
+                                        <option value="NL">Niederlande
+                                        </option>
+                                        <option value="AN">Niederländisch-Antillen
+                                        </option>
+                                        <option value="NE">Niger
+                                        </option>
+                                        <option value="NG">Nigeria
+                                        </option>
+                                        <option value="NU">Niue
+                                        </option>
+                                        <option value="NF">Norfolk Island
+                                        </option>
+                                        <option value="KP">North Korea
+                                        </option>
+                                        <option value="NO">Norwegen
+                                        </option>
+                                        <option value="MP">Nördliche Marianen
+                                        </option>
+                                        <option value="AT">Österreich
+                                        </option>
+                                        <option value="OM">Oman
+                                        </option>
+                                        <option value="TL">Ost-Timor
+                                        </option>
+                                        <option value="PK">Pakistan
+                                        </option>
+                                        <option value="PW">Palau
+                                        </option>
+                                        <option value="PS">Palästina
+                                        </option>
+                                        <option value="PA">Panama
+                                        </option>
+                                        <option value="PG">Papua-Neuguinea
+                                        </option>
+                                        <option value="PY">Paraguay
+                                        </option>
+                                        <option value="PE">Peru
+                                        </option>
+                                        <option value="PH">Philippinen
+                                        </option>
+                                        <option value="PN">Pitcairn
+                                        </option>
+                                        <option value="PL">Polen
+                                        </option>
+                                        <option value="PT">Portugal
+                                        </option>
+                                        <option value="PR">Puerto Rico
+                                        </option>
+                                        <option value="CG">Republic of Kongo
+                                        </option>
+                                        <option value="MD">Republik Moldau
+                                        </option>
+                                        <option value="RW">Ruanda
+                                        </option>
+                                        <option value="RO">Rumänien
+                                        </option>
+                                        <option value="RU">Russische Föderation
+                                        </option>
+                                        <option value="RE">Réunion
+                                        </option>
+                                        <option value="CS">Serbien &amp; Montenegro
+                                        </option>
+                                        <option value="KN">Saint Kitts und Nevis
+                                        </option>
+                                        <option value="LC">Saint Lucia
+                                        </option>
+                                        <option value="PM">Saint-Pierre-et-Miquelon
+                                        </option>
+                                        <option value="SB">Salomonen
+                                        </option>
+                                        <option value="ZM">Sambia
+                                        </option>
+                                        <option value="SM">San Marino
+                                        </option>
+                                        <option value="SH">Sankt Helena
+                                        </option>
+                                        <option value="SA">Saudi-Arabien
+                                        </option>
+                                        <option value="SE">Schweden
+                                        </option>
+                                        <option value="CH">Schweiz
+                                        </option>
+                                        <option value="SN">Senegal
+                                        </option>
+                                        <option value="SC">Seychellen
+                                        </option>
+                                        <option value="SL">Sierra Leone
+                                        </option>
+                                        <option value="ZW">Simbabwe
+                                        </option>
+                                        <option value="SG">Singapur
+                                        </option>
+                                        <option value="SK">Slowakei
+                                        </option>
+                                        <option value="SI">Slowenien
+                                        </option>
+                                        <option value="SO">Somalia
+                                        </option>
+                                        <option value="ES">Spanien
+                                        </option>
+                                        <option value="LK">Sri Lanka
+                                        </option>
+                                        <option value="SD">Sudan
+                                        </option>
+                                        <option value="SR">Suriname
+                                        </option>
+                                        <option value="SZ">Swasiland
+                                        </option>
+                                        <option value="SY">Syrien
+                                        </option>
+                                        <option value="ST">São Tomé und Príncipe
+                                        </option>
+                                        <option value="ZA">Südafrika
+                                        </option>
+                                        <option value="GS">Südgeorgien
+                                        </option>
+                                        <option value="KR">Südkorea
+                                        </option>
+                                        <option value="TJ">Tadschikistan
+                                        </option>
+                                        <option value="TW">Taiwan
+                                        </option>
+                                        <option value="TZ">Tansania
+                                        </option>
+                                        <option value="TH">Thailand
+                                        </option>
+                                        <option value="TG">Togo
+                                        </option>
+                                        <option value="TK">Tokelau
+                                        </option>
+                                        <option value="TO">Tonga
+                                        </option>
+                                        <option value="TT">Trinidad und Tobago
+                                        </option>
+                                        <option value="TD">Tschad
+                                        </option>
+                                        <option value="CZ">Tschechien
+                                        </option>
+                                        <option value="TN">Tunesien
+                                        </option>
+                                        <option value="TM">Turkmenistan
+                                        </option>
+                                        <option value="TC">Turks- und Caicosinseln
+                                        </option>
+                                        <option value="TV">Tuvalu
+                                        </option>
+                                        <option value="TR">Türkei
+                                        </option>
+                                        <option value="US">USA
+                                        </option>
+                                        <option value="UG">Uganda
+                                        </option>
+                                        <option value="UA">Ukraine
+                                        </option>
+                                        <option value="HU">Ungarn
+                                        </option>
+                                        <option value="UY">Uruguay
+                                        </option>
+                                        <option value="UZ">Usbekistan
+                                        </option>
+                                        <option value="VU">Vanuatu
+                                        </option>
+                                        <option value="VA">Vatikanstadt
+                                        </option>
+                                        <option value="VE">Venezeula
+                                        </option>
+                                        <option value="AE">Vereinigte Arabische Emirate
+                                        </option>
+                                        <option value="VN">Vietnam
+                                        </option>
+                                        <option value="WF">Wallis und Futuna
+                                        </option>
+                                        <option value="CX">Weihnachtsinseln
+                                        </option>
+                                        <option value="EH">Westsahara
+                                        </option>
+                                        <option value="WS">Westsamoa
+                                        </option>
+                                        <option value="CF">Zentralafrikanische Republik
+                                        </option>
+                                        <option value="CY">Zypern
+                                        </option>
+                                    </select>
+                                </div>
                             </th>
-
-
-                            <th>
-                                <input name="ustidnr" type="text" id="form29"
-                                    class="form-control validate" placeholder="12345678">
-                                <label data-error="wrong" data-success="right" for="form29"></label>
-                            </th>
-
                         </tr>
-                        <tr>
+                    </div>
 
-                        </tr>
-                    </tbody>
-                </table>
-            </ul>
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form29"
+                            class="form-control validate" placeholder={{.Params.Forms.EMail}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
 
-            <div class="form-group">
-                <th>
-                    <input name="vertreter" required="required" required type="text" id="form29"
-                        class="form-control validate" placeholder={{.Params.Business.LegalRepresentative}}>
-                    <label data-error="wrong" data-success="right" for="form29"></label>
-                </th>
-            </div>
-
-            <div class="form-group mt-3">
-                <h5>{{.Params.Business.PrivateAndContact}}</h5>
-            </div>
-
-            <div class="form-group mb-4">
-                <tr>
-                    <th class="pl-0 pr-0">
-                        <select name="anrede" class="form-control order-text" id="form29">
-                            <option value="Herr">{{.Params.Business.FormofAddressMale}}</option>
-                            <option value="Frau">{{.Params.Business.FormofAddressFemale}}</option>
-                        </select>
-                    </th>
-                </tr>
-            </div>
-
-            <div class="form-group mb-0">
-                <input required="required" name="vorname" required type="text" id="form29"
-                    class="form-control validate" placeholder={{.Params.Forms.FirstName}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input required="required" name="nachname" type="text" id="form29"
-                    class="form-control validate" placeholder={{.Params.Forms.LastName}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input required="required" name="strasse" type="text" id="form29"
-                    class="form-control validate" placeholder={{.Params.Business.StreetReq}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input pattern="[0-9]{5}$" maxlength="5" title={{.Params.Forms.PostalCodeMessage}} value=""
-                    name="postleitzahl" type="number" required="required" required id="form29"
-                    class="form-control validate" placeholder={{.Params.Business.PostalCode}}
-                    oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input required="required" name="ort" type="text" id="form29"
-                    class="form-control validate" placeholder={{.Params.Business.CityReq}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <tr>
-                    <th class="pl-0 pr-0">
-                        <div class="form-group">
-                            <select name="land" class="form-control order-text" id="form29">
-                                <option value="DE">Deutschland
-                                </option>
-                                <option value="AT">Österreich
-                                </option>
-                                <option value="CH">Schweiz
-                                </option>
-                                <option value="EG">Ägypten
-                                </option>
-                                <option value="GQ">Äquatorialguinea
-                                </option>
-                                <option value="ET">Äthiopien
-                                </option>
-                                <option value="AF">Afghanistan
-                                </option>
-                                <option value="AL">Albanien
-                                </option>
-                                <option value="DZ">Algerien
-                                </option>
-                                <option value="AS">Amerikanisch-Samoa
-                                </option>
-                                <option value="AD">Andorra
-                                </option>
-                                <option value="AO">Angola
-                                </option>
-                                <option value="AI">Anguilla
-                                </option>
-                                <option value="AQ">Antarktis
-                                </option>
-                                <option value="AG">Antigua und Barbuda
-                                </option>
-                                <option value="AR">Argentinien
-                                </option>
-                                <option value="AM">Armenien
-                                </option>
-                                <option value="AW">Aruba
-                                </option>
-                                <option value="AZ">Aserbaidschan
-                                </option>
-                                <option value="AU">Australien
-                                </option>
-                                <option value="BS">Bahamas
-                                </option>
-                                <option value="BH">Bahrain
-                                </option>
-                                <option value="BD">Bangladesch
-                                </option>
-                                <option value="BB">Barbados
-                                </option>
-                                <option value="BY">Belarus
-                                </option>
-                                <option value="BE">Belgien
-                                </option>
-                                <option value="BZ">Belize
-                                </option>
-                                <option value="BJ">Benin
-                                </option>
-                                <option value="BM">Bermuda
-                                </option>
-                                <option value="BT">Bhutan
-                                </option>
-                                <option value="BO">Bolivien
-                                </option>
-                                <option value="BA">Bosnien und Herzegowina
-                                </option>
-                                <option value="BW">Botsuana
-                                </option>
-                                <option value="BV">Bouvet-Insel
-                                </option>
-                                <option value="BR">Brasilien
-                                </option>
-                                <option value="BN">Brunei Darussalam
-                                </option>
-                                <option value="BG">Bulgarien
-                                </option>
-                                <option value="BF">Burkina Faso
-                                </option>
-                                <option value="BI">Burundi
-                                </option>
-                                <option value="KY">Cayman-Inseln
-                                </option>
-                                <option value="CL">Chile
-                                </option>
-                                <option value="CN">China
-                                </option>
-                                <option value="CK">Cookinseln
-                                </option>
-                                <option value="CR">Costa Rica
-                                </option>
-                                <option value="CI">Cote d'Ivoire
-                                </option>
-                                <option value="DE">Deutschland
-                                </option>
-                                <option value="DM">Dominica
-                                </option>
-                                <option value="DO">Dominikanische Republik
-                                </option>
-                                <option value="DJ">Dschibuti
-                                </option>
-                                <option value="DK">Dänemark
-                                </option>
-                                <option value="EC">Ecuador
-                                </option>
-                                <option value="SV">El Salvador
-                                </option>
-                                <option value="ER">Eritrea
-                                </option>
-                                <option value="EE">Estland
-                                </option>
-                                <option value="MK">F.Y.R.O.
-                                </option>
-                                <option value="FK">Falklandinseln
-                                </option>
-                                <option value="FJ">Fidschi
-                                </option>
-                                <option value="FI">Finnland
-                                </option>
-                                <option value="FR">Frankreich
-                                </option>
-                                <option value="GF">Französisch-Guyana
-                                </option>
-                                <option value="PF">Französisch-Polynesien
-                                </option>
-                                <option value="TF">Französische Südgebiete
-                                </option>
-                                <option value="FO">Färöer
-                                </option>
-                                <option value="GA">Gabun
-                                </option>
-                                <option value="GM">Gambia
-                                </option>
-                                <option value="GE">Georgien
-                                </option>
-                                <option value="GH">Ghana
-                                </option>
-                                <option value="GI">Gibraltar
-                                </option>
-                                <option value="GD">Grenada
-                                </option>
-                                <option value="VC">Grenadines
-                                </option>
-                                <option value="GR">Griechenland
-                                </option>
-                                <option value="GB">Großbritannien
-                                </option>
-                                <option value="GL">Grönland
-                                </option>
-                                <option value="GP">Guadeloupe
-                                </option>
-                                <option value="GU">Guam
-                                </option>
-                                <option value="GT">Guatemala
-                                </option>
-                                <option value="GN">Guinea
-                                </option>
-                                <option value="GW">Guinea-Bissau
-                                </option>
-                                <option value="GY">Guyana
-                                </option>
-                                <option value="HT">Haiti
-                                </option>
-                                <option value="HM">Heard- und Mcdonald-Inseln
-                                </option>
-                                <option value="NL">Niederlande
-                                </option>
-                                <option value="HN">Honduras
-                                </option>
-                                <option value="HK">Hongkong
-                                </option>
-                                <option value="IN">Indien
-                                </option>
-                                <option value="ID">Indonesien
-                                </option>
-                                <option value="IQ">Irak
-                                </option>
-                                <option value="IR">Iran
-                                </option>
-                                <option value="IE">Irland
-                                </option>
-                                <option value="IS">Island
-                                </option>
-                                <option value="IL">Israel
-                                </option>
-                                <option value="IT">Italien
-                                </option>
-                                <option value="JM">Jamaika
-                                </option>
-                                <option value="SJ">Jan Mayen Islands
-                                </option>
-                                <option value="JP">Japan
-                                </option>
-                                <option value="YE">Jemen
-                                </option>
-                                <option value="JO">Jordanien
-                                </option>
-                                <option value="YU">Jugoslawien
-                                </option>
-                                <option value="VG">Jungferninseln (Britisch)
-                                </option>
-                                <option value="VI">Jungferninseln (U.S.)
-                                </option>
-                                <option value="KY">Kaiman-Inseln
-                                </option>
-                                <option value="KH">Kambodscha
-                                </option>
-                                <option value="CM">Kamerun
-                                </option>
-                                <option value="CA">Kanada
-                                </option>
-                                <option value="CV">Kap Verde
-                                </option>
-                                <option value="KZ">Kasachstan
-                                </option>
-                                <option value="QA">Katar
-                                </option>
-                                <option value="KE">Kenia
-                                </option>
-                                <option value="KG">Kirgisistan
-                                </option>
-                                <option value="KI">Kiribati
-                                </option>
-                                <option value="CC">Kokosinseln
-                                </option>
-                                <option value="CO">Kolumbien
-                                </option>
-                                <option value="KM">Komoren
-                                </option>
-                                <option value="HR">Kroatien
-                                </option>
-                                <option value="CU">Kuba
-                                </option>
-                                <option value="KW">Kuwait
-                                </option>
-                                <option value="LA">Laos
-                                </option>
-                                <option value="LS">Lesotho
-                                </option>
-                                <option value="LV">Lettland
-                                </option>
-                                <option value="LB">Libanon
-                                </option>
-                                <option value="LR">Liberia
-                                </option>
-                                <option value="LY">Libyen
-                                </option>
-                                <option value="LI">Liechtenstein
-                                </option>
-                                <option value="LT">Litauen
-                                </option>
-                                <option value="LU">Luxemburg
-                                </option>
-                                <option value="MO">Macao
-                                </option>
-                                <option value="MG">Madagaskar
-                                </option>
-                                <option value="MW">Malawi
-                                </option>
-                                <option value="MY">Malaysia
-                                </option>
-                                <option value="MV">Malediven
-                                </option>
-                                <option value="ML">Mali
-                                </option>
-                                <option value="MT">Malta
-                                </option>
-                                <option value="MA">Marokko
-                                </option>
-                                <option value="MH">Marshallinseln
-                                </option>
-                                <option value="MQ">Martinique
-                                </option>
-                                <option value="MR">Mauretanien
-                                </option>
-                                <option value="MU">Mauritius
-                                </option>
-                                <option value="YT">Mayotte
-                                </option>
-                                <option value="MX">Mexiko
-                                </option>
-                                <option value="FM">Mikronesien
-                                </option>
-                                <option value="MC">Monaco
-                                </option>
-                                <option value="MN">Mongolei
-                                </option>
-                                <option value="MS">Montserrat
-                                </option>
-                                <option value="MZ">Mosambik
-                                </option>
-                                <option value="MM">Myanmar
-                                </option>
-                                <option value="NA">Namibia
-                                </option>
-                                <option value="NR">Nauru
-                                </option>
-                                <option value="NP">Nepal
-                                </option>
-                                <option value="NC">Neukaledonien
-                                </option>
-                                <option value="NZ">Neuseeland
-                                </option>
-                                <option value="NI">Nicaragua
-                                </option>
-                                <option value="NL">Niederlande
-                                </option>
-                                <option value="AN">Niederländisch-Antillen
-                                </option>
-                                <option value="NE">Niger
-                                </option>
-                                <option value="NG">Nigeria
-                                </option>
-                                <option value="NU">Niue
-                                </option>
-                                <option value="NF">Norfolk Island
-                                </option>
-                                <option value="KP">North Korea
-                                </option>
-                                <option value="NO">Norwegen
-                                </option>
-                                <option value="MP">Nördliche Marianen
-                                </option>
-                                <option value="AT">Österreich
-                                </option>
-                                <option value="OM">Oman
-                                </option>
-                                <option value="TL">Ost-Timor
-                                </option>
-                                <option value="PK">Pakistan
-                                </option>
-                                <option value="PW">Palau
-                                </option>
-                                <option value="PS">Palästina
-                                </option>
-                                <option value="PA">Panama
-                                </option>
-                                <option value="PG">Papua-Neuguinea
-                                </option>
-                                <option value="PY">Paraguay
-                                </option>
-                                <option value="PE">Peru
-                                </option>
-                                <option value="PH">Philippinen
-                                </option>
-                                <option value="PN">Pitcairn
-                                </option>
-                                <option value="PL">Polen
-                                </option>
-                                <option value="PT">Portugal
-                                </option>
-                                <option value="PR">Puerto Rico
-                                </option>
-                                <option value="CG">Republic of Kongo
-                                </option>
-                                <option value="MD">Republik Moldau
-                                </option>
-                                <option value="RW">Ruanda
-                                </option>
-                                <option value="RO">Rumänien
-                                </option>
-                                <option value="RU">Russische Föderation
-                                </option>
-                                <option value="RE">Réunion
-                                </option>
-                                <option value="CS">Serbien &amp; Montenegro
-                                </option>
-                                <option value="KN">Saint Kitts und Nevis
-                                </option>
-                                <option value="LC">Saint Lucia
-                                </option>
-                                <option value="PM">Saint-Pierre-et-Miquelon
-                                </option>
-                                <option value="SB">Salomonen
-                                </option>
-                                <option value="ZM">Sambia
-                                </option>
-                                <option value="SM">San Marino
-                                </option>
-                                <option value="SH">Sankt Helena
-                                </option>
-                                <option value="SA">Saudi-Arabien
-                                </option>
-                                <option value="SE">Schweden
-                                </option>
-                                <option value="CH">Schweiz
-                                </option>
-                                <option value="SN">Senegal
-                                </option>
-                                <option value="SC">Seychellen
-                                </option>
-                                <option value="SL">Sierra Leone
-                                </option>
-                                <option value="ZW">Simbabwe
-                                </option>
-                                <option value="SG">Singapur
-                                </option>
-                                <option value="SK">Slowakei
-                                </option>
-                                <option value="SI">Slowenien
-                                </option>
-                                <option value="SO">Somalia
-                                </option>
-                                <option value="ES">Spanien
-                                </option>
-                                <option value="LK">Sri Lanka
-                                </option>
-                                <option value="SD">Sudan
-                                </option>
-                                <option value="SR">Suriname
-                                </option>
-                                <option value="SZ">Swasiland
-                                </option>
-                                <option value="SY">Syrien
-                                </option>
-                                <option value="ST">São Tomé und Príncipe
-                                </option>
-                                <option value="ZA">Südafrika
-                                </option>
-                                <option value="GS">Südgeorgien
-                                </option>
-                                <option value="KR">Südkorea
-                                </option>
-                                <option value="TJ">Tadschikistan
-                                </option>
-                                <option value="TW">Taiwan
-                                </option>
-                                <option value="TZ">Tansania
-                                </option>
-                                <option value="TH">Thailand
-                                </option>
-                                <option value="TG">Togo
-                                </option>
-                                <option value="TK">Tokelau
-                                </option>
-                                <option value="TO">Tonga
-                                </option>
-                                <option value="TT">Trinidad und Tobago
-                                </option>
-                                <option value="TD">Tschad
-                                </option>
-                                <option value="CZ">Tschechien
-                                </option>
-                                <option value="TN">Tunesien
-                                </option>
-                                <option value="TM">Turkmenistan
-                                </option>
-                                <option value="TC">Turks- und Caicosinseln
-                                </option>
-                                <option value="TV">Tuvalu
-                                </option>
-                                <option value="TR">Türkei
-                                </option>
-                                <option value="US">USA
-                                </option>
-                                <option value="UG">Uganda
-                                </option>
-                                <option value="UA">Ukraine
-                                </option>
-                                <option value="HU">Ungarn
-                                </option>
-                                <option value="UY">Uruguay
-                                </option>
-                                <option value="UZ">Usbekistan
-                                </option>
-                                <option value="VU">Vanuatu
-                                </option>
-                                <option value="VA">Vatikanstadt
-                                </option>
-                                <option value="VE">Venezeula
-                                </option>
-                                <option value="AE">Vereinigte Arabische Emirate
-                                </option>
-                                <option value="VN">Vietnam
-                                </option>
-                                <option value="WF">Wallis und Futuna
-                                </option>
-                                <option value="CX">Weihnachtsinseln
-                                </option>
-                                <option value="EH">Westsahara
-                                </option>
-                                <option value="WS">Westsamoa
-                                </option>
-                                <option value="CF">Zentralafrikanische Republik
-                                </option>
-                                <option value="CY">Zypern
-                                </option>
-                            </select>
+                    <div class="form-group mb-0">
+                        <input name="telefon" data-required="required" required type="tel" maxlength="14" id="form29"
+                            class="form-control validate" placeholder={{.Params.Business.Phone}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+                    <div class="form-group mt-3">
+                        <h5>{{.Params.Business.Rechtliches}}</h5>
+                    </div>
+                    <fieldset class="form-group row pt-0 pb-4">
+                        <div class="col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input required="required" name="checkboxAgb" class="form-check-input"
+                                        type="checkbox">
+                                    <span class="order-text">{{.Params.Business.AGB|safeHTML}}</span>
+                                </label>
+                            </div>
                         </div>
-                    </th>
-                </tr>
-            </div>
 
-            <div class="form-group mb-0">
-                <input data-required="required" name="eMail" type="email" required id="form29"
-                    class="form-control validate" placeholder={{.Params.Forms.EMail}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
+                        <div class="col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input required="required" name="checkboxWiderrufsrecht" class="form-check-input"
+                                        type="checkbox">
+                                    <span class="order-text">{{.Params.Business.Widerruf|safeHTML}}</span>
+                                </label>
+                            </div>
+                        </div>
 
-            <div class="form-group mb-0">
-                <input name="telefon" data-required="required" required type="tel" maxlength="14"
-                    id="form29" class="form-control validate" placeholder={{.Params.Business.Phone}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-            <div class="form-group mt-3">
-                <h5>{{.Params.Business.Rechtliches}}</h5>
-            </div>
-            <fieldset class="form-group row pt-0 pb-4">
-                <div class="col-sm-12">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input required="required" name="checkboxAgb" class="form-check-input"
-                                type="checkbox">
-                            <span class="order-text">{{.Params.Business.AGB|safeHTML}}</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="col-sm-12">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input required="required" name="checkboxWiderrufsrecht"
-                                class="form-check-input" type="checkbox">
-                            <span class="order-text">{{.Params.Business.Widerruf|safeHTML}}</span>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- <div class="col-sm-12">
+                        <!-- <div class="col-sm-12">
                         <div class="form-check">
                             <label class="form-check-label">
                                 <input name="checkboxNewsletter" class="form-check-input"
@@ -2749,416 +2744,413 @@ aria-hidden="true">
                             </label>
                         </div>
                     </div>-->
-            </fieldset>
-            <p>{{.Params.Forms.Hinweis|safeHTML}}</p>
+                    </fieldset>
+                    <p>{{.Params.Forms.Hinweis|safeHTML}}</p>
 
-            <div class="modal-footer-bestellung d-flex justify-content-center ">
-                <button class="btn btn-block btn-CTA2 myDiv" title="Senden" id="orderFormButton"
-                    onClick="gtag('event', 'action', {'event_category': 'Bestellen-Senden', 'event_label': 'Senden','value': 'value'});"
-                    type="submit">{{.Params.Button.Senden}}</button>
+                    <div class="modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-block btn-CTA2 myDiv" title="Senden" id="orderFormButton"
+                            onClick="gtag('event', 'action', {'event_category': 'Bestellen-Senden', 'event_label': 'Senden','value': 'value'});"
+                            type="submit">{{.Params.Button.Senden}}</button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Video -->
-<div class="modal video-modal fade" id="ModalVideo" tabindex="-1" role="dialog"
-aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog video-modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">{{.Params.Advantages.Compression}}</h2>
-        <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-            aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body video-modal-body modal-boby-bestellung mx-3">
+<div class="modal video-modal fade" id="ModalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog video-modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.Advantages.Compression}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body video-modal-body modal-boby-bestellung mx-3">
 
-        <!-- 16:9 aspect ratio -->
-        <div class="embed-responsive embed-responsive-16by9">
-            <video id="MY_VIDEO_1" class="video-js vjs-theme-sea" controls preload="auto"
-                poster="MY_VIDEO_POSTER.jpg" data-setup="{}" style="margin: 0 auto;">
-                <source src="/images/product/pdfbrewer/video/CIB_pdf_brewer_Compress_&_Keep_Quality.mp4" type='video/mp4'>
-                <source src="MY_VIDEO.webm" type='video/webm'>
-                <p class="vjs-no-js">To view this video please enable JavaScript, and consider
-                    upgrading
-                    to a web browser that <a href="http://videojs.com/html5-video-support/"
-                        target="_blank">supports HTML5 video</a></p>
-            </video>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video id="MY_VIDEO_1" class="video-js vjs-theme-sea" controls preload="auto"
+                        poster="MY_VIDEO_POSTER.jpg" data-setup="{}" style="margin: 0 auto;">
+                        <source src="/images/product/pdfbrewer/video/CIB_pdf_brewer_Compress_&_Keep_Quality.mp4"
+                            type='video/mp4'>
+                        <source src="MY_VIDEO.webm" type='video/webm'>
+                        <p class="vjs-no-js">To view this video please enable JavaScript, and consider
+                            upgrading
+                            to a web browser that <a href="http://videojs.com/html5-video-support/"
+                                target="_blank">supports HTML5 video</a></p>
+                    </video>
+                </div>
+            </div>
+            <div class="modal-footer-bestellung d-flex justify-content-center ">
+
+            </div>
         </div>
     </div>
-    <div class="modal-footer-bestellung d-flex justify-content-center ">
-
-    </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Kontaktieren NPO NEW-->
 
-<div class="modal fade" id="modalNPOs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-aria-hidden="true">
-<div style="display:none;" id="loadercontactForm"></div>
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
+<div class="modal fade" id="modalNPOs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div style="display:none;" id="loadercontactForm"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
 
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">{{.Params.NPO.NPOs}}</h2>
-        <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-            aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.NPO.NPOs}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-    <div class="modal-body modal-boby-bestellung mx-3 text-left">
-        <div class="row justify-content-left p-3">
-            <p class="font-small card-text mx-3">
-                {{.Params.NPOsSubText}}
-            </p>
-            <h3 class="mx-3 pb-3">{{.Params.NPOsTitle}}
-            </h3>
-            <p class="font-small card-text mx-3">
-                {{.Params.NPOs|safeHTML}}
-            </p>
+            <div class="modal-body modal-boby-bestellung mx-3 text-left">
+                <div class="row justify-content-left p-3">
+                    <p class="font-small card-text mx-3">
+                        {{.Params.NPOsSubText}}
+                    </p>
+                    <h3 class="mx-3 pb-3">{{.Params.NPOsTitle}}
+                    </h3>
+                    <p class="font-small card-text mx-3">
+                        {{.Params.NPOs|safeHTML}}
+                    </p>
+                </div>
+
+
+                <div class="modal-footer-bestellung d-flex justify-content-center ">
+
+                </div>
+
+            </div>
         </div>
-
-
-        <div class="modal-footer-bestellung d-flex justify-content-center ">
-
-        </div>
-
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Kontaktieren NPOs -->
 
 <div class="modal fade" id="modalKontaktForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-aria-hidden="true">
-<div style="display:none;" id="newloader"></div>
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
+    aria-hidden="true">
+    <div style="display:none;" id="newloader"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
 
-    <div class="modal-header text-center">
-        <h2 class="modal-title w-100">{{.Params.NPO.FormularTitle}}</h2>
-        <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-            aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-
-    <div class="modal-body modal-boby-bestellung mx-3 text-left">
-        <div class="row justify-content-center">
-            <p class="font-small card-text mx-3">
-                {{.Params.InterestBusiness|safeHTML}}
-            </p>
-        </div>
-        <div class="row justify-content-center">
-            <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
-        </div>
-        <form name="kontaktForm" action="send_email.php" method="post" enctype="multipart/form-data"
-            id="kontaktForm" class="needs-validation" novalidate>
-            <div class="form-group mb-0 mt-3">
-                <h5>{{.Params.YourInformation}}</h5>
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.NPO.FormularTitle}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
 
-            <div class="form-group mb-0">
-                <input required="required" name="vorname" required type="text" id="form29"
-                    class="form-control validate" placeholder={{.Params.Forms.FirstName}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input required="required" name="nachname" type="text" id="form29"
-                    class="form-control validate" placeholder={{.Params.Forms.LastName}}>
-                <label data-error="wrong" data-success="right" for="form29"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input name="strasse" type="text" id="form32" class="form-control validate"
-                    placeholder={{.Params.Forms.StreetHouse}}>
-                <label data-error="wrong" data-success="right" for="form32"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input pattern="[0-9]{5}$" maxlength="5" title={{.Params.Forms.PostalCodeMessage}} value=""
-                    name="postleitzahl" type="number" required id="form32" class="form-control validate"
-                    placeholder={{.Params.Forms.PostalCode}}
-                    oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-                <label data-error="wrong" data-success="right" for="form32"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input name="ort" type="text" id="form32" class="form-control validate"
-                    placeholder={{.Params.Forms.City}}>
-                <label data-error="wrong" data-success="right" for="form32"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input name="unternehmen" type="text" id="form32" class="form-control validate"
-                    placeholder={{.Params.Forms.Company}}>
-                <label data-error="wrong" data-success="right" for="form32"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input data-required="required" name="eMail" type="email" required id="form32"
-                    class="form-control validate" placeholder={{.Params.Forms.EMail}}>
-                <label data-error="wrong" data-success="right" for="form32"></label>
-            </div>
-
-            <div class="form-group mb-0">
-                <input required="required" name="telefon" type="tel" maxlength="14" id="form32"
-                    class="form-control validate" placeholder={{.Params.Forms.Phone}}>
-                <label data-error="wrong" data-success="right" for="form32"></label>
-            </div>
-
-            <div class="form-group mb-0 hidden">
-                <label for="honeypot"></label>
-                <input type="text" placeholder={{.Params.Forms.LastName}} class="form-control" name="honeypot"
-                    id="honeypot">
-            </div>
-
-            <div class="file-input pl-0">
-                <input type="file" name="file[]" id="file" accept=".pdf" multiple />
-
-                <span class="button">{{.Params.Forms.SelectFiles}}</span>
-                <br />
-                <label class="label" id="selected-files" data-js-label>{{.Params.Forms.NoFiles}}</label>
-
-            </div>
-            <button class="btn btn-CTA2-gray btn-CTA-2-tab removeFiles hidden mb-3" id="remove-files"
-                onclick="removeFiles(event)">{{.Params.Forms.DeleteFiles}}</button>
-
-            <div class="form-group mb-0">
-                <h5>{{.Params.Forms.Other}}</h5>
-                <div class="form-group">
-                    <select name="gefunden" class="form-control order-text" id="Select1">
-                        <option class="order-text" disabled selected>{{.Params.Forms.BecomeAware}}
-                        </option>
-                        <option class="order-text">{{.Params.Forms.SearchEngine}}</option>
-                        <option class="order-text">{{.Params.Forms.DownloadPortal}}</option>
-                        <option class="order-text">{{.Params.Forms.Acquaintances}}</option>
-                        <option class="order-text">{{.Params.Forms.Other}}</option>
-                    </select>
+            <div class="modal-body modal-boby-bestellung mx-3 text-left">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">
+                        {{.Params.InterestBusiness|safeHTML}}
+                    </p>
                 </div>
-            </div>
-            <div class="form-group mb-0">
-                <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
-                    placeholder={{.Params.Forms.FurtherHelp}}></textarea>
-                <label data-error="wrong" data-success="right" for="form8"></label>
-            </div>
-            <p>{{.Params.Forms.Hinweis|safeHTML}}</p>
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
+                </div>
+                <form name="kontaktForm" action="send_email.php" method="post" enctype="multipart/form-data"
+                    id="kontaktForm" class="needs-validation" novalidate>
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{.Params.YourInformation}}</h5>
+                    </div>
 
-            <div class="modal-footer-bestellung d-flex justify-content-center ">
-                <button class="btn btn-block btn-CTA2 ml-auto myDiv" value="Senden"
-                    onclick="sendForm(event)" type="submit">{{.Params.Button.Senden}}</button>
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" required type="text" id="form29"
+                            class="form-control validate" placeholder={{.Params.Forms.FirstName}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29" class="form-control validate"
+                            placeholder={{.Params.Forms.LastName}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="strasse" type="text" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.StreetHouse}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input pattern="[0-9]{5}$" maxlength="5" title={{.Params.Forms.PostalCodeMessage}} value=""
+                            name="postleitzahl" type="number" required id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.PostalCode}}
+                            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="ort" type="text" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.City}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="unternehmen" type="text" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.Company}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form32"
+                            class="form-control validate" placeholder={{.Params.Forms.EMail}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input required="required" name="telefon" type="tel" maxlength="14" id="form32"
+                            class="form-control validate" placeholder={{.Params.Forms.Phone}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <div class="form-group mb-0 hidden">
+                        <label for="honeypot"></label>
+                        <input type="text" placeholder={{.Params.Forms.LastName}} class="form-control" name="honeypot"
+                            id="honeypot">
+                    </div>
+
+                    <div class="file-input pl-0">
+                        <input type="file" name="file[]" id="file" accept=".pdf" multiple />
+
+                        <span class="button">{{.Params.Forms.SelectFiles}}</span>
+                        <br />
+                        <label class="label" id="selected-files" data-js-label>{{.Params.Forms.NoFiles}}</label>
+
+                    </div>
+                    <button class="btn btn-CTA2-gray btn-CTA-2-tab removeFiles hidden mb-3" id="remove-files"
+                        onclick="removeFiles(event)">{{.Params.Forms.DeleteFiles}}</button>
+
+                    <div class="form-group mb-0">
+                        <h5>{{.Params.Forms.Other}}</h5>
+                        <div class="form-group">
+                            <select name="gefunden" class="form-control order-text" id="Select1">
+                                <option class="order-text" disabled selected>{{.Params.Forms.BecomeAware}}
+                                </option>
+                                <option class="order-text">{{.Params.Forms.SearchEngine}}</option>
+                                <option class="order-text">{{.Params.Forms.DownloadPortal}}</option>
+                                <option class="order-text">{{.Params.Forms.Acquaintances}}</option>
+                                <option class="order-text">{{.Params.Forms.Other}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mb-0">
+                        <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                            placeholder={{.Params.Forms.FurtherHelp}}></textarea>
+                        <label data-error="wrong" data-success="right" for="form8"></label>
+                    </div>
+                    <p>{{.Params.Forms.Hinweis|safeHTML}}</p>
+
+                    <div class="modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-block btn-CTA2 ml-auto myDiv" value="Senden" onclick="sendForm(event)"
+                            type="submit">{{.Params.Button.Senden}}</button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Anfrage -->
 
 <div class="modal fade" id="modalAnfrageForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-aria-hidden="true">
-  <div style="display:none;" id="loaderAnfrageForm"></div>
-  <div class="modal-dialog modal-dialog-sm" role="document">
-    <div class="modal-content">
+    aria-hidden="true">
+    <div style="display:none;" id="loaderAnfrageForm"></div>
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
 
-        <div class="modal-header text-center">
-            <h2 class="modal-title w-100">{{.Params.Consultation.Title}}</h2>
-            <button style="outline: none;" type="button" class="close" data-dismiss="modal"
-                aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-
-        <div class="modal-body modal-boby-bestellung mx-3 text-left">
-            <div class="row justify-content-center">
-                <p class="font-small card-text mx-3">{{.Params.Interest}}
-                </p>
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100">{{.Params.Consultation.Title}}</h2>
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-            <div class="form-group mb-0" style="margin-top: 30px;">
-                <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
-                    placeholder={{.Params.Forms.FurtherHelp}}></textarea>
-                <label data-error="wrong" data-success="right" for="form8"></label>
-            </div>
-            <div class="row justify-content-center">
-                <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
-            </div>
-            <form name="anfrageForm" action="" id="anfrageForm" onsubmit="sendEmailAnfrage(); return false">
-                <div class="form-group mb-0 mt-3">
-                    <h5>{{.Params.YourInformation}}</h5>
+
+            <div class="modal-body modal-boby-bestellung mx-3 text-left">
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">{{.Params.Interest}}
+                    </p>
                 </div>
-
-                <div class="form-group mb-0">
-                    <input required="required" name="vorname" required type="text" id="form29"
-                        class="form-control validate" placeholder={{.Params.Forms.FirstName}}>
-                    <label data-error="wrong" data-success="right" for="form29"></label>
+                <div class="form-group mb-0" style="margin-top: 30px;">
+                    <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
+                        placeholder={{.Params.Forms.FurtherHelp}}></textarea>
+                    <label data-error="wrong" data-success="right" for="form8"></label>
                 </div>
-
-                <div class="form-group mb-0">
-                    <input required="required" name="nachname" type="text" id="form29"
-                        class="form-control validate" placeholder={{.Params.Forms.LastName}}>
-                    <label data-error="wrong" data-success="right" for="form29"></label>
+                <div class="row justify-content-center">
+                    <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
                 </div>
+                <form name="anfrageForm" action="" id="anfrageForm" onsubmit="sendEmailAnfrage(); return false">
+                    <div class="form-group mb-0 mt-3">
+                        <h5>{{.Params.YourInformation}}</h5>
+                    </div>
 
-                <div class="form-group mb-0">
-                    <input data-required="required" name="eMail" type="email" required id="form32"
-                        class="form-control validate" placeholder={{.Params.Forms.EMail}}>
-                    <label data-error="wrong" data-success="right" for="form32"></label>
-                </div>
+                    <div class="form-group mb-0">
+                        <input required="required" name="vorname" required type="text" id="form29"
+                            class="form-control validate" placeholder={{.Params.Forms.FirstName}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
 
-                <div class="form-group mb-0">
-                    <input name="strasse" type="text" id="form32" class="form-control validate"
-                        placeholder={{.Params.Forms.StreetHouse}}>
-                    <label data-error="wrong" data-success="right" for="form32"></label>
-                </div>
+                    <div class="form-group mb-0">
+                        <input required="required" name="nachname" type="text" id="form29" class="form-control validate"
+                            placeholder={{.Params.Forms.LastName}}>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
 
-                <div class="form-group mb-0">
-                    <input pattern="[0-9]{5}$" maxlength="5" title={{.Params.Forms.PostalCodeMessage}} value=""
-                        name="postleitzahl" type="number" id="form32" class="form-control validate"
-                        placeholder={{.Params.Forms.PostalCode}}
-                        oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-                    <label data-error="wrong" data-success="right" for="form32"></label>
-                </div>
+                    <div class="form-group mb-0">
+                        <input data-required="required" name="eMail" type="email" required id="form32"
+                            class="form-control validate" placeholder={{.Params.Forms.EMail}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
 
-                <div class="form-group mb-0">
-                    <input name="ort" type="text" id="form32" class="form-control validate"
-                        placeholder={{.Params.Forms.City}}>
-                    <label data-error="wrong" data-success="right" for="form32"></label>
-                </div>
+                    <div class="form-group mb-0">
+                        <input name="strasse" type="text" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.StreetHouse}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
 
-                <div class="form-group mb-0">
-                    <input name="unternehmen" type="text" id="form32" class="form-control validate"
-                        placeholder={{.Params.Forms.Company}}>
-                    <label data-error="wrong" data-success="right" for="form32"></label>
-                </div>
+                    <div class="form-group mb-0">
+                        <input pattern="[0-9]{5}$" maxlength="5" title={{.Params.Forms.PostalCodeMessage}} value=""
+                            name="postleitzahl" type="number" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.PostalCode}}
+                            oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
 
-                <div class="form-group mb-0">
-                    <input name="telefon" type="tel" maxlength="14" id="form32"
-                        class="form-control validate" placeholder={{.Params.Forms.Phone}}>
-                    <label data-error="wrong" data-success="right" for="form32"></label>
-                </div>
+                    <div class="form-group mb-0">
+                        <input name="ort" type="text" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.City}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
 
-                <fieldset class="form-group row">
-                    <h5 class="col-form-legend ml-3 pt-4">{{.Params.Consultation.MyVersion}}</h5>
-                    <div class="col-sm-12">
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input name="version" class="form-check-input" type="radio" id="version"
-                                    value="Basis Version">
-                                <span class="order-text">CIB pdf brewer</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input name="version" class="form-check-input" type="radio" id="version"
-                                    value="Premium Version">
-                                <span class="order-text">CIB pdf brewer Business</span>
-                            </label>
-                        </div>
+                    <div class="form-group mb-0">
+                        <input name="unternehmen" type="text" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.Company}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
 
-                        <div class="form-group row">
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input name="checkboxKontakt" class="form-check-input"
-                                            type="checkbox">
-                                        <span class="order-text">{{.Params.Consultation.NPORequest}}</span>
-                                    </label>
+                    <div class="form-group mb-0">
+                        <input name="telefon" type="tel" maxlength="14" id="form32" class="form-control validate"
+                            placeholder={{.Params.Forms.Phone}}>
+                        <label data-error="wrong" data-success="right" for="form32"></label>
+                    </div>
+
+                    <fieldset class="form-group row">
+                        <h5 class="col-form-legend ml-3 pt-4">{{.Params.Consultation.MyVersion}}</h5>
+                        <div class="col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input name="version" class="form-check-input" type="radio" id="version"
+                                        value="Basis Version">
+                                    <span class="order-text">CIB pdf brewer</span>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input name="version" class="form-check-input" type="radio" id="version"
+                                        value="Premium Version">
+                                    <span class="order-text">CIB pdf brewer Business</span>
+                                </label>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input name="checkboxKontakt" class="form-check-input" type="checkbox">
+                                            <span class="order-text">{{.Params.Consultation.NPORequest}}</span>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </fieldset>
+                    </fieldset>
 
-                <div class="form-group mb-0">
-                    <h5>{{.Params.Forms.Other}}</h5>
-                    <div class="form-group">
-                        <select name="gefunden" class="form-control order-text" id="Select1">
-                            <option class="order-text" disabled selected>{{.Params.Forms.BecomeAware}}
-                            </option>
-                            <option class="order-text">{{.Params.Forms.SearchEngine}}</option>
-                            <option class="order-text">{{.Params.Forms.DownloadPortal}}</option>
-                            <option class="order-text">{{.Params.Forms.Acquaintances}}</option>
-                            <option class="order-text">{{.Params.Forms.Other}}</option>
-                        </select>
+                    <div class="form-group mb-0">
+                        <h5>{{.Params.Forms.Other}}</h5>
+                        <div class="form-group">
+                            <select name="gefunden" class="form-control order-text" id="Select1">
+                                <option class="order-text" disabled selected>{{.Params.Forms.BecomeAware}}
+                                </option>
+                                <option class="order-text">{{.Params.Forms.SearchEngine}}</option>
+                                <option class="order-text">{{.Params.Forms.DownloadPortal}}</option>
+                                <option class="order-text">{{.Params.Forms.Acquaintances}}</option>
+                                <option class="order-text">{{.Params.Forms.Other}}</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <p>{{.Params.Forms.Hinweis|safeHTML}}</p>
-                <div class="modal-footer-bestellung d-flex justify-content-center ">
-                    <button class="btn btn-block btn-CTA2 ml-auto myDiv" title="Senden"
-                        id="anfrageFormButton"
-                        onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden', 'event_label': 'Senden','value': 'value'});"
-                        type="submit">{{.Params.Button.Senden}}</button>
-                </div>
-            </form>
+                    <p>{{.Params.Forms.Hinweis|safeHTML}}</p>
+                    <div class="modal-footer-bestellung d-flex justify-content-center ">
+                        <button class="btn btn-block btn-CTA2 ml-auto myDiv" title="Senden" id="anfrageFormButton"
+                            onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden', 'event_label': 'Senden','value': 'value'});"
+                            type="submit">{{.Params.Button.Senden}}</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-  </div>
 </div>
 
 <!-- Modal Kontaktformular Fehler max 5 fils-->
 
 <div class="modal fade" id="KontaktFormularMAX5FILS" tabindex="-1" role="dialog"
-aria-labelledby="KontaktFormularMAX5FILS" aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header text-center">
-        <h1 class="modal-title w-100">
-            <span>{{.Params.Forms.LimitFiles}}</span>
-        </h1>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+    aria-labelledby="KontaktFormularMAX5FILS" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h1 class="modal-title w-100">
+                    <span>{{.Params.Forms.LimitFiles}}</span>
+                </h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-    <div class="modal-body mx-3 text-center">
+            <div class="modal-body mx-3 text-center">
 
-        <div class="form-group mb-0">
-            <span>{{.Params.Forms.CantSend}}
-                <br> {{.Params.Forms.PleaseContact}}
-                <a class="mailto" href="mailto:CIBpdfSupport@cib.de">CIBpdfSupport@cib.de</a>.
-            </span>
+                <div class="form-group mb-0">
+                    <span>{{.Params.Forms.CantSend}}
+                        <br> {{.Params.Forms.PleaseContact}}
+                        <a class="mailto" href="mailto:CIBpdfSupport@cib.de">CIBpdfSupport@cib.de</a>.
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 <!-- Modal Kontaktformular max Grösse 10MB-->
 
-<div class="modal fade" id="KontaktFormularMAX10MB" tabindex="-1" role="dialog"
-aria-labelledby="KontaktFormularMAX10MB" aria-hidden="true">
-<div class="modal-dialog modal-dialog-sm" role="document">
-<div class="modal-content">
-    <div class="modal-header text-center">
-        <h1 class="modal-title w-100">
-            <span>{{.Params.Forms.Limit10MBFiles}}</span>
-        </h1>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+<div class="modal fade" id="KontaktFormularMAX10MB" tabindex="-1" role="dialog" aria-labelledby="KontaktFormularMAX10MB"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h1 class="modal-title w-100">
+                    <span>{{.Params.Forms.Limit10MBFiles}}</span>
+                </h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-    <div class="modal-body mx-3 text-center">
+            <div class="modal-body mx-3 text-center">
 
-        <div class="form-group mb-0">
-            <span>{{.Params.Forms.CantSend}}
-                <br> {{.Params.Forms.PleaseContact}}
-                <a class="mailto" href="mailto:CIBpdfSupport@cib.de">CIBpdfSupport@cib.de</a>.
-            </span>
+                <div class="form-group mb-0">
+                    <span>{{.Params.Forms.CantSend}}
+                        <br> {{.Params.Forms.PleaseContact}}
+                        <a class="mailto" href="mailto:CIBpdfSupport@cib.de">CIBpdfSupport@cib.de</a>.
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-</div>
-</div>
+
+<!-- Get WP posts -->
+<script src="/js/wp-brewer.js"></script>
 
 {{ end }}
