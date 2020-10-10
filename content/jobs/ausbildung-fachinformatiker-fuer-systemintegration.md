@@ -1,9 +1,9 @@
 {
     "type": "jobs",
-    "Titel": "Praktikum im IT-Unternehmen gesucht? Bei CIB bist du genau Richtig.",
-    "title": "Praktikum im IT-Unternehmen gesucht? Bei CIB bist du genau Richtig.",
+    "Titel": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
+    "title": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
     "tags": ["test"],
-    "categories": ["Schülerpraktikum"],
+    "categories": ["Ausbildung", "Schülerpraktikum"],
 
     "header": {
         "Titel": "Unser Angebot für Studenten und Absolventen",
@@ -16,8 +16,8 @@
     },
 
     "Job": {
-        "Title": "Praktikum / Praxissemester in der Softwareentwicklung",
-        "TextLine1": "Bist du auf der Suche nach einem <b>Praktikum</b>? Bei uns bist du genau richtig!",
+        "Title": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
+        "TextLine1": "Bist du auf der Suche nach einem <b>Ausbildung</b> zum <b>Fachinformatiker für Systemintegration</b>? Bei uns bist du genau richtig!",
         "TextLine2": "Wir, die CIB-Gruppe, sind seit 30 Jahren mit unseren innovativen Software-Lösungen und Dienstleistungen ein führender Anbieter im Bereich Dokumenten-Management. Unseren Kunden bieten wir maßgeschneiderte Software-Produkte zur Erzeugung, Verwaltung und Steuerung von Dokumenten aller Art.",
         "TextLine3": "Wir suchen kreative Talente, die sich im Rahmen ihres <b>Praktikums</b> an der Entwicklung von zukunftsorientierten Software-Lösungen u. a. in den Bereichen <b>Deep Learning, Big Data</b> oder Mobile Computing beteiligen möchten und mit uns weiter wachsen wollen!",
         "TextLine4": "Starte dein <b>Praktikum</b> und deine Karriere und werde Teil unseres internationalen Teams in München!",
