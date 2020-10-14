@@ -2,7 +2,7 @@
     "type": "jobs",
     "Titel": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
     "title": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
-    "tags": ["test"],
+    "tags": ["Hamburg"],
     "categories": ["Softwareentwicklung", "Alle"],
 
     "header": {

@@ -318,13 +318,13 @@ other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstande
 other = "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:CIBpdfSupport@cib.de\">CIBpdfSupport@cib.de</a>."
 
 [submenu_schueler]
-other = "SCHÜLER"
+other = "Schüler"
 [submenu_studenten]
-other = "STUDENTEN UND ABSOLVENTEN"
+other = "Studenten und Absolventen"
 [submenu_professionals]
-other = "BERUFSERFAHRENE"
+other = "Berufserfahrene"
 [submenu_beginners]
-other = "QUEREINSTEIGER UND INITIATIVBEWERBER"
+other = "Quereinsteiger und Initiativbewerber"
 
 [jobrightsidebar_Name]
 other = "Mirka Tumova"

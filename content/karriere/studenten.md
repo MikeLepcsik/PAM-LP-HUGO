@@ -3,7 +3,7 @@
     "type": "karriere",
 
     "header": {
-        "Titel": "Unser Angebot für Studenten und Absolventen",
+        "Titel": "Jobbörse für Studenten und Absolventen",
         "Button": "zur Jobbörse"
     },
 

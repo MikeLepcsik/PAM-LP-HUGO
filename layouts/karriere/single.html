@@ -11,167 +11,6 @@
 <!-- slideshow -->
 {{ partial "slideshow.html" . }}
 
-<!-- submenu -->
-<style>
-    code {
-        background: #fff1;
-        padding: .2em .4em;
-    }
-
-    #footer {
-        background-color: #246c;
-        background-image: linear-gradient(to bottom, transparent, #0009);
-        border-top: 1px solid #fff3;
-        box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
-        overflow: hidden;
-        padding: 8px;
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 9001;
-    }
-
-    #footer a {
-        color: #85c6f6;
-        padding: 1em 0;
-        text-decoration: none;
-    }
-
-    #footer ul {
-        display: flex;
-        list-style: none;
-        justify-content: center;
-        font-size: 2em;
-        font-weight: 300;
-    }
-
-    #footer ul li {
-        padding: 0 .5em;
-    }
-
-    /* Appearance */
-    .links {
-        background-color: #fff;
-        background-image: linear-gradient(to bottom, #bec8d2, transparent);
-        border-bottom: 1px solid #0003;
-        box-shadow: 0 0 32px #0003;
-        font-size: 2em;
-        font-weight: 300;
-        top: -32px;
-    }
-
-    .links>a {
-        color: #9ab;
-        padding: .75em;
-        text-align: center;
-        text-decoration: none;
-        transition: all .5s;
-    }
-
-    .links>a:hover {
-        background: #ffffff06;
-        color: #E11E19;
-    }
-
-    .links>.line {
-        background: #E11E19;
-        height: 1px;
-        pointer-events: none;
-    }
-
-    /* The Magic */
-    #header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .links {
-        display: grid;
-        grid-template-columns: repeat(var(--items), 1fr);
-        position: relative;
-    }
-
-    .links>.line {
-        opacity: 0;
-        transition: all .5s;
-        position: absolute;
-        bottom: 0;
-        left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-        width: var(--width, calc(100% / var(--items)));
-        --index: 0;
-    }
-
-    .links>a:hover~.line {
-        opacity: 1;
-    }
-
-    .links>a:nth-of-type(1):hover~.line {
-        --index: 1;
-    }
-
-    .links>a:nth-of-type(2):hover~.line {
-        --index: 2;
-    }
-
-    .links>a:nth-of-type(3):hover~.line {
-        --index: 3;
-    }
-
-    .links>a:nth-of-type(4):hover~.line {
-        --index: 4;
-    }
-
-    .links>a:nth-of-type(5):hover~.line {
-        --index: 5;
-    }
-
-    .links>a:nth-of-type(6):hover~.line {
-        --index: 6;
-    }
-
-    .links>a:nth-of-type(7):hover~.line {
-        --index: 7;
-    }
-
-    .links>a:nth-of-type(8):hover~.line {
-        --index: 8;
-    }
-
-    .links>a:nth-of-type(9):hover~.line {
-        --index: 9;
-    }
-
-    .links>a:nth-of-type(10):hover~.line {
-        --index: 10;
-    }
-
-    .links>a:last-of-type:hover~.line {
-        --index: var(--items);
-    }
-
-    .active,
-    .btnlink:hover {
-        background-color: transparent;
-        color: #E11E19 !important;
-    }
-
-    .active,
-    .line {
-        border-bottom: 1px solid #E11E19;
-    }
-</style>
-
-<nav class="links" style="--items: 4;" id="SubMenu">
-    <a class="btnlink active" href='{{"karriere/schueler"|relLangURL}}'>{{T "submenu_schueler"}}</a>
-    <a class="btnlink" href='{{"karriere/studenten"|relLangURL}}'>{{T "submenu_studenten"}}</a>
-    <a class="btnlink" href='{{"karriere/berufserfahrene"|relLangURL}}'>{{T "submenu_professionals"}}</a>
-    <a class="btnlink" href='{{"karriere/initiativbewerber"|relLangURL}}'>{{T "submenu_beginners"}}</a>
-    <span class="line"></span>
-</nav>
-
 <script>
     // Add active class to the current button (highlight it)
     var header = document.getElementById("SubMenu");
@@ -220,10 +59,14 @@
                 
                     <div>
                         <div class="card-deck mt-4">
-                            <div class="card text-center">
-                                <a class="" href='${result.ref}'>
+                            <div class="card jobcard card-text">
+                                <a class="card-text" href='${result.ref}'>
                                     <div class="card-body">
-                                        <p class="card-text">${documents[result.ref].title}
+                                        <p class="">ANGEBOT
+                                        </p>
+                                        <p class="">${documents[result.ref].title}
+                                        </p>
+                                        <p class="pb-5 mb-5" style="font-size: 12px;">Standort: ${documents[result.ref].tags}
                                         </p>
                                         <!-- <p><a href="${result.ref}">${result.ref}</a></p> -->
                                     </div>
@@ -242,7 +85,7 @@
 
             // if results are empty
         } else {
-            searchResults.innerHTML = '<div class="card-deck mt-4"><div class="card"><div class="card-body text-center"><p><span class="material-icons align-text-bottom">search_off</span> <b>Leider kein treffer!</b> <br>Versuchen Sie am besten gleich noch einmal oder kontaktieren Sie uns direkt unter <a class=\"link-text16\" href=\"mailto:cibsupport@cib.de\">cibsupport@cib.de</a></p></div ></div > '
+            searchResults.innerHTML = '<div class="card-deck mt-4"><div class="card" style="background-color: #e5eef3;"><div class="card-body text-center"><p><span class="material-icons align-text-bottom">search_off</span> <b>Leider kein treffer!</b> <br>Versuchen Sie am besten gleich noch einmal oder kontaktieren Sie uns direkt unter <a class=\"link-text16\" href=\"mailto:cibsupport@cib.de\">cibsupport@cib.de</a></p></div ></div > '
         }
     }
     //...
@@ -311,6 +154,7 @@
                         this.add(doc)
                         documents[doc.url] = {
                             'title': doc.title,
+                            'tags': doc.tags,
                             'content': doc.content,
                         }
                     }, this)

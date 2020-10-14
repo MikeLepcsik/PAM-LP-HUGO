@@ -5,7 +5,7 @@
 
 
     "header": {
-        "Titel": "Unser Angebot für Schüler",
+        "Titel": "Jobbörse für Schüler",
         "Button": "zur Jobbörse"
     },
 
