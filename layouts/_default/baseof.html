@@ -224,6 +224,10 @@
         </div>
     </div>
 
+    <div class="container section pt-0">
+        <section id="global-search-results" class="search mx-3"></section>
+    </div>
+
     <!-- Wload JS -->
     <script src="/js/jquery.Wload.js"></script>
 
@@ -232,6 +236,14 @@
     <!-- <script src="js/app-ES.js"></script> -->
     <script src="/js/email.js"></script>
     <script src="/js/script.js"></script>
+
+    <!-- Global search -->
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    {{ $built := resources.Get "js/globalsearch.js" | js.Build "globalsearch.js" }}
+    <script type="text/javascript" src="{{ $built.RelPermalink }}"></script>
+    <script>
+        $(document).ready(function() {window.registerGlobalSearch('global-search-input', 'global-search-results')});
+    </script>
 
     <!-- Counter-->
     <script type="text/javascript">
