@@ -1,5 +1,10 @@
 <?php
-require __DIR__ . '/PHPMailerAutoload.php';
+require 'PHPMailerAutoload.php';
+require 'check_spam.php';
+
+if (checkSpam($_POST)) die();
+if (isset($_POST['honeypot'])) unset($_POST['honeypot']);
+
 $mail = new PHPMailer;
 
 var_dump($_POST);
@@ -24,17 +29,18 @@ $mail->Port = 25;
 
 $mail->CharSet = 'UTF-8';
 $mail->Encoding = 'base64';
-$mail->setFrom('info@cib.de', 'CIB karriere');
-//$mail->addAddress('Kirsten.Hoffmeyer@cib.de', 'Kirsten');
-$mail->addAddress('Mike.Lepcsik@cib.de', 'Mike');
-$mail->Subject = 'CIB karriere Anfrage';
+//$mail->setFrom('CIBpdfSupport@cib.de', 'CIB pdf brewer');
+$mail->addAddress('mike.lepcsik@cib.de', 'Mike');
+//$mail->addAddress('CIBpdfSupport@cib.de', 'CIB pdf brewer');
+//$mail->addAddress('Yolanda.RocaArencibia@cib.de', 'Yolanda');
+$mail->Subject = 'Bewerbung';
 // Set HTML 
 $mail->isHTML(TRUE);
 $mail->Body = "
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:v='urn:schemas-microsoft-com:vml' xmlns:o='urn:schemas-microsoft-com:office:office'>
 
 <head>
-    <title>CIB fairbrieft Anfrage</title>
+    <title>Bewerbung</title>
     <meta charset='UTF-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -61,16 +67,12 @@ tr:nth-child(even) {
 <div style='max-width: 560px; padding: 20px; background: #ffffff; border-radius: 5px; margin: 40px auto; font-family: Open Sans,Helvetica,Arial; font-size: 15px; color: #666;'>
 <div style='color: #444444; font-weight: normal;'>
     <div style='padding: 30px 0; font-size: 24px; color: #555; text-align: left; line-height: 30px;'>
-    CIB fairbrieft Anfrage</div>
+    NPO-Anfrage</div>
 </div>
 <div style='padding: 0 10px 10px 10px; border-bottom: 3px solid #eeeeee;'>
 <div style='color: #999; padding: 20px 30px; text-align: center;'>
 
     <table>
-    <tr>
-      <td>Ihre Nachricht</td>
-      <td>{$_POST['hinweis']}</td>
-    </tr>
     <tr>
       <td>Vorname</td>
       <td>{$_POST['vorname']}</td>
@@ -80,8 +82,52 @@ tr:nth-child(even) {
       <td>{$_POST['nachname']}</td>
     </tr>
     <tr>
+      <td>Strasse</td>
+      <td>{$_POST['strasse']}</td>
+    </tr>
+    <tr>
+      <td>Postleitzahl</td>
+      <td>{$_POST['postleitzahl']}</td>
+    </tr>
+    <tr>
+      <td>Ort</td>
+      <td>{$_POST['ort']}</td>
+    </tr>
+    <tr>
+      <td>Unternehmen</td>
+      <td>{$_POST['unternehmen']}</td>
+    </tr>
+    <tr>
       <td>E-Mail</td>
       <td>{$_POST['eMail']}</td>
+    </tr>
+    <tr>
+      <td>Telefon</td>
+      <td>{$_POST['telefon']}</td>
+    </tr>" .
+    array_reduce($_FILES, function($text, $file) {
+      if (is_array($file['name'])) {
+        return array_reduce($file['name'], function($z, $name) {
+          return $z . "<tr>
+          <td>Attachment</td>
+          <td>{$name}</td>
+        </tr>";
+        }, '');
+      } else {
+        return $text . "<tr>
+          <td>Attachment</td>
+          <td>{$file['name']}</td>
+        </tr>";
+      }
+    }, '')
+    . "
+    <tr>
+      <td>Wie sind Sie auf uns aufmerksam geworden?</td>
+      <td>{$_POST['gefunden']}</td>
+    </tr>
+    <tr>
+      <td>Wie können wir Ihnen noch behilflich sein?</td>
+      <td>{$_POST['hinweis']}</td>
     </tr>
   </table></br>
 
@@ -90,6 +136,17 @@ tr:nth-child(even) {
 
 </html>";
 $mail->AltBody = print_r($_POST, true);
+
+// add attachment
+foreach ($_FILES as $file) {
+  if (is_array($file['name'])) {
+      for ($i=0; $i < count($file['name']); $i++) { 
+          $mail->addAttachment($file['tmp_name'][$i], $file['name'][$i]);
+      }
+  } else {
+      $mail->addAttachment($file['tmp_name'], $file['name']);
+  }
+}
 
 // send the message
 if (!$mail->send()) {
