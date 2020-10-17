@@ -69,11 +69,11 @@
 	},
 
 	"header": {
-		"Titel": "CIB solutions: Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
+		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",
-		"Text": "Mit 30 Jahren Erfahrung sind wir die Experten im Bereich des Document Lifecycle Managements. Hinzu entwickelt  CIB innovative Lösungen und führt bahnbrechende Forschungsprojekte durch. Mit unserer Vision sind wir immer einen Schritt voraus: Ob Deep Learning, BPM oder Cloud - hier dürfen sich die Spezialisten der Zukunft ausleben!",
-		"Slide2Titel": "CIB pdf brewer: über 3 Millionen Dokumenten jährlich mit dem brewer erzeugt",
-		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren: Mit CIB fluXkomprimator deutlich an Speicherplatz sparen!",
+		"Text": "Lorem Ipsum / Call to action",
+		"Slide2Titel": "CIB pdf brewer: die All-In-One-Lösung für Ihre professionelle PDF-Bearbeitung.",
+		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren mit unserem Fluxi und deutlich an Speicherplatz sparen!",
 		"Slide4Titel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz",
 		"Button": "zur Jobbörse"
 	},
@@ -193,7 +193,7 @@
 		"ContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
 	},
 	"Companies": {
-		"Title": "Diese und weitere Unternehmen setzen auf unseren \"brewer\""
+		"Title": "Diese und weitere Unternehmen setzen auf CIB Lösungen"
 	},
 	"News": {
 		"Title": "Was ist neu?",

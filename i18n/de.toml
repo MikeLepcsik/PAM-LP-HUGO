@@ -70,7 +70,7 @@ other = "Langzeitarchivierung"
 [menuSolutions_LongTermArchivingText]
 other = "cxcxcxccx"
 [menuSolutions_ProcessOptimization]
-other = "Processoptimierung"
+other = "Prozessoptimierung"
 [menuSolutions_ProcessOptimizationText]
 other = "cxcxcxccx"
 [menuSolutions_DocumentOptimization]
@@ -80,15 +80,15 @@ other = "cxcxcxccx"
 [menuSolutions_ForFinancialInstitutes]
 other = "Für Finanzinstitute"
 [menuSolutions_ForFinancialInstitutesText]
-other = "cxcxcxccx"
+other = "Über 300 Banken und Finanzinstitute in Deutschland vertrauen CIB. Erfahren Sie warum!"
 [menuSolutions_ForTaxConsultants]
 other = "Für Steuerberater"
 [menuSolutions_ForTaxConsultantsText]
-other = "cxcxcxccx"
+other = "Entdecken Sie unsere Kanzlei-Lösungen und erfahren Sie, wie Digitalisierung Ihr Alltagsgeschäft deutlich unterstützen kann."
 [menuSolutions_ForPublicInstitutions]
 other = "Für öffentliche Einrichtungen"
 [menuSolutions_ForPublicInstitutionsText]
-other = "cxcxcxccx"
+other = "CIB Lösungen sind bei über 25.000 Arbeitsplätzen allein in München im Einsatz. Erfahren Sie mehr."
 
 
 [menuProducts_Title]
@@ -104,13 +104,13 @@ other = "Der Experte zum Bearbeiten von PDF-Dokumenten"
 [menuProducts_doXisign]
 other = "Dokumente digital unterschreiben - medienbruchfrei und ohne Installation"
 [menuProducts_brewer]
-other = "kostenlos PDFs erstellen, bearbeiten und vieles mehr"
+other = "Die All-Round-PDF Lösung von CIB"
 [menuProducts_fluxkomprimator]
-other = "PDF komprimieren, Speicherplatz sparen!"
+other = "Der leistungstarken Modul für PDF-Kompression"
 [menuProducts_doXigate]
 other = "Dokumenten-Austausch-Plattform in Echtzeit"
 [menuProducts_doXisafe]
-other = "Teilen, bearbeiten, mit anderen Cloud-Diensten teilen"
+other = "Die beliebte Dokumenten-Multi-Cloud - auch als APP!"
 [menuProducts_fairBrieft]
 other = "Serienbriefe mit einem Klick kuvertieren und versenden"
 [menuProducts_kanzleiapp]
@@ -156,7 +156,7 @@ other = "Vorlagen-Service"
 [menuSupport_TemplateServiceText]
 other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
 [menuSupport_Support]
-other = "Unser Support Team ist Ihr erster Ansprechpartner bei Fragen zu allen CIB Produkten"
+other = "Unser Support Team ist bei Fragen zu allen CIB Lösungen für Sie da!"
 [menuSupport_Hotline]
 other = "Hotline: +49 89 14360 111"
 [menuSupport_EMail]
@@ -165,11 +165,11 @@ other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
 [menuCompanies_Guideline]
 other = "Leitlinie"
 [menuCompanies_GuidelineText]
-other = "Leitlinie TEXT XXX"
+other = "Rund ums Dokumenten Management entwickeln wir Lösungen, um bestehende Prozesse mit unseren Lösungen zu optimieren und somit Digitalisierung im Unternehmen und in der Gesellschaft voranzutreiben. Für uns. Für Sie. Für Alle."
 [menuCompanies_History]
 other = "Geschichte"
 [menuCompanies_HistoryText]
-other = "Geschichte TEXT XXX"
+other = "Entwicklung der CIB Unternehmensgruppe im Zeitverlauf"
 [menuCompanies_MediaCenter]
 other = "Media Center"
 [menuCompanies_MediaCenterText]
@@ -187,7 +187,7 @@ other = "Schließe dich 122 anderen Abonnenten an und Folge unsere neuesten Nach
 [menuCompanies_Contact]
 other = "Kontakt"
 [menuCompanies_ContactAdress]
-other = "Internationale Übersicht der CIB Niederlassungen"
+other = "CIB Niederlassungen in Europa"
 [menuCompanies_AboutUs]
 other = "Über uns"
 [menuCompanies_AboutUsText]

@@ -9,7 +9,7 @@
 	},
 
     "header": {
-        "Titel": "PDF komprimieren: Mit CIB fluXkomprimator deutlich an Speicherplatz sparen!",
+        "Titel": "Mit unserem leistungstarken Modul für PDF-Kompression deutlich an Speicherplatz sparen!",
         "Text": "Große PDF-Dateien mit <i>fluXi</i> nahezu verlustfrei komprimieren,  IT-Ressourcen frei machen und blitzschnell versenden.",
 
         "Fragen": "You ask, we answer:"
