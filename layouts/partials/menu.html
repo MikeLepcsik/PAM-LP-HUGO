@@ -879,14 +879,17 @@
 
     <!-- Menu breadcrumb -->
     <div class="container-fluid">
-        <div class="float-left btn-group btn-breadcrumb breadcrumb-default" id="siteBreadcrumb">
+        {{ partial "breadcrumbs.html" . }}
+
+        {{/*  <div class="float-left btn-group btn-breadcrumb breadcrumb-default" id="siteBreadcrumb">
+
             <a href="index.html"><span class="material-icons"
                     style="font-size: 20px; vertical-align: middle;">home</span>
             </a>
             <a href="#" class="nav-link pt-0 ">
                 <ol class="breadcrumb"></ol>
             </a>
-        </div>
+        </div>  */}}
         <!-- Menu search -->
         <div class="float-right">
 
@@ -916,7 +919,7 @@
         })
 
         //Breadcrumbs based on URL location
-        if ($('#siteBreadcrumb ol.breadcrumb')) {
+        /*  if ($('#siteBreadcrumb ol.breadcrumb')) {
             var here = location.href.replace(/(\?.*)$/, '').split('/').slice(3);
 
             var parts = [{
@@ -935,6 +938,6 @@
                     "link": link
                 });
             }
-        }
+        }  */
     </script>
 </nav>
