@@ -8,5 +8,9 @@ DefaultContentLanguage = "de"
     [languages.es]
         LanguageName = "Español"
         title = "CIB Group: Ideas con sistemáticas"
+[outputFormats]
+    [outputFormats.SearchIndex]
+        baseName = "search"
+        mediatype = "application/json"
 [outputs]
-    section = ["JSON", "HTML"]
+    section = ["JSON", "HTML", "SearchIndex"]
