@@ -7,7 +7,7 @@
         "Button": "zur Jobbörse"
     },
 
-    "NoShow": "<span style=\"display: none;\">",
+    "NoShow": "<span style=\"display: content;\">",
 
     "Button": {
         "Senden": "Senden",

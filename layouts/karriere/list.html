@@ -40,7 +40,7 @@
 <!-- Zur Jobs -->
 
 <div class="container section text-center" id="Jobs">
-    <h2 class="jumbotron-heading section-title">{{.Params.ToJobs.Titel}}</h2>
+    <h2 class="pt-5 jumbotron-heading section-title">{{.Params.ToJobs.Titel}}</h2>
 
     <div class="row justify-content-md-center">
         <h3 class="jumbotron-heading section-title col col-lg-8">{{.Params.ToJobs.TitelSub}}</h3>
@@ -82,7 +82,7 @@
         </div>
         <div class="col-lg-3">
             <div class="contentJob">
-                <a href="#" target="_blank">
+                <a href='{{"karriere/berufserfahrene"|relLangURL}}' target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="/images/karriere/Berufserfahrene.png" width="310" height="480">
                     <div class="top-left ">
@@ -99,7 +99,7 @@
         </div>
         <div class="col-lg-3">
             <div class="contentJob">
-                <a href="#" target="_blank">
+                <a href='{{"karriere/initiativbewerber"|relLangURL}}' target="_blank">
                     <div class="content-overlay"></div>
                     <img class="content-image" src="/images/karriere/QUEREINSTEIGER.png" width="310" height="480">
                     <div class="top-left text-left">
@@ -160,19 +160,9 @@
 
 <div class="section light-bg">
     <div class="container">
-        <div class="section-title">
-            <h1>{{.Params.Process.Title}}</h1>
-            <h3 class="pt-3">{{.Params.Process.Header}}</h3>
-        </div>
 
         <div class="row">
-            <div class="col-12 col-lg-2 pt-card">
-                <div class="row">
-                    <div class="col feature-icon justify-content-left pb-3">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 pt-card">
+            <div class="col-8 pt-card">
                 <div class="row justify-content-center">
                     <div class="animation-text pl-3 pr-3">
                         <p class="card-text font-weight-bold">{{.Params.Process.Subtitle1}}
@@ -181,7 +171,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 pt-card">
+            <div class="col-4 pt-card">
                 <div class="row">
                     <div class="col feature-icon justify-content-left pb-3">
                         <img src="/images/karriere/prozess1.JPG" class="img-fluid">
@@ -191,20 +181,14 @@
         </div>
 
         <div class="row pt-5">
-            <div class="col-12 col-lg-2 pt-card">
-                <div class="row">
-                    <div class="col feature-icon justify-content-left pb-3">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 pt-card">
+            <div class="col-4 pt-card">
                 <div class="row">
                     <div class="col feature-icon justify-content-left pb-3">
                         <img src="/images/karriere/prozess2.JPG" class="img-fluid">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 pt-card">
+            <div class="col-8 pt-card">
                 <div class="row justify-content-center">
                     <div class="animation-text pl-3 pr-3">
                         <p class="card-text font-weight-bold">{{.Params.Process.Subtitle2}}
@@ -216,13 +200,7 @@
         </div>
 
         <div class="row pt-5">
-            <div class="col-12 col-lg-2 pt-card">
-                <div class="row">
-                    <div class="col feature-icon justify-content-left pb-3">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 pt-card">
+            <div class="col-8 pt-card">
                 <div class="row justify-content-center">
                     <div class="animation-text pl-3 pr-3">
                         <p class="card-text font-weight-bold">{{.Params.Process.Subtitle3}}
@@ -231,7 +209,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 pt-card">
+            <div class="col-4 pt-card">
                 <div class="row">
                     <div class="col feature-icon justify-content-left pb-3">
                         <img src="/images/karriere/prozess3.JPG" class="img-fluid">
