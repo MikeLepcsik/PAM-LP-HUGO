@@ -1,6 +1,10 @@
 {
     "layout": "produkte/doxigate",
 	"translationKey": "produkte/doxigate",
+    
+    "_comment": "Title is a search words", 
+    "Title": "CIB doXibox & doXicrate",
+
     "header": {
         "Titel": "Durchgängig digital mit Mandanten kommunizieren",
         "TextPunkte1": " Nie mehr Dokumenten nachtelefonieren",

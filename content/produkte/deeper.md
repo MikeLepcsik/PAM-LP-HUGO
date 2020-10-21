@@ -2,6 +2,9 @@
     "layout": "produkte/deeper",
 	"translationKey": "produkte/deeper",
 
+    "_comment": "Title is a search words", 
+    "Title": "CIB deepER",
+
     "headTitel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz",
     "header": {
         "Titel": "OCR auf Basis von künstlicher Intelligenz",

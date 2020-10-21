@@ -1,6 +1,10 @@
 {
 	"layout": "produkte/fairbrieft",
 	"translationKey": "produkte/fairbrieft",
+
+ 	"_comment": "Title is a search words", 
+    "Title": "CIB fairbrieft",
+
 	"header": {
 		"Titel": "Papierpost online abwickeln - schnell, sicher & einfach!",
 		"SubTitle": "",

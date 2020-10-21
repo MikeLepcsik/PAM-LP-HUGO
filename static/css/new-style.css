@@ -928,6 +928,13 @@ code {
     border-radius: .0rem;
 }
 
-.card-text:hover {
+.card-text-hover {
+    font-size: 18px;
+    font-weight: 400;
+    color: #212934;
+    line-height: 1.5rem;
+}
+
+.card-text-hover:hover {
     color: #fff!important;
 }

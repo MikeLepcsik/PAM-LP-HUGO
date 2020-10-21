@@ -1,4 +1,8 @@
 {
+
+	"_comment": "Title is a search words", 
+    "Title": "index",
+
 	"menuSolutions": {
 		"Title": "Unsere Lösungen",
 		"DocumentCapture": "Dokumentenerfassung",

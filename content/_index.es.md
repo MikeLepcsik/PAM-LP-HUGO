@@ -1,5 +1,8 @@
 {
 
+	"_comment": "Title is a search words", 
+    "Title": "index_es",
+
 	"menuSolutions": {
 		"Title": "Soluciones CIB",
 		"DocumentCapture": "Gestión documental",

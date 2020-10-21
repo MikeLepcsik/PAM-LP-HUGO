@@ -2,6 +2,9 @@
     "layout": "produkte/kanzleiapp",
 	"translationKey": "produkte/kanzleiapp",
 
+    "_comment": "Title is a search words", 
+    "Title": "CIB kanzlei app",
+
      "headTitel": "CIB kanzlei app: die mobile Lösung für Steuerberater", 
     "header": {
         "Titel": "Die Kanzlei der Zukunft ist digital, einfach, direkt",
