@@ -2,7 +2,7 @@
 	"layout": "produkte/fluxkomprimator",
 	"translationKey": "produkte/fluxkomprimator",
 
- 	"_comment": "Title is a search words", 
+ 	"_comment": "Title = Search", 
     "Title": "CIB fluXkomprimator",
 
 	"Slider": {

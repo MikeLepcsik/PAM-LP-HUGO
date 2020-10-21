@@ -1,6 +1,6 @@
 {
 
-	"_comment": "Title is a search words", 
+	"_comment": "Title = Search", 
     "Title": "index_es",
 
 	"menuSolutions": {

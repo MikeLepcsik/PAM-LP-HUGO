@@ -7,17 +7,17 @@ other = "Deutsch"
 [page]
 other = "CIB Group"
 [menu_Solutions]
-other = "Lösungen"
+other = "Expertise"
 [menu_Products]
-other = "Produkte"
+other = "Lösungen"
 [menu_Projects]
 other = "F&E"
 [menu_Consulting]
-other = "CIB consulting"
+other = "Consulting"
 [menu_Service]
 other = "Beratung & Support"
 [menu_Career]
-other = "Karriere"
+other = "Jobbörse"
 [menu_Companies]
 other = "Über uns"
 [menu_Blog]
@@ -28,7 +28,7 @@ other = "CIB cash"
 other = "Anfragen"
 
 [menuSolutions_Title]
-other = "Unsere Lösungen"
+other = "Dokument Management & BPM"
 [menuSolutions_IncomingMailProcessing]
 other = "Posteingangsverarbeitung"
 [menuSolutions_IncomingMailProcessingText]
@@ -92,7 +92,7 @@ other = "CIB Lösungen sind bei über 25.000 Arbeitsplätzen allein in München 
 
 
 [menuProducts_Title]
-other = "Unsere Produkte"
+other = "CIB Lösungen und Module"
 [menuProducts_coSys]
 other = "Das EcoSystem für den gesamten Dokumentenlebenszyklus"
 [menuProducts_doXiview]
@@ -121,18 +121,18 @@ other = "Opensource inklusive CIB Services und Integration"
 other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unterwegs"
 
 [menuConsulting_Title]
-other = "Unsere Dienstleistungen"
+other = "Die IT-Spezialisten an Ihrer Seite"
 [menuConsulting_IntegrationMigration]
 other = "Integration & Migration"
 [menuConsulting_Consulting]
-other = "TEXT XXX"
+other = "TEXT 1 XXX"
 [menuConsulting_PlanningDevelopment]
 other = "Planung & Entwicklung"
 [menuConsulting_SeminarsTraining]
 other = "Seminare & Schulungen"
 
 [menuSupport_Title]
-other = "Unsere Dienstleistungen"
+other = "CIB Berater & Support-Team"
 [menuSupport_Dokumentationen]
 other = "Dokumentationen"
 [menuSupport_CIB_Consultation]
@@ -162,6 +162,9 @@ other = "Hotline: +49 89 14360 111"
 [menuSupport_EMail]
 other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
 
+
+[menuCompanies_AboutUs]
+other = "Das Unternehmen"
 [menuCompanies_Guideline]
 other = "Leitlinie"
 [menuCompanies_GuidelineText]
@@ -188,12 +191,10 @@ other = "Schließe dich 122 anderen Abonnenten an und Folge unsere neuesten Nach
 other = "Kontakt"
 [menuCompanies_ContactAdress]
 other = "CIB Niederlassungen in Europa"
-[menuCompanies_AboutUs]
-other = "Über uns"
 [menuCompanies_AboutUsText]
-other = "Wer wir sind, was wir tun und wie wir handeln"
+other = "asdfg"
 [menuCompanies_SocialEngagement]
-other = "Soziales Engagement "
+other = "Soziales Engagement"
 [menuCompanies_SocialEngagementText]
 other = "Wer wir sind, was wir tun und wie wir handeln"
 [menuCompanies_AntivirusProgram]

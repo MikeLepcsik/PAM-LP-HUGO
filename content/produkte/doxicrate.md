@@ -2,7 +2,7 @@
     "layout": "produkte/doxicrate",
 	"translationKey": "produkte/doxicrate",
 
-    "_comment": "Title is a search words", 
+    "_comment": "Title = Search", 
     "Title": "CIB doXibox & doXicrate",
 
     "head": "CIB doXibox & doXicrate - Dokumentenscanner für ein optimales Scanergebnis",

@@ -2,7 +2,7 @@
 	"layout": "produkte/fairbrieft",
 	"translationKey": "produkte/fairbrieft",
 
- 	"_comment": "Title is a search words", 
+ 	"_comment": "Title = Search", 
     "Title": "CIB fairbrieft",
 
 	"header": {

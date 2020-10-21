@@ -399,7 +399,7 @@
                     <p class="megamenu-title">
                         <span class="material-icons material-icons-red"
                             style="font-size: 30px; vertical-align: sub;">miscellaneous_services</span>
-                        {{T "menuSupport_Title"}}
+                        {{T "menuConsulting_Title"}}
                     </p>
 
                     <div class="row">
@@ -881,19 +881,6 @@
     <div class="container-fluid">
         {{ partial "breadcrumbs.html" . }}
 
-        {{/*  <div class="float-left btn-group btn-breadcrumb breadcrumb-default" id="siteBreadcrumb">
-
-            <a href="index.html"><span class="material-icons"
-                    style="font-size: 20px; vertical-align: middle;">home</span>
-            </a>
-            <a href="#" class="nav-link pt-0 ">
-                <ol class="breadcrumb"></ol>
-    <div class="container-fluid pl-0 pb-3">
-        <div class="float-left btn-group " >
-            <a href="#" class="nav-link p-0 pb-3">
-                {{ partial "breadcrumbs.html" . }}
-            </a>
-        </div>  */}}
         <!-- Menu search -->
         <div class="float-right">
 
@@ -924,27 +911,5 @@
                 $("#search-button, #search-form").toggle();
             });
         })
-
-        //Breadcrumbs based on URL location
-        /*  if ($('#siteBreadcrumb ol.breadcrumb')) {
-            var here = location.href.replace(/(\?.*)$/, '').split('/').slice(3);
-
-            var parts = [{
-                "text": 'Home',
-                "link": '/'
-            }];
-
-            for (var j = 0; j < here.length; j++) {
-                var part = here[j];
-                var pageName = part.toLowerCase();
-                pageName = part.charAt(0).toUpperCase() + part.slice(1);
-                var link = '/' + here.slice(0, j + 1).join('/');
-                $('#siteBreadcrumb ol.breadcrumb').append(' &nbsp; / &nbsp;<li><a href="' + link + '">' + pageName.replace(/\.(htm[l]?|asp[x]?|php|jsp)$/, '') + '</a></li>');
-                parts.push({
-                    "text": pageName,
-                    "link": link
-                });
-            }
-        }  */
     </script>
 </nav>

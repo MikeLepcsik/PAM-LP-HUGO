@@ -1,10 +1,10 @@
 {
 
-	"_comment": "Title is a search words", 
+	"_comment": "Title = Search", 
     "Title": "index",
 
 	"menuSolutions": {
-		"Title": "Unsere Lösungen",
+		"Title": "Unsere Expertise",
 		"DocumentCapture": "Dokumentenerfassung",
 		"DocumentCaptureText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr..",
 		"DocumentManagement": "Dokument Management",
@@ -23,7 +23,7 @@
 	},
 
 	"menuProducts": {
-		"Title": "Unsere Produkte",
+		"Title": "CIB Lösungen und Module",
 		"coSys": "Das EcoSystem für den gesamten Dokumentenlebenszyklus",
 		"doXiview": "Der Viewer mit leistungsstarken Zusatzfunktionen",
 		"deepER": "OCR Erkennung auf Basis von Künstlicher Intelligenz (Ki)",

@@ -2,7 +2,7 @@
     "layout": "produkte/doxisign",
 	"translationKey": "produkte/doxisign",
 
- 	"_comment": "Title is a search words", 
+ 	"_comment": "Title = Search", 
     "Title": "CIB doXisign",
 
     "headTiteldoxisign": "CIB doXisign: Dokumente digital unterschreiben - medienbruchfrei und ohne Installation",

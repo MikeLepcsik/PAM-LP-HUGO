@@ -2,7 +2,7 @@
     "layout": "produkte/doxigate",
 	"translationKey": "produkte/doxigate",
     
-    "_comment": "Title is a search words", 
+    "_comment": "Title = Search", 
     "Title": "CIB doXibox & doXicrate",
 
     "header": {

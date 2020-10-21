@@ -2,7 +2,7 @@
     "layout": "produkte",
 	"translationKey": "produkte",
 
-    "_comment": "Title is a search words", 
+    "_comment": "Title = Search", 
     "Title": "Produkte",
 
     "head": "Produkte",

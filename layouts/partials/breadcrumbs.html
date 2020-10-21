@@ -1,5 +1,4 @@
-<div class="float-left btn-group btn-breadcrumb breadcrumb-default" id="siteBreadcrumb">
-
+<div class="float-left btn-group">
 
     <a href="#" class="nav-link pt-0 ">
         {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
@@ -17,8 +16,6 @@
                 {{ $.Scratch.Add "path" "/" }}
                 {{ end }}
             {{ end }}
-
-
         </ol>
     </a>
 </div>

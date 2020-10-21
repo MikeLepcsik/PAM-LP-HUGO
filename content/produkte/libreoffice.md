@@ -2,7 +2,7 @@
     "layout": "produkte/libreoffice",
 	"translationKey": "produkte/libreoffice",
 
-    "_comment": "Title is a search words", 
+    "_comment": "Title = Search", 
     "Title": "LibreOffice powered by CIB",
 
     "headTitelLibreOffice": "LibreOffice powered by CIB",

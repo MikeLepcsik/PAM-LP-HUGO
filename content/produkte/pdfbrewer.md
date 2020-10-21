@@ -2,7 +2,7 @@
     "layout": "produkte/pdfbrewer",
 	"translationKey": "produkte/pdfbrewer",
 
-    "_comment": "Title is a search words", 
+    "_comment": "Title = Search", 
     "Title": "CIB pdf brewer",
 
     "headTitelLibreOffice": "CIB pdf brewer",
