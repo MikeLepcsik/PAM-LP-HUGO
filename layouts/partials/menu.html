@@ -576,7 +576,7 @@
                 </div>
             </li>
 
-            <!-- Projects -->
+            <!-- F&E -->
 
             <li class="nav-item dropdown has-megamenu hr">
                 <a class="nav-link pb-0" data-toggle="dropdown"
@@ -587,7 +587,7 @@
                     <p class="megamenu-title">
                         <span class="material-icons material-icons-red"
                             style="font-size: 30px; vertical-align: sub;">biotech</span>
-                        {{T "menuCompanies_ProjectsTitle"}}
+                        {{T "menuProjects_Title"}}
                     </p>
 
                     <div class="row">
@@ -599,19 +599,19 @@
                                         <a href="#">
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
-                                                    PoP (Protect our Privacy)</p>
+                                                    {{T "menuProjects_PoP"}}</p>
                                                 <p class="megamenu-description">
-                                                    {{T "menuSolutions_DocumentCaptureText"}}</p>
+                                                    {{T "menuProjects_PoPText"}}</p>
                                             </div>
                                         </a>
                                     </li>
                                     <li class="megamenu-field">
-                                        <a href="#">
+                                        <a href="http://crowdsource-test:8080/crowdsource/#/home">
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
-                                                    CIB crowdsource</p>
+                                                    {{T "menuProjects_crowdsource"}}</p>
                                                 <p class="megamenu-description">
-                                                    {{T "menuSolutions_DocumentCaptureText"}}</p>
+                                                    {{T "menuProjects_crowdsourceText"}}</p>
                                             </div>
                                         </a>
                                     </li>
@@ -627,19 +627,19 @@
                                         <a href="#">
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
-                                                    HILANO</p>
+                                                    {{T "menuProjects_HILANO"}}</p>
                                                 <p class="megamenu-description">
-                                                    {{T "menuSolutions_DocumentCaptureText"}}</p>
+                                                    {{T "menuProjects_HILANOText"}}</p>
                                             </div>
                                         </a>
                                     </li>
                                     <li class="megamenu-field">
-                                        <a href="#">
+                                        <a href="https://deeper.cib.de/">
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
-                                                    DeepER</p>
+                                                    {{T "menuProjects_DeepER"}}</p>
                                                 <p class="megamenu-description">
-                                                    {{T "menuSolutions_DocumentCaptureText"}}</p>
+                                                    {{T "menuProjects_DeepERText"}}</p>
                                             </div>
                                         </a>
                                     </li>
@@ -652,13 +652,13 @@
 
                                 <ul class="list-unstyled">
                                     <li class="megamenu-field">
-                                        <a href="#">
+                                        <a href="https://elearning.cib.de/">
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
-                                                    CIB eLearning
+                                                    {{T "menuProjects_eLearning"}}
                                                 </p>
                                                 <p class="megamenu-description">
-                                                    {{T "menuSolutions_DocumentCaptureText"}}</p>
+                                                    {{T "menuProjects_eLearningText"}}</p>
                                             </div>
                                         </a>
                                     </li>
@@ -686,14 +686,135 @@
                 </div>
             </li>
 
-
-            <!-- Karriere -->
+            <!-- Jobboerse -->
 
             <li class="nav-item dropdown has-megamenu hr">
-                <a class="nav-link pb-0"
-                    onClick="gtag('event', 'action', {'event_category': 'Karriere-menu', 'event_label': 'Karriere','value': 'value'});"
-                    href='{{"karriere"|relLangURL}}'>{{T "menu_Career"}}
+                <a class="nav-link pb-0" data-toggle="dropdown"
+                    onClick="gtag('event', 'action', {'event_category': 'Projects-menu', 'event_label': 'Projects','value': 'value'});"
+                    href="#">{{T "menu_Career"}}
                 </a>
+                <div class="dropdown-menu megamenu-dropdown-menu megamenu" role="menu">
+                    <p class="megamenu-title">
+                        <span class="material-icons material-icons-red"
+                            style="font-size: 30px; vertical-align: sub;">extension</span>
+                        {{T "menuJobboerse_Title"}}
+                    </p>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="col-megamenu">
+
+                                <ul class="list-unstyled">
+                                    <li class="megamenu-field">
+                                        <a href='{{"karriere"|relLangURL}}'>
+                                            <div class="p-2">
+                                                <p class="megamenu-Sub-title">
+                                                    {{T "menuJobboerse"}}</p>
+                                                <p class="megamenu-description">
+                                                    {{T "menuJobboerseText"}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="megamenu-field">
+                                        <a href="https://www.ciblabs.es/talento/">
+                                            <div class="p-2">
+                                                <p class="megamenu-Sub-title">
+                                                    {{T "menuJobboerse_JobInSpain"}}
+                                                </p>
+                                                <p class="megamenu-description">
+                                                    {{T "menuJobboerse_CareerChangersText"}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="border-left: 1px solid rgba(0, 0, 0, .15);">
+                            <div class="col-megamenu">
+
+                                <ul class="list-unstyled">
+                                    <li class="megamenu-field">
+                                        <a href='{{"karriere/schueler"|relLangURL}}'>
+                                            <div class="p-2">
+                                                <p class="megamenu-Sub-title">
+                                                    {{T "menuJobboerse_Student"}}</p>
+                                                <p class="megamenu-description">
+                                                    {{T "menuJobboerse_StudentText"}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="megamenu-field">
+                                        <a href='{{"karriere/studenten"|relLangURL}}'>
+                                            <div class="p-2">
+                                                <p class="megamenu-Sub-title">
+                                                    {{T "menuJobboerse_Students"}}</p>
+                                                <p class="megamenu-description">
+                                                    {{T "menuJobboerse_StudentsText"}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="border-left: 1px solid rgba(0, 0, 0, .15);">
+                            <div class="col-megamenu">
+
+                                <ul class="list-unstyled">
+                                    
+                                    <li class="megamenu-field">
+                                        <a href='{{"karriere/berufserfahrene"|relLangURL}}'>
+                                            <div class="p-2">
+                                                <p class="megamenu-Sub-title">
+                                                    {{T "menuJobboerse_Experienced"}}</p>
+                                                <p class="megamenu-description">
+                                                    {{T "menuJobboerse_ExperiencedText"}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="border-left: 1px solid rgba(0, 0, 0, .15);">
+                            <div class="col-megamenu">
+
+                                <ul class="list-unstyled">
+                                    <li class="megamenu-field">
+                                        <a href='{{"karriere/initiativbewerber"|relLangURL}}'>
+                                            <div class="p-2">
+                                                <p class="megamenu-Sub-title">
+                                                    {{T "menuJobboerse_CareerChangers"}}
+                                                </p>
+                                                <p class="megamenu-description">
+                                                    {{T "menuJobboerse_CareerChangersText"}}</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-megamenu">
+
+                                <ul class="list-unstyled">
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-megamenu">
+
+                                <ul class="list-unstyled">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </li>
 
             <!-- über uns -->

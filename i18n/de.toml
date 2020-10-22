@@ -120,6 +120,56 @@ other = "Opensource inklusive CIB Services und Integration"
 [menuProducts_doXiboxCrate]
 other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unterwegs"
 
+[menuProjects_Title]
+other = "Forschung & Entwicklung"
+[menuProjects_PoP]
+other = "PoP (Protect our Privacy)"
+[menuProjects_PoPText]
+other = "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten."
+[menuProjects_crowdsource]
+other = "CIB crowdsource"
+[menuProjects_crowdsourceText]
+other = "Als Gemeinschaft schaffen wir es, einen wichtigen Beitrag zur Forschung zu leisten, indem wir KI-Systeme schnell und gezielt trainieren! Helft uns, einfache Aufgaben zu lösen, durch welche die künstliche Intelligenz in kleinen Schritten lernt."
+[menuProjects_HILANO]
+other = "HILANO"
+[menuProjects_HILANOText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+[menuProjects_DeepER]
+other = "DeepER"
+[menuProjects_DeepERText]
+other = "OCR auf Basis von künstlicher Intelligenz"
+[menuProjects_eLearning]
+other = "CIB eLearning"
+[menuProjects_eLearningText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+
+[menuJobboerse_Title]
+other = "Entdecke deine Zukunft bei CIB"
+[menuJobboerse]
+other = "Jobbörse"
+[menuJobboerseText]
+other = "Karriere bei CIB"
+[menuJobboerse_Student]
+other = "Jobbörse für Schüler"
+[menuJobboerse_StudentText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_Students]
+other = "Jobbörse für Studenten und Absolventen"
+[menuJobboerse_StudentsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_Experienced]
+other = "Unser Angebot für Berufserfahrene"
+[menuJobboerse_ExperiencedText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_CareerChangers]
+other = "Quereinsteiger und Initiativbewerber"
+[menuJobboerse_CareerChangersText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_JobInSpain]
+other = "Stellenanzeigen in Spanien!"
+[menuJobboerse_JobInSpainText]
+other = "Hier geht es zu unseren Stellenanzeigen in Spanien!"
+
 [menuConsulting_Title]
 other = "Die IT-Spezialisten an Ihrer Seite"
 [menuConsulting_IntegrationMigration]
@@ -161,7 +211,6 @@ other = "Unser Support Team ist bei Fragen zu allen CIB Lösungen für Sie da!"
 other = "Hotline: +49 89 14360 111"
 [menuSupport_EMail]
 other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
-
 
 [menuCompanies_AboutUs]
 other = "Das Unternehmen"
