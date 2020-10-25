@@ -12,7 +12,7 @@
             {{ range $index, $element := split $url "/" }}
                 {{ $.Scratch.Add "path" $element }}
                 {{ if ne $element "" }}
-                <li>&nbsp; / &nbsp;<a href='{{ $.Scratch.Get "path" }}'>{{ humanize . }}</a></li>
+                <li>&nbsp; / &nbsp;<a href='{{ $.Scratch.Get "path" }}'>{{ with $.Site.GetPage . }}{{ .Title }}{{ end }}</a></li>
                 {{ $.Scratch.Add "path" "/" }}
                 {{ end }}
             {{ end }}
