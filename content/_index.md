@@ -1,7 +1,7 @@
 {
 
 	"_comment": "Title = Search", 
-    "Title": "index",
+    "Title": "CIB",
 
 	"menuSolutions": {
 		"Title": "Unsere Expertise",

@@ -2,7 +2,7 @@
 	"layout": "schueler",
     "type": "karriere",
     "Titel": "Schüler bei CIB: Praktikum oder Ausbildung bei uns starten!",
-
+    "Title": "Jobbörse für Schüler",
 
     "header": {
         "Titel": "Jobbörse für Schüler",

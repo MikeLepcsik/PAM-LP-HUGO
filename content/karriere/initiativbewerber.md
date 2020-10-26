@@ -1,6 +1,7 @@
 {
 	"layout": "initiativbewerber",
     "type": "karriere",
+    "Title": "Quereinsteiger und Initiativbewerber",
 
     "header": {
         "Titel": "Quereinsteiger und Initiativbewerber",

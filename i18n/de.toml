@@ -40,43 +40,43 @@ other = "Vorbereitung, Interaktion und maximal dynamisch"
 [menuSolutions_MobileReceiptEntry]
 other = "Mobile Belegerfassung"
 [menuSolutions_MobileReceiptEntryText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_TextRecognition]
 other = "Texterkennung, Textsuche, syntaktische Analyse"
 [menuSolutions_TextRecognitionText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentPreparation]
 other = "Dokumentenaufbereitung"
 [menuSolutions_DocumentPreparationText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_PostProcessing]
 other = "Dokumentennachverarbeitung"
 [menuSolutions_PostProcessingText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentDisplay]
 other = "Dokumentenanzeige"
 [menuSolutions_DocumentDisplayText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_OmnichannelDocumentDistribution]
 other = "Dokumentenverteilung Omnikanal"
 [menuSolutions_OmnichannelDocumentDistributionText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_Einvoicing]
 other = "e-Rechnungserstellung"
 [menuSolutions_EinvoicingText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_LongTermArchiving]
 other = "Langzeitarchivierung"
 [menuSolutions_LongTermArchivingText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_ProcessOptimization]
 other = "Prozessoptimierung"
 [menuSolutions_ProcessOptimizationText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentOptimization]
 other = "Dokumentenoptimierung"
 [menuSolutions_DocumentOptimizationText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_ForFinancialInstitutes]
 other = "Für Finanzinstitute"
 [menuSolutions_ForFinancialInstitutesText]
@@ -122,6 +122,10 @@ other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unte
 
 [menuProjects_Title]
 other = "Forschung & Entwicklung"
+[menuProjects_IntroTitle]
+other = "Title"
+[menuProjects_IntroTitleText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuProjects_PoP]
 other = "PoP (Protect our Privacy)"
 [menuProjects_PoPText]
@@ -133,7 +137,7 @@ other = "Als Gemeinschaft schaffen wir es, einen wichtigen Beitrag zur Forschung
 [menuProjects_HILANO]
 other = "HILANO"
 [menuProjects_HILANOText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuProjects_DeepER]
 other = "DeepER"
 [menuProjects_DeepERText]
@@ -141,14 +145,14 @@ other = "OCR auf Basis von künstlicher Intelligenz"
 [menuProjects_eLearning]
 other = "CIB eLearning"
 [menuProjects_eLearningText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 
 [menuJobboerse_Title]
 other = "Entdecke deine Zukunft bei CIB"
 [menuJobboerse]
-other = "Jobbörse"
+other = "Karriere"
 [menuJobboerseText]
-other = "Karriere bei CIB"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_Student]
 other = "Jobbörse für Schüler"
 [menuJobboerse_StudentText]
@@ -172,10 +176,14 @@ other = "Hier geht es zu unseren Stellenanzeigen in Spanien!"
 
 [menuConsulting_Title]
 other = "Die IT-Spezialisten an Ihrer Seite"
+[menuConsulting_IntroTitle]
+other = "Title"
+[menuConsulting_IntroTrext]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_IntegrationMigration]
 other = "Integration & Migration"
 [menuConsulting_Consulting]
-other = "TEXT 1 XXX"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_PlanningDevelopment]
 other = "Planung & Entwicklung"
 [menuConsulting_SeminarsTraining]
@@ -185,10 +193,16 @@ other = "Seminare & Schulungen"
 other = "CIB Berater & Support-Team"
 [menuSupport_Dokumentationen]
 other = "Dokumentationen"
+[menuSupport_DokumentationenText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuSupport_IntroTitle]
+other = "Title"
+[menuSupport_IntroTitleText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_CIB_Consultation]
 other = "CIB Berater"
 [menuSupport_Consultation]
-other = "Beratung"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_Migration]
 other = "Migration"
 [menuSupport_MigrationText]

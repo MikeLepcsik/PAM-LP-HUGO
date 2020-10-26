@@ -1,7 +1,7 @@
 {
 
 	"_comment": "Title = Search", 
-    "Title": "index_es",
+    "Title": "Soluciones CIB",
 
 	"menuSolutions": {
 		"Title": "Soluciones CIB",

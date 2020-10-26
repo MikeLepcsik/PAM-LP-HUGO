@@ -1,4 +1,5 @@
 {{ define "base" }}
+
 <head>
     <title>{{.Params.head}}</title>
 
@@ -14,23 +15,23 @@
 
 <!-- Header -->
 
-    <header class="header-text-top">
-        <div class="container">
-            <div class="shape-top"></div>
-            <div class="shape-left"></div>
-            <div class="row">
-                <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+<header class="header-text-top">
+    <div class="container">
+        <div class="shape-top"></div>
+        <div class="shape-left"></div>
+        <div class="row">
+            <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
 
-                    <h1 class="pb-4">{{.Params.header.Titel}}</h1>
-
-                </div>
-
-                <div class="col-lg-6 header-img-padding order-1 order-lg-3">
-                    <img src="/images/product/doxicrate/HG_CIBdoXibox_crate.svg" class="img-fluid" height="420">
-                </div>
+                <h1 class="pb-4">{{.Params.header.Titel}}</h1>
 
             </div>
+
+            <div class="col-lg-6 header-img-padding order-1 order-lg-3">
+                <img src="/images/product/doxicrate/HG_CIBdoXibox_crate.svg" class="img-fluid" height="420">
+            </div>
+
         </div>
-    </header>
+    </div>
+</header>
 
 {{ end }}
