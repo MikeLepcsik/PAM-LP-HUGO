@@ -1,5 +1,4 @@
 {
-
 	"_comment": "Title = Search", 
     "Title": "CIB",
 
@@ -16,20 +15,22 @@
 	"Expertise": {
 		"Title": "CIB Expertise",
 		"SubTitle": "",
-		"Title1": "Lorem ipsum",
-		"Title2": "Lorem ipsum",
-		"Title3": "Lorem ipsum",
+		"Title1": "Document Lifecycle Management",
+		"Title2": "Prozessoptimierung",
+		"Title3": "Digitalisierung",
+		"Title4": "Automatisierung",
 		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+		"Text4": "Lorem ipsum dolor sit amet, consetetur sadipscing"
 	},
 
 	"Integration": {
-		"Title": "Erprbter Erfolg: Migration, Integration",
+		"Title": "Erprbter Erfolg: Migration, Integration, Vorlagenservice",
 		"SubTitle": "",
-		"Title1": "Lorem ipsum",
-		"Title2": "Lorem ipsum",
-		"Title3": "Lorem ipsum",
+		"Title1": "Migration",
+		"Title2": "Integration",
+		"Title3": "Vorlagenservice",
 		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
@@ -38,42 +39,37 @@
 	"Numbers": {
 		"Title": "Diese Zahlen sprechen für CIB",
 		"SubTitle": "",
-		"Title1": "3.107.925 <br>mit CIB pdf brewer erzeugte Dokumente",
-		"Title2": "25000 <br>Arbeitsplaetze mit CIB coSys",
-		"Title3": "3.107.925 <br>mit CIB pdf brewer erzeugte Dokumente",
-		"Title4": "10 Standorte europaweit"
+		"Title1": "mit CIB Lösungen erzeugte Dokumente",
+		"Title2": "Arbeitsplaetze mit CIB coSys bei der LHM in München",
+		"Title3": "2018 mit CIB pdf brewer erzeugte Dokumente",
+		"Title4": ">Produktivlizenzen im Einsatz"
 	},
 
 	"FE": {
-		"HeaderTitle": "Forschung und Development: CIB investiert in Zukunft",
+		"HeaderTitle": "Mit dem Blick in die Zukunft: CIB investiert in Forschung und Entwicklung ",
 		"SubTitle": "",
-		"TitleText": "Lorem ipsum",
-		"Text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+		"TitleText": "Für Sie investieren wir über 14% des Gesamtumsatzes in Innovation und Zukunftstechnologien. Das entspricht seit 2012 ein Betrag von über 13 Mio. Euro in die Forschung von Technologien im Bereich der Digitalisierung und Automatisierung mit KI.",
+		"Text": "Lorem Ipsum dolor."
 	},
 
 	"socialCommitment": {
-		"Title": "Das sind wir auch: innovativ, sozial, ökologisch",
+		"Title": "Das sind wir auch: ökologisch, sozial, innovativ",
 		"SubTitle": "",
-		"Title1": "Lorem ipsum",
-		"Title2": "Lorem ipsum",
-		"Title3": "Lorem ipsum",
+		"Title1": "Ökologisch",
+		"Title2": "Sozial",
+		"Title3": "Innovativ",
 		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 	},
 
 	"CallToAction": {
-		"Title": "What´s New? alle News im CIB blog",
-		"SubTitle": "Aktuelles rund um den CIB",
-		"Blog": "Zum Blog",
-		"Title2": "Lorem ipsum",
-		"Title3": "Lorem ipsum",
-		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+		"Title": "Erfahren Sie mehr über CIB, unsere Lösungen und was uns bewegt",
+		"SubTitle": "Aktuellste News aus dem CIB Blog",
+		"Blog": "Zum Blog"
 	},
 
 	"Button": {
-		"Button": "Button"
+		"Button": "Mehr erfahren"
 	}
 }

@@ -509,9 +509,9 @@
                                         <a href="#">
                                             <div class="p-2">
                                                 <p class="megamenu-Sub-title">
-                                                    <b> CIB Support</b></p>
+                                                    <b> {{T "menuSupport_Support"}}</b></p>
                                                 <p class="megamenu-description">
-                                                    {{T "menuSupport_Support"}}</p>
+                                                    {{T "menuSupport_SupportText"}}</p>
                                             </div>
                                         </a>
                                     </li>
@@ -1126,7 +1126,8 @@
                     <li class="nav-item center">
                         <a class="btn btn-CTA1"
                             onClick="gtag('event', 'action', {'event_category': 'Bestellen-menu', 'event_label': 'Bestellen','value': 'value'});"
-                            href='{{"https://my.cib.de/#!/"|absLangURL}}' target="_blank"><img src="/img/icon_cib_cash_white.svg" class="img-fluid" height="18">
+                            href='{{"https://my.cib.de/#!/"|absLangURL}}' target="_blank">
+                            <img src="/img/icon_cib_cash_white.svg" style="vertical-align: sub;" class="img-fluid pr-2" height="18">
                             {{T "Button_CIBcash"}}
                         </a>
                     </li>
@@ -1136,7 +1137,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    <span class="material-icons" style="vertical-align: middle;">language</span>
+                    <span class="material-icons" style="vertical-align: middle; color: #96a0a5;">language</span>
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">

@@ -15,7 +15,7 @@ other = "F&E"
 [menu_Consulting]
 other = "Consulting"
 [menu_Service]
-other = "Support & Services"
+other = "Support"
 [menu_Adviser]
 other = "Berater"
 [menu_Career]
@@ -30,7 +30,7 @@ other = "CIB cash"
 other = "Anfragen"
 
 [menuSolutions_Title]
-other = "Dokumenten Management & BPM"
+other = "Dokument Lifecycle Management & CCM"
 [menuSolutions_IncomingMailProcessing]
 other = "Posteingangsverarbeitung"
 [menuSolutions_IncomingMailProcessingText]
@@ -141,9 +141,9 @@ other = "HILANO"
 [menuProjects_HILANOText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuProjects_DeepER]
-other = "CIB DeepER"
+other = "CIB deepER"
 [menuProjects_DeepERText]
-other = "OCR auf Basis von künstlicher Intelligenz"
+other = "OCR auf Basis von künstlicher Intelligenz. CIB deepER ermöglicht Texterkennung aus Scans und Fotos. Der Text wird von künstlicher Intelligenz extrahiert und mit Hilfe unseres Viewers CIB doXiview erkannt und korrigiert. Den Prozess der Erkennung und der darauf folgenden Korrektur ist das beste Training für die künstliche Intelligenz."
 [menuProjects_More]
 other = "Weitere Projekte"
 [menuProjects_MoreText]
@@ -151,14 +151,14 @@ other = "Lorem ipsum dolor sit amet, consetetur sadipscing"
 [menuProjects_eLearning]
 other = "CIB eLearning"
 [menuProjects_eLearningText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Auf der CIB eLearning Plattform finden Sie wichtige Informationen und Videos zu unseren Lösungen."
 
 [menuJobboerse_Title]
 other = "Entdecke deine Zukunft bei CIB"
 [menuJobboerse]
 other = "Karriere"
 [menuJobboerseText]
-other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen."
+other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen mit."
 [menuJobboerse_Student]
 other = "Für Schüler"
 [menuJobboerse_StudentText]
@@ -172,11 +172,11 @@ other = "Für Berufserfahrene"
 [menuJobboerse_ExperiencedText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_CareerChangers]
-other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben?"
+other = "Querdenker & Out of the box?"
 [menuJobboerse_CareerChangersText]
-other = "Wir sind auch an out of the box Profile interessiert. Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
+other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben? Wir sind auch an out of the box Profile ausgesprichen interessiert! Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
 [menuJobboerse_JobInSpain]
-other = "Stellenanzeigen in Spanien!"
+other = "Jobs an einem CIB Standort in Spanien"
 [menuJobboerse_JobInSpainText]
 other = "Die CIB Gruppe ist in Spanien mit zwei Standorten vertreten: Valencia und Las Palmas de Gran Canaria. Wenn Sie sich vorstellen können, in Spanien zu arbeiten, dann freuen wir uns auf Ihre Bewerbung!"
 
@@ -210,9 +210,9 @@ other = "Projektunterstützung"
 [menuAdviser_ProjectSupportText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuAdviser_IntroTitle]
-other = "Die CIB Berater stehen Ihnen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung mit Rat und Tat zur Seite."
+other = "Mit Rat und Tat zur Seite."
 [menuAdviser_IntroTitleText]
-other = "Die praxiserfahrenen IT-Dozenten halten Seminare für Endanwender des Systems, vom Sekretariat über IT-Mitarbeiter bis zum Vorstand. Dazu kommen sie zu Ihnen ins Haus."
+other = "Wir sind in Fragen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung für Sie da. Die praxiserfahrenen IT-Dozenten halten Seminare für Endanwender des Systems, vom Sekretariat über IT-Mitarbeiter bis zum Vorstand. Dazu kommen sie zu Ihnen ins Haus."
 [menuAdviser_Migration]
 other = "Migration"
 [menuAdviser_MigrationText]
@@ -241,16 +241,18 @@ other = "Beratungsangebot"
 [menuSupport_AdviceOfferText]
 other = "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis."
 [menuSupport_Support]
-other = "Unser Support Team ist bei Fragen zu allen CIB Lösungen für Sie da!"
+other = "Schnell und effizient für Sie da!"
+[menuSupport_SupportText]
+other = "Telefonisch erreichbar werktags von 8:00 – 19:00 Uhr"
 [menuSupport_Hotline]
-other = "Hotline: +49 89 14360 111"
+other = "+49 89 14360 111"
 [menuSupport_EMail]
-other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
+other = "cibsupport@cib.de"
 
 [menuCompanies_AboutUs]
-other = "Das Unternehmen"
+other = "Über uns"
 [menuCompanies_Guideline]
-other = "Leitlinie"
+other = "Wir denken in Lösungen. Neue Anforderungen sind für uns nur die nächste Anregung."
 [menuCompanies_GuidelineText]
 other = "Rund ums Dokumenten Management entwickeln wir Lösungen, um bestehende Prozesse mit unseren Lösungen zu optimieren und somit Digitalisierung im Unternehmen und in der Gesellschaft voranzutreiben. Für uns. Für Sie. Für Alle."
 [menuCompanies_History]

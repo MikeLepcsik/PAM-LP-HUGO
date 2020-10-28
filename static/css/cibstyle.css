@@ -246,7 +246,8 @@ h5 {
 }
 
 .btn-CTA1 {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
     width: 150px;
     height: 40px;
     line-height: 38px;
@@ -274,24 +275,6 @@ h5 {
     border-color: #E11E19;
     cursor: pointer;
 }
-
-.btn-CTA-Header {
-    font-size: 16px;
-    width: 150px;
-    height: 40px;
-    line-height: 38px;
-    background-color: #fff;
-    border-color: #fff;
-    color: #212934;
-    cursor: pointer;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-.btn-CTA-Header:hover {
-    color: #E11E19
-}
-
 
 .btn-CTA1-white {
     background-color: #fff;
@@ -552,6 +535,41 @@ h5 {
     background-color: #E11E19; 
     border-color: #E11E19;  
     color: #fff;
+    cursor: pointer;
+}
+
+.btn-CTA5-white {
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    line-height: 36px;
+    background-color: #fff; 
+    border-color: #E11E19; 
+    color: #E11E19;
+    cursor: pointer;
+}
+
+.btn-CTA5-white:focus {
+    color: #E11E19
+}
+
+.btn-CTA5-white:visited {
+    background-color: #fff;
+    border-color: #E11E19; 
+    color: #E11E19; 
+    cursor: pointer;
+}
+
+.btn-CTA5-white:active {
+    background-color: #E11E19;
+    border-color: #E11E19; 
+    cursor: pointer;
+}
+
+.btn-CTA5-white:hover {
+    background-color: #fff; 
+    border-color: #E11E19;  
+    color: #E11E19;
     cursor: pointer;
 }
 

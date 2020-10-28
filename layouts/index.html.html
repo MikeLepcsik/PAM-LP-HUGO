@@ -123,7 +123,7 @@
                             <div class="container text-left">
                                 <h1 class="pb-4 text-white">{{.Params.header.Titel}}</h1>
 
-                                <a class="btn btn-block btn-CTA-Header" href="#Bestellen" data-toggle="modal"
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
                                 data-target="#modalContactForm"
                                 onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
                                 Button</a>
@@ -152,7 +152,7 @@
                             <div class="container text-left">
                                 <h1 class="pb-4 text-white">{{.Params.header.Slide4Titel}}</h1>
 
-                                <a class="btn btn-block btn-CTA-Header" href="#Bestellen" data-toggle="modal"
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
                                 data-target="#modalContactForm"
                                 onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
                                 Button</a>
@@ -181,7 +181,7 @@
                             <div class="container text-left">
                                 <h1 class="pb-4 text-white">{{.Params.header.Slide3Titel}}</h1>
 
-                                <a class="btn btn-block btn-CTA-Header" href="#Bestellen" data-toggle="modal"
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
                                 data-target="#modalContactForm"
                                 onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
                                 Button</a>
@@ -210,7 +210,7 @@
                             <div class="container text-left">
                                 <h1 class="pb-4 text-white">{{.Params.header.Slide2Titel}}</h1>
 
-                                <a class="btn btn-block btn-CTA-Header" href="#Bestellen" data-toggle="modal"
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
                                 data-target="#modalContactForm"
                                 onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
                                 Button</a>
@@ -340,8 +340,8 @@
         </div>
         <div class="col-lg-3">
             <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
-            <h3>{{.Params.Expertise.Title3}}</h3>
-            <p class="card-text">{{.Params.Expertise.Text3}}
+            <h3>{{.Params.Expertise.Title4}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text4}}
             </p>
         </div>
 
@@ -383,27 +383,58 @@
 </div>
 
 <!-- Numbers -->
+<div class="section dark-bg">
+    <div class="container pt-0 text-center " id="Expertise">
+        <h2 class="jumbotron-heading section-title text-white">{{.Params.Numbers.Title}}</h2>
 
-<div class="container section pt-0 text-center" id="Expertise">
-    <h2 class="jumbotron-heading section-title">{{.Params.Numbers.Title}}</h2>
-    <div class="row">
-
-        <div class="col-lg-3">
-            <h3 class="">{{.Params.Numbers.Title1 | safeHTML}}</h3>
+        <div class="row">
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                        style="font-size: 48px; vertical-align: sub; color: #fff;">grading</span>
+                    <h1 class="counterX text-white">1000000000</h1>
+                    <p>{{.Params.Numbers.Title1 | safeHTML}}</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                    style="font-size: 48px; vertical-align: sub; color: #fff;">people</span> <h1 class="counterX text-white">25000</h1>
+                    <p>{{.Params.Numbers.Title2 | safeHTML}}</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                    style="font-size: 48px; vertical-align: sub; color: #fff;">grading</span> <h1
+                        class="counterX text-white">3107925</h1>
+                    <p>{{.Params.Numbers.Title3 | safeHTML}}</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                    style="font-size: 48px; vertical-align: sub; color: #fff;">file_copy</span> <h1 class="counterX text-white">2000000</h1>
+                    <p>{{.Params.Numbers.Title4 | safeHTML}}</p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3">
-            <h3 class="">{{.Params.Numbers.Title2 | safeHTML}}</h3>
-        </div>
-        <div class="col-lg-3">
-            <h3 class="">{{.Params.Numbers.Title3 | safeHTML}}</h3>
-        </div>
-        <div class="col-lg-3">
-            <h3 class="">{{.Params.Numbers.Title4 | safeHTML}}</h3>
-        </div>
-
     </div>
-
 </div>
+
+<script>
+    $(document).ready(function () {
+
+        $('.counterX').each(function () {
+            $(this).prop('CounterX', 0).animate({
+                CounterX: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
+    });
+</script>
 
 <!-- FE -->
 
@@ -476,7 +507,7 @@
         <div class="row container-fluid mx-0" id="newsContainer5"></div>
         <div class="row container-fluid mx-0" id="newsContainer6"></div>
         <div class="row text-center justify-content-center mx-1"><a id="blogButton"
-                class="btn btn-block btn-white-danger lp-button-gray btn-line-height-Basis mb-4" target="_blank"
+                class="btn btn-block btn-CTA5-white mb-4" target="_blank"
                 onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
                 href="https://blog.cib.de/">{{.Params.CallToAction.Blog}}</a></div>
     </div>

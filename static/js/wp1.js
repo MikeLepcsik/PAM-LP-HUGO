@@ -42,7 +42,7 @@ function createHtml(postData) {
         } else {
             console.log("We connected to the server, but it returned an error.");
         }
-        HTMLString += '<div id="newsItem" class="col-12 col-lg-4 pt-card pb-4">';
+        HTMLString += '<div id="newsItem" class="col-12 col-lg-3 pt-card px-4 pb-4">';
         HTMLString += '<a target="_blank" href="' + postData.link + '"><img id="newsImg" class="img-fluid" src="' + imgUrl + '"></a>';
         HTMLString += '<h3>' + postData.title.rendered + '</h3>';
         var content = strip_html_tags(postData.content.rendered);
