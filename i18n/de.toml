@@ -15,7 +15,7 @@ other = "F&E"
 [menu_Consulting]
 other = "Consulting"
 [menu_Service]
-other = "Beratung & Support"
+other = "Support & Services"
 [menu_Career]
 other = "Jobbörse"
 [menu_Companies]
@@ -28,7 +28,7 @@ other = "CIB cash"
 other = "Anfragen"
 
 [menuSolutions_Title]
-other = "Dokument Management & BPM"
+other = "Dokumenten Management & BPM"
 [menuSolutions_IncomingMailProcessing]
 other = "Posteingangsverarbeitung"
 [menuSolutions_IncomingMailProcessingText]
@@ -152,34 +152,34 @@ other = "Entdecke deine Zukunft bei CIB"
 [menuJobboerse]
 other = "Karriere"
 [menuJobboerseText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen."
 [menuJobboerse_Student]
-other = "Jobbörse für Schüler"
+other = "Für Schüler"
 [menuJobboerse_StudentText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_Students]
-other = "Jobbörse für Studenten und Absolventen"
+other = "Für Studenten und Absolventen"
 [menuJobboerse_StudentsText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_Experienced]
-other = "Unser Angebot für Berufserfahrene"
+other = "Für Berufserfahrene"
 [menuJobboerse_ExperiencedText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_CareerChangers]
-other = "Quereinsteiger und Initiativbewerber"
+other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben?"
 [menuJobboerse_CareerChangersText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Wir sind auch an out of the box Profile interessiert. Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
 [menuJobboerse_JobInSpain]
 other = "Stellenanzeigen in Spanien!"
 [menuJobboerse_JobInSpainText]
-other = "Hier geht es zu unseren Stellenanzeigen in Spanien!"
+other = "Die CIB Gruppe ist in Spanien mit zwei Standorten vertreten: Valencia und Las Palmas de Gran Canaria. Wenn Sie sich vorstellen können, in Spanien zu arbeiten, dann freuen wir uns auf Ihre Bewerbung!"
 
 [menuConsulting_Title]
-other = "Die IT-Spezialisten an Ihrer Seite"
+other = "CIB Consulting"
 [menuConsulting_IntroTitle]
-other = "Title"
+other = "Profitieren Sie von einer attraktiven Partnerschaft und den maßgeschneiderten Beratungsleistungen unserer hochqualifizierten Experten."
 [menuConsulting_IntroTrext]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Unsere Experten finden für Sie die Lösung, die exakt zu Ihnen passt. "
 [menuConsulting_IntegrationMigration]
 other = "Integration & Migration"
 [menuConsulting_Consulting]
@@ -190,15 +190,15 @@ other = "Planung & Entwicklung"
 other = "Seminare & Schulungen"
 
 [menuSupport_Title]
-other = "CIB Berater & Support-Team"
+other = "CIB Berater"
 [menuSupport_Dokumentationen]
 other = "Dokumentationen"
 [menuSupport_DokumentationenText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_IntroTitle]
-other = "Title"
+other = "Die CIB Berater stehen Ihnen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung mit Rat und Tat zur Seite."
 [menuSupport_IntroTitleText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Die praxiserfahrenen IT-Dozenten halten Seminare für Endanwender des Systems, vom Sekretariat über IT-Mitarbeiter bis zum Vorstand. Dazu kommen sie zu Ihnen ins Haus."
 [menuSupport_CIB_Consultation]
 other = "CIB Berater"
 [menuSupport_Consultation]

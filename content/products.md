@@ -3,11 +3,11 @@
 	"translationKey": "produkte",
 
     "_comment": "Title = Search", 
-    "Title": "Produkte",
+    "Title": "Lösungen",
 
     "head": "Produkte",
     "header": {
-        "Titel": "aqui vienen los produktos"
+        "Titel": "hier die CIB Lösungen"
     }
 
 }
