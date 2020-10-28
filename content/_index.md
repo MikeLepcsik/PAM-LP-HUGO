@@ -7,7 +7,7 @@
 		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",
 		"Text": "Lorem Ipsum / Call to action",
-		"Slide2Titel": "CIB pdf brewer: die All-In-One-Lösung für Ihre professionelle PDF-Bearbeitung.",
+		"Slide2Titel": "CIB kanzlei app: Die Kanzlei der Zukunft ist digital, einfach, direkt",
 		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren mit unserem Fluxi und deutlich an Speicherplatz sparen!",
 		"Slide4Titel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz",
 		"Button": "zur Jobbörse"

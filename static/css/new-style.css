@@ -157,6 +157,7 @@
     border-bottom-left-radius: 40px;
 }
 
+.quotes {display: none;}
 
 .dropdown-submenu {
     position: relative;

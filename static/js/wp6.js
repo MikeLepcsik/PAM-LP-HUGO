@@ -14,7 +14,7 @@ function getPostDataRequest() {
                 }
             }
         }
-        ourRequest.open('GET', 'https://blog.cib.de/wp-json/wp/v2/posts?categories=605291196&per_page=1');
+        ourRequest.open('GET', 'https://blog.cib.de/wp-json/wp/v2/posts?categories=605290903&per_page=1');
         ourRequest.send();
     });
 }

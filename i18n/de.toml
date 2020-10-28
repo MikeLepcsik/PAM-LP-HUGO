@@ -16,6 +16,8 @@ other = "F&E"
 other = "Consulting"
 [menu_Service]
 other = "Support & Services"
+[menu_Adviser]
+other = "Berater"
 [menu_Career]
 other = "Jobbörse"
 [menu_Companies]
@@ -139,9 +141,13 @@ other = "HILANO"
 [menuProjects_HILANOText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuProjects_DeepER]
-other = "DeepER"
+other = "CIB DeepER"
 [menuProjects_DeepERText]
 other = "OCR auf Basis von künstlicher Intelligenz"
+[menuProjects_More]
+other = "Weitere Projekte"
+[menuProjects_MoreText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing"
 [menuProjects_eLearning]
 other = "CIB eLearning"
 [menuProjects_eLearningText]
@@ -178,16 +184,43 @@ other = "Die CIB Gruppe ist in Spanien mit zwei Standorten vertreten: Valencia u
 other = "CIB Consulting"
 [menuConsulting_IntroTitle]
 other = "Profitieren Sie von einer attraktiven Partnerschaft und den maßgeschneiderten Beratungsleistungen unserer hochqualifizierten Experten."
-[menuConsulting_IntroTrext]
+[menuConsulting_IntroText]
 other = "Unsere Experten finden für Sie die Lösung, die exakt zu Ihnen passt. "
 [menuConsulting_IntegrationMigration]
 other = "Integration & Migration"
-[menuConsulting_Consulting]
+[menuConsulting_IntegrationMigrationText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_PlanningDevelopment]
 other = "Planung & Entwicklung"
-[menuConsulting_SeminarsTraining]
+[menuConsulting_PlanningDevelopmentText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuConsulting_OutsourcingExperts]
+other = "Experten Outsourcing"
+[menuConsulting_OutsourcingExpertsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+[menuAdviser_Title]
+other = "CIB Berater"
+[menuAdviser_SeminarsTraining]
 other = "Seminare & Schulungen"
+[menuAdviser_SeminarsTrainingText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuAdviser_ProjectSupport]
+other = "Projektunterstützung"
+[menuAdviser_ProjectSupportText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuAdviser_IntroTitle]
+other = "Die CIB Berater stehen Ihnen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung mit Rat und Tat zur Seite."
+[menuAdviser_IntroTitleText]
+other = "Die praxiserfahrenen IT-Dozenten halten Seminare für Endanwender des Systems, vom Sekretariat über IT-Mitarbeiter bis zum Vorstand. Dazu kommen sie zu Ihnen ins Haus."
+[menuAdviser_Migration]
+other = "Migration"
+[menuAdviser_MigrationText]
+other = "Das benötigte Know-how und mehrjährige Erfahrung aus vielfältigen Projekten bringen die CIB Berater mit, die für Sie die Migration durchführen."
+[menuAdviser_TemplateService]
+other = "Vorlagen-Service"
+[menuAdviser_TemplateServiceText]
+other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
 
 [menuSupport_Title]
 other = "CIB Berater"
@@ -195,18 +228,10 @@ other = "CIB Berater"
 other = "Dokumentationen"
 [menuSupport_DokumentationenText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-[menuSupport_IntroTitle]
-other = "Die CIB Berater stehen Ihnen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung mit Rat und Tat zur Seite."
-[menuSupport_IntroTitleText]
-other = "Die praxiserfahrenen IT-Dozenten halten Seminare für Endanwender des Systems, vom Sekretariat über IT-Mitarbeiter bis zum Vorstand. Dazu kommen sie zu Ihnen ins Haus."
 [menuSupport_CIB_Consultation]
 other = "CIB Berater"
 [menuSupport_Consultation]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-[menuSupport_Migration]
-other = "Migration"
-[menuSupport_MigrationText]
-other = "Das benötigte Know-how und mehrjährige Erfahrung aus vielfältigen Projekten bringen die CIB Berater mit, die für Sie die Migration durchführen."
 [menuSupport_ProjectSupport]
 other = "Projektunterstützung"
 [menuSupport_ProjectSupportText]
@@ -215,10 +240,6 @@ other = "Das CIB Beraterteam unterstützt Sie in allen Fragen des Korrespondenzm
 other = "Beratungsangebot"
 [menuSupport_AdviceOfferText]
 other = "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis."
-[menuSupport_TemplateService]
-other = "Vorlagen-Service"
-[menuSupport_TemplateServiceText]
-other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
 [menuSupport_Support]
 other = "Unser Support Team ist bei Fragen zu allen CIB Lösungen für Sie da!"
 [menuSupport_Hotline]
