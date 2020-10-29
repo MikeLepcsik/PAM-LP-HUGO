@@ -23,7 +23,7 @@
         });
     }
 
-    
+
 </script>
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
@@ -176,8 +176,72 @@
 
 </script>
 
-<!-- Filter -->
-{{ partial "filter.html" . }}
+<div class="container">
+    <div class="row">
+        <h2 class="pl-3">{{.Params.header.Titel}}</h2>
+        <!-- Nav submenu 
+        <div class="col align-self-end navbar navbar-expand-xl navbar-light">
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto pl-3">
+                    <li class="nav-item hr">
+                        <a class="pb-0 px-3"
+                            onClick="gtag('event', 'action', {'event_category': 'submenu_schueler', 'event_label': 'submenu_schueler','value': 'value'});"
+                            href='{{"karriere/schueler"|relLangURL}}'>{{T "submenu_schueler"}}
+                        </a>
+                    </li>
+                    <li class="nav-item hr">
+                        <a class="pb-0 px-3"
+                            onClick="gtag('event', 'action', {'event_category': 'submenu_studenten', 'event_label': 'Mosubmenu_studentenre','value': 'value'});"
+                            href='{{"karriere/studenten"|relLangURL}}'>{{T "submenu_studenten"}}
+                        </a>
+                    </li>
+                    <li class="nav-item hr">
+                        <a class="pb-0 px-3"
+                            onClick="gtag('event', 'action', {'event_category': 'submenu_professionals', 'event_label': 'submenu_professionals','value': 'value'});"
+                            href='{{"karriere/berufserfahrene"|relLangURL}}'>{{T "submenu_professionals"}}
+                        </a>
+                    </li>
+                    <li class="nav-item hr">
+                        <a class="pb-0 px-3"
+                            onClick="gtag('event', 'action', {'event_category': 'submenu_beginners', 'event_label': 'submenu_beginners','value': 'value'});"
+                            href='{{"karriere/initiativbewerber"|relLangURL}}'>{{T "submenu_beginners"}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
+    </div>
+</div>
+
+<div class="container section pt-0">
+    <h4 class="mb-5 mt-5">{{.Params.Content.TextLine1 | safeHTML }}</h4>
+    <h4 class="mb-5 mt-5">{{.Params.Content.TextLine2 | safeHTML }}</h4>
+    <p class="card-text">{{.Params.Content.TextLine3 | safeHTML }}</p>
+    <p class="card-text">{{.Params.Content.TextLine4 | safeHTML }}</p>
+
+
+
+
+    <div>{{.Params.NoShowButton | safeHTML }}
+        <div class="mt-5">
+            <div class="row justify-content-center">
+                <a class="btn btn-CTA3"
+                    onClick="gtag('event', 'action', {'event_category': 'Produkt-Anfrage', 'event_label': 'Anfrage','value': 'value'});"
+                    data-toggle="modal" data-target="#modalKontaktForm">
+                    {{T "jobrightsidebar_Button"}}</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- CTA -->
 {{ partial "jobcontact.html" . }}

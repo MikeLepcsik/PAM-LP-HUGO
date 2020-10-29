@@ -2,6 +2,7 @@
     "type": "jobs",
     "Titel": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
     "title": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
+    "Title": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
     "tags": ["München"],
     "categories": ["Ausbildung", "Schülerpraktikum"],
 

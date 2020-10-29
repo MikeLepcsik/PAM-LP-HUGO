@@ -7,17 +7,19 @@ other = "Deutsch"
 [page]
 other = "CIB Group"
 [menu_Solutions]
-other = "Lösungen"
+other = "Expertise"
 [menu_Products]
-other = "Produkte"
+other = "Lösungen"
 [menu_Projects]
 other = "F&E"
 [menu_Consulting]
-other = "CIB consulting"
+other = "Consulting"
 [menu_Service]
-other = "Beratung & Support"
+other = "Support"
+[menu_Adviser]
+other = "Berater"
 [menu_Career]
-other = "Karriere"
+other = "Jobbörse"
 [menu_Companies]
 other = "Über uns"
 [menu_Blog]
@@ -28,7 +30,7 @@ other = "CIB cash"
 other = "Anfragen"
 
 [menuSolutions_Title]
-other = "Unsere Lösungen"
+other = "Dokument Lifecycle Management & CCM"
 [menuSolutions_IncomingMailProcessing]
 other = "Posteingangsverarbeitung"
 [menuSolutions_IncomingMailProcessingText]
@@ -40,43 +42,43 @@ other = "Vorbereitung, Interaktion und maximal dynamisch"
 [menuSolutions_MobileReceiptEntry]
 other = "Mobile Belegerfassung"
 [menuSolutions_MobileReceiptEntryText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_TextRecognition]
 other = "Texterkennung, Textsuche, syntaktische Analyse"
 [menuSolutions_TextRecognitionText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentPreparation]
 other = "Dokumentenaufbereitung"
 [menuSolutions_DocumentPreparationText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_PostProcessing]
 other = "Dokumentennachverarbeitung"
 [menuSolutions_PostProcessingText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentDisplay]
 other = "Dokumentenanzeige"
 [menuSolutions_DocumentDisplayText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_OmnichannelDocumentDistribution]
 other = "Dokumentenverteilung Omnikanal"
 [menuSolutions_OmnichannelDocumentDistributionText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_Einvoicing]
 other = "e-Rechnungserstellung"
 [menuSolutions_EinvoicingText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_LongTermArchiving]
 other = "Langzeitarchivierung"
 [menuSolutions_LongTermArchivingText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_ProcessOptimization]
 other = "Prozessoptimierung"
 [menuSolutions_ProcessOptimizationText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentOptimization]
 other = "Dokumentenoptimierung"
 [menuSolutions_DocumentOptimizationText]
-other = "cxcxcxccx"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_ForFinancialInstitutes]
 other = "Für Finanzinstitute"
 [menuSolutions_ForFinancialInstitutesText]
@@ -92,7 +94,7 @@ other = "CIB Lösungen sind bei über 25.000 Arbeitsplätzen allein in München 
 
 
 [menuProducts_Title]
-other = "Unsere Produkte"
+other = "CIB Lösungen und Module"
 [menuProducts_coSys]
 other = "Das EcoSystem für den gesamten Dokumentenlebenszyklus"
 [menuProducts_doXiview]
@@ -120,29 +122,116 @@ other = "Opensource inklusive CIB Services und Integration"
 [menuProducts_doXiboxCrate]
 other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unterwegs"
 
+[menuProjects_Title]
+other = "Forschung & Entwicklung"
+[menuProjects_IntroTitle]
+other = "Title"
+[menuProjects_IntroTitleText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuProjects_PoP]
+other = "PoP (Protect our Privacy)"
+[menuProjects_PoPText]
+other = "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten."
+[menuProjects_crowdsource]
+other = "CIB crowdsource"
+[menuProjects_crowdsourceText]
+other = "Als Gemeinschaft schaffen wir es, einen wichtigen Beitrag zur Forschung zu leisten, indem wir KI-Systeme schnell und gezielt trainieren! Helft uns, einfache Aufgaben zu lösen, durch welche die künstliche Intelligenz in kleinen Schritten lernt."
+[menuProjects_HILANO]
+other = "HILANO"
+[menuProjects_HILANOText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuProjects_DeepER]
+other = "CIB deepER"
+[menuProjects_DeepERText]
+other = "OCR auf Basis von künstlicher Intelligenz. CIB deepER ermöglicht Texterkennung aus Scans und Fotos. Der Text wird von künstlicher Intelligenz extrahiert und mit Hilfe unseres Viewers CIB doXiview erkannt und korrigiert. Den Prozess der Erkennung und der darauf folgenden Korrektur ist das beste Training für die künstliche Intelligenz."
+[menuProjects_More]
+other = "Weitere Projekte"
+[menuProjects_MoreText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing"
+[menuProjects_eLearning]
+other = "CIB eLearning"
+[menuProjects_eLearningText]
+other = "Auf der CIB eLearning Plattform finden Sie wichtige Informationen und Videos zu unseren Lösungen."
+
+[menuJobboerse_Title]
+other = "Entdecke deine Zukunft bei CIB"
+[menuJobboerse]
+other = "Karriere"
+[menuJobboerseText]
+other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen mit."
+[menuJobboerse_Student]
+other = "Für Schüler"
+[menuJobboerse_StudentText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_Students]
+other = "Für Studenten und Absolventen"
+[menuJobboerse_StudentsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_Experienced]
+other = "Für Berufserfahrene"
+[menuJobboerse_ExperiencedText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuJobboerse_CareerChangers]
+other = "Querdenker & Out of the box?"
+[menuJobboerse_CareerChangersText]
+other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben? Wir sind auch an out of the box Profile ausgesprichen interessiert! Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
+[menuJobboerse_JobInSpain]
+other = "Jobs an einem CIB Standort in Spanien"
+[menuJobboerse_JobInSpainText]
+other = "Die CIB Gruppe ist in Spanien mit zwei Standorten vertreten: Valencia und Las Palmas de Gran Canaria. Wenn Sie sich vorstellen können, in Spanien zu arbeiten, dann freuen wir uns auf Ihre Bewerbung!"
+
 [menuConsulting_Title]
-other = "Unsere Dienstleistungen"
+other = "CIB Consulting"
+[menuConsulting_IntroTitle]
+other = "Profitieren Sie von einer attraktiven Partnerschaft und den maßgeschneiderten Beratungsleistungen unserer hochqualifizierten Experten."
+[menuConsulting_IntroText]
+other = "Unsere Experten finden für Sie die Lösung, die exakt zu Ihnen passt. "
 [menuConsulting_IntegrationMigration]
 other = "Integration & Migration"
-[menuConsulting_Consulting]
-other = "TEXT XXX"
+[menuConsulting_IntegrationMigrationText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_PlanningDevelopment]
 other = "Planung & Entwicklung"
-[menuConsulting_SeminarsTraining]
+[menuConsulting_PlanningDevelopmentText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuConsulting_OutsourcingExperts]
+other = "Experten Outsourcing"
+[menuConsulting_OutsourcingExpertsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+[menuAdviser_Title]
+other = "CIB Berater"
+[menuAdviser_SeminarsTraining]
 other = "Seminare & Schulungen"
+[menuAdviser_SeminarsTrainingText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuAdviser_ProjectSupport]
+other = "Projektunterstützung"
+[menuAdviser_ProjectSupportText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuAdviser_IntroTitle]
+other = "Mit Rat und Tat zur Seite."
+[menuAdviser_IntroTitleText]
+other = "Wir sind in Fragen bei Dokumentenprojekten von Anschreiben bis Kreditvertrag und bei der Textprogrammierung für Sie da. Die praxiserfahrenen IT-Dozenten halten Seminare für Endanwender des Systems, vom Sekretariat über IT-Mitarbeiter bis zum Vorstand. Dazu kommen sie zu Ihnen ins Haus."
+[menuAdviser_Migration]
+other = "Migration"
+[menuAdviser_MigrationText]
+other = "Das benötigte Know-how und mehrjährige Erfahrung aus vielfältigen Projekten bringen die CIB Berater mit, die für Sie die Migration durchführen."
+[menuAdviser_TemplateService]
+other = "Vorlagen-Service"
+[menuAdviser_TemplateServiceText]
+other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
 
 [menuSupport_Title]
-other = "Unsere Dienstleistungen"
+other = "CIB Berater"
 [menuSupport_Dokumentationen]
 other = "Dokumentationen"
+[menuSupport_DokumentationenText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_CIB_Consultation]
 other = "CIB Berater"
 [menuSupport_Consultation]
-other = "Beratung"
-[menuSupport_Migration]
-other = "Migration"
-[menuSupport_MigrationText]
-other = "Das benötigte Know-how und mehrjährige Erfahrung aus vielfältigen Projekten bringen die CIB Berater mit, die für Sie die Migration durchführen."
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_ProjectSupport]
 other = "Projektunterstützung"
 [menuSupport_ProjectSupportText]
@@ -151,19 +240,19 @@ other = "Das CIB Beraterteam unterstützt Sie in allen Fragen des Korrespondenzm
 other = "Beratungsangebot"
 [menuSupport_AdviceOfferText]
 other = "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis."
-[menuSupport_TemplateService]
-other = "Vorlagen-Service"
-[menuSupport_TemplateServiceText]
-other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
 [menuSupport_Support]
-other = "Unser Support Team ist bei Fragen zu allen CIB Lösungen für Sie da!"
+other = "Schnell und effizient für Sie da!"
+[menuSupport_SupportText]
+other = "Telefonisch erreichbar werktags von 8:00 – 19:00 Uhr"
 [menuSupport_Hotline]
-other = "Hotline: +49 89 14360 111"
+other = "+49 89 14360 111"
 [menuSupport_EMail]
-other = "E-Mail: cibsupport@cib.de // cibpdfsupport@cib.de"
+other = "cibsupport@cib.de"
 
+[menuCompanies_AboutUs]
+other = "Über uns"
 [menuCompanies_Guideline]
-other = "Leitlinie"
+other = "Wir denken in Lösungen. Neue Anforderungen sind für uns nur die nächste Anregung."
 [menuCompanies_GuidelineText]
 other = "Rund ums Dokumenten Management entwickeln wir Lösungen, um bestehende Prozesse mit unseren Lösungen zu optimieren und somit Digitalisierung im Unternehmen und in der Gesellschaft voranzutreiben. Für uns. Für Sie. Für Alle."
 [menuCompanies_History]
@@ -188,12 +277,10 @@ other = "Schließe dich 122 anderen Abonnenten an und Folge unsere neuesten Nach
 other = "Kontakt"
 [menuCompanies_ContactAdress]
 other = "CIB Niederlassungen in Europa"
-[menuCompanies_AboutUs]
-other = "Über uns"
 [menuCompanies_AboutUsText]
-other = "Wer wir sind, was wir tun und wie wir handeln"
+other = "asdfg"
 [menuCompanies_SocialEngagement]
-other = "Soziales Engagement "
+other = "Soziales Engagement"
 [menuCompanies_SocialEngagementText]
 other = "Wer wir sind, was wir tun und wie wir handeln"
 [menuCompanies_AntivirusProgram]

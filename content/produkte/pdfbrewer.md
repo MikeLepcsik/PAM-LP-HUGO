@@ -1,7 +1,11 @@
 {
     "layout": "produkte/pdfbrewer",
 	"translationKey": "produkte/pdfbrewer",
-    "headTitelLibreOffice": "LibreOffice powered by CIB",
+
+    "_comment": "Title = Search", 
+    "Title": "CIB pdf brewer",
+
+    "headTitelLibreOffice": "CIB pdf brewer",
 	"header": {
 		"Titel": "CIB pdf brewer ist die All-In-One-Lösung für Ihre professionelle PDF-Bearbeitung.",
 		"Text": "Mit dem brewer kostenlos PDF erstellen und vielfältig editieren: Seiten löschen, PDF zusammenfügen, komprimieren, verschlüsseln und vieles mehr!"

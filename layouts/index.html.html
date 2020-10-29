@@ -1,7 +1,7 @@
 {{ define "base" }}
 
 <head>
-    <title>CIB solution</title>
+    <title>CIB - The Document Experts</title>
     <meta name="description" content="CIB Master">
     <meta name="keywords" content="CIB Master">
 
@@ -16,12 +16,12 @@
     <meta name="theme-color" content="#ffffff">
 
 </head>
-<!-- Header -->
+<!-- Header 
 <header class="header-text-top light-bg pb-4">
     <div class="container">
 
         <div class="row">
-            <!-- Slider -->
+            
             <div id="carouselExampleIndicators" class="carousel slide padding-slider" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -66,7 +66,8 @@
 
                             </div>
                             <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
-                                <img src="/images/product/fluxi/HG_CIB_fluXkomprimator.svg" class="img-fluid" height="500">
+                                <img src="/images/product/fluxi/HG_CIB_fluXkomprimator.svg" class="img-fluid"
+                                    height="500">
                             </div>
                         </div>
                     </div>
@@ -99,46 +100,422 @@
         </div>
     </div>
 
-</header>
+</header>-->
+
+<div class="carousel mt-5">
+    <div class="carousel-content">
+    </div>
+    <div class="carousel-nav"></div>
+    <button id="prev">Prev</button>
+    <button id="next">Next</button>
+</div>
+
+<script>
+    let datax = [
+        {
+            bgColor: "",
+            bgIMG: "linear-gradient(to top,#335b98   0%,#04ade0 100%)",
+            info: `<div class="container-fluid d-flex align-items-center">
+                <div class="col-lg-1 order-4 order-lg-1">
+                   </div>
+                    <div class="col-12 col-lg-5 order-3 order-lg-2">
+                        <section class="">
+                            <div class="container text-left">
+                                <h1 class="pb-4 text-white">{{.Params.header.Titel}}</h1>
+
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
+                                data-target="#modalContactForm"
+                                onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
+                                Button</a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-lg-5 order-2 order-lg-3">
+                        <section class="">
+                            <div class="container text-center">
+                                <img src="/img/KI-CLoud.svg" class="img-fluid" height="500">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-1 order-1 order-lg-4">
+                   </div>
+                </div>`,
+        },
+        {
+            bgColor: "",
+            bgIMG: "linear-gradient(to top,#335b98   0%,#04ade0 100%)",
+            info: `<div class="container-fluid d-flex align-items-center">
+                <div class="col-lg-1 order-4 order-lg-1">
+                   </div>
+                    <div class="col-12 col-lg-5 order-3 order-lg-2">
+                        <section class="">
+                            <div class="container text-left">
+                                <h1 class="pb-4 text-white">{{.Params.header.Slide4Titel}}</h1>
+
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
+                                data-target="#modalContactForm"
+                                onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
+                                Button</a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-lg-5 order-2 order-lg-3">
+                        <section class="">
+                            <div class="container text-center">
+                                <img src="/images/product/deeper/HG-deeper.svg" class="img-fluid" height="400">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-1 order-1 order-lg-4">
+                   </div>
+                </div>`,
+        },
+        {
+            bgColor: "",
+            bgIMG: "linear-gradient(to top,#335b98   0%,#04ade0 100%)",
+            info: `<div class="container-fluid d-flex align-items-center">
+                <div class="col-lg-1 order-4 order-lg-1">
+                   </div>
+                    <div class="col-12 col-lg-5 order-3 order-lg-2">
+                        <section class="">
+                            <div class="container text-left">
+                                <h1 class="pb-4 text-white">{{.Params.header.Slide3Titel}}</h1>
+
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
+                                data-target="#modalContactForm"
+                                onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
+                                Button</a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-lg-5 order-2 order-lg-3">
+                        <section class="">
+                            <div class="container text-center">
+                                <img src="/images/product/fluxi/HG_CIB_fluXkomprimator.svg" class="img-fluid" height="400">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-1 order-1 order-lg-4">
+                   </div>
+                </div>`,
+        },
+        {
+            bgColor: "",
+            bgIMG: "linear-gradient(to top,#335b98   0%,#04ade0 100%)",
+            info: `<div class="container-fluid d-flex align-items-center">
+                <div class="col-lg-1 order-4 order-lg-1">
+                   </div>
+                    <div class="col-12 col-lg-5 order-3 order-lg-2">
+                        <section class="">
+                            <div class="container text-left">
+                                <h1 class="pb-4 text-white">{{.Params.header.Slide2Titel}}</h1>
+
+                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
+                                data-target="#modalContactForm"
+                                onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
+                                Button</a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-lg-5 order-2 order-lg-3">
+                        <section class="">
+                            <div class="container text-center">
+                                <img src="/images/product/kanzleiapp/headerIMG.svg" class="img-fluid" height="400">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-1 order-1 order-lg-4">
+                   </div>
+                </div>`,
+        },
+    ];
+    let carousel = document.querySelector(".carousel");
+    let carouselContent = document.querySelector(".carousel-content");
+    let carouselNav = document.querySelector(".carousel-nav");
+    let prevBtn = document.getElementById("prev");
+    let nextBtn = document.getElementById("next");
+    let currentSlideIndex = 0;
+
+    datax.forEach((value, index) => {
+        let content = document.createElement("div");
+        let navItem = document.createElement("a");
+
+        // create carousel content
+
+        content.innerHTML = value.info;
+        content.style.backgroundImage = value.bgColor;
+        content.style.backgroundImage = value.bgIMG;
+        content.classList.add("carousel-content-item");
+        carouselContent.appendChild(content);
+        //   create nav items
+        navItem.innerHTML = value.bgColor;
+        navItem.style.color = value.bgColor;
+        navItem.classList.add("carousel-nav-item");
+        navItem.addEventListener("click", function () {
+            changeSlide(index, content);
+        });
+
+        carouselNav.appendChild(navItem);
+    });
+
+    let contentNodes = document.querySelectorAll(".carousel-content-item");
+    let navNodes = document.querySelectorAll(".carousel-nav-item");
+
+    function changeSlide(contentIndex) {
+        if (contentIndex < 0) {
+            currentSlideIndex = contentNodes.length - 1;
+        } else if (contentIndex > contentNodes.length - 1) {
+            currentSlideIndex = 0;
+        } else {
+            currentSlideIndex = contentIndex;
+        }
+        contentNodes.forEach((node, index) => {
+            if (index !== currentSlideIndex) {
+                navNodes[index].style.borderBottom = 0;
+                node.style.display = "none";
+            } else {
+                node.style.display = "block";
+                navNodes[currentSlideIndex].style.borderBottom =
+                    "2px solid " + node.style.backgroundColor;
+            }
+        });
+    }
+
+    prevBtn.addEventListener("click", function () {
+        changeSlide(currentSlideIndex - 1);
+    });
+
+    nextBtn.addEventListener("click", function () {
+        changeSlide(currentSlideIndex + 1);
+    });
+</script>
 
 <!-- Companies -->
 
-<div class="section white-bg">
-    <div class="container">
-        <div class="section-title">
-            <h2>{{.Params.Companies.Title}}</h2>
+<div class="container py-5">
+    <img class="quotes" src="/img/clientlogos_01.png" style="width:100%">
+    <img class="quotes" src="/img/clientlogos_02.png" style="width:100%">
+    <img class="quotes" src="/img/clientlogos_03.png" style="width:100%">
+    <img class="quotes" src="/img/clientlogos_04.png" style="width:100%">
+</div>
+
+<script>
+    (function () {
+        var quotes = $(".quotes");
+        var quoteIndex = -1;
+        function showNextQuote() {
+            ++quoteIndex;
+            quotes.eq(quoteIndex % quotes.length)
+                .fadeIn(2000)
+                .delay(2000)
+                .fadeOut(2000, showNextQuote);
+        }
+        showNextQuote();
+    })();
+</script>
+
+<!-- Expertise -->
+
+<div class="container section pt-0 text-center" id="Expertise">
+    <h2 class="jumbotron-heading section-title">{{.Params.Expertise.Title}}</h2>
+    <div class="row">
+
+        <div class="col-lg-3">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3 class="">{{.Params.Expertise.Title1}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text1}}
+            </p>
         </div>
+        <div class="col-lg-3">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.Expertise.Title2}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text2}}
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.Expertise.Title3}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text3}}
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.Expertise.Title4}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text4}}
+            </p>
+        </div>
+
+    </div>
+    <div class="row pb-4 mt-5 d-flex justify-content-center text-center">
+        <a href="https://doxiview.cib.de/showcase/index.html#signatur" target="_blank"
+            onclick="gtag('event', 'action', {'event_category': 'Mehr-erfahren-Button', 'event_label': 'CTA','value': 'value'});"
+            class="btn btn-CTA2 mt-0">{{.Params.Button.Button}}</a>
+    </div>
+</div>
+
+<!-- Integration -->
+
+<div class="container section pt-0 text-center" id="Expertise">
+    <h2 class="jumbotron-heading section-title">{{.Params.Integration.Title}}</h2>
+    <div class="row">
+
+        <div class="col-lg-4">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3 class="">{{.Params.Integration.Title1}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text1}}
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.Integration.Title2}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text2}}
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.Integration.Title3}}</h3>
+            <p class="card-text">{{.Params.Expertise.Text3}}
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Numbers -->
+<div class="section dark-bg">
+    <div class="container pt-0 text-center " id="Expertise">
+        <h2 class="jumbotron-heading section-title text-white">{{.Params.Numbers.Title}}</h2>
+
         <div class="row">
-            <div class="col-12 col-lg-3 ">
-                <div class="card-body">
-                    <span class="feature-icon justify-content-center pb-3">
-                        <img src="/images/siemens.svg" height="200" width="200" class="">
-                    </span>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                        style="font-size: 48px; vertical-align: sub; color: #fff;">grading</span>
+                    <h1 class="counterX text-white">1000000000</h1>
+                    <p>{{.Params.Numbers.Title1 | safeHTML}}</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-3  pt-0 pb-0">
-                <div class="card-body">
-                    <span class="feature-icon justify-content-center">
-                        <img src="/images/eon-logo.svg" height="200" width="200" class="">
-                    </span>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                    style="font-size: 48px; vertical-align: sub; color: #fff;">people</span> <h1 class="counterX text-white">25000</h1>
+                    <p>{{.Params.Numbers.Title2 | safeHTML}}</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-3  pt-0 pb-0">
-                <div class="card-body">
-                    <span class="feature-icon justify-content-center">
-                        <img src="/images/muenchenerverein-logo.svg" height="200" width="200" class="">
-                    </span>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                    style="font-size: 48px; vertical-align: sub; color: #fff;">grading</span> <h1
+                        class="counterX text-white">3107925</h1>
+                    <p>{{.Params.Numbers.Title3 | safeHTML}}</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 ">
-                <div class="card-body">
-                    <span class="feature-icon justify-content-center">
-                        <img src="/images/unicredit-logo.svg" height="200" width="200" class="">
-                    </span>
+            <div class="four col-md-3">
+                <div class="counter-box"> <span class="material-icons"
+                    style="font-size: 48px; vertical-align: sub; color: #fff;">file_copy</span> <h1 class="counterX text-white">2000000</h1>
+                    <p>{{.Params.Numbers.Title4 | safeHTML}}</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<script>
+    $(document).ready(function () {
+
+        $('.counterX').each(function () {
+            $(this).prop('CounterX', 0).animate({
+                CounterX: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
+    });
+</script>
+
+<!-- FE -->
+
+<div class="container section">
+
+    <div class="section-title">
+        <h2>{{.Params.FE.HeaderTitle | safeHTML}}</h2>
+    </div>
+
+    <div class="row ">
+        <div class="col-12 d-flex justify-content-center text-center">
+            <div class="row mb-4">
+                <div class="col-3 feature-icon justify-content-left pb-3">
+                    <img src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220"
+                        class="img-fluid">
+                </div>
+
+                <div class="col-9 text-left">
+                    <h3 class="">{{.Params.FE.TitleText | safeHTML}}</h3>
+                    <p class="card-text">{{.Params.FE.Text | safeHTML}}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Social Commitment -->
+
+<div class="container section pt-0 text-center" id="Expertise">
+    <h2 class="jumbotron-heading section-title">{{.Params.socialCommitment.Title}}</h2>
+    <div class="row">
+
+        <div class="col-lg-4">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3 class="">{{.Params.socialCommitment.Title1}}</h3>
+            <p class="card-text">{{.Params.socialCommitment.Text1}}
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.Integration.Title2}}</h3>
+            <p class="card-text">{{.Params.socialCommitment.Text2}}
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
+            <h3>{{.Params.socialCommitment.Title3}}</h3>
+            <p class="card-text">{{.Params.socialCommitment.Text3}}
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- NEWS IN DEM BLOG -->
+
+<div class="section light-bg" id="News" :style="$t('Display')">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{.Params.CallToAction.Title}}</h2>
+            <p class="header-text">{{.Params.CallToAction.SubTitle}}</p>
+        </div>
+        <div class="row container-fluid mx-0" id="newsContainer1"></div>
+        <div class="row container-fluid mx-0" id="newsContainer2"></div>
+        <div class="row container-fluid mx-0" id="newsContainer3"></div>
+        <div class="row container-fluid mx-0" id="newsContainer4"></div>
+        <div class="row container-fluid mx-0" id="newsContainer5"></div>
+        <div class="row container-fluid mx-0" id="newsContainer6"></div>
+        <div class="row text-center justify-content-center mx-1"><a id="blogButton"
+                class="btn btn-block btn-CTA5-white mb-4" target="_blank"
+                onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
+                href="https://blog.cib.de/">{{.Params.CallToAction.Blog}}</a></div>
+    </div>
+</div>
+<script src="js/wp1.js"></script>
+<script src="js/wp2.js"></script>
+<script src="js/wp3.js"></script>
+<script src="js/wp4.js"></script>
+<script src="js/wp5.js"></script>
+<script src="js/wp6.js"></script>
 {{ end }}

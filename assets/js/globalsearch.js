@@ -8,8 +8,8 @@ function renderSearchResults(results){
     if (results.length > 0) {
 
         // show max 10 results
-        if (results.length > 9){
-            results = results.slice(0,10)
+        if (results.length > 4){
+            results = results.slice(0,5)
         }
 
         // reset search results
@@ -30,7 +30,7 @@ function renderSearchResults(results){
 
     // if results are empty
     } else {
-        searchResults.innerHTML = '<p>No results found.</p>'
+        searchResults.innerHTML = '<div class="card-deck mt-4"><div class="card" style="background-color: #e5eef3;"><div class="card-body text-center"><p><span class="material-icons align-text-bottom">search_off</span> <b>Leider kein treffer!</b> <br>Versuchen Sie am besten gleich noch einmal oder kontaktieren Sie uns direkt unter <a class=\"link-text16\" href=\"mailto:cibsupport@cib.de\">cibsupport@cib.de</a></p></div ></div > '
     }
 }
 

@@ -82,31 +82,82 @@
     color: #E11E19;
 }
 
-/* .carousel-control-next {
-    right: -50px;
-} */
+/* carousel */
 
-.carousel-control-next img{
-   margin-left: 50px;
+.carousel {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 0%;
-    color: #fff;
+.carousel .carousel-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel .carousel-content-item {
+    height: 100%;
+    width: 100%;
+    display: none;
     text-align: center;
+    line-height: 70vh;
+    font-size: 4rem;
+    color: darksalmon;
+    font-weight: bold;
 }
 
-.carousel-control-prev {
-    left: -50px;
+.carousel .carousel-content-item:first-child {
+    display: block;
 }
 
+.carousel .carousel-nav {
+    position: absolute;
+    bottom: 0;
+    height: 0px;
+    display: flex;
+    width: 100%;
+}
+
+.carousel .carousel-nav-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    text-align: center;
+    line-height: 0px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-bottom: 0px solid !important;
+}
+
+#prev,
+#next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 127px;
+    height: 50px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+#prev {
+    left: 0;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#next {
+    right: 0;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.quotes {display: none;}
 
 .dropdown-submenu {
     position: relative;
@@ -158,6 +209,46 @@
 
 @media (max-width: 767px) {
 	.btn-breadcrumb { margin-left: 10px; margin-right: 10px; width: calc(100% - 20px) !important; }
+}
+
+.container {
+    margin-top: 100px
+}
+
+/* counter-box */
+
+.counter-box {
+    display: block;
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #fff
+}
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
 }
 
 /* breadcrumb */
@@ -928,6 +1019,13 @@ code {
     border-radius: .0rem;
 }
 
-.card-text:hover {
+.card-text-hover {
+    font-size: 18px;
+    font-weight: 400;
+    color: #212934;
+    line-height: 1.5rem;
+}
+
+.card-text-hover:hover {
     color: #fff!important;
 }

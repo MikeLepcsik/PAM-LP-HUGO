@@ -1,6 +1,10 @@
 {
 	"layout": "produkte/fairbrieft",
 	"translationKey": "produkte/fairbrieft",
+
+ 	"_comment": "Title = Search", 
+    "Title": "CIB fairbrieft",
+
 	"header": {
 		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
 		"SubTitle": "",

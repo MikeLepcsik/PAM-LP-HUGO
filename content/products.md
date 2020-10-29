@@ -1,9 +1,13 @@
 {
     "layout": "produkte",
 	"translationKey": "produkte",
+
+    "_comment": "Title = Search", 
+    "Title": "Lösungen",
+
     "head": "Produkte",
     "header": {
-        "Titel": "aqui vienen los produktos"
+        "Titel": "hier die CIB Lösungen"
     }
 
 }

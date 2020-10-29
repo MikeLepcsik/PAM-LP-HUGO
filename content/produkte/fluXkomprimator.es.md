@@ -1,6 +1,10 @@
 {
 	"layout": "produkte/fluxkomprimator",
 	"translationKey": "produkte/fluxkomprimator",
+
+ 	"_comment": "Title = Search", 
+    "Title": "CIB fluXkomprimator",
+
 	"Slider": {
         "Title": "CIB fluXkomprimator am Beispiel",
         "Subtitle": "PDF-Dokumente schnell versenden",

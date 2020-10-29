@@ -1,13 +1,14 @@
 {
 	"layout": "initiativbewerber",
     "type": "karriere",
+    "Title": "Quereinsteiger und Initiativbewerber",
 
     "header": {
         "Titel": "Quereinsteiger und Initiativbewerber",
         "Button": "zur Jobbörse"
     },
 
-    "NoShow": "<span style=\"display: none;\">",
+    "NoShow": "<span style=\"display: content;\">",
 
     "Button": {
         "Senden": "Senden",

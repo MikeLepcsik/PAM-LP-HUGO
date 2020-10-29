@@ -1,5 +1,4 @@
-<div class="float-left btn-group btn-breadcrumb breadcrumb-default" id="siteBreadcrumb">
-
+<div class="float-left btn-group">
 
     <a href="#" class="nav-link pt-0 ">
         {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
@@ -7,18 +6,16 @@
 
         <ol class="breadcrumb">
             <a href="{{ .Site.BaseURL }}"><span class="material-icons"
-                style="font-size: 20px; vertical-align: middle;">home</span>
+                style="font-size: 20px; vertical-align: middle; color: #96a0a5;">home</span>
             </a>
             
             {{ range $index, $element := split $url "/" }}
                 {{ $.Scratch.Add "path" $element }}
                 {{ if ne $element "" }}
-                <li>&nbsp; / &nbsp;<a href='{{ $.Scratch.Get "path" }}'>{{ humanize . }}</a></li>
+                <li>&nbsp; / &nbsp;<a href='{{ $.Scratch.Get "path" }}'>{{ with $.Site.GetPage . }}{{ .Title }}{{ end }}</a></li>
                 {{ $.Scratch.Add "path" "/" }}
                 {{ end }}
             {{ end }}
-
-
         </ol>
     </a>
 </div>

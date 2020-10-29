@@ -2,6 +2,7 @@
     "type": "jobs",
     "Titel": "Praktikum im IT-Unternehmen gesucht? Bei CIB bist du genau Richtig.",
     "title": "Praktikum im IT-Unternehmen gesucht? Bei CIB bist du genau Richtig.",
+    "Title": "Praktikum / Praxissemester in der Softwareentwicklung",
     "tags": ["Nürnberg"],
     "categories": ["Schülerpraktikum"],
 

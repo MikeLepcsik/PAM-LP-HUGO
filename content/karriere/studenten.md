@@ -1,9 +1,10 @@
 {
 	"layout": "studenten",
     "type": "karriere",
+    "Title": "Jobbörse: für Studenten und Absolventen",
 
     "header": {
-        "Titel": "Jobbörse für Studenten und Absolventen",
+        "Titel": "Jobbörse: unser Angebot  und Absolventen",
         "Button": "zur Jobbörse"
     },
 

@@ -142,7 +142,7 @@ a:focus {
 
 h1 {
     color: #212934;
-    font-size: 2.5rem; /* YR 3rem */
+    font-size: 2.8rem;
     margin-bottom: 0rem;
 }
 
@@ -246,7 +246,8 @@ h5 {
 }
 
 .btn-CTA1 {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
     width: 150px;
     height: 40px;
     line-height: 38px;
@@ -331,7 +332,7 @@ h5 {
     height: 50px;
     line-height: 46px;
     background-color: #fff; 
-    border-color: #E11E19; /* yr CED5DC */
+    border-color: #E11E19; 
     color: #E11E19;
     cursor: pointer;
 }
@@ -342,20 +343,20 @@ h5 {
 
 .btn-CTA2-gray:visited {
     background-color: #fff;
-    border-color: #E11E19; /* yr CED5DC */
-    color: #E11E19; /* yr 8895A7 */
+    border-color: #E11E19;
+    color: #E11E19; 
     cursor: pointer;
 }
 
 .btn-CTA2-gray:active {
-    background-color: #E11E19; /* yr CED5DC */
-    border-color: #E11E19; /* yr CED5DC */
+    background-color: #E11E19;
+    border-color: #E11E19; 
     cursor: pointer;
 }
 
 .btn-CTA2-gray:hover {
-    background-color: #E11E19;  /* yr CED5DC */
-    border-color: #E11E19;  /* yr CED5DC */
+    background-color: #E11E19;  
+    border-color: #E11E19;  
     color: #fff;
     cursor: pointer;
 }
@@ -504,11 +505,11 @@ h5 {
 
 .btn-CTA4-white {
     font-size: 16px;
-    width: 380px;  /*290px*/ 
+    width: 380px;  
     height: 40px;
     line-height: 36px;
     background-color: #fff; 
-    border-color: #E11E19; /* yr CED5DC */
+    border-color: #E11E19; 
     color: #E11E19;
     cursor: pointer;
 }
@@ -519,21 +520,56 @@ h5 {
 
 .btn-CTA4-white:visited {
     background-color: #fff;
-    border-color: #E11E19; /* yr CED5DC */
-    color: #E11E19; /* yr 8895A7 */
+    border-color: #E11E19;
+    color: #E11E19; 
     cursor: pointer;
 }
 
 .btn-CTA4-white:active {
-    background-color: #E11E19; /* yr CED5DC */
-    border-color: #E11E19; /* yr CED5DC */
+    background-color: #E11E19; 
+    border-color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA4-white:hover {
-    background-color: #E11E19;  /* yr CED5DC */
-    border-color: #E11E19;  /* yr CED5DC */
+    background-color: #E11E19; 
+    border-color: #E11E19;  
     color: #fff;
+    cursor: pointer;
+}
+
+.btn-CTA5-white {
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    line-height: 36px;
+    background-color: #fff; 
+    border-color: #E11E19; 
+    color: #E11E19;
+    cursor: pointer;
+}
+
+.btn-CTA5-white:focus {
+    color: #E11E19
+}
+
+.btn-CTA5-white:visited {
+    background-color: #fff;
+    border-color: #E11E19; 
+    color: #E11E19; 
+    cursor: pointer;
+}
+
+.btn-CTA5-white:active {
+    background-color: #E11E19;
+    border-color: #E11E19; 
+    cursor: pointer;
+}
+
+.btn-CTA5-white:hover {
+    background-color: #fff; 
+    border-color: #E11E19;  
+    color: #E11E19;
     cursor: pointer;
 }
 
@@ -563,18 +599,28 @@ h5 {
 2. NAVBAR
 ----------------------*/
 
+.navbar-light .navbar-nav .nav-link {
+    color: #212934;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
 .bg-menu {
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     background-color: #fff;
 }
 
 .nav-link {
-    font-size: 16px;
-    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .nav-link:hover {
-    font-size: 16px;
+    font-size: 14px;
     color: #E11E19 !important;
 }
 

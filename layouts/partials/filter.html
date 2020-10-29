@@ -1,8 +1,7 @@
-
-<div class="container section">
+<div class="container">
     <div class="row">
-        <h2 class="col-4 align-self-start">{{.Params.header.Titel}}</h2>
-        <!-- Nav submenu -->
+        <h2 class="pl-3">{{.Params.header.Titel}}</h2>
+        <!-- Nav submenu 
         <div class="col align-self-end navbar navbar-expand-xl navbar-light">
 
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -41,7 +40,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 
@@ -64,16 +63,13 @@
         </div>
     </div>
 </div>
+
 <div class="container section pt-0">
     <section id="search-results" class="search mx-3"></section>
 </div>
 
-</div>
-<h4 class="mb-5 mt-5">{{.Params.Content.TextLine1 | safeHTML }}</h4>
-<h4 class="mb-5 mt-5">{{.Params.Content.TextLine2 | safeHTML }}</h4>
-<p class="card-text">{{.Params.Content.TextLine3 | safeHTML }}</p>
-<p class="card-text">{{.Params.Content.TextLine4 | safeHTML }}</p>
-</div>
+
+
 <div>{{.Params.NoShowButton | safeHTML }}
     <div class="mt-5">
         <div class="row justify-content-center">

@@ -1,6 +1,10 @@
 {
     "layout": "produkte/doxicrate",
 	"translationKey": "produkte/doxicrate",
+
+    "_comment": "Title = Search", 
+    "Title": "CIB doXibox & doXicrate",
+
     "head": "CIB doXibox & doXicrate - Dokumentenscanner für ein optimales Scanergebnis",
     "header": {
         "Titel": "Hochwertige Scans dank Scannerboxen – auch von unterwegs!",

@@ -1,6 +1,7 @@
 {
 	"layout": "berufserfahrene",
     "type": "karriere",
+    "Title": "Unser Angebot für Berufserfahrene",
 
     "header": {
         "Titel": "Unser Angebot für Berufserfahrene",
