@@ -3,6 +3,9 @@ require_once './vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 
+// Load environment from .env file
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 $mustache = new Mustache_Engine(array(
     // 'template_class_prefix' => '__MyTemplates_',
