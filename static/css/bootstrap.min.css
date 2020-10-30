@@ -3464,14 +3464,14 @@ tbody.collapse.show {
     }
 }
 
-@media (max-width:991.98px) {
+@media (max-width:1299.98px) {
     .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
         padding-right: 0;
         padding-left: 0
     }
 }
 
-@media (min-width:992px) {
+@media (min-width:1300px) {
     .navbar-expand-lg {
         flex-flow: row nowrap;
         justify-content: flex-start

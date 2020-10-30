@@ -26,7 +26,7 @@
 	},
 
 	"Integration": {
-		"Title": "Erprbter Erfolg: Migration, Integration, Vorlagenservice",
+		"Title": "Erprobter Erfolg: Migration, Integration, Vorlagenservice",
 		"SubTitle": "",
 		"Title1": "Migration",
 		"Title2": "Integration",
@@ -40,7 +40,7 @@
 		"Title": "Diese Zahlen sprechen für CIB",
 		"SubTitle": "",
 		"Title1": "mit CIB Lösungen erzeugte Dokumente",
-		"Title2": "Arbeitsplaetze mit CIB coSys bei der LHM in München",
+		"Title2": "Arbeitsplätze mit CIB coSys bei der LHM in München",
 		"Title3": "2018 mit CIB pdf brewer erzeugte Dokumente",
 		"Title4": ">Produktivlizenzen im Einsatz"
 	},

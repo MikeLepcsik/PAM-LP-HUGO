@@ -116,30 +116,34 @@
             bgColor: "",
             bgIMG: "linear-gradient(to top,#335b98   0%,#04ade0 100%)",
             info: `<div class="container-fluid d-flex align-items-center">
-                <div class="col-lg-1 order-4 order-lg-1">
-                   </div>
-                    <div class="col-12 col-lg-5 order-3 order-lg-2">
-                        <section class="">
-                            <div class="container text-left">
-                                <h1 class="pb-4 text-white">{{.Params.header.Titel}}</h1>
+                        <div class="col-lg-1 order-4 order-lg-1">
+                        </div>
 
-                                <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
-                                data-target="#modalContactForm"
-                                onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
-                                Button</a>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="col-12 col-lg-5 order-2 order-lg-3">
-                        <section class="">
-                            <div class="container text-center">
-                                <img src="/img/KI-CLoud.svg" class="img-fluid" height="500">
-                            </div>
-                        </section>
-                    </div>
-                    <div class="col-lg-1 order-1 order-lg-4">
-                   </div>
-                </div>`,
+                        <div class="col-12 col-lg-5 order-3 order-lg-2">
+                            <section class="">
+                                <div class="container text-left">
+                                    <h1 class="pb-4 text-white">{{.Params.header.Titel}}</h1>
+
+                                    <a class="btn btn-block btn-CTA2" href="#Bestellen" data-toggle="modal"
+                                    data-target="#modalContactForm"
+                                    onClick="gtag('event', 'action', {'event_category': 'Anfragen-Button', 'event_label': 'CTA','value': 'value'});">
+                                    {{.Params.Button.Button}}</a>
+                                </div>
+                            </section>
+                        </div>
+
+                        <div class="col-12 col-lg-5 order-2 order-lg-3">
+                            <section class="">
+                                <div class="container text-center">
+                                    <img src="/img/KI-CLoud.svg" class="img-fluid" height="500">
+                                </div>
+                            </section>
+                        </div>
+
+                        <div class="col-lg-1 order-1 order-lg-4">
+                        </div>
+
+                     </div>`,
         },
         {
             bgColor: "",
@@ -347,7 +351,7 @@
 
     </div>
     <div class="row pb-4 mt-5 d-flex justify-content-center text-center">
-        <a href="https://doxiview.cib.de/showcase/index.html#signatur" target="_blank"
+        <a href="#" target="_blank"
             onclick="gtag('event', 'action', {'event_category': 'Mehr-erfahren-Button', 'event_label': 'CTA','value': 'value'});"
             class="btn btn-CTA2 mt-0">{{.Params.Button.Button}}</a>
     </div>
@@ -397,20 +401,22 @@
             </div>
             <div class="four col-md-3">
                 <div class="counter-box"> <span class="material-icons"
-                    style="font-size: 48px; vertical-align: sub; color: #fff;">people</span> <h1 class="counterX text-white">25000</h1>
+                        style="font-size: 48px; vertical-align: sub; color: #fff;">people</span>
+                    <h1 class="counterX text-white">25000</h1>
                     <p>{{.Params.Numbers.Title2 | safeHTML}}</p>
                 </div>
             </div>
             <div class="four col-md-3">
                 <div class="counter-box"> <span class="material-icons"
-                    style="font-size: 48px; vertical-align: sub; color: #fff;">grading</span> <h1
-                        class="counterX text-white">3107925</h1>
+                        style="font-size: 48px; vertical-align: sub; color: #fff;">grading</span>
+                    <h1 class="counterX text-white">3107925</h1>
                     <p>{{.Params.Numbers.Title3 | safeHTML}}</p>
                 </div>
             </div>
             <div class="four col-md-3">
                 <div class="counter-box"> <span class="material-icons"
-                    style="font-size: 48px; vertical-align: sub; color: #fff;">file_copy</span> <h1 class="counterX text-white">2000000</h1>
+                        style="font-size: 48px; vertical-align: sub; color: #fff;">file_copy</span>
+                    <h1 class="counterX text-white">2000000</h1>
                     <p>{{.Params.Numbers.Title4 | safeHTML}}</p>
                 </div>
             </div>
@@ -500,7 +506,13 @@
             <h2>{{.Params.CallToAction.Title}}</h2>
             <p class="header-text">{{.Params.CallToAction.SubTitle}}</p>
         </div>
-        <div class="row container-fluid mx-0" id="newsContainer1"></div>
+        <div class="" id="newsContainer1">
+            <div class=""><a id="blogButton"
+                    class="btn btn-block btn-CTA5-white mb-4" target="_blank"
+                    onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
+                    href="https://blog.cib.de/">{{.Params.CallToAction.Blog}}</a>
+            </div>
+        </div>
         <div class="row container-fluid mx-0" id="newsContainer2"></div>
         <div class="row container-fluid mx-0" id="newsContainer3"></div>
         <div class="row container-fluid mx-0" id="newsContainer4"></div>

@@ -598,17 +598,17 @@ h5 {
 /* -------------------
 2. NAVBAR
 ----------------------*/
-
+ 
 .navbar-light .navbar-nav .nav-link {
     color: #212934;
 }
-
+/*
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 16px;
     padding-left: 16px;
 }
-
+*/
 .bg-menu {
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     background-color: #fff;
@@ -715,7 +715,7 @@ h5 {
 @media (max-width:992px) {
     .hr {
         border: 0;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #e1e7ec;
     }
 }
 

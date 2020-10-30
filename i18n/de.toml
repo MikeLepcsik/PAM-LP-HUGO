@@ -360,6 +360,8 @@ other = "Hast du Fragen? Schicke uns eine Nachricht!"
 other = "Anfragen"
 [jobcontact_Consultation_Title]
 other = "Kontakt"
+[jobcontact_JobOffer]
+other = "ANGEBOT"
 
 [form_YourInformation]
 other = "Ihre Daten"
