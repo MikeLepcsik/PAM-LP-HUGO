@@ -94,7 +94,7 @@ other = "CIB Lösungen sind bei über 25.000 Arbeitsplätzen allein in München 
 
 
 [menuProducts_Title]
-other = "CIB Lösungen und Module"
+other = "CIB Lösungen"
 [menuProducts_coSys]
 other = "Das EcoSystem für den gesamten Dokumentenlebenszyklus"
 [menuProducts_doXiview]
@@ -172,13 +172,13 @@ other = "Für Berufserfahrene"
 [menuJobboerse_ExperiencedText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_CareerChangers]
-other = "Querdenker & Out of the box?"
+other = "Quereinsteiger & Querdenker"
 [menuJobboerse_CareerChangersText]
 other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben? Wir sind auch an out of the box Profile ausgesprichen interessiert! Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
 [menuJobboerse_JobInSpain]
-other = "Jobs an einem CIB Standort in Spanien"
+other = "Ihr Job an einem CIB Standort in Spanien"
 [menuJobboerse_JobInSpainText]
-other = "Die CIB Gruppe ist in Spanien mit zwei Standorten vertreten: Valencia und Las Palmas de Gran Canaria. Wenn Sie sich vorstellen können, in Spanien zu arbeiten, dann freuen wir uns auf Ihre Bewerbung!"
+other = "Die CIB Gruppe ist in Spanien an zwei Standorten vertreten: Valencia und Las Palmas de Gran Canaria. Wenn Sie sich vorstellen können, in Spanien zu arbeiten, dann freuen wir uns auf Ihre Bewerbung!"
 
 [menuConsulting_Title]
 other = "CIB Consulting"
@@ -202,7 +202,7 @@ other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuAdviser_Title]
 other = "CIB Berater"
 [menuAdviser_SeminarsTraining]
-other = "Seminare & Schulungen"
+other = "Seminare"
 [menuAdviser_SeminarsTrainingText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuAdviser_ProjectSupport]
@@ -241,9 +241,9 @@ other = "Beratungsangebot"
 [menuSupport_AdviceOfferText]
 other = "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis."
 [menuSupport_Support]
-other = "Schnell und effizient für Sie da!"
+other = "Unser Support Team ist Ihr erster Ansprechpartner bei Fragen zu allen CIB Produkten - schnell und effizient für Sie da!"
 [menuSupport_SupportText]
-other = "Telefonisch erreichbar werktags von 8:00 – 19:00 Uhr"
+other = "Mit unserer langjährigen Erfahrung sind wir in der Lage unsere Kunden in eine große Menge an Programmiersprachen und Systemplattformen tatkräftig zu unterstützen."
 [menuSupport_Hotline]
 other = "+49 89 14360 111"
 [menuSupport_EMail]

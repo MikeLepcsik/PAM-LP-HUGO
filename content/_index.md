@@ -3,22 +3,22 @@
     "Title": "CIB",
 
 	"header": {
-		"Titel": "Der Experte für Korrespondenz Management, Workflow Automatisierung und Dokumenten Management",
+		"Titel": "Ihr Experte für Korrespondenz Management, Dokumenten Lifecycle und Customer Communication Management",
 		"SubTitle": "",
 		"Text": "Lorem Ipsum / Call to action",
 		"Slide2Titel": "CIB kanzlei app: Die Kanzlei der Zukunft ist digital, einfach, direkt",
-		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren mit unserem Fluxi und deutlich an Speicherplatz sparen!",
-		"Slide4Titel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz",
+		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren mit unserem fluXi und deutlich an Speicherplatz sparen!",
+		"Slide4Titel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz für die perfekte Texterkennung.",
 		"Button": "zur Jobbörse"
 	},
 
 	"Expertise": {
-		"Title": "CIB Expertise",
+		"Title": "Wir sind Ihre Experten in allen Fragen zu Dokumenten und CCM",
 		"SubTitle": "",
-		"Title1": "Document Lifecycle Management",
-		"Title2": "Prozessoptimierung",
-		"Title3": "Digitalisierung",
-		"Title4": "Automatisierung",
+		"Title1": "Korrespondenz Management",
+		"Title2": "Document Lifecycle Management",
+		"Title3": "Prozess- & Workflowoptimierung",
+		"Title4": "Digitalisierung, Automatisierung",
 		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
 		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
@@ -37,7 +37,7 @@
 	},
 
 	"Integration": {
-		"Title": "Erprobter Erfolg: Migration, Integration, Vorlagenservice",
+		"Title": "Erprobter Erfolg: Migration und Integration",
 		"SubTitle": "",
 		"Title1": "Migration",
 		"Title2": "Integration",
@@ -53,7 +53,7 @@
 		"Title1": "mit CIB Lösungen erzeugte Dokumente",
 		"Title2": "Arbeitsplätze mit CIB coSys bei der LHM in München",
 		"Title3": "2018 mit CIB pdf brewer erzeugte Dokumente",
-		"Title4": ">Produktivlizenzen im Einsatz"
+		"Title4": "Produktivlizenzen im Einsatz"
 	},
 
 	"FE": {
@@ -69,13 +69,13 @@
 		"Title1": "Ökologisch",
 		"Title2": "Sozial",
 		"Title3": "Innovativ",
-		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing",
+		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing",
+		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing"
 	},
 
 	"CallToAction": {
-		"Title": "Erfahren Sie mehr über CIB, unsere Lösungen und was uns bewegt",
+		"Title": "Erfahren Sie mehr über unsere Lösungen und darüber, was uns bewegt",
 		"SubTitle": "Aktuellste News aus dem CIB Blog",
 		"Blog": "Zum Blog"
 	},
