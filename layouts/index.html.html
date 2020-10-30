@@ -357,6 +357,38 @@
     </div>
 </div>
 
+<!-- Solution -->
+
+<div class="container text-center">
+    <h2 class="pb-5 mb-5">{{.Params.Solution.Title}}</h2>
+    <div>
+        <div class="row align-items-center text-md-left mb-5">
+            <div class="col-md-6 order-1 order-md-0 text-center"><img class="img-fluid" src="img/test.svg"
+                    style="background-color: rgb(219, 219, 219);" width="220" height="220" alt=""></div>
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h3 class="mb-4">{{.Params.Solution.Title1}}</h3>
+                <p>{{.Params.Solution.Text1}}</p>
+            </div>
+        </div>
+        <div class="row align-items-center text-md-right mb-5">
+            <div class="col-md-6 order-1 text-center"><img class="img-fluid" src="img/test.svg"
+                    style="background-color: rgb(219, 219, 219);" width="220" height="220" alt=""></div>
+            <div class="col-md-6 mb-4 mb-md-0 order-0">
+                <h3 class="mb-4">{{.Params.Solution.Title2}}</h3>
+                <p>{{.Params.Solution.Text2}}</p>
+            </div>
+        </div>
+        <div class="row align-items-center text-md-left mb-5">
+            <div class="col-md-6 order-1 order-md-0 text-center"><img class="img-fluid" src="img/test.svg"
+                    style="background-color: rgb(219, 219, 219);" width="220" height="220" alt=""></div>
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h3 class="mb-4">{{.Params.Solution.Title3}}</h3>
+                <p>{{.Params.Solution.Text3}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Integration -->
 
 <div class="container section pt-0 text-center" id="Expertise">
@@ -483,7 +515,7 @@
         </div>
         <div class="col-lg-4">
             <img class="" src="img/test.svg" style="background-color: rgb(219, 219, 219);" width="220" height="220">
-            <h3>{{.Params.Integration.Title2}}</h3>
+            <h3>{{.Params.socialCommitment.Title2}}</h3>
             <p class="card-text">{{.Params.socialCommitment.Text2}}
             </p>
         </div>
@@ -506,18 +538,12 @@
             <h2>{{.Params.CallToAction.Title}}</h2>
             <p class="header-text">{{.Params.CallToAction.SubTitle}}</p>
         </div>
-        <div class="" id="newsContainer1">
-            <div class=""><a id="blogButton"
-                    class="btn btn-block btn-CTA5-white mb-4" target="_blank"
-                    onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
-                    href="https://blog.cib.de/">{{.Params.CallToAction.Blog}}</a>
-            </div>
+        <div class="row container-fluid mx-0" id="newsContainer1">
         </div>
-        <div class="row container-fluid mx-0" id="newsContainer2"></div>
+        <div class="row container-fluid mx-0" id="newsContainer2">
+        </div>
         <div class="row container-fluid mx-0" id="newsContainer3"></div>
         <div class="row container-fluid mx-0" id="newsContainer4"></div>
-        <div class="row container-fluid mx-0" id="newsContainer5"></div>
-        <div class="row container-fluid mx-0" id="newsContainer6"></div>
         <div class="row text-center justify-content-center mx-1"><a id="blogButton"
                 class="btn btn-block btn-CTA5-white mb-4" target="_blank"
                 onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
@@ -528,6 +554,4 @@
 <script src="js/wp2.js"></script>
 <script src="js/wp3.js"></script>
 <script src="js/wp4.js"></script>
-<script src="js/wp5.js"></script>
-<script src="js/wp6.js"></script>
 {{ end }}

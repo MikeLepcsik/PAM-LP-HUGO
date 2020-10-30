@@ -118,7 +118,7 @@
     }
 }
 
-/* Slow dropdown-menu 
+/* Slow dropdown-menu */
 
 .dropdown-menu {
     display: block;
@@ -134,11 +134,10 @@
     opacity: 1;
     transform: translateY(0px);
     transition: 0.5s ease all;
-}*/
+}
 
 .navbar-nav li .dropdown-menu {
     margin-top: 0px;
-    visibility: visible;
     border-radius: 0;
     font-weight: bold;
     transition: all 0.5s ease-in-out;

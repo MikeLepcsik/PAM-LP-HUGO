@@ -25,6 +25,17 @@
 		"Text4": "Lorem ipsum dolor sit amet, consetetur sadipscing"
 	},
 
+	"Solution": {
+		"Title": "CIB Lösungen und Module",
+		"SubTitle": "",
+		"Title1": "Title 1",
+		"Title2": "Title 2",
+		"Title3": "Title 3",
+		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+	},
+
 	"Integration": {
 		"Title": "Erprobter Erfolg: Migration, Integration, Vorlagenservice",
 		"SubTitle": "",

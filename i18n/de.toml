@@ -288,6 +288,41 @@ other = "Antivirenprogramm"
 [menuCompanies_AntivirusProgramText]
 other = "Unser Engagement in Corona-Zeiten"
 
+[menuBlog_Blog]
+other = "Blog"
+[menuBlog_Reg]
+other = "BLOG FOLGEN"
+[menuBlog_RegButton]
+other = "BLOG FOLGEN"
+[menuBlog_RegText]
+other = "Schließe dich 122 anderen Abonnenten an"
+[menuBlog_RegSubText]
+other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer Datenschutzerklärung verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
+[menuBlog_Title]
+other = "Blog"
+[menuBlog_Text]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuBlog_CIBblog]
+other = "CIB blog"
+[menuBlog_CIBblogText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuBlog_azubiblog]
+other = "azubi blog"
+[menuBlog_azubiblogText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuBlog_IoTblog]
+other = "CIB IoT blog"
+[menuBlog_IoTblogText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuBlog_Homealoneblog]
+other = "CIB homealone blog"
+[menuBlog_HomealoneblogText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuBlog_PDFbrewerblog]
+other = "CIB PDF brewer blog"
+[menuBlog_PDFbrewerblogText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
 [menuchoose_country]
 other = "Land auswählen"
 [menu_country_germany]
