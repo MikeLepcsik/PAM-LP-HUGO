@@ -31,9 +31,9 @@ $this_message_is_spam = false; //TODO: perform some validation
 
 // load template and render html and text versions
 $tpl_html = $mustache->loadTemplate('contact.html'); // loads __DIR__.'/mail-templates/foo.mustache';
-$html = $tpl->render(array('planet' => 'Earth'));
+$html = $tpl->render($_POST);
 $tpl_txt = $mustache->loadTemplate('contact.txt');
-$txt = $tpl->render(array('planet' => 'Earth'));
+$txt = $tpl->render($_POST);
 
 // create a new mailer object
 $mail = new PHPMailer();
