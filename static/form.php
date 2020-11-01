@@ -56,3 +56,22 @@ $mail->isHTML(TRUE);
 $mail->Body = $html;
 $mail->AltBody = $txt;
 
+// add attachments
+foreach ($_FILES as $file) {
+    if (is_array($file['name'])) {
+        for ($i=0; $i < count($file['name']); $i++) { 
+            $mail->addAttachment($file['tmp_name'][$i], $file['name'][$i]);
+        }
+    } else {
+        $mail->addAttachment($file['tmp_name'], $file['name']);
+    }
+}
+
+// send the message
+if(!$mail->send()){
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Message has been sent';
+}
+
