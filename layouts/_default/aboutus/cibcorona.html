@@ -1,0 +1,431 @@
+{{ define "base" }}
+
+<!-- Header -->
+     <header class="header-text-top">
+        <div class="container">
+            <div class="shape-top"></div>
+            <div class="shape-left"></div>
+            <div class="row">
+                <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                    <h4>{{.Params.Header.Titel1}}</h4>
+                    <h1 class="pb-4">{{.Params.Header.Titel2|safeHTML}}</h1>
+
+                    <h3 class="pb-4">{{.Params.Header.Text}}
+                    </h3>
+
+                    <div class="row pb-4 d-flex justify-content-left ">
+                        <div class="col-12 col-xl-4">
+                            <a class="btn btn-block btn-CTA2"
+                                onClick="gtag('event', 'action', {'event_category': 'myCIB-menu', 'event_label': 'myCIB','value': 'value'});"
+                                data-toggle="modal" data-target="#modalmyCIB">{{.Params.Button.Bestellen}}</a>
+                        </div>
+                        <div class="col-12 col-xl-5 btn-head-top-padding">
+                            <a class="btn btn-block btn-CTA2-gray" href='{{"aboutus/cibwaschbaer"|relLangURL}}'
+                                onClick="gtag('event', 'action', {'event_category': 'weitereAktionen', 'event_label': 'Header-Button','value': 'value'});">
+                                {{.Params.Button.weitereAktionen}}</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 pt-0 mt-5 text-center">
+                    <img src="/images/product/cibcorona/HG-masken.svg" class="/images/product/cibcorona-fluid" height="420">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+<!-- Views -->
+    <div class="pb-5" id="Produktbeschreibung"></div>
+    <div class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.Produkt.Titel}}</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-2">
+                    <div class="card-body text-center">
+                        <span class="feature-icon justify-content-center ">
+                            <img src="/images/product/cibcorona/Baumwolle.svg" height="auto" width="60" class="/images/product/cibcorona-fluid pb-3 pt-3">
+                        </span>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="card-text">{{.Params.Produkt.Text1}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <div class="card-body text-center">
+                        <span class="feature-icon justify-content-center">
+                            <img src="/images/product/cibcorona/waschbar-60.svg" height="auto" width="60" class="/images/product/cibcorona-fluid pb-3 pt-3">
+                        </span>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="card-text">{{.Params.Produkt.Text2}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <div class="card-body text-center">
+                        <span class="feature-icon justify-content-center">
+                            <img src="/images/product/cibcorona/Buegeln.svg" height="auto" width="60" class="/images/product/cibcorona-fluid pb-3 pt-3">
+                        </span>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="card-text">{{.Params.Produkt.Text3}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 px-0">
+                    <div class="card-body px-0 text-center">
+                        <span class="feature-icon justify-content-center">
+                            <img src="/images/product/cibcorona/trockner.svg" height="auto" width="60" class="/images/product/cibcorona-fluid pb-3 pt-3">
+                        </span>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="card-text">{{.Params.Produkt.Text4}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <div class="card-body text-center">
+                        <span class="feature-icon justify-content-center">
+                            <img src="/images/product/cibcorona/kein-schutz.svg" height="auto" width="60" class="/images/product/cibcorona-fluid pb-3 pt-3">
+                        </span>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="card-text">{{.Params.Produkt.Text5}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2 px-0">
+                    <div class="card-body px-0 text-center">
+                        <span class="feature-icon justify-content-center ">
+                            <img src="/images/product/cibcorona/keine-kinder.svg" height="auto" width="60"
+                                class="/images/product/cibcorona-fluid pb-3 pt-3">
+                        </span>
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="card-text">{{.Params.Produkt.Text6}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Gebrauchsanweisung -->
+    <div class="pb-5" id="Gebrauchsanleitung"></div>
+    <div class="section light-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="">{{.Params.Gebrauchsanleitung.Titel}}</h2>
+                <p class="header-text pt-5 mb-0">{{.Params.Gebrauchsanleitung.Headertext1}}</p>
+                <p class="header-text pb-5">{{.Params.Gebrauchsanleitung.Headertext2}}</p>
+            </div>
+
+            <!-- row 1 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/1-Haende-waeschen.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text1}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/2-anziehen-maske.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text2}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/3-mund-nase-wangen.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text3}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/6-maske-feucht.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text4}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/4-ausziehen-maske.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text5}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/5-seife-waschen.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text6}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 3 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/7-maske-waschen.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text7}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/8-maske-beutel.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text8}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/cibcorona/9-maske-buegeln.svg" class="/images/product/cibcorona-fluid">
+                        </div>
+
+                        <div class="col text-left">
+                            <p class="card-text">{{.Params.Gebrauchsanleitung.Text9}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Beachten -->
+    <div class="pb-5" id="Haftungssausschluss"></div>
+    <div class="section special-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.Beachten.HeaderTitel}}</h2>
+                <p class="card-text mt-5">{{.Params.Beachten.Text|safeHTML}}</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-title">
+                <p class="header-text">{{.Params.Beachten.Titel}}</p>
+                <p class="card-text">{{.Params.Beachten.Text2|safeHTML}}</p>
+            </div>
+        </div>
+    </div>
+
+<!-- NEWS IN DEM BLOG -->
+
+    <div class="section light-bg" id="News">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.News.Titel}}</h2>
+                <p class="header-text">{{.Params.News.Text}}</p>
+            </div>
+
+            <div class="row container-fluid mx-0" id="newsContainer"></div>
+
+            <div class="row text-center justify-content-center mx-1">
+                <a id="blogButton"
+                    class="btn btn-block btn-CTA2-gray mb-4"
+                    target="_blank"
+                    onClick="gtag('event', 'action', {'event_category': 'Button-ZumBlog-News', 'event_label': 'Button-ZumBlog','value': 'value'});"
+                    href="https://blog.cib.de/category/soziales-engagement/">{{.Params.Button.ZumBlog}}
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!-- Kontakt -->
+
+    <div class="section light-blue-bg" id="Kontakt">
+
+        <div class="container contact-form">
+            <div class="section-title">
+                <h2>{{.Params.Kontakt.Kontakt}}
+                </h2>
+                <p>{{.Params.Kontakt.KontaktText|safeHTML}}</p>
+                <div style="display:none;" id="loadercontactForm"></div>
+            </div>
+            <form class="text-left" name="contactForm" action="" id="contactForm"
+                onsubmit="sendEmailContact(); return false">
+
+                <div class="form-group">
+                    <input required="required" name="name" type="name"
+                        class="form-control contact-form-tab text-left" id="InputName"
+                        aria-describedby="nameHelp" placeholder="Name*">
+                </div>
+
+                <div class="form-group">
+                    <input name="email" required="required" type="email" required
+                        class="form-control contact-form-tab" id="InputEmail" aria-describedby="emailHelp"
+                        placeholder="E-Mail*">
+
+                </div>
+                <div class="form-group">
+                    <select name="about" required="required"
+                        class="form-control order-text contact-form-tab contact-form-dropdown"
+                        id="exampleSelect1" placeholder="Wie sind Sie auf uns aufmerksam geworden?">
+                        <option class="order-text">{{.Params.Kontakt.Grund}}</option>
+                        <option class="order-text">{{.Params.Kontakt.GrundGoogle}}</option>
+                        <option class="order-text">{{.Params.Kontakt.GrundCIBWebseite}}</option>
+                        <option class="order-text">{{.Params.Kontakt.GrundBekannte}}</option>
+                        <option class="order-text">{{.Params.Kontakt.GrundSonstiges}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control contact-form-tab" id="exampleTextarea" rows="3"
+                        placeholder="{{.Params.Kontakt.Nachricht}}"></textarea>
+                </div>
+                <p>{{.Params.Kontakt.Datenschutzerklärung|safeHTML}}</p>
+                <div class="d-flex">
+                    <button class="btn btn-block btn-CTA2 ml-auto" id="contactFormButton"
+                        onClick="gtag('event', 'action', {'event_category': 'Senden-Button', 'event_label': 'Kontakt','value': 'value'});"
+                        type="submit">{{.Params.Button.Senden}}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<!-- Modals -->
+
+<!-- Modal myCIB -->
+
+    <div class="modal fade" id="modalmyCIB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">{{.Params.modalmyCIB.modalTitle}}</h2>
+                    <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body modal-boby-bestellung mx-3">
+                    <div class="row justify-content-center pb-5">
+
+                        <p class="font-small card-text mx-3 text-center">{{.Params.modalmyCIB.modalText|safeHTML}}
+                        </p>
+                        <a class="btn btn-block btn-CTA2" target="_blank"
+                            onClick="gtag('event', 'action', {'event_category': 'myCIB-menu', 'event_label': 'myCIB','value': 'value'});"
+                            href="https://my.cib.de/?utm_source=Button&utm_medium=myCIB&utm_campaign=Button_Weiter zu myCIB!/">
+                            {{.Params.Button.modalButton}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal Kontaktformular erfolgreich-->
+
+    <div class="modal fade" id="KontaktFormularErfolgreich" tabindex="-1" role="dialog"
+        aria-labelledby="ModalKontaktFormularErfolgreich" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">
+                        <span>{{.Params.ModalKontaktformularErfolgreich.ThanksForEmail}}</span>
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3 text-center py-5">
+
+                    <div class="form-group mb-0 text-center">
+                        <span>{{.Params.ModalKontaktformularErfolgreich.Versendet}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal Kontaktformular nicht erfolgreich-->
+
+    <div class="modal fade" id="KontaktFormularNichtErfolgreich" tabindex="-1" role="dialog"
+        aria-labelledby="ModalKontaktFormularNichtErfolgreich" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title w-100">
+                        <span>{{.Params.ModalKontaktformularNichtErfolgreich.ThanksForEmail}}</span>
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body mx-3 text-center">
+
+                    <div class="form-group mb-0">
+                        <span>{{.Params.ModalKontaktformularNichtErfolgreich.NichtVersendet}} </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Get WP posts -->
+<script src="/js/wp-corona.js"></script>
+
+{{end}}
