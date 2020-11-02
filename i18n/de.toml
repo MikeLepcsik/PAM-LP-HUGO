@@ -186,9 +186,13 @@ other = "CIB Consulting"
 other = "Profitieren Sie von einer attraktiven Partnerschaft und den maßgeschneiderten Beratungsleistungen unserer hochqualifizierten Experten."
 [menuConsulting_IntroText]
 other = "Unsere Experten finden für Sie die Lösung, die exakt zu Ihnen passt. "
-[menuConsulting_IntegrationMigration]
-other = "Integration & Migration"
-[menuConsulting_IntegrationMigrationText]
+[menuConsulting_ProjectSupport]
+other = "Projektunterstützung"
+[menuConsulting_ProjectSupportText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuConsulting_CREDENTIALS]
+other = "REFERENZEN"
+[menuConsulting_CREDENTIALSText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_PlanningDevelopment]
 other = "Planung & Entwicklung"
@@ -198,6 +202,11 @@ other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 other = "Experten Outsourcing"
 [menuConsulting_OutsourcingExpertsText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuConsulting_JOBexchangeForExperts]
+other = "Jobbörse für Experten"
+[menuConsulting_JOBexchangeForExpertsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
 
 [menuAdviser_Title]
 other = "CIB Berater"
@@ -224,9 +233,25 @@ other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
 
 [menuSupport_Title]
 other = "CIB Berater"
+[menuSupport_Maintenance]
+other = "Maintenance"
+[menuSupport_MaintenanceText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuSupport_Credentials]
+other = "Referenzen"
+[menuSupport_CredentialsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuSupport_INQUIRY]
+other = "ANFRAGE"
+[menuSupport_INQUIRYText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_Dokumentationen]
 other = "Dokumentationen"
 [menuSupport_DokumentationenText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuSupport_FAQ]
+other = "FAQ"
+[menuSupport_FAQText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_CIB_Consultation]
 other = "CIB Berater"
@@ -259,10 +284,34 @@ other = "Rund ums Dokumenten Management entwickeln wir Lösungen, um bestehende 
 other = "Geschichte"
 [menuCompanies_HistoryText]
 other = "Entwicklung der CIB Unternehmensgruppe im Zeitverlauf"
+[menuCompanies_Sponsoring]
+other = "CIB Sponsoring"
+[menuCompanies_SponsoringText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuCompanies_Action]
+other = "Aktion Mensch"
+[menuCompanies_ActionText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuCompanies_Termin]
+other = "Terminkalender"
+[menuCompanies_TerminText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuCompanies_Fourmi]
+other = "Fourmi"
+[menuCompanies_FourmiText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuCompanies_Credentials]
+other = "Referenzen"
+[menuCompanies_CredentialsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuCompanies_Memberships]
+other = "Mitgliedschaften"
+[menuCompanies_MembershipsText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuCompanies_MediaCenter]
 other = "Media Center"
 [menuCompanies_MediaCenterText]
-other = "Media Center TEXT XXX"
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuCompanies_ProjectsText]
 other = "Die Kooperation Fraunhofer IAIS und CIB bietet Ihnen eine hervorragende Gelegenheit, einen wichtigen Beitrag für das vom Bundesforschungsministerium (BMBF) geförderte KI-Projekt zu leisten."
 [menuCompanies_Career]
@@ -296,8 +345,6 @@ other = "BLOG FOLGEN"
 other = "BLOG FOLGEN"
 [menuBlog_RegText]
 other = "Schließe dich 122 anderen Abonnenten an"
-[menuBlog_RegSubText]
-other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer Datenschutzerklärung verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
 [menuBlog_Title]
 other = "Blog"
 [menuBlog_Text]
@@ -322,6 +369,21 @@ other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 other = "CIB PDF brewer blog"
 [menuBlog_PDFbrewerblogText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+
+[menuContact_Title]
+other = "Kontakt"
+[menuContact_TitleText]
+other = "Wir helfen Ihnen gern weiter."
+[menuContact_Name]
+other = "Name"
+[menuContact_EMail]
+other = "E-Mail"
+[menuContact_YourMessage]
+other = "Ihre Nachricht"
+[menuContact_Send]
+other = "Senden"
+[menuContact_SendSubText]
+other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer Datenschutzerklärung verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
 
 [menuchoose_country]
 other = "Land auswählen"
