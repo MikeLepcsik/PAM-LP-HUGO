@@ -206,7 +206,7 @@
         "GrundBekannte": "über Bekannte",
         "GrundSonstiges": "Sonstiges",
         "Datenschutzerklärung": "Datenschutzerklärung",
-        "Datenschutzerklärung1": "Mit dem Absenden dieses Formulars, erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer ",
+        "Datenschutzerklärung1": ""Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer ",
         "Datenschutzerklärung2": " verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
         "Nachricht": "Ihre Nachricht"
     },

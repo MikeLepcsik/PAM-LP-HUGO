@@ -19,7 +19,7 @@ other = "Support"
 [menu_Adviser]
 other = "Berater"
 [menu_Career]
-other = "Jobbörse"
+other = "Karriere"
 [menu_Companies]
 other = "Über uns"
 [menu_Blog]
@@ -154,9 +154,9 @@ other = "CIB eLearning"
 other = "Auf der CIB eLearning Plattform finden Sie wichtige Informationen und Videos zu unseren Lösungen."
 
 [menuJobboerse_Title]
-other = "Entdecke deine Zukunft bei CIB"
-[menuJobboerse]
 other = "Karriere"
+[menuJobboerse]
+other = "Jobbörse"
 [menuJobboerseText]
 other = "Finde bei uns deinen Traumjob und starte deine Karriere bei CIB! Entdecke deine Leidenschaft und entwickle zukunftsorientierte Lösungen mit."
 [menuJobboerse_Student]
@@ -172,11 +172,11 @@ other = "Für Berufserfahrene"
 [menuJobboerse_ExperiencedText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_CareerChangers]
-other = "Quereinsteiger & Querdenker"
+other = "Initiativbewerbung"
 [menuJobboerse_ContactTitle]
-other = "Hier können Sie sich Bewerben"
+other = "Denken Sie Out of the Box? Schicken Sie hier Ihre Bewerbung und kommen wir ins Gespräch!"
 [menuJobboerse_CareerChangersText]
-other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben? Wir sind auch an out of the box Profile ausgesprichen interessiert! Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
+other = ""
 [menuJobboerse_JobInSpain]
 other = "Ihr Job an einem CIB Standort in Spanien"
 [menuJobboerse_JobInSpainText]
@@ -193,7 +193,7 @@ other = "Projektunterstützung"
 [menuConsulting_ProjectSupportText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_CREDENTIALS]
-other = "REFERENZEN"
+other = "Referenzen"
 [menuConsulting_CREDENTIALSText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_PlanningDevelopment]
@@ -215,11 +215,11 @@ other = "CIB Berater"
 [menuAdviser_SeminarsTraining]
 other = "Seminare"
 [menuAdviser_SeminarsTrainingText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Für Sie bieten unsere Experten massgeschneidert Seminare an."
 [menuAdviser_ProjectSupport]
 other = "Projektunterstützung"
 [menuAdviser_ProjectSupportText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Das CIB Beraterteam unterstützt Sie in allen Fragen des Korrespondenzmanagements."
 [menuAdviser_IntroTitle]
 other = "Mit Rat und Tat zur Seite."
 [menuAdviser_IntroTitleText]
@@ -231,7 +231,7 @@ other = "Das benötigte Know-how und mehrjährige Erfahrung aus vielfältigen Pr
 [menuAdviser_TemplateService]
 other = "Vorlagen-Service"
 [menuAdviser_TemplateServiceText]
-other = "Die CIB Berater erstellen und pflegen Ihre Vorlagen."
+other = "Ob Basis, Premium oder Individuell - die CIB Berater erstellen und pflegen Ihre Vorlagen."
 
 [menuSupport_Title]
 other = "CIB Berater"
@@ -244,7 +244,7 @@ other = "Referenzen"
 [menuSupport_CredentialsText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_INQUIRY]
-other = "ANFRAGE"
+other = "Lorem Ipsum"
 [menuSupport_INQUIRYText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSupport_Dokumentationen]
@@ -373,9 +373,9 @@ other = "CIB PDF brewer blog"
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 
 [menuContact_Title]
-other = "Kontakt"
+other = "Wie können wir helfen?"
 [menuContact_TitleText]
-other = "Wir helfen Ihnen gern weiter."
+other = ""
 [menuContact_Name]
 other = "Name"
 [menuContact_EMail]
@@ -385,7 +385,7 @@ other = "Ihre Nachricht"
 [menuContact_Send]
 other = "Senden"
 [menuContact_SendSubText]
-other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer Datenschutzerklärung verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
+other = "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer Datenschutzerklärung verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
 
 [menuchoose_country]
 other = "Land auswählen"
@@ -497,9 +497,9 @@ other = "über Downloadportale (z.B. Chip.de)"
 [form_Acquaintances]
 other = "über Bekannte"
 [form_NoFiles]
-other = "Keine Datei ausgewählt"
+other = "Kein PDF ausgewählt"
 [form_SelectFiles]
-other = "Datei wählen:"
+other = "PDF Bewerbung hochladen"
 [form_SelectFilesError]
 other = "Bitte geben Sie hier Ihre Daten korrekt ein."
 [form_DeleteFiles]
@@ -513,7 +513,7 @@ other = "Vielen Dank!"
 [form_ThanksText]
 other = "Ihre Nachricht wurde erfolgreich versendet."
 [form_modalContactNote]
-other = "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
+other = "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
 [form_Failure]
 other = "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:CIBpdfSupport@cib.de\">CIBpdfSupport@cib.de</a>."
 

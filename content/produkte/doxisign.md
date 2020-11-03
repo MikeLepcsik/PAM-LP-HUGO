@@ -100,7 +100,7 @@
         "modalMitarbeiter": "Anzahl Mitarbeiter",
         "modalKunden": "Anzahl Kunden",
         "modalPlaceholderNachricht": "Ihre Nachricht",
-        "modalContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text14\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
+        "modalContactNote": "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre Angaben entsprechend der <a class=\"text-danger link-text14\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
         "modalNachricht": "Deine Nachricht"
     },
 

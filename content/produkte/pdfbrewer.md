@@ -128,7 +128,7 @@
 		"SearchEngine": "über Suchmaschinen (z.B. Google)",
 		"DownloadPortal": "über Downloadportale (z.B. Chip.de)",
 		"Acquaintances": "über Bekannte",
-		"SelectFiles": "Datei wählen:",
+		"SelectFiles": "PDF hochladen",
 		"SelectFilesError": "Bitte geben Sie hier Ihre Daten korrekt ein.",
 		"NoFiles": "Keine Datei ausgewählt",
 		"DeleteFiles": "Dateien entfernen",
@@ -138,7 +138,7 @@
 		"PleaseContact": " Bitte kontaktieren Sie uns direkt unter",
 		"FurtherHelp": "Ihre Nachricht",
 		"Thanks": "Vielen Dank!",
-		"Hinweis": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
+		"Hinweis": "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
 		"ThanksText": "Ihre Nachricht wurde erfolgreich versendet.",
 		"Failure": "Ihre Nachricht könnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:CIBpdfSupport@cib.de\">CIBpdfSupport@cib.de</a>."
 	},

@@ -79,7 +79,7 @@
         "modalPlaceholderEmail": "E-Mail*",
         "modalPlaceholderTelefon": "Telefon*",
         "modaltext": "Ihre Nachricht",
-        "modalDatenschutz": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
+        "modalDatenschutz": "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre Angaben entsprechend der <a class=\"text-danger link-text14\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
     },
     "ModalVergleich": {
         "MwSt": "€ inkl MwSt.",

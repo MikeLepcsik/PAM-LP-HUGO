@@ -132,7 +132,7 @@
 		"Thanks": "Vielen Dank!",
 		"ThanksText": "Ihre Nachricht wurde erfolgreich versendet.",
 		"Failure": "Ihre Nachricht konnte leider nicht gesendet werden. <br> Bitte kontaktieren Sie uns direkt unter <a class=\"mailto\" href=\"mailto:cibsupport@cib.de\">cibsupport@cib.de</a>.",
-		"ContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
+		"ContactNote": "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert."
 	},
 	"Companies": {
 		"Title": "Diese und weitere Unternehmen setzen auf unseren \"brewer\""

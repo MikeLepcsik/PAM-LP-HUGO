@@ -3,7 +3,7 @@
 	"translationKey": "produkte/doxigate",
     
     "_comment": "Title = Search", 
-    "Title": "CIB doXibox & doXicrate",
+    "Title": "CIB doXigate",
 
     "header": {
         "Titel": "Durchgängig digital mit Mandanten kommunizieren",
@@ -49,7 +49,7 @@
         "modalMitarbeiter": "Anzahl Mitarbeiter",
         "modalKunden": "Anzahl Kunden",
         "modalPlaceholderNachricht": "Wie können wir Ihnen noch behilflich sein?",
-        "modalContactNote": "Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, dass CIB Ihre persönlichen Angaben entsprechend unserer <a class=\"text-danger link-text16\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
+        "modalContactNote": "Mit dem Absenden erklären Sie sich damit einverstanden, dass CIB Ihre Angaben entsprechend der <a class=\"text-danger link-text14\" href=\"https://www.cib.de/de/datenschutz.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeitet und Sie bezüglich Ihrer Anfrage kontaktiert.",
         "modalNachricht": "Ihre Nachricht"
     },
     "ModalInfo": {
