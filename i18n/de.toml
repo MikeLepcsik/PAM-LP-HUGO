@@ -173,6 +173,8 @@ other = "Für Berufserfahrene"
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuJobboerse_CareerChangers]
 other = "Quereinsteiger & Querdenker"
+[menuJobboerse_ContactTitle]
+other = "Hier können Sie sich Bewerben"
 [menuJobboerse_CareerChangersText]
 other = "Sind Sie ein Quereinsteiger oder möchten Sie sich initiativ bewerben? Wir sind auch an out of the box Profile ausgesprichen interessiert! Schicken Sie uns Ihre Bewerbung und lassen Sie uns wissen warum Sie für uns richtig sind! "
 [menuJobboerse_JobInSpain]
@@ -494,6 +496,18 @@ other = "über Suchmaschinen (z.B. Google)"
 other = "über Downloadportale (z.B. Chip.de)"
 [form_Acquaintances]
 other = "über Bekannte"
+[form_NoFiles]
+other = "Keine Datei ausgewählt"
+[form_SelectFiles]
+other = "Datei wählen:"
+[form_SelectFilesError]
+other = "Bitte geben Sie hier Ihre Daten korrekt ein."
+[form_DeleteFiles]
+other = "Dateien entfernen"
+[form_LimitFiles]
+other = "Bitte nur 5 Dateien Anhängen"
+[form_Limit10MBFiles]
+other = "Bitte nur Dateien mit maximal 10 MB."
 [form_Thanks]
 other = "Vielen Dank!"
 [form_ThanksText]
