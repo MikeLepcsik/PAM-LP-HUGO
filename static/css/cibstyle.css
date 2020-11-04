@@ -602,6 +602,16 @@ h5 {
 .navbar-light .navbar-nav .nav-link {
     color: #212934;
 }
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #E11E19;
+}
+.menu a.active {
+    color: #E11E19!important;
+}
+.menu a:hover {
+    color: #E11E19;
+}
+
 /*
 @media (min-width: 992px) {
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -621,7 +631,6 @@ h5 {
 
 .nav-link:hover {
     font-size: 14px;
-    color: #E11E19 !important;
 }
 
 .navbar-toggler {
