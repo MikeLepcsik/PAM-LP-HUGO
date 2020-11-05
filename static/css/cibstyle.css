@@ -31,6 +31,10 @@ body {
     overflow: inherit !important
 }
 
+.nooutline {
+    outline: none;
+}
+
 @font-face {
     font-family: 'Segoe UI Local';
     src: local('Segoe UI Light');

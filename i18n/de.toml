@@ -185,15 +185,15 @@ other = "Die CIB Gruppe ist in Spanien an zwei Standorten vertreten: Valencia un
 [menuConsulting_Title]
 other = "CIB Consulting"
 [menuConsulting_IntroTitle]
-other = "Profitieren Sie von einer attraktiven Partnerschaft und den maßgeschneiderten Beratungsleistungen unserer hochqualifizierten Experten."
+other = "Asset based consulting"
 [menuConsulting_IntroText]
-other = "Unsere Experten finden für Sie die Lösung, die exakt zu Ihnen passt. "
+other = "Wie liefern die Softwarelösung, die zu 80% passt, und unsere Consultants entwickeln die restlichen 20% der Kundenanforderungen"
 [menuConsulting_ProjectSupport]
 other = "Projektunterstützung"
 [menuConsulting_ProjectSupportText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_CREDENTIALS]
-other = "Referenzen"
+other = "Asset based consulting"
 [menuConsulting_CREDENTIALSText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_PlanningDevelopment]
@@ -205,7 +205,7 @@ other = "Experten Outsourcing"
 [menuConsulting_OutsourcingExpertsText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuConsulting_JOBexchangeForExperts]
-other = "Jobbörse für Experten"
+other = "Für Experten"
 [menuConsulting_JOBexchangeForExpertsText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 
@@ -213,9 +213,13 @@ other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuAdviser_Title]
 other = "CIB Berater"
 [menuAdviser_SeminarsTraining]
-other = "Seminare"
+other = "Seminare & Schulungen"
 [menuAdviser_SeminarsTrainingText]
 other = "Für Sie bieten unsere Experten massgeschneidert Seminare an."
+[menuAdviser_AdviceOffer]
+other = "Beratungsangebot"
+[menuAdviser_AdviceOfferText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuAdviser_ProjectSupport]
 other = "Projektunterstützung"
 [menuAdviser_ProjectSupportText]
@@ -356,8 +360,12 @@ other = "CIB blog"
 [menuBlog_CIBblogText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuBlog_azubiblog]
-other = "azubi blog"
+other = "CIB azubi blog"
 [menuBlog_azubiblogText]
+other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+[menuBlog_devblog]
+other = "CIB developer blog"
+[menuBlog_devblogText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuBlog_IoTblog]
 other = "CIB IoT blog"
@@ -368,7 +376,7 @@ other = "CIB homealone blog"
 [menuBlog_HomealoneblogText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuBlog_PDFbrewerblog]
-other = "CIB PDF brewer blog"
+other = "CIB pdf brewer blog"
 [menuBlog_PDFbrewerblogText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 
