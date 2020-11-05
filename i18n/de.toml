@@ -413,6 +413,18 @@ other = "https://www.cib.de/de/datenschutz.html"
 other = "https://www.cib.de/de/impressum.html"
 [footer_Consultation]
 other = "Beratung und Bestellung"
+[footer_CIBcash]
+other = "CIB cash"
+[footer_Apps]
+other = "Usere Apps"
+[footer_Contact]
+other = "Kontakt"
+[footer_Expertise]
+other = "Expertise"
+[footer_Consulting]
+other = "Consulting"
+[footer_Adviser]
+other = "Berater"
 [footer_Installation]
 other = "Installation & Drittseiten"
 [footer_RelatedProducts]
@@ -429,12 +441,22 @@ other = "Widerrufserklärung"
 other = "Datenschutz"
 [footer_Impressum]
 other = "Impressum"
-[footer_Webloesungen]
+[footer_Websolution]
 other = "CIB Weblösungen"
-[footer_WeitereLoesungen]
+[footer_MoreSolution]
 other = "Weitere CIB Lösungen"
-[footer_Unternehmen]
+[footer_Companies]
 other = "Unternehmen"
+[footer_AboutUs]
+other = "Über uns"
+[footer_Karrier]
+other = "Karriere bei CIB"
+[footer_FE]
+other = "F&E"
+[footer_CIBInSpain]
+other = "CIB in Spanien"
+[footer_AntivirusProgram]
+other = "Unser Antivirenprogramm"
 [footer_InfoBeratung]
 other = "Info & Beratung"
 [footer_Phone]

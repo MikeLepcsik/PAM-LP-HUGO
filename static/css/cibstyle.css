@@ -204,7 +204,7 @@ h5 {
         line-height: 30px;
         margin-bottom: 0rem;
     }
-    
+
     h4 {
         font-size: 24px;
         font-weight: 400 !important;
@@ -213,13 +213,9 @@ h5 {
     }
 }
 
-@media (max-width:1400px) {
+@media (max-width:1400px) {}
 
-}
-
-@media (min-width:1400px) {
-
-}
+@media (min-width:1400px) {}
 
 /* -------------------
 1.1. BTN
@@ -244,9 +240,10 @@ h5 {
     cursor: pointer;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
     outline: 0;
-    box-shadow: unset; 
+    box-shadow: unset;
 }
 
 .btn-CTA1 {
@@ -335,8 +332,8 @@ h5 {
     width: 200px;
     height: 50px;
     line-height: 46px;
-    background-color: #fff; 
-    border-color: #E11E19; 
+    background-color: #fff;
+    border-color: #E11E19;
     color: #E11E19;
     cursor: pointer;
 }
@@ -348,19 +345,19 @@ h5 {
 .btn-CTA2-gray:visited {
     background-color: #fff;
     border-color: #E11E19;
-    color: #E11E19; 
+    color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA2-gray:active {
     background-color: #E11E19;
-    border-color: #E11E19; 
+    border-color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA2-gray:hover {
-    background-color: #E11E19;  
-    border-color: #E11E19;  
+    background-color: #E11E19;
+    border-color: #E11E19;
     color: #fff;
     cursor: pointer;
 }
@@ -407,7 +404,7 @@ h5 {
     width: 200px;
     height: 50px;
     line-height: 46px;
-    background-color: #fff; 
+    background-color: #fff;
     border-color: #a7cfb6;
     color: #a7cfb6;
     cursor: pointer;
@@ -419,20 +416,20 @@ h5 {
 
 .btn-CTA2-green-white:visited {
     background-color: #fff;
-    border-color: #a7cfb6; 
-    color: #a7cfb6; 
+    border-color: #a7cfb6;
+    color: #a7cfb6;
     cursor: pointer;
 }
 
 .btn-CTA2-green-white:active {
-    background-color: #a7cfb6; 
-    border-color: #a7cfb6; 
+    background-color: #a7cfb6;
+    border-color: #a7cfb6;
     cursor: pointer;
 }
 
 .btn-CTA2-green-white:hover {
-    background-color: #a7cfb6;  
-    border-color: #a7cfb6;  
+    background-color: #a7cfb6;
+    border-color: #a7cfb6;
     color: #fff;
     cursor: pointer;
 }
@@ -477,7 +474,7 @@ h5 {
     width: 200px;
     height: 50px;
     line-height: 46px;
-    background-color: #fff; 
+    background-color: #fff;
     border-color: #fff;
     color: #E11E19;
     cursor: pointer;
@@ -509,11 +506,11 @@ h5 {
 
 .btn-CTA4-white {
     font-size: 16px;
-    width: 380px;  
+    width: 380px;
     height: 40px;
     line-height: 36px;
-    background-color: #fff; 
-    border-color: #E11E19; 
+    background-color: #fff;
+    border-color: #E11E19;
     color: #E11E19;
     cursor: pointer;
 }
@@ -525,19 +522,19 @@ h5 {
 .btn-CTA4-white:visited {
     background-color: #fff;
     border-color: #E11E19;
-    color: #E11E19; 
+    color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA4-white:active {
-    background-color: #E11E19; 
+    background-color: #E11E19;
     border-color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA4-white:hover {
-    background-color: #E11E19; 
-    border-color: #E11E19;  
+    background-color: #E11E19;
+    border-color: #E11E19;
     color: #fff;
     cursor: pointer;
 }
@@ -547,8 +544,8 @@ h5 {
     width: 150px;
     height: 40px;
     line-height: 36px;
-    background-color: #fff; 
-    border-color: #E11E19; 
+    background-color: #fff;
+    border-color: #E11E19;
     color: #E11E19;
     cursor: pointer;
 }
@@ -559,20 +556,20 @@ h5 {
 
 .btn-CTA5-white:visited {
     background-color: #fff;
-    border-color: #E11E19; 
-    color: #E11E19; 
+    border-color: #E11E19;
+    color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA5-white:active {
     background-color: #E11E19;
-    border-color: #E11E19; 
+    border-color: #E11E19;
     cursor: pointer;
 }
 
 .btn-CTA5-white:hover {
-    background-color: #fff; 
-    border-color: #E11E19;  
+    background-color: #fff;
+    border-color: #E11E19;
     color: #E11E19;
     cursor: pointer;
 }
@@ -602,16 +599,20 @@ h5 {
 /* -------------------
 2. NAVBAR
 ----------------------*/
- 
+
 .navbar-light .navbar-nav .nav-link {
     color: #212934;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
     color: #E11E19;
 }
+
 .menu a.active {
-    color: #E11E19!important;
+    color: #E11E19 !important;
 }
+
 .menu a:hover {
     color: #E11E19;
 }
@@ -720,8 +721,9 @@ h5 {
     .navbar-nav .nav-item {
         text-align: right;
     }
+
     .center {
-        text-align: center!important;
+        text-align: center !important;
     }
 }
 
@@ -772,7 +774,7 @@ h5 {
     margin-bottom: 15px;
 }
 
-  
+
 .custom-list-header {
     position: relative;
     list-style: none;
@@ -781,13 +783,13 @@ h5 {
     font-weight: 400;
     color: #282D30;
     line-height: 1.3rem;
-  }
-  
-  .custom-list-header li {
+}
+
+.custom-list-header li {
     position: relative;
     padding-left: 30px;
     margin-bottom: 15px;
-  }
+}
 
 /* 3.1. HEADER MEDIA
 ----------------------*/
@@ -955,14 +957,14 @@ header {
     color: #e11e19 !important;
     cursor: pointer;
     font-size: 24px;
-    text-decoration: none!important;
+    text-decoration: none !important;
     line-height: 1.2em;
 }
 
 .text-link:hover {
-    color: #212934!important;
+    color: #212934 !important;
     cursor: pointer;
-    text-decoration: none!important;
+    text-decoration: none !important;
     line-height: 1.2em;
 }
 
@@ -1083,7 +1085,7 @@ header {
 
 .feature-icon {
     font-size: 45px;
-     /*before display: grid !important */
+    /*before display: grid !important */
 }
 
 .card-title {
@@ -1189,6 +1191,7 @@ header {
 }
 
 @media (max-width:639px) {
+
     .comparison td,
     .comparison th {
         padding: 10px 5px
@@ -1322,7 +1325,7 @@ header {
     border-left: 1px solid #dee3e8;
     empty-cells: show;
     padding: 10px;
-     /*delete background-color: #fff*/
+    /*delete background-color: #fff*/
 }
 
 .compare-heading {
@@ -1391,7 +1394,7 @@ header {
 
     .compare-heading {
         font-size: 18px
-    } 
+    }
 }
 
 th {
@@ -1417,70 +1420,70 @@ th {
     .call-to-action-subtext {
         font-size: 32px !important;
     }
-  }
-  
-  .card.pricing .card-head {
+}
+
+.card.pricing .card-head {
     text-align: center;
     padding: 40px 0 20px;
-  }
-  
-  .card.pricing .card-head .price {
+}
+
+.card.pricing .card-head .price {
     display: block;
     font-size: 45px;
     font-weight: 700;
-  }
-  
-  .header-text-pricing {
+}
+
+.header-text-pricing {
     font-size: 18px !important;
     font-weight: 400;
     margin: 0 auto;
     line-height: 40px;
-  }
-  
-  .card-price-button {
+}
+
+.card-price-button {
     color: #333333;
     font-size: 18px;
-  }
-  
-  .card-pricing-titel {
+}
+
+.card-pricing-titel {
     color: #282D30 !important;
     font-size: 40px;
-  }
-  
-  .card-pricing {
+}
+
+.card-pricing {
     color: #282D30 !important;
     font-weight: 700 !important;
-  }
-  
-  .card-pricing-price {
+}
+
+.card-pricing-price {
     color: #282D30 !important;
     font-size: 14px;
-  }
-  
-  .card.pricing {
+}
+
+.card.pricing {
     border: 1px solid #f1eef147;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
-  }
-  
-  .card.pricing .card-head {
+}
+
+.card.pricing .card-head {
     text-align: center;
     padding: 40px 0 20px;
-  }
-  
-  .card.pricing .card-head .price {
+}
+
+.card.pricing .card-head .price {
     display: block;
     font-size: 45px;
     font-weight: 700;
-  }
-  
-  .card.pricing .list-group-item {
+}
+
+.card.pricing .list-group-item {
     border: 0;
     color: #282D30;
     font-size: 16px;
     line-height: 1.3rem;
-  }
-  
-  .sale-box {
+}
+
+.sale-box {
     position: absolute;
     top: 0;
     overflow: hidden;
@@ -1493,13 +1496,13 @@ th {
     -o-border-top-right-radius: 0.7em;
     -moz-border-top-right-radius: 0.7em;
     -webkit-border-top-right-radius: 0.7em;
-  }
-  
-  .sale-box-jetzt {
-    background: #7cb892!important;
-  }
-  
-  .sale-box span.on_sale {
+}
+
+.sale-box-jetzt {
+    background: #7cb892 !important;
+}
+
+.sale-box span.on_sale {
     font-size: 18px;
     background: #96a0a5;
     color: #fff;
@@ -1516,7 +1519,7 @@ th {
     -webkit-transform: rotate(-44deg);
     -ms-transform: rotate(-44deg);
     transform: rotate(40deg);
-  }
+}
 
 /* -------------------
 7. FAQ
@@ -1527,52 +1530,52 @@ th {
         padding-top: 30px !important;
         padding-bottom: 80px !important;
     }
-  }
-  
-  .contact-form-foot {
+}
+
+.contact-form-foot {
     padding-bottom: 157px;
-  }
-  
-  .card-header-faq {
+}
+
+.card-header-faq {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
     background-color: #f8f9fa;
     border-bottom: 1px solid rgba(0, 0, 0, .125);
-  }
-  
-  .btn:not(:disabled):not(.disabled) {
+}
+
+.btn:not(:disabled):not(.disabled) {
     text-decoration: none !important;
-  }
-  
-  .btn-link {
+}
+
+.btn-link {
     font-weight: 400;
     color: #555a5f;
     background-color: transparent;
-  }
-  
-  .btn-link:hover {
+}
+
+.btn-link:hover {
     color: #e95653;
     text-decoration: none;
     background-color: transparent;
     border-color: transparent;
-  }
-  
-  /* Icon when the collapsible content is shown */
-  
-  .btna::before {
+}
+
+/* Icon when the collapsible content is shown */
+
+.btna::before {
     font-family: "Glyphicons Halflings";
     content: "\2212";
     font-size: 30px;
     float: left;
     margin-right: 15px;
-  }
-  
-  /* Icon when the collapsible content is hidden */
-  
-  .btna.collapsed::before {
+}
+
+/* Icon when the collapsible content is hidden */
+
+.btna.collapsed::before {
     content: "\2b";
     font-size: 30px;
-  }
+}
 
 /* -------------------
 8. CTA
@@ -1585,21 +1588,21 @@ th {
 .header-text-white {
     font-size: 24px;
     font-weight: 300;
-    color: #fff!important;
-  }
+    color: #fff !important;
+}
 
-  /*  3. Tüv
+/*  3. Tüv
 ----------------------*/
 
 .CTA-bg {
     background-color: #1c77c3;
-  } 
+}
 
 /* -------------------
 9. Contact
 ----------------------*/
 
-.contact-note{
+.contact-note {
     font-size: 14px;
 }
 
@@ -1749,7 +1752,7 @@ select.form-control:not([size]):not([multiple]) {
 .social-links a i {
     font-size: 18px;
     color: #fff;
-    vertical-align: 0em; 
+    vertical-align: 0em;
 
 }
 
@@ -1810,10 +1813,88 @@ a {
     color: #212934;
 }
 
-.iconify { 
-    color: #fff; 
-    width: 24px; 
-    height: 24px; 
+.iconify {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+/*  10B. NEWFOOTER
+----------------------*/
+
+.shfooter .collapse {
+    display: inherit;
+}
+
+@media (max-width:767px) {
+    .shfooter ul {
+        margin-bottom: 0;
+    }
+
+    .shfooter .collapse {
+        display: none;
+    }
+
+    .shfooter .collapse.show {
+        display: block;
+    }
+
+    .shfooter .title .fa-angle-up,
+    .shfooter .title[aria-expanded=true] .fa-angle-down {
+        display: none;
+    }
+
+    .shfooter .title[aria-expanded=true] .fa-angle-up {
+        display: block;
+    }
+
+    .shfooter .navbar-toggler {
+        display: inline-block;
+        padding: 0;
+    }
+
+}
+
+.resize {
+    text-align: center;
+}
+
+.resize {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+}
+
+/*RESIZESCREEN ANIMATION*/
+.fa-angle-double-right {
+    animation: rightanime 1s linear infinite;
+}
+
+.fa-angle-double-left {
+    animation: leftanime 1s linear infinite;
+}
+
+@keyframes rightanime {
+    50% {
+        transform: translateX(10px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(10px);
+        opacity: 0;
+    }
+}
+
+@keyframes leftanime {
+    50% {
+        transform: translateX(-10px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
 }
 
 /*  11. COPYRIGHT
