@@ -60,8 +60,8 @@
                             <div class="card jobcard card-text">
                                 <a class="card-text-hover" href='${result.ref}'>
                                     <div class="card-body">
-                                        <p class="" style="border-bottom: 1px solid #e1e7ec;">{{T "jobcontact_JobOffer"}}
-                                        </p>
+                                        <p class="" style="border-bottom: 1px solid #e1e7ec;">` + {{T "jobcontact_JobOffer"}} +
+                                        `</p>
                                         <p class="">${documents[result.ref].title}
                                         </p>
                                         <p class="pb-5 mb-5" style="font-size: 12px;">Standort: ${documents[result.ref].tags}
@@ -133,7 +133,7 @@
         searchResults = document.getElementById('search-results')
 
         // request and index documents
-        fetch('/jobs/index.json', {
+        fetch('/karriere/index.json', {
             method: 'get'
         }).then(
             res => res.json()
@@ -153,6 +153,7 @@
                         documents[doc.url] = {
                             'title': doc.title,
                             'tags': doc.tags,
+                            'categories': doc.categories,
                             'content': doc.content,
                         }
                     }, this)

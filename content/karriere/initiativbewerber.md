@@ -15,6 +15,7 @@
         "Anfragen": "Anfragen"
     },
 
+    
     "Content": {
         "TextLine1": "Bei unseren aktuellen Stellenangeboten ist gerade nichts Passendes für dich dabei?",
         "TextLine2": "Macht nichts - dann bewirb dich doch einfach initiativ bei uns!",

@@ -1,8 +1,8 @@
 {
-    "type": "jobs",
+    "type": "karriere",
     "Title": "Technical Support Engineer (m/w/d)",
     "tags": ["München"],
-    "categories": ["Muenchen"],
+    "categories": ["München"],
 
     "Job": {
         "Title": "Technical Support Engineer (m/w/d)",

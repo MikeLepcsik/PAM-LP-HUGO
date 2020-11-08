@@ -1,8 +1,8 @@
 {
-    "type": "jobs",
+    "type": "karriere",
     "Title": "Frontend Entwickler (m/w/d)",
-    "tags": ["München, Karlsruhe, Nürnberg"],
-    "categories": ["Muenchen, Karlsruhe, Nürnberg"],
+    "tags": ["München", "Karlsruhe", "Nürnberg"],
+    "categories": ["München", "Karlsruhe", "Nürnberg"],
 
     "Job": {
         "Title": "Frontend Entwickler (m/w/d)",

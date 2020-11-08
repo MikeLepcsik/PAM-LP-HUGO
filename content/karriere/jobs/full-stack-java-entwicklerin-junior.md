@@ -1,8 +1,8 @@
 {
-    "type": "jobs",
+    "type": "karriere",
     "Title": "Full Stack Java Entwickler /in (Junior) (m/w/d)",
-    "tags": ["München, Hamburg"],
-    "categories": ["Werkstudenten, Muenchen, Hamburg"],
+    "tags": ["Werkstudenten", "München", "Hamburg"],
+    "categories": ["Werkstudenten", "München", "Hamburg"],
 
     "Job": {
         "Title": "Full Stack Java Entwickler /in (Junior) (m/w/d)",

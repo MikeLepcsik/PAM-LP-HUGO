@@ -1,8 +1,8 @@
 {
-    "type": "jobs",
+    "type": "karriere",
     "Title": "Full Stack Java Entwickler (Senior) (m/w/d)",
-    "tags": ["München, Hannover, Münster, Karlsruhe, Nürnberg, Hamburg"],
-    "categories": ["Muenchen, Hannover, Muenster, Karlsruhe, Nuernberg, Hamburg"],
+    "tags": ["München", "Hannover", "Münster", "Karlsruhe", "Nürnberg", "Hamburg"],
+    "categories": ["München", "Hannover", "Münster", "Karlsruhe", "Nürnberg", "Hamburg"],
 
     "Job": {
         "Title": "Full Stack Java Entwickler (Senior) (m/w/d)",

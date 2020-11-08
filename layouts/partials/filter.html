@@ -9,12 +9,15 @@
 
 <div class="container">
     <div class="row" style="background-color: #e5eef3;">
-        <div class="links col-auto mr-auto" style="--items: 3;" id="SubMenu">
+        {{ if .Params.Filtermenu.Items }}
+        <div class="links col-auto mr-auto" style="--items: {{add (len .Params.Filtermenu.Items) 1}};" id="SubMenu">
             <a class="btnlinks actives" onclick="filterJobs('')">{{.Params.Filtermenu.All}}</a>
-            <a class="btnlinks" onclick="filterJobs('Schülerpraktikum')">{{.Params.Filtermenu.Menu1}}</a>
-            <a class="btnlinks" onclick="filterJobs('Ausbildung')">{{.Params.Filtermenu.Menu2}}</a>
+            {{ range $item := .Params.Filtermenu.Items }}
+            <a class="btnlinks" onclick="filterJobs('{{$item}}')">{{$item}}</a>
+            {{ end }}
             <span class="line"></span>
         </div>
+        {{ end }}
         <div class="col-auto pt-2">
             <form class="form-inline">
                 <input class="form-control mr-sm-2" id="search-input" type="text" placeholder="Search"

@@ -1,8 +1,8 @@
 {
-    "type": "jobs",
+    "type": "karriere",
     "Title": "Windows Systemadministrator (m/w/d)",
     "tags": ["München"],
-    "categories": ["Muenchen"],
+    "categories": ["München"],
 
     "Job": {
         "Title": "Windows Systemadministrator (m/w/d)",

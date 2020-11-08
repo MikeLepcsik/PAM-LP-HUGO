@@ -1,5 +1,5 @@
 {
-    "type": "jobs",
+    "type": "karriere",
     "Title": "Brückenkopf im IT-Bereich (m/w/d) in Hannover",
     "tags": ["Hannover"],
     "categories": ["Hannover"],

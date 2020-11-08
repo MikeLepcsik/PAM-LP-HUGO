@@ -1143,8 +1143,10 @@ code {
     font-weight: 400;
     color: #212934;
     line-height: 1.5rem;
+    width: -webkit-fill-available;
 }
 
 .card-text-hover:hover {
     color: #fff !important;
+    width: -webkit-fill-available;
 }

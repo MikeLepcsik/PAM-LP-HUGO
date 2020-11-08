@@ -17,10 +17,7 @@
 
     "Filtermenu": {
         "All": "Alle",
-        "Menu1": "Praxissemester",
-        "Menu2": "Werkstudenten",
-        "Menu3": "Bachelor/Master",
-        "Menu4": "Duales Studium"
+        "Items": ["Praxissemester", "Werkstudenten", "Bachelor/Master", "Duales Studium"]
     }
 
 }
