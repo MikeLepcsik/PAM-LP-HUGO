@@ -1,5 +1,5 @@
 <?php
-require_once './vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 
@@ -29,11 +29,15 @@ $mustache = new Mustache_Engine(array(
 // check if the form submitted data is spam
 $this_message_is_spam = false; //TODO: perform some validation
 
+
+$subject = "Contact Form"; //TODO: get from some hidden field in form data
+$code = isset($_GET['code'])? $_GET['code'] : 'contact';
+
 // load template and render html and text versions
-$tpl_html = $mustache->loadTemplate('contact.html'); // loads __DIR__.'/mail-templates/foo.mustache';
-$html = $tpl->render($_POST);
-$tpl_txt = $mustache->loadTemplate('contact.txt');
-$txt = $tpl->render($_POST);
+$tpl_html = $mustache->loadTemplate("$code.html"); // loads __DIR__.'/mail-templates/foo.mustache';
+$html = $tpl_html->render($_POST);
+$tpl_txt = $mustache->loadTemplate("$code.txt");
+$txt = $tpl_txt->render($_POST);
 
 // create a new mailer object
 $mail = new PHPMailer();

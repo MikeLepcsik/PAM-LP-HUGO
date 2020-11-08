@@ -644,9 +644,8 @@
                 <div class="row justify-content-center">
                     <p class="font-small card-text mx-3">{{.Params.DetailsNeeded}}</p>
                 </div>
-                <form name="kontaktForm" action="/form.php" method="post"
+                <form name="kontaktForm" action="/form.php?code=fairbrieft" method="post"
                     enctype="multipart/form-data" id="kontaktForm" class="needs-validation" novalidate>
-
                     <div class="form-group mb-0" style="margin-top: 30px;">
                         <textarea name="content" type="text" id="form8" class="form-control" rows="4"
                             placeholder="{{.Params.Forms.FurtherHelp}}"></textarea>
