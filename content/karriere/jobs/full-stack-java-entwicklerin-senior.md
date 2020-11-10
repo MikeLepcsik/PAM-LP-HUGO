@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Full Stack Java Entwickler (Senior) (m/w/d)",
     "tags": ["München", "Hannover", "Münster", "Karlsruhe", "Nürnberg", "Hamburg"],

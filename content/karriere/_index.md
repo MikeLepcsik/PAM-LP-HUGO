@@ -1,5 +1,8 @@
 {
-	"type": "karriere",
+	"layout": "jobs",
+	"translationKey": "jobs",
+
+    "type": "karriere",
     "Title": "Karriere bei CIB",
 
     "header": {

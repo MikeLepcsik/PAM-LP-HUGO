@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Werkstudent Softwareentwicklung (m/w/d)",
     "tags": ["Alle"],

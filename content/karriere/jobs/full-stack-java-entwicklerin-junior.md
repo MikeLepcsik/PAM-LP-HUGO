@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Full Stack Java Entwickler /in (Junior) (m/w/d)",
     "tags": ["Werkstudenten", "München", "Hamburg"],

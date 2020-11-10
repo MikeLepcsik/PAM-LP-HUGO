@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+
     "type": "karriere",
     "Title": "Brückenkopf im IT-Bereich (m/w/d) in Münster",
     "tags": ["Münster"],

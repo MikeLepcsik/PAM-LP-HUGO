@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Frontend Entwickler (m/w/d)",
     "tags": ["München", "Karlsruhe", "Nürnberg"],

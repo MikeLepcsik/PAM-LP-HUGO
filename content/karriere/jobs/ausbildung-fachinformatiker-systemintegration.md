@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Ausbildung Fachinformatiker für Systemintegration (m/w/d)",
     "tags": ["Alle"],

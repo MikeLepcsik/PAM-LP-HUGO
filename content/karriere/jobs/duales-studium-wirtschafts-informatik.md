@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+
     "type": "karriere",
     "Title": "Duales Studium (Wirtschafts-)Informatik (B.Sc./M.Sc)",
     "tags": ["Alle"],

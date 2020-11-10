@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Systemadministrator oder DevOp (m/w/d)",
     "tags": ["München"],

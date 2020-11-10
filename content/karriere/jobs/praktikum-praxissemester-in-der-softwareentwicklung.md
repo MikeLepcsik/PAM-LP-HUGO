@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Praktikum / Praxissemester in der Softwareentwicklung",
     "tags": ["Alle"],

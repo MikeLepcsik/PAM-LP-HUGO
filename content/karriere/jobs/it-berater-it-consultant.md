@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "IT Solutions Consultant / IT Vertriebsmitarbeiter (m/w/d)",
     "tags": ["München", "Hannover", "Münster", "Karlsruhe", "Nürnberg", "Hamburg"],

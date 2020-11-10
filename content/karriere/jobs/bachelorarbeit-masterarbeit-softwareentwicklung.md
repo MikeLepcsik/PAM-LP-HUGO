@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+
     "type": "karriere",
     "Title": "Bachelorarbeit / Masterarbeit in der Softwareentwicklung (m/w/d)",
     "tags": ["Alle"],

@@ -1,4 +1,7 @@
 {
+    "layout": "jobs/single",
+	"translationKey": "jobs/single",
+    
     "type": "karriere",
     "Title": "Softwareentwickler mit Schwerpunkt Deep Learning (m/w/d)",
     "tags": ["München"],

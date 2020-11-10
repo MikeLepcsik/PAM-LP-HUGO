@@ -8,7 +8,7 @@
 </div>
 
 <div class="container">
-    <div class="row" style="background-color: #e5eef3;">
+    <div class="row">
         {{ if .Params.Filtermenu.Items }}
         <div class="links col-auto mr-auto" style="--items: {{add (len .Params.Filtermenu.Items) 1}};" id="SubMenu">
             <a class="btnlinks actives" onclick="filterJobs('')">{{.Params.Filtermenu.All}}</a>
