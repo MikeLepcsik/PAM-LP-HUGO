@@ -35,18 +35,11 @@
 
             <div class="modal-body modal-boby-bestellung mx-3">
                 <div class="row justify-content-center">
-                    <p class="font-small card-text mx-3">
-                    </p>
+                    <h3 class="mb-5 text-red">{{.Params.Job.Title | safeHTML }}</h3>
                 </div>
 
-                <form name="kontaktForm" action="/form.php?code=jobform" method="post"
-                    enctype="multipart/form-data" id="kontaktForm" class="needs-validation" novalidate>
-
-                    <div class="form-group mb-0" style="margin-top: 30px;">
-                        <textarea name="hinweis" type="text" id="form8" class="form-control" rows="4"
-                            placeholder='{{T "form_modaltext"}}'></textarea>
-                        <label data-error="wrong" data-success="right" for="form8"></label>
-                    </div>
+                <form name="kontaktForm" action="/form.php?code=jobform" method="post" enctype="multipart/form-data"
+                    id="kontaktForm" class="needs-validation" novalidate>
 
                     <div class="form-group mb-0 mt-3">
                         <h5>{{T "form_YourInformation"}}</h5>
@@ -65,12 +58,33 @@
                     </div>
 
                     <div class="form-group mb-0">
-                        <input data-required="required" name="eMail" type="email" required id="form32"
+                        <input data-required="required" name="eMail" type="email" required id="form29"
                             class="form-control validate" placeholder='{{T "form_EMail"}}'>
-                        <label data-error="wrong" data-success="right" for="form32"></label>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="form-group mb-0">
+                        <input name="telefon" type="tel" maxlength="14" id="form29" class="form-control validate"
+                            placeholder='{{T "form_Phone"}}'>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
+                    </div>
+
+                    <div class="file-input pl-0">
+                        <input type="file" name="file[]" id="file" accept=".pdf" multiple />
+                        <span class="button">{{T "form_SelectFiles"}}</span>
+                        <br />
+                        <label class="label" id="selected-files" data-js-label>{{T "form_SelectFilesError"}}</label>
+                    </div>
+
+                    <div class="form-group mb-0" style="margin-top: 30px;">
+                        <textarea name="hinweis" type="text" id="form29" class="form-control" rows="4"
+                            placeholder='{{T "form_modaltext"}}'></textarea>
+                        <label data-error="wrong" data-success="right" for="form29"></label>
                     </div>
 
                     <p class="kontakt-note">{{T "form_modalContactNote" | safeHTML }}</p>
+
+
 
                     <div class="modal-footer-bestellung d-flex justify-content-center ">
                         <button class="btn btn-block btn-CTA2" title="Senden" id="anfrageFormButton"
@@ -235,7 +249,7 @@
         document.getElementById("newloader").style.display = "block";
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', '/product/fairbrieft/send_email.php', false);
+        xhr.open('POST', 'send_email.php', false);
         xhr.send(formData);
 
         if (xhr.status == 200) $('#KontaktFormularErfolgreich').modal('show');

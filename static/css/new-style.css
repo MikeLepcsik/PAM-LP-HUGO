@@ -928,12 +928,12 @@ select.form-control:not([size]):not([multiple]) {
     cursor: pointer;
     background: #eee;
     padding: 8px 16px;
-    border-radius: 2px;
+    border-radius: 6px;
     margin-right: 8px;
 }
 
 .file-input:hover>.button {
-    background: #e95653;
+    background: #E11E19;
     color: white;
 }
 

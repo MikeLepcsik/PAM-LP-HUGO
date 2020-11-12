@@ -79,3 +79,61 @@ if(!$mail->send()){
     echo 'Message has been sent';
 }
 
+?>
+
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:v='urn:schemas-microsoft-com:vml' xmlns:o='urn:schemas-microsoft-com:office:office'>
+
+<head>
+    <title>Abonnementanfrage erhalten</title>
+    <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+table {
+  font-family: Segoe UI, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #bec8d2;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dee3e8;
+}
+</style>
+</head>
+
+<body>
+<div style='padding: 20px; text-align: center; background: #ffffff; border-radius: 5px; margin: 40px auto; margin-bottom: 0px; font-family: Segoe UI, Arial, Helvetica, sans-serif; font-size: 15px; color: #666;'>
+
+    <img width="100"
+        vspace="0"
+        hspace="0"
+        border="0"
+        alt="CIB"
+        style="text-align: center;"
+        class="rnb-logo-img"
+        src="img/CIB_Logo.svg"></div>
+
+<div style='color: #999; padding: 20px 20px; text-align: center;'>
+<div style='color: #444444; font-weight: normal; text-align: center;'>
+    <div style='padding: 30px 0; font-size: 24px; font-family: Segoe UI, Arial, Helvetica, sans-serif; color: #555; text-align: center; line-height: 30px;'>
+    Vielen Dank! </div>
+</div>
+<div style='color: #444444; font-weight: normal; text-align: center;'>
+    <div style='padding: 30px 0; font-size: 18px; font-family: Segoe UI, Arial, Helvetica, sans-serif; color: #555; text-align: center; line-height: 30px;'>
+    Ihre Nachricht wurde erfolgreich versendet.</div>
+</div>
+</div>
+</br>
+</br>
+</body>
+
+</html>";
+
+<?php
