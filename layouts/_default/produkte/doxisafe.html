@@ -1,0 +1,709 @@
+{{ define "base" }}
+
+<!-- Header -->
+    <header class="header-text-top">
+        <div class="container">
+            <div class="shape-top"></div>
+            <div class="shape-left"></div>
+            <div class="row">
+                <div class="col-lg-6 header-padding-button mt-2 order-3 order-lg-1">
+
+                    <h1 class="pb-4">{{.Params.header.Titel}}</h1>
+
+                    <h3 class="pb-4">{{.Params.header.Text2|safeHTML}}</h3>
+
+                    <div class="row pb-4 d-flex justify-content-left ">
+                        <div class="col-12 col-xl-4">
+                            <a onclick="gtag('event', 'action', {'event_category': 'Anmelden-Header', 'event_label': 'Anmelden','value': 'value'});"
+                                href="https://www.doxisafe.me/#/safe/register" target="_self"
+                                class="btn btn-block btn-CTA2">{{.Params.Button.Anmelden}}</a>
+                        </div>
+                        <div class="col-12 col-xl-5 btn-head-top-padding">
+                            <a onclick="gtag('event', 'action', {'event_category': 'WarumAnmelden-Header', 'event_label': 'WarumAnmelden','value': 'value'});"
+                                href='{{"/produkte/doxisafeapp"|relLangURL}}'
+                                class="btn btn-block btn-CTA2-gray">{{.Params.Button.AppEntdecken}}</a></div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-3 pb-0 text-center">
+                    <img src="/images/product/doxisafe/HG_CIB_doXisafeweb.svg" class="img-fluid" height="500">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+<!-- Vorteile -->
+
+    <div class="section text-center" id="Vorteile">
+        <div class="container">
+            <h2 class="jumbotron-heading section-title">{{.Params.Vorteile.Titel}}</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="pb-3" src="/images/product/doxisafe/free_share.svg" width="" height="150">
+                    <p class="card-text pb-3">{{.Params.Vorteile.Heading1}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="pb-3" src="/images/product/doxisafe/webormobile.svg" width="" height="150">
+                    <p class="card-text pb-3">{{.Params.Vorteile.Heading2}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="pb-3" src="/images/product/doxisafe/PDFkomprimierenverschluesseln.svg" width="" height="150">
+                    <p class="card-text pb-3">{{.Params.Vorteile.Heading3}}</p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="pb-3" src="/images/product/doxisafe/safecloud.svg" width="" height="150">
+                    <p class="card-text pb-3">{{.Params.Vorteile.Heading4}}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- Features -->
+
+    <div class="section pt-0" id="Features">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{.Params.Funktionen.Titel}}</h2>
+            </div>
+
+            <!-- row 1 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_ohne_speicherlimits.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title1}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText1}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4 ">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_ohne_zeitlimits.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title2}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText2}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_labels.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title3}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText3}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_texterkennung_ki.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title4}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText4}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_volltextsuche_doxisafe.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title5}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText5}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_multicloud.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title6}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText6}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 3 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_duplikate.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title7}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText7}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_email_nachricht.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title8}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText8}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_pdf_bearbeitung.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title9}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText9}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 4 -->
+
+            <div class="row mb-md-4 mx-3">
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_viewer.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title10}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText10}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_correct_ocr.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title11}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText11}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row mb-4">
+                        <div class="col-3 feature-icon justify-content-left pb-3">
+                            <img src="/images/product/doxisafe/funktion_join_split.svg" class="img-fluid">
+                        </div>
+
+                        <div class="col-9 text-left">
+                            <p class="card-title font-weight-bold">{{.Params.Funktionen.Title12}}</p>
+                            <p class="card-text">{{.Params.Funktionen.SubText12}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ende -->
+
+        <div class="text-center" id="Vorteile">
+            <div class="container">
+                <h3>{{.Params.header.Text2|safeHTML}}</h3>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal Vergleich -->
+
+    <div class="modal fade" id="ModalVergleich" tabindex="-1" role="dialog"
+    aria-labelledby="ModalVergleichLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 1200px;" role="document">
+        <div class="modal-content pl-3 pr-3 pb-3 rounded-0">
+            <div class="modal-header comparison-border-top">
+                <button style="outline: none;" type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body comparison">
+                <div class="comparison">
+
+                    <table class="span12">
+                        <thead class="compare-row-header" style="border-top: 1px solid #dee3e8;">
+                            <tr>
+                                <th class="text-left pl-4 compare-heading-top"
+                                    style="width: 60%; background: #F5F7F8; vertical-align: middle;">
+                                    <img src="/images/product/doxisafe/CIB_doXisafe.svg" height="38" class="btn-pointer"
+                                        alt="logo">
+                                </th>
+                                <th class="price-info-col"
+                                    style="width: 50%; background: #F5F7F8; vertical-align: middle;">
+                                    <div class="price-now">
+                                        <p class="card-title font-weight-bold mb-0">
+                                            {{.Params.List.NoReg|safeHTML}}
+                                        </p>
+                                    </div>
+                                </th>
+                                <th class="price-info-col"
+                                    style="width: 50%; background: #F5F7F8; vertical-align: middle;">
+                                    <div class="price-now">
+                                        <p class="card-title font-weight-bold mb-0">
+                                            {{.Params.List.Reg|safeHTML}}
+                                        </p>
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td colspan="4" valign="top">{{.Params.List.Col0Text0}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4" valign="top">{{.Params.List.Col0Text0}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25"
+                                        class="pt-0" alt="logo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">{{.Params.List.Col1Text1}}</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">{{.Params.List.Col1Text1}}</td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text2}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text2}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">{{.Params.List.Col1Text3}}</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">{{.Params.List.Col1Text3}}</td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text4}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text4}}</td>
+                                <td>
+                                    {{.Params.List.Col2Text1}}
+                                </td>
+                                <td>
+                                    {{.Params.List.Col3Text1}}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">{{.Params.List.Col1Text5}}</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">{{.Params.List.Col1Text5}}</td>
+                                <td class="field-bg-color">
+                                    {{.Params.List.Col2Text2}}</td>
+                                <td class="field-bg-color">
+                                    {{.Params.List.Col3Text1}}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text6}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text6}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;"><b>{{.Params.List.Col1Text7}}</b>
+                                </td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">
+                                    <b>{{.Params.List.Col1Text7}}</b></td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td class="field-bg-color"><b>
+                                        {{.Params.List.Col3Text2}}</b>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text8|safeHTML}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text8|safeHTML}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">
+                                    {{.Params.List.Col1Text9|safeHTML}}
+                                </td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">
+                                    {{.Params.List.Col1Text9|safeHTML}}
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text10}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text10}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">{{.Params.List.Col1Text11}}</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">{{.Params.List.Col1Text11}}</td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text12}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text12}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">{{.Params.List.Col1Text13}}</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">{{.Params.List.Col1Text13}}</td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4">{{.Params.List.Col1Text14}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4">{{.Params.List.Col1Text14}}</td>
+                                <td>
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td>
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4" style="background: #F5F7F8;">{{.Params.List.Col1Text15}}</td>
+                            </tr>
+                            <tr class="compare-row">
+                                <td class="pl-4" style="background: #F5F7F8;">{{.Params.List.Col1Text15}}</td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/clear_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                                <td class="field-bg-color">
+                                    <img src="/images/product/doxisafe/ic_done_green_24px.svg" height="25" width="25" class=""
+                                        alt="logo">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="4"></td>
+                            </tr>
+                            <tr>
+                                <td class="pl-4"></td>
+                                
+                                <td colspan="2">
+                                    <div class="row justify-content-center text-center">
+                                        <a onclick="gtag('event', 'action', {'event_category': 'Preise-Header', 'event_label': 'Preise','value': 'value'});"
+                                            href="https://www.doxisafe.me/#/safe/register"
+                                            class="btn btn-CTA1 my-2">{{.Params.Button.Anmelden}}
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+   <!-- So geht es -->
+
+    <div class="section text-center light-blue-bg" id="Sogehts">
+        <h2 class="jumbotron-heading section-title">{{.Params.Usecases.Titel}}</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="pb-3 px-2 img-fluid" src="/images/product/doxisafe/doXisafewebusecase1.svg" width="420"
+                                height="auto">
+                            <p class="card-title font-weight-bold">
+                                {{.Params.Usecases.TextTitel1}}
+                            </p>
+                            <p class="card-text pb-5">{{.Params.Usecases.Text1}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="pb-3 px-2 img-fluid" src="/images/product/doxisafe/doXisafewebusecase2.svg" width="420"
+                                height="auto">
+                            <p class="card-title font-weight-bold">
+                                {{.Params.Usecases.TextTitel2}}
+                            </p>
+                            <p class="card-text pb-5">
+                                {{.Params.Usecases.Text2}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <img class="pb-3 px-2 img-fluid" src="/images/product/doxisafe/doXisafewebusecase3.svg" width="420"
+                                height="auto">
+                            <p class="card-title font-weight-bold">
+                                {{.Params.Usecases.TextTitel3}}
+                            </p>
+                            <p class="card-text pb-5">{{.Params.Usecases.Text3}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- DreamTeam -->
+
+    <div class="section text-center" id="DreamTeam">
+        <div class="container">
+            <h2 class="jumbotron-heading pb-4">{{.Params.DreamTeam.Titel}}</h2>
+            <h3>{{.Params.DreamTeam.SubTitel}}</h3>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 header-padding-button order-3 order-lg-3">
+
+                    <table class="card-text">
+                        <tbody>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span class="material-icons">done</span>
+                                </td>
+                                <td class="pb-3 text-left">{{.Params.DreamTeam.Text1}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span class="material-icons">done</span>
+                                </td>
+                                <td class="pb-3 text-left">{{.Params.DreamTeam.Text2}}</td>
+                            </tr>
+                            <tr>
+                                <td class="pb-3 pr-2 align-top"><span class="material-icons">done</span>
+                                </td>
+                                <td class="pb-3 text-left">{{.Params.DreamTeam.Text3}}</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-lg-6 header-img-padding order-1 order-lg-1" style="text-align: -webkit-center;">
+                    <img src="/images/product/doxisafe/Traumteam.svg" class="img-fluid" width="500">
+                </div>
+
+            </div>
+            <div class="text-center"> <a class="btn btn-CTA2-gray" style="width: 250px;" role="button"
+                    aria-pressed="true" target="_blank"
+                    onClick="gtag('event', 'action', {'event_category': 'Kaufen-Header', 'event_label': 'Kaufen','value': 'value'});"
+                    href="https://doxicrate.cib.de.html" target="_blank">
+                    {{.Params.Button.DreamTeam}}</a>
+            </div>
+        </div>
+    </div>
+
+<!-- CTA -->
+
+    <div class="section text-center dark-bg">
+        <div class="container">
+            <h2 class="jumbotron-heading text-white pb-4">{{.Params.CallToAction}}</h2>
+
+            <div class="row pb-4 d-flex justify-content-center">
+                <a onclick="gtag('event', 'action', {'event_category': 'Anmelden-Header', 'event_label': 'Anmelden','value': 'value'});"
+                    href="https://www.doxisafe.me/#/safe/login" target="_blank"
+                    class="btn btn-block btn-CTA2 mx-3">{{.Params.Button.Anmelden}}</a>
+
+                <a onclick="gtag('event', 'action', {'event_category': 'WarumAnmelden-Header', 'event_label': 'WarumAnmelden','value': 'value'});"
+                    href="https://doxisafe.cib.de/doxisafeapp.html"
+                    class="btn btn-block btn-CTA3-gray mx-3">{{.Params.Button.AppEntdecken}}</a>
+            </div>
+        </div>
+    </div>
+
+{{ end }}
