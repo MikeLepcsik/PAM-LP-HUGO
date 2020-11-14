@@ -538,6 +538,10 @@ other = "Dateien entfernen"
 other = "Bitte nur 5 Dateien Anhängen"
 [form_Limit10MBFiles]
 other = "Bitte nur Dateien mit maximal 10 MB."
+[form_CantSend]
+other = "Ihre Nachricht könnte leider nicht gesendet werden."
+[form_PleaseContact]
+other = "Bitte kontaktieren Sie uns direkt unter"
 [form_Thanks]
 other = "Vielen Dank!"
 [form_ThanksText]

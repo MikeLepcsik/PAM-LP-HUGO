@@ -73,8 +73,10 @@
                         <input type="file" name="file[]" id="file" accept=".pdf" multiple />
                         <span class="button">{{T "form_SelectFiles"}}</span>
                         <br />
-                        <label class="label" id="selected-files" data-js-label>{{T "form_SelectFilesError"}}</label>
+                        <label class="label" id="selected-files-list" data-js-label>{{T "form_SelectFilesError"}}</label>
                     </div>
+                    <button class="btn btn-CTA2-gray btn-CTA-2-tab removeFiles hidden mb-3" id="remove-files"
+                        onclick="removeFiles(event)">{{T "form_DeleteFiles"}}</button>
 
                     <div class="form-group mb-0" style="margin-top: 30px;">
                         <textarea name="hinweis" type="text" id="form29" class="form-control" rows="4"
@@ -88,13 +90,69 @@
 
                     <div class="modal-footer-bestellung d-flex justify-content-center ">
                         <button class="btn btn-block btn-CTA2" title="Senden" id="anfrageFormButton"
-                            onClick="gtag('event', 'action', {'event_category': 'Anfrage-Senden', 'event_label': 'Senden','value': 'value'});"
+                        onclick="sendForm(event)"
                             type="submit">{{T "form_Send"}}</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+</div>
+
+<!-- Modal Kontaktformular Fehler max 5 fils-->
+
+<div class="modal fade" id="KontaktFormularMAX5FILS" tabindex="-1" role="dialog"
+aria-labelledby="KontaktFormularMAX5FILS" aria-hidden="true">
+<div class="modal-dialog modal-dialog-sm" role="document">
+    <div class="modal-content">
+        <div class="modal-header text-center">
+            <h1 class="modal-title w-100">
+                <span>{{T "form_LimitFiles"}}</span>
+            </h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-body mx-3 text-center">
+
+            <div class="form-group mb-0">
+                <span>{{T "form_CantSend"}}
+                    <br> {{T "form_PleaseContact"}}
+                    <a class="mailto" href="mailto:CIBpdfSupport@cib.de">CIBpdfSupport@cib.de</a>.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal Kontaktformular max Grösse 10MB-->
+
+<div class="modal fade" id="KontaktFormularMAX10MB" tabindex="-1" role="dialog"
+aria-labelledby="KontaktFormularMAX10MB" aria-hidden="true">
+<div class="modal-dialog modal-dialog-sm" role="document">
+    <div class="modal-content">
+        <div class="modal-header text-center">
+            <h1 class="modal-title w-100">
+                <span>{{T "form_Limit10MBFiles"}}</span>
+            </h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-body mx-3 text-center">
+
+            <div class="form-group mb-0">
+                <span>{{T "form_CantSend"}}
+                    <br> {{T "form_PleaseContact"}}
+                    <a class="mailto" href="mailto:CIBpdfSupport@cib.de">CIBpdfSupport@cib.de</a>.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 
 <!-- Modal Kontaktformular erfolgreich-->
@@ -172,7 +230,8 @@
         const removeFilesButton = document.getElementById('remove-files')
 
         fileInput.onchange =
-            fileInput.onmouseout = function () {
+            //fileInput.onmouseout = 
+            function () {
                 if (!fileInput.value) return
 
                 var value = ''
@@ -195,7 +254,7 @@
 
     function removeFiles(e) {
         const fileInput = document.getElementById('file')
-        const label = document.getElementById('selected-files')
+        const label = document.getElementById('selected-files-list')
         const removeFilesButton = document.getElementById('remove-files')
 
         fileInput.value = ''
@@ -211,7 +270,6 @@
     const MAX_FILES = 5;
 
     function sendForm(event) {
-
         var form = document.getElementById('kontaktForm');
         var formData = new FormData(form);
         const fileInput = document.getElementById('file')
@@ -249,7 +307,7 @@
         document.getElementById("newloader").style.display = "block";
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'send_email.php', false);
+        xhr.open('POST', '/form.php?code=jobform&reply=1', false);
         xhr.send(formData);
 
         if (xhr.status == 200) $('#KontaktFormularErfolgreich').modal('show');
