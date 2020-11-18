@@ -79,8 +79,8 @@
 
     "Slider": {
 		"Titel": "Aktuelle Kampagnen",
-		"Header1": "Studienabbruch? 2. Chance CIB!",
-		"Text1": "Unsicher, ob dein Studium das Richtige für dich ist? Ob Quereinstieg, Ausbildung oder Praktika: wir möchten dich kennenlernen!",
+		"Header2": "Studienabbruch? 2. Chance CIB!",
+		"Text2": "Unsicher, ob dein Studium das Richtige für dich ist? Ob Quereinstieg, Ausbildung oder Praktika: wir möchten dich kennenlernen!",
         "Header1": "CIB impulsa",
 		"Text1": "Wir unterstützen in Form von gesponserten Projekten und innovativen Ideen von Jugendlichen, die sich für Forschung und Technologie interessieren"
 	},

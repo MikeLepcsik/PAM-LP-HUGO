@@ -40,8 +40,12 @@
                     id="kontaktForm" class="needs-validation" novalidate>
 
                     <div class="row justify-content-center">
-                        <h3 class="mb-5 text-red" name="title">{{.Params.Job.Title | safeHTML }}</h3>
+                        <h3 class="mb-5 text-red">{{.Params.Job.Title | safeHTML }}</h3>
                     </div>
+
+                    <input name="title" type="hidden" value="{{.Params.Job.Title | safeHTML }}" id="form29"
+                            class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form29"></label>
 
                     <div class="form-group mb-0 mt-3">
                         <h5>{{T "form_YourInformation"}}</h5>
