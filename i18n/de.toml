@@ -44,27 +44,27 @@ other = "Mobile Belegerfassung"
 [menuSolutions_MobileReceiptEntryText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_TextRecognition]
-other = "Texterkennung, Textsuche, syntaktische Analyse"
+other = "Intelligente Texterkennung"
 [menuSolutions_TextRecognitionText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+other = "Texterkennung, Textsuche, syntaktische Analyse"
 [menuSolutions_DocumentPreparation]
-other = "Dokumentenaufbereitung"
+other = "Customer Communication Management"
 [menuSolutions_DocumentPreparationText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_PostProcessing]
 other = "Dokumentennachverarbeitung"
 [menuSolutions_PostProcessingText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-[menuSolutions_DocumentDisplay]
-other = "Dokumentenanzeige"
-[menuSolutions_DocumentDisplayText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
-[menuSolutions_OmnichannelDocumentDistribution]
-other = "Dokumentenverteilung Omnikanal"
-[menuSolutions_OmnichannelDocumentDistributionText]
-other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_Einvoicing]
-other = "e-Rechnungserstellung"
+other = "e-Rechnung"
+[menuSolutions_CyberSecurity]
+other = "Cyber Security"
+[menuSolutions_CyberSecurityText]
+other = "Höchste Sicherheit-Standards"
+[menuSolutions_OmnichannelDocumentDistribution]
+other = "Omnikanale Kommunikation"
+[menuSolutions_OmnichannelDocumentDistributionText]
+other = "Dokumentenverteilung omnikanal"
 [menuSolutions_EinvoicingText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_LongTermArchiving]
@@ -72,7 +72,7 @@ other = "Langzeitarchivierung"
 [menuSolutions_LongTermArchivingText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_ProcessOptimization]
-other = "Prozessoptimierung"
+other = "Business Process management"
 [menuSolutions_ProcessOptimizationText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuSolutions_DocumentOptimization]
@@ -283,9 +283,9 @@ other = "cibsupport@cib.de"
 [menuCompanies_AboutUs]
 other = "Über uns"
 [menuCompanies_Guideline]
-other = "Wir denken in Lösungen. Neue Anforderungen sind für uns nur die nächste Anregung."
+other = "Wir denken in Lösungen!"
 [menuCompanies_GuidelineText]
-other = "Rund ums Dokumenten Management entwickeln wir Lösungen, um bestehende Prozesse mit unseren Lösungen zu optimieren und somit Digitalisierung im Unternehmen und in der Gesellschaft voranzutreiben. Für uns. Für Sie. Für Alle."
+other = "Neue Anforderungen sind für uns nur die nächste Anregung. Rund ums Dokumenten Management entwickeln wir Lösungen, um bestehende Prozesse mit unseren Lösungen zu optimieren und somit Digitalisierung im Unternehmen und in der Gesellschaft voranzutreiben. Für uns. Für Sie. Für Alle."
 [menuCompanies_History]
 other = "Geschichte"
 [menuCompanies_HistoryText]
