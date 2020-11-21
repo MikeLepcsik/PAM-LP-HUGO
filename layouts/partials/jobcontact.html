@@ -37,7 +37,7 @@
 
 
                 <form name="kontaktForm" action="/form.php?code=jobform" method="post" enctype="multipart/form-data"
-                    id="kontaktForm" class="needs-validation" novalidate>
+                    id="JobForm" class="needs-validation" novalidate>
 
                     <div class="row justify-content-center">
                         <h3 class="mb-5 text-red">{{.Params.Job.Title | safeHTML }}</h3>
@@ -76,7 +76,7 @@
                     </div>
 
                     <div class="file-input pl-0">
-                        <input type="file" name="file[]" id="file" accept=".pdf" multiple />
+                        <input type="file" name="file[]" id="fileJobs" accept=".pdf" multiple />
                         <span class="button">{{T "form_SelectFiles"}}</span>
                         <br />
                         <label class="label" id="selected-files-list"
@@ -257,7 +257,7 @@
     }
 
     function removeFiles(e) {
-        const fileInput = document.getElementById('file')
+        const fileInput = document.getElementById('fileJobs')
         const label = document.getElementById('selected-files-list')
         const removeFilesButton = document.getElementById('remove-files')
 
@@ -274,9 +274,9 @@
     const MAX_FILES = 5;
 
     function sendForm(event) {
-        var form = document.getElementById('kontaktForm');
+        var form = document.getElementById('JobForm');
         var formData = new FormData(form);
-        const fileInput = document.getElementById('file')
+        const fileInput = document.getElementById('fileJobs')
 
         form.classList.add('was-validated');
 
