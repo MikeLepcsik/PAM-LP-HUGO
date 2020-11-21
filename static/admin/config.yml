@@ -1,6 +1,8 @@
 backend:
-    name: github
-    repo: jairochapela/fairbrieft.cib.de-hugo
+    name: gitlab
+    repo: CIBMarketing/cib_netlifycms
+    auth_type: implicit
+    app_id: 22453362
 media_folder: static/img
 public_folder: /img
 collections:
