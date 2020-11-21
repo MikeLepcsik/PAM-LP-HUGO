@@ -5,7 +5,6 @@
     "type": "karriere",
     "Title": "Karriere bei CIB",
 
-
     "Views": {
 		"Titel": "Finde deinen Traumjob und starte deine Karriere bei CIB! ",
         "TitelSub": "Entdecke deine Leidenschaft und sei bei der Entwicklung zukunftsorientierter Lösungen dabei.",
@@ -75,10 +74,10 @@
 
     "Slider": {
 		"Titel": "Aktuelle Kampagnen",
-		"Header2": "Studienabbruch? 2. Chance CIB!",
-		"Text2": "Ob dein Studium das Richtige für dich ist? Ob Quereinstieg, Ausbildung oder Praktika: wir möchten dich kennenlernen!",
+		"Header2": "2. Chance CIB! Unser Programm für Querdenker und Studienabbrecher!",
+		"Text2": "Möchtest de dich neu orientieren oder suchst du eine spannende Herausforderung? Bei CIB warten interessante Zukunftsmöglichkeiten und Alternativen zum klassischen Uni-Studium auf dich. Wir bieten dir Perspektiven für einen Einstieg in die IT-Branche mit Cutting-Edge Technologien!",
         "Header1": "CIB impulsa",
 		"Text1": "Wir verhelfen mit gesponserten Projekten Jugendliche dabei, ihre innovative Ideen umzusetzen!"
 	}
-
+    
 }

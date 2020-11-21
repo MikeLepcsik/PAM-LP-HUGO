@@ -26,14 +26,14 @@
 	},
 
 	"Solution": {
-		"Title": "CIB Lösungen und Module",
-		"SubTitle": "",
-		"Title1": "Title 1",
-		"Title2": "Title 2",
-		"Title3": "Title 3",
-		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+		"Title": "CIB Lösungen",
+		"SubTitle": "Fragen Sie besser, was wir nicht können!",
+		"Title1": "Businnes Process Management heisst bei uns CIB flow",
+		"Title2": "Die Experten in Sachen Digital Invoicing: CIB eRechnung",
+		"Title3": "Die PDF-Experten: Entdecke alle CIB pdf Lösungen",
+		"Text1": "Das Korrespondenz Management Plattform für das Dokumentenlebenszyklus - effizient Prozesse automatisieren, zentral verwalten und hochwertige Dokumente im workflow erzeugen!.",
+		"Text2": "Mit CIB Lösungen eRechnungen erstellen, prüfen und bearbeiten. Seit November 2020 ist es in Deutschland Pflicht, Rechnungen ab einem Betrag von 1.000 Euro elektronisch auszustellen. Ob ZUGFeRD 1.0, 2.1 (Basic / Comfort), XRechnung, FatturaPA und Factur-X – mit CIB Lösungen meistern Sie sie alle!",
+		"Text3": "All PDF you need! Entdecke PDF-Welt neu: die professionelle PDF-Edition mit drei flex-Lösungen"
 	},
 
 	"Integration": {
@@ -43,7 +43,7 @@
 		"Title2": "Integration",
 		"Title3": "Vorlagenservice",
 		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+		"Text2": "Unsere systemunabhängigen Serverkomponenten und Lösungen lassen sich in der bestehenden Architektur integrieren.",
 		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 	},
 
@@ -52,7 +52,7 @@
 		"SubTitle": "",
 		"Title1": "mit CIB Lösungen erzeugte Dokumente",
 		"Title2": "Arbeitsplätze mit CIB coSys bei der LHM in München",
-		"Title3": "2018 mit CIB pdf brewer erzeugte Dokumente",
+		"Title3": "Jährlich mit CIB pdf brewer erzeugte Dokumente",
 		"Title4": "Produktivlizenzen im Einsatz"
 	},
 

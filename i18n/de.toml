@@ -123,9 +123,9 @@ other = "Opensource inklusive CIB Services und Integration"
 other = "Die flexibel einsetzbare Scannerboxen für den optimalen Scan auch unterwegs"
 
 [menuProjects_Title]
-other = "Forschung & Entwicklung"
+other = "Forschung und Entwicklung"
 [menuProjects_IntroTitle]
-other = "Title"
+other = "Mit dem Blick in die Zukunft!"
 [menuProjects_IntroTitleText]
 other = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
 [menuProjects_PoP]
@@ -272,9 +272,9 @@ other = "Beratungsangebot"
 [menuSupport_AdviceOfferText]
 other = "Mit dem CIB Beratertag erhalten Sie ein inhaltlich flexibles Angebot zum Festpreis."
 [menuSupport_Support]
-other = "Unser Support Team ist Ihr erster Ansprechpartner bei Fragen zu allen CIB Produkten - schnell und effizient für Sie da!"
+other = "Ihr erster Ansprechpartner bei Fragen zu allen CIB Lösungen!"
 [menuSupport_SupportText]
-other = "Mit unserer langjährigen Erfahrung sind wir in der Lage unsere Kunden in eine große Menge an Programmiersprachen und Systemplattformen tatkräftig zu unterstützen."
+other = "Schnell und effizient für Sie da: Mit unserer langjährigen Erfahrung sind wir in der Lage unsere Kunden in eine große Menge an Programmiersprachen und Systemplattformen tatkräftig zu unterstützen."
 [menuSupport_Hotline]
 other = "+49 89 14360 111"
 [menuSupport_EMail]
