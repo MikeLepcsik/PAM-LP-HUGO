@@ -5,7 +5,7 @@
     "type": "karriere",
     "Title": "Empfangsmitarbeiter (m/w/d)",
     "tags": ["München"],
-    "categories": ["München"],
+    "categoriesBerufserfahrene": ["Alle", "München"],
 
     "Job": {
         "Title": "Empfangsmitarbeiter (m/w/d)",

@@ -17,7 +17,7 @@
 
     "Filtermenu": {
         "All": "Alle",
-        "Items": ["München", "Hannover", "Münster", "Karlsruhe", "Nürnberg", "Hamburg"]
+        "Items": ["München", "Hannov", "Münster", "Karlsruh", "Nürnberg", "Hamburg"]
     }
 
 }

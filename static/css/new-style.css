@@ -1111,6 +1111,10 @@ code {
     color: #E11E19 !important;
 }
 
+.btnlinks a.actives {
+    color: #E11E19 !important;
+}
+
 .actives,
 .line {
     border-bottom: 1px solid #E11E19;

@@ -5,7 +5,7 @@
     "type": "karriere",
     "Title": "Ausbildung Fachinformatiker für Anwendungsentwicklung (m/w/d)",
     "tags": ["Alle"],
-    "categories": ["Ausbildung"],
+    "categoriesSchueler": ["Alle", "Ausbildung"],
 
     "Job": {
         "Title": "Ausbildung Fachinformatiker für Anwendungsentwicklung (m/w/d)",

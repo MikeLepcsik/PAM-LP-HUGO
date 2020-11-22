@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         {{ if .Params.Filtermenu.Items }}
-        <div class="links col-auto mr-auto" style="--items: {{add (len .Params.Filtermenu.Items) 1}};" id="SubMenu">
+        <div class="linkactives links col-auto mr-auto" style="--items: {{add (len .Params.Filtermenu.Items) 1}};" id="SubMenu">
             <a class="btnlinks actives" onclick="filterJobs('')">{{.Params.Filtermenu.All}}</a>
             {{ range $item := .Params.Filtermenu.Items }}
             <a class="btnlinks" onclick="filterJobs('{{$item}}')">{{$item}}</a>
@@ -56,3 +56,10 @@
         </div>
     </div>
 </div>
+<script>
+       // Active Menu Highlight CSS
+    $(".linkactives a").click(function () {
+        $(".linkactives a.actives").removeClass("actives");
+        $(this).addClass("actives");
+    })
+</script>

@@ -5,7 +5,8 @@
     "type": "karriere",
     "Title": "Werkstudent Softwareentwicklung (m/w/d)",
     "tags": ["Alle"],
-    "categories": ["Schülerpraktikum", "Werkstudenten"],
+    "categoriesStudent": ["Alle", "Werkstudenten", "Praxis semester"],
+    "categoriesSchueler": ["Alle", "Schülerpraktikum"],
 
     "Job": {
         "Title": "Werkstudent Softwareentwicklung (m/w/d)",

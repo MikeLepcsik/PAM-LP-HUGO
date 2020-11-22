@@ -5,7 +5,7 @@
     "type": "karriere",
     "Title": "Ausbildung Kaufmann/ Kauffrau für Büromanagement (m/w/d)",
     "tags": ["Alle"],
-    "categories": ["Ausbildung"],
+    "categoriesSchueler": ["Alle", "Ausbildung"],
 
     "Job": {
         "Title": "Ausbildung Kaufmann/ Kauffrau für Büromanagement (m/w/d)",

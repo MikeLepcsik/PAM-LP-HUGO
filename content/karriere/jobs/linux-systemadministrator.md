@@ -5,7 +5,7 @@
     "type": "karriere",
     "Title": "Linux Systemadministrator (m/w/d)",
     "tags": ["München"],
-    "categories": ["München"],
+    "categoriesBerufserfahrene": ["Alle", "München"],
 
     "Job": {
         "Title": "Linux Systemadministrator (m/w/d)",

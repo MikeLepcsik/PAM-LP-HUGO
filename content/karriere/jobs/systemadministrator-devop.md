@@ -5,7 +5,7 @@
     "type": "karriere",
     "Title": "Systemadministrator oder DevOp (m/w/d)",
     "tags": ["München"],
-    "categories": ["München"],
+    "categoriesBerufserfahrene": ["Alle", "München"],
 
     "Job": {
         "Title": "Systemadministrator oder DevOp (m/w/d)",

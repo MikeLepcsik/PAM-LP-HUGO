@@ -17,7 +17,7 @@
 
     "Filtermenu": {
         "All": "Alle",
-        "Items": ["Praxissemester", "Werkstudenten", "Bachelor/Master", "Duales Studium"]
+        "Items": ["Praxis semester", "Werkstudenten", "Bachelor Master", "Duales Studium"]
     }
 
 }

@@ -5,7 +5,7 @@
     "type": "karriere",
     "Title": "Duales Studium (Wirtschafts-)Informatik (B.Sc./M.Sc)",
     "tags": ["Alle"],
-    "categories": ["DualesStudium"],
+    "categoriesStudent": ["Alle", "DualesStudium"],
 
     "Job": {
         "Title": "Duales Studium (Wirtschafts-)Informatik (B.Sc./M.Sc)",

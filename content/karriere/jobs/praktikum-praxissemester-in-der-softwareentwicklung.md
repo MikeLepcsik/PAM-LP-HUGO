@@ -5,7 +5,8 @@
     "type": "karriere",
     "Title": "Praktikum / Praxissemester in der Softwareentwicklung",
     "tags": ["Alle"],
-    "categories": ["Schülerpraktikum", "Praxissemester"],
+    "categoriesStudent": ["Alle", "Werkstudenten", "Praxis semester"],
+    "categoriesSchueler": ["Alle", "Schülerpraktikum"],
 
     "Job": {
         "Title": "Praktikum / Praxissemester in der Softwareentwicklung",
