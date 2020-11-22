@@ -10,7 +10,7 @@
 
     "Filtermenu": {
         "All": "Alle",
-        "Items": ["Schülerpraktikum", "Ausbildung"]
+        "Items": ["Schülerpraktikum /", "Ausbildung"]
     },
 
      "IMG": "<img src=\"/images/karriere/IHK_Azubi_2019-1024x687.png\" height=\"200\">",
