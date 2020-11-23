@@ -1,5 +1,6 @@
 {
 	"layout": "berufserfahrene",
+    "translationKey": "berufserfahrene",
     "type": "karriere",
     "Title": "Unser Angebot für Berufserfahrene",
 

@@ -1,5 +1,6 @@
 {
 	"layout": "schueler",
+    "translationKey": "schueler",
     "type": "karriere",
     "Title": "Jobbörse: für Schüler",
 

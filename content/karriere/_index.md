@@ -1,7 +1,6 @@
 {
 	"layout": "karriere/jobs",
 	"translationKey": "karriere/jobs",
-
     "type": "karriere",
     "Title": "Karriere bei CIB",
 

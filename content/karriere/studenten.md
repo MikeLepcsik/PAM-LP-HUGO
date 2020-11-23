@@ -1,5 +1,6 @@
 {
 	"layout": "studenten",
+    "translationKey": "studenten",
     "type": "karriere",
     "Title": "Jobbörse: für Studenten und Absolventen",
 

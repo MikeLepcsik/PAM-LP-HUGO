@@ -1,5 +1,6 @@
 {
 	"layout": "initiativbewerber",
+    "translationKey": "berufserfahrene",
     "type": "karriere",
     "Title": "Quereinsteiger und Initiativbewerber",
 
