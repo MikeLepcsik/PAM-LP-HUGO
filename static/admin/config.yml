@@ -3,8 +3,8 @@ backend:
     repo: CIBMarketing/cib_netlifycms
     auth_type: implicit
     app_id: 94ea9594f41aa31e2764213529b1bed6d1c3dbdaa6440d2ca0c7cbcc4e4b1019
-media_folder: static/img
-public_folder: /img
+media_folder: static/images/karriere
+public_folder: /images
 collections:
   - name: 'karriere'
     label: 'Karriere'
