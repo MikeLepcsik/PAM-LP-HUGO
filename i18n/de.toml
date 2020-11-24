@@ -531,7 +531,7 @@ other = "Kein PDF ausgewählt"
 [form_SelectFiles]
 other = "PDF Bewerbung hochladen"
 [form_SelectFilesError]
-other = "Bitte geben Sie hier Ihre Daten korrekt ein."
+other = "Bitte nur PDFs mit maximal 10 MB und nur 5 Dateien Anhängen."
 [form_DeleteFiles]
 other = "Dateien entfernen"
 [form_LimitFiles]
