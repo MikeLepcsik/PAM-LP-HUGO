@@ -17,13 +17,12 @@ build:
 deploy:
   stage: deploy
   image: alpine:latest
-  before_script:
+  script:
     - apk add --update --no-cache rsync openssh-client
     - mkdir -p ~/.ssh && chmod 700 ~/.ssh
     - echo ${SSH_PRIVATE_KEY} > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
     - ssh-keyscan ec2-18-159-99-126.eu-central-1.compute.amazonaws.com >> ~/.ssh/known_hosts
-  script:
     - rsync -az --delete public/ updator@ec2-18-159-99-126.eu-central-1.compute.amazonaws.com:/var/www/template
   only:
     - master
