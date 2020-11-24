@@ -1,52 +1,32 @@
-image: registry.gitlab.com/pages/hugo:latest
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-before_script:
-  ##
-  ## Install ssh-agent if not already installed, it is required by Docker.
-  ## (change apt-get to yum if you use an RPM-based image)
-  ##
-  - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
 
-  ##
-  ## Run ssh-agent (inside the build environment)
-  ##
-  - eval $(ssh-agent -s)
+stages:
+  - build
+  - deploy
 
-  ##
-  ## Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
-  ## We're using tr to fix line endings which makes ed25519 keys work
-  ## without extra base64 encoding.
-  ## https://gitlab.com/gitlab-examples/ssh-private-key/issues/1#note_48526556
-  ##
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-
-  ##
-  ## Create the SSH directory and give it the right permissions
-  ##
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-
-  ##
-  ## Optionally, if you will be using any Git commands, set the user name and
-  ## and email.
-  ##
-  # - git config --global user.email "user@example.com"
-  # - git config --global user.name "User name"
-
-test:
+build:
+  stage: build
+  image: registry.gitlab.com/pages/hugo:latest
   script:
     - hugo
-  except:
-    - master
-
-pages:
-  script:
-    - hugo
-    - rsync -avz --delete public/ updator@ec2-18-159-99-126.eu-central-1.compute.amazonaws.com:/var/www/template
   artifacts:
     paths:
       - public
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  before_script:
+    - apk add --upadte --no-cache rsync
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - echo ${SSH_PRIVATE_KEY} | base64 -d > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - ssh-keyscan -t rsa ec2-18-159-99-126.eu-central-1.compute.amazonaws.com >> ~/.ssh/known_hosts
+  script:
+    - rsync -az --delete public/ updator@ec2-18-159-99-126.eu-central-1.compute.amazonaws.com:/var/www/template
   only:
     - master
+
+
+## Reference: https://softwareadept.xyz/2020/06/deploying-hugo-with-gitlab-ci/
