@@ -1,77 +1,78 @@
 {
+  "$schema": "https://aka.ms/codetour-schema",
   "title": "Explicaciones",
   "steps": [
     {
       "file": "content/_index.md",
       "line": 1,
-      "description": "Contenido de la versión en alemán (idioma por defecto). Todas las traducciones se codifican en JSON en el frontmatter de la página.",
-      "title": "Traducciones alemán"
+      "description": "Content of the German version (default language). All translations are encoded in JSON in the frontmatter of the page.",
+      "title": "German translations"
     },
     {
       "file": "content/_index.md",
       "line": 9,
-      "description": "Es importante que las claves de las traducciones no contengan caracteres no permitidos. Debemos utilizar '_' en lugar de '-'.",
-      "title": "Evitar caracteres no permitidos"
+      "description": "It is important that the translation keys do not contain illegal characters. We must use '_' instead of '-'.",
+      "title": "Avoid disallowed characters"
     },
     {
       "file": "content/_index.es.md",
       "line": 1,
-      "description": "Aquí están las traducciones al idioma español: en el frontmatter y en formato JSON.",
-      "title": "Traducciones español"
+      "description": "Here are the translations to the Spanish language: in the frontmatter and in JSON format.",
+      "title": "Spanish translations"
     },
     {
       "file": "layouts/index.html.html",
       "line": 1,
-      "description": "Plantilla de la página principal.",
-      "title": "Plantilla"
+      "description": "Home page template.",
+      "title": "Template"
     },
     {
       "file": "layouts/index.html.html",
       "line": 15,
-      "description": "Las rutas, mejor absolutas (empezando por /), para no tener problemas con las diferentes traducciones. Cada traducción lleva una ruta con el código del idioma (/es/ para el español, por ejemplo), de modo que las imágenes comenzarían en esa ruta si se indicasen como rutas relativas.",
-      "title": "Rutas de assets absolutas"
+      "description": "The routes, better absolute (starting with /), so as not to have problems with the different translations. Each translation carries a path with the language code (/ es / for Spanish, for example), so that the images would start on that path if they were indicated as relative paths.",
+      "title": "Absolute asset paths"
     },
     {
       "file": "layouts/index.html.html",
       "line": 4,
-      "description": "Así se indica el título del sitio. El título y las traducciones del mismo están en el fichero de configuración general: config.toml.",
-      "title": "Título en la plantilla"
+      "description": "This is how the site title is indicated. The title and its translations are in the general configuration file: config.toml.",
+      "title": "Title in the template"
     },
     {
       "file": "config.toml",
       "line": 3,
-      "description": "Título principal, por defecto.",
-      "title": "Título por defecto"
+      "description": "Main title, by default.",
+      "title": "Default title"
     },
     {
       "file": "config.toml",
       "line": 5,
-      "description": "Idiomas disponibles.",
-      "title": "Idiomas disponibles"
+      "description": "Available languages.",
+      "title": "Available languages"
     },
     {
       "file": "config.toml",
       "line": 4,
-      "description": "Idioma por defecto.",
-      "title": "Idioma por defecto"
+      "description": "Default language",
+      "title": "Default language"
     },
     {
       "file": "config.toml",
       "line": 10,
-      "description": "Traducción del título al español.",
-      "title": "Título traducido al español"
+      "description": "Title translated into Spanish",
+      "title": "Title translated into Spanish"
     },
     {
       "file": "layouts/index.html.html",
       "line": 280,
-      "description": "Los contenidos traducidos están dentro del objeto .Params, que contendrá todas las entradas declaradas en el JSON del frontmatter.",
-      "title": "Acceso a los contenidos"
+      "description": "The translated contents are inside the .Params object, which will contain all the inputs declared in the JSON of the frontmatter.",
+      "title": "Access to content"
     },
     {
       "file": "layouts/index.html.html",
       "line": 327,
-      "description": "Para mostrar un menú con todos los idiomas disponibles se utilizará la función range de Hugo con la lista de idiomas definidos en config.toml.",
-      "title": "Menú selector de idiomas"
+      "description": "To display a menu with all the available languages, Hugo's range function will be used with the list of languages defined in config.toml.",
+      "title": "Language selector menu"
     }
   ]
 }

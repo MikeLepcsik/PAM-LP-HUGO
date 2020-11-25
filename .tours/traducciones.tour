@@ -1,20 +1,21 @@
 {
-  "title": "Traducciones",
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Translations",
   "steps": [
     {
       "file": "layouts/partials/menu.html",
       "line": 744,
-      "description": "Para cada página habrá una colección de traducciones, cada una con su permalink. Iteramos dicha colección y ponemos los enlaces a las traducciones en el menú."
+      "description": "For each page there will be a collection of translations, each with its permalink. We iterate this collection and put the links to the translations in the menu."
     },
     {
       "file": "layouts/partials/menu.html",
       "line": 748,
-      "description": "También incorporamos un enlace a la traducción actual."
+      "description": "We also include a link to the current translation."
     },
     {
       "file": "content/fairbrieft.md",
       "line": 3,
-      "description": "Es necesario indicar una translationKey en cada archivo de contenido, que servirá para relacionar todas las traducciones de una misma página.",
+      "description": "It is necessary to indicate a translationKey in each content file, which will serve to relate all the translations of the same page.",
       "selection": {
         "start": {
           "line": 3,
@@ -29,7 +30,7 @@
     {
       "file": "content/fairbrieft.es.md",
       "line": 3,
-      "description": "Utilizamos la misma \"translationKey\" para todas las traducciones de una misma página."
+      "description": "We use the same \"translationKey\" for all translations of the same page."
     }
   ]
 }

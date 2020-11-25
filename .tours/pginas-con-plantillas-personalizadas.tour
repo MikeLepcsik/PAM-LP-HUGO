@@ -1,15 +1,16 @@
 {
-  "title": "Páginas con plantillas personalizadas",
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Pages with custom templates",
   "steps": [
     {
       "file": "layouts/_default/fairbrieft.html",
       "line": 1,
-      "description": "La plantilla para la página personalizada va dentro de _default, con el nombre que se desee. Ejemplo: layouts/_default/fairbrieft.html"
+      "description": "The template for the custom page goes inside _default, with whatever name you want. Example: layouts/_default/fairbrieft.html"
     },
     {
       "file": "content/fairbrieft.md",
       "line": 2,
-      "description": "En el contenido se indicará el layout que se desea aplicar a esta página en el frontmatter. El nombre coincidirá con el de la plantilla.",
+      "description": "The content will indicate the layout that you want to apply to this page in the frontmatter. The name will match the name of the template.",
       "selection": {
         "start": {
           "line": 2,
@@ -24,7 +25,7 @@
     {
       "file": "content/fairbrieft.es.md",
       "line": 2,
-      "description": "Hacemos lo mismo con todas las traducciones de la página."
+      "description": "We do the same with all translations on the page."
     }
   ]
 }
