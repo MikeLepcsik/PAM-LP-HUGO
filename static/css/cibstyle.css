@@ -287,7 +287,7 @@ h5 {
 .btn-CTA1:hover {
     background-color: #C60006;
     border-color: #C60006;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -323,7 +323,7 @@ h5 {
 .btn-CTA2:hover {
     background-color: #C60006;
     border-color: #C60006;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -358,7 +358,7 @@ h5 {
 .btn-CTA2-gray:hover {
     background-color: #E11E19;
     border-color: #E11E19;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -395,7 +395,7 @@ h5 {
 .btn-CTA2-green:hover {
     background-color: #fff;
     border-color: #a7cfb6;
-    color: #a7cfb6;
+    color: #a7cfb6!important;
     cursor: pointer;
 }
 
@@ -430,7 +430,7 @@ h5 {
 .btn-CTA2-green-white:hover {
     background-color: #a7cfb6;
     border-color: #a7cfb6;
-    color: #fff;
+    color: rgb(165, 150, 150)!important;
     cursor: pointer;
 }
 
@@ -441,7 +441,7 @@ h5 {
     line-height: 46px;
     background-color: #E11E19;
     border-color: #E11E19;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -465,7 +465,7 @@ h5 {
 .btn-CTA3:hover {
     background-color: #C60006;
     border-color: #C60006;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -500,7 +500,7 @@ h5 {
 .btn-CTA3-gray:hover {
     background-color: #E11E19;
     border-color: #E11E19;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -535,7 +535,7 @@ h5 {
 .btn-CTA4-white:hover {
     background-color: #E11E19;
     border-color: #E11E19;
-    color: #fff;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -570,7 +570,7 @@ h5 {
 .btn-CTA5-white:hover {
     background-color: #fff;
     border-color: #E11E19;
-    color: #E11E19;
+    color: #E11E19!important;
     cursor: pointer;
 }
 
