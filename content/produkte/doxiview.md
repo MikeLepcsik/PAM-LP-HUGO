@@ -55,7 +55,7 @@
         "Dateiformaten": "Anzeige von über 160 Dateiformaten",
         "Texterkennung": "Automatische Texterkennung (OCR)",
         "Browserbasiert": "Browserbasiert Texte editieren - über Standard-Editor bzw. erweiterte OpenSource Lösung <a class=\"text-link\" style=\"font-size: 14px;\" target=\"_blank\" href=\"https://libreoffice.cib.de/\">LibreOffice Online powered by CIB</a>",
-        "BrowserbasiertMobile": "Browserbasiert Texte editieren - über Standard-Editor bzw. erweiterte OpenSource Lösung <a class=\"text-link-18\" target=\"_blank\" href=\"https://libreoffice.cib.de/\">LibreOffice Online powered by CIB</a>",
+        "BrowserbasiertMobile": "Browserbasiert Texte editieren - über Standard-Editor bzw. erweiterte OpenSource Lösung <a class=\"text-link\" style=\"font-size: 18px;\" target=\"_blank\" href=\"https://libreoffice.cib.de/\">LibreOffice Online powered by CIB</a>",
         "PDFBearbeitung": "PDF- und Bildbearbeitung",
         "Linguistische": "Linguistische Analyse",
         "QRCode": "QR-Code Modus",
@@ -67,8 +67,8 @@
         "PDFFormularen": "Editor zur Erstellung von PDF-Formularen",
         "ESignatur": "Fortgeschrittene und qualifizierte E-Signatur",
         "Individuell": "Individuelle Anpassung über Farbpersonalisierung",
-        "fairBrieft": "Bald erhältlich: Anbindung an <a class=\"text-link\" style=\"font-size: 14px;\"  target=\"_blank\" href=\"https://fairbrieft.cib.de/\">CIB fairBrieft</a> zur Porto-Optimierung",
-        "fairBrieftMobile": "Bald erhältlich: Anbindung an <a style=\"font-size: 14px;\" target=\"_blank\" href=\"https://fairbrieft.cib.de/\">CIB fairBrieft</a>zur Porto-Optimierung",
+        "fairBrieft": "Bald erhältlich: Anbindung an <a class=\"text-link\" style=\"font-size: 14px;\"  target=\"_blank\" href=\"https://fairbrieft.cib.de/\">CIB fairBrieft</a> <span style=\"font-size: 14px;\">zur Porto-Optimierung <span>",
+        "fairBrieftMobile": "Bald erhältlich: Anbindung an <a class=\"text-link\" style=\"font-size: 18px;\" target=\"_blank\" href=\"https://fairbrieft.cib.de/\">CIB fairBrieft</a> zur Porto-Optimierung",
         "Gelöscht": "Datenschutz: Dokumente und Texte werden nach Verarbeitung gelöscht"
     },
     "Functions": {

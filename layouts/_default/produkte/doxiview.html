@@ -96,7 +96,7 @@
                                 data-container="body"
                                 data-toggle="popover" data-trigger="hover" data-placement="top"
                                 tabindex="0" data-html="true" data-popover-content="#Popover">
-                                {{.Params.Functions.Dokumentenarten|safeHTML}}
+                                {{.Params.Functions.Dokumentenarten | safeHTML}}
                             </p>
                             <p class="card-text">{{.Params.Functions.DokumentenartenText}}
                             </p>
@@ -630,9 +630,9 @@
                                 data-container="body"
                                 data-toggle="popover" data-trigger="hover" data-placement="top"
                                 tabindex="0" data-html="true" data-popover-content="#Popover">
-                                {{.Params.Functions.Signatur|safeHTML}}
+                                {{.Params.Functions.Signatur | safeHTML}}
                             </p>
-                            <p class="card-text">{{.Params.Functions.SignaturText}}</p>
+                            <p class="card-text">{{.Params.Functions.SignaturText | safeHTML}}</p>
                         </div>
                     </div>
                 </div>
@@ -927,7 +927,6 @@
         </div>
     </div>
 
-
 <!-- Content for Popover -->
     <div class="hidden"
         style="background-color: black; position: relative; left: 90px !important;"
@@ -1030,12 +1029,12 @@
 
 <!-- Features -->
 
-    <div class="section section-mobile destination" id="Vorteile">
+    <div class="section dark-bg section-mobile destination" id="Vorteile">
         <div class="container">
             <div class="row">
                 <div class="comparison">
                     <table class="table span12 mt-4">
-                        <thead>
+                        <thead class="compare-row">
                             <h1 class="title-hidden feature-header-titel text-white"></h1>
                             <tr>
                                 <th class="text-left pl-5 tab-size-1 pt-4 pb-4">
@@ -1209,7 +1208,7 @@
                                 <td colspan="4" class="card-text">{{.Params.Features.Individuell}}
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="compare-row">
                                 <td class="pl-5 card-text"><a>{{.Params.Features.Individuell}}</a>
                                 </td>
                                 <td></td>
@@ -1231,10 +1230,10 @@
                             </tr>
                             <tr>
                                 <td>&nbsp;</td>
-                                <td colspan="4" class="card-text">{{.Params.Features.fairBrieftMobile}}</td>
+                                <td colspan="4" class="card-text">{{.Params.Features.fairBrieftMobile | safeHTML}}</td>
                             </tr>
-                            <tr>
-                                <td class="pl-5 card-text"><a>{{.Params.Features.fairBrieft|safeHTML}}</a></td>
+                            <tr class="compare-row">
+                                <td class="pl-5 card-text"><a>{{.Params.Features.fairBrieft | safeHTML}}</a></td>
                                 <td class=""></td>
                                 <td class=""><img src="/images/product/doxiview/ic_done_black_24px.svg"
                                     height="30" width="30" class="" alt="logo"></td>

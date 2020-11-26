@@ -1154,3 +1154,253 @@ code {
     color: #fff !important;
     width: -webkit-fill-available;
 }
+
+/*  13. DOXIVIEW
+----------------------*/
+#doxiview {
+    margin: 0;
+    border: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+}
+
+.popover.popover {
+    margin-left: -8%;
+    top: 8px !important;
+}
+
+.popover.popover .arrow {
+    left: 8%;
+}
+
+.link-Showcase {
+    cursor: pointer;
+    color: #e11e19 !important;
+   	font-size: 18px!important;
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+:focus {
+    outline: 0!important;
+}
+
+.wrap-collabsible {
+    margin-bottom: 1.2rem 0;
+}
+
+.showDoxiview {
+    overflow: hidden;
+}
+
+.showDoxiview #doxiview {
+    display: block;
+}
+
+.title-link {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media (max-width:1025px) {
+    .funktion-hidden {
+        display: none;
+    }
+}
+/*
+.format-div-on-start {
+    display: none;
+}*/
+
+.feature-icon {
+    font-size: 45px;
+    display: grid !important;
+}
+
+.lbl-toggle {
+    display: block;
+    text-align: left;
+    color: #e11e19;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+.lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+
+    transition: transform .2s ease-out;
+}
+
+.toggle:checked+.lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .5s ease-in-out;
+}
+
+.toggle:checked+.lbl-toggle+.collapsible-content {
+    max-height: 660px;
+}
+
+.toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+    background: #f8f9fa;
+    padding: .5rem 1rem;
+}
+
+/*  6.1 PRICING Modal
+----------------------*/
+
+@media (min-width: 1200px) {
+    .modal-dialog {
+        max-width: 95%;
+    }
+
+    .modal-dialog.modal-dialog-sm {
+        max-width: 50%;
+    }
+}
+
+.comparison {
+    text-align: center;
+    padding: 0;
+    padding-right: 79px;
+    padding-left: 80px;
+}
+
+.comparison table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    border-bottom: none;
+}
+
+.comparison td,
+.comparison th {
+    border-right: 1px solid #dee3e8;
+    empty-cells: show;
+    padding: 5px;
+    background-color: white;
+}
+
+.compare-heading {
+    font-size: 24px;
+    border-bottom: 0 !important;
+    padding-top: 10px !important;
+    margin-bottom: 0px;
+    font-weight: 700 !important;
+}
+
+.comparison tbody tr:nth-child(odd) {
+    display: none;
+}
+
+.comparison .compare-row {
+    background: #F5F5F5;
+}
+
+.comparison tr td:first-child {
+    text-align: left;
+    color: #404040;
+}
+
+.comparison .price-info-col {
+    vertical-align: top;
+}
+
+.comparison .price-now {
+    color: #e95653;
+}
+
+@media (max-width: 992px) {
+
+    .comparison td:first-child,
+    .comparison th:first-child {
+        display: none;
+    }
+
+    .comparison tbody tr:nth-child(odd) {
+        display: table-row;
+        background: #F7F7F7;
+    }
+
+    .comparison td,
+    .comparison th {
+        border: 1px solid #CCC;
+    }
+
+    .tab-size-1 {
+        width: 60% !important;
+    }
+
+    .tab-size-2 {
+        width: 60% !important;
+    }
+
+    .tab-size-3 {
+        width: 60% !important;
+    }
+
+    .comparison {
+        text-align: center;
+        padding: 0;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media (max-width: 639px) {
+
+    .comparison td,
+    .comparison th {
+        padding: 10px 5px;
+    }
+
+    .compare-heading {
+        font-size: 18px;
+    }
+}
+
+/*  7. TAB
+----------------------*/
+
+.tab-size-1 {
+    width: 54%;
+}
+
+.tab-size-2 {
+    width: auto;
+}
+
+.tab-size-3 {
+    width: auto;
+}
+
+.table td, .table th {
+    border-top: none !important;
+}
+
+.table thead th {
+    border-bottom: none !important;
+}
