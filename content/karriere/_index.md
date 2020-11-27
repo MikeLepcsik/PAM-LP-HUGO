@@ -15,13 +15,18 @@
 	},
 
     "ToJobs": {
-		"Titel": "Jobbörse",
+		"Titel": "Willkommen in unserer Jobbörse",
+        "TitelSub": "Wähle hier dein Einstieg aus und finde alle unsere aktuellen Jobanzeigen!",
 		"IMG1": "Für Schüler",
 		"IMG2": "Für Studenten und Absolventen",
         "IMG3": "Für Berufserfahrene",
         "IMG4": "Für Initiativbewerber",
         "HoverText": "ZUM JOBANGEBOT",
         "HoverTextCandidate": "ZUR BEWERBUNG",
+        "Button1": "Für Schüler",
+        "Button2": "Für Absolventen",
+        "Button3": "Für Berufserfahrene",
+        "Button4": "Initiativbewerber",
         "FooterText": "",
         "FooterTextLink": ""
 	},
@@ -41,12 +46,18 @@
 
     "Grid": {
         "Title": "Das sind wir:",
-        "img1": "Innovativ",
-        "img2": "Lösungsorientiert",
-        "img3": "Teamplayer",
-        "img4": "Kommunikativ",
-        "img5": "Umweltbewusst",
-        "img6": "International unterwegs",
+        "IMGTitle1": "Innovativ",
+        "IMGTitle2": "Lösungsorientiert",
+        "IMGTitle3": "Teamplayer",
+        "IMGTitle4": "Kommunikativ",
+        "IMGTitle5": "Umweltbewusst",
+        "IMGTitle6": "International unterwegs",
+        "Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Text4": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Text5": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "Text6": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
         "FooterTextLink": "Erfahre, was unsere Mitarbeiter im <a class=\"text-danger; link-text22\" href=\"https://blog.cib.de/category/cib-people/\" target=\"_blank\">CIB Blog</a> berichten"
 	},
 
