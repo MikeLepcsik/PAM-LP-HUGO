@@ -10,5 +10,44 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <script>
+      var KarrierePreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          //var image = entry.getIn(['data', 'image']);
+          //var bg = this.props.getAsset(image);
+          return h('div', {},
+            h('h1', {}, entry.getIn(['data', 'Title'])),
+            h('h2', {}, entry.getIn(['data', 'header', 'Titel'])),
+            //h('img', {src: bg.toString()}),
+            //h('div', {"className": "text"}, this.props.widgetFor('body'))
+          );
+        }
+      });
+    
+      //TODO: var ProduktePreview = createClass(...)
+
+      //TODO:
+      var CustomPagesPreview = createClass({
+        render: function () {
+          var entry = this.props.entry;
+          if (entry.getIn(['data', 'name']) == 'index') {
+            //TODO: render for index page
+          } else if (entry.getIn(['data', 'name']) == 'about') {
+            //TODO: render for about page
+          } else {
+            //TODO: default page renderer
+            return h('div', {},
+              h('h1', {}, entry.getIn(['data', 'title'])),
+              h('h2', {}, entry.getIn(['data', 'description'])),
+            );
+          }
+        } 
+      });
+
+      CMS.registerPreviewTemplate("karriere", KarrierePreview);
+      // CMS.registerPreviewTemplate("produkte", ProduktePreview);
+      // CMS.registerPreviewTemplate("pages", CustomPagesPreview);
+    </script>
   </body>
 </html>

@@ -1,4 +1,5 @@
 backend:
+    #This is for local test
     #name: test-repo
     name: gitlab
     repo: CIBMarketing/cib_netlifycms
@@ -7,6 +8,15 @@ backend:
 media_folder: static/images/karriere
 public_folder: /images
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Karriere Index"
+        name: "index"
+        file: "content/karriere/_index.md"
+        format: "json-frontmatter"
+        fields:
+          - {label: Title, name: Title, widget: string}
   - name: 'karriere'
     label: 'Karriere'
     folder: content/karriere
