@@ -1,4 +1,5 @@
 backend:
+    #name: test-repo
     name: gitlab
     repo: CIBMarketing/cib_netlifycms
     auth_type: implicit
@@ -8,13 +9,15 @@ public_folder: /images
 collections:
   - name: 'karriere'
     label: 'Karriere'
-    folder: 'content/karriere'
+    folder: content/karriere
+    extension: md
+    format: json-frontmatter
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
         preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Title', name: 'Title', widget: 'string' }
       - label: "Header"
         name: "header"
         widget: "object"
@@ -22,7 +25,13 @@ collections:
           - { label: 'Titel', name: 'Titel', widget: 'string' }
           - { label: 'Button', name: 'Button', widget: 'string' }
       - { label: 'Layout', name: 'layout', widget: 'string' }
-      - { label: 'NoShow', name: 'NoShow', widget: 'string' }
+      - label: "Button"
+        name: "Button"
+        widget: "object"
+        fields:
+          - { label: 'Senden', name: 'Senden', widget: 'string' }
+          - { label: 'Anfragen', name: 'Anfragen', widget: 'string' }
+      - { label: 'NoShow', name: 'NoShowButton', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
