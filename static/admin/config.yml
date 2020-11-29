@@ -12,10 +12,11 @@ collections:
     folder: content/karriere
     extension: md
     format: json-frontmatter
+    identifier_field: Title
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-        preview: false
+        preview: true
     fields:
       - { label: 'Title', name: 'Title', widget: 'string' }
       - label: "Header"
