@@ -15,8 +15,43 @@ collections:
         name: "index"
         file: "content/karriere/_index.md"
         format: "json-frontmatter"
+        slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+        editor:
+            preview: true
         fields:
           - {label: Title, name: Title, widget: string}
+          - { label: 'Translation key', name: 'translationKey', widget: 'string' }
+          - { name: 'type', default: "karriere", widget: "hidden" }
+          - { label: 'Layout', name: 'layout', widget: 'string' }
+          - label: "Views"
+              name: "views"
+              widget: "object"
+              fields:
+                - { label: 'Titel', name: 'Titel', widget: 'string' }
+                - { label: 'TitelSub', name: 'TitelSub', widget: 'string' }
+                - { label: 'TitelSubText', name: 'TitelSubText', widget: 'string' }
+                - { label: 'IMG1', name: 'IMG1', widget: 'string' }
+                - { label: 'IMG2', name: 'IMG2', widget: 'string' }
+                - { label: 'IMG3', name: 'IMG3', widget: 'string' }
+                - { label: 'IMG4', name: 'IMG4', widget: 'string' }
+          - label: "ToJobs"
+              name: "tojobs"
+              widget: "object"
+              fields:
+                - { label: 'Titel', name: 'Titel', widget: 'string' }
+                - { label: 'TitelSub', name: 'TitelSub', widget: 'string' }
+                - { label: 'IMG1', name: 'IMG1', widget: 'string' }
+                - { label: 'IMG2', name: 'IMG2', widget: 'string' }
+                - { label: 'IMG3', name: 'IMG3', widget: 'string' }
+                - { label: 'IMG4', name: 'IMG4', widget: 'string' }
+                - { label: 'HoverText', name: 'HoverText', widget: 'string' }
+                - { label: 'HoverTextCandidate', name: 'HoverTextCandidate', widget: 'string' }
+                - { label: 'Button1', name: 'Button1', widget: 'string' }
+                - { label: 'Button2', name: 'Button2', widget: 'string' }
+                - { label: 'Button3', name: 'Button3', widget: 'string' }
+                - { label: 'Button4', name: 'Button4', widget: 'string' }
+                - { label: 'FooterText', name: 'FooterText', widget: 'string', required: 'false' }
+                - { label: 'FooterTextLink', name: 'FooterTextLink', widget: 'string', required: 'false' }
   - name: 'karriere'
     label: 'Karriere'
     folder: content/karriere
@@ -31,13 +66,13 @@ collections:
       - { label: 'Title', name: 'Title', widget: 'string' }
       - { label: 'Translation key', name: 'translationKey', widget: 'string' }
       - { name: 'type', default: "karriere", widget: "hidden" }
+      - { label: 'Layout', name: 'layout', widget: 'string' }
       - label: "Header"
         name: "header"
         widget: "object"
         fields:
           - { label: 'Titel', name: 'Titel', widget: 'string' }
           - { label: 'Button', name: 'Button', widget: 'string' }
-      - { label: 'Layout', name: 'layout', widget: 'string' }
       - label: "Button"
         name: "Button"
         widget: "object"
@@ -52,3 +87,11 @@ collections:
         fields:
           - { label: "All", name: "All", widget: 'string', default: "Alle" }
           - { label: "Items", name: "Items", widget: 'list' }
+      - label: "Content"
+        name: "content"
+        widget: "object"
+        fields:
+          - { label: 'TextLine1', name: 'TextLine1', widget: 'string', required: 'false' }
+          - { label: 'TextLine2', name: 'TextLine2', widget: 'string', required: 'false' }
+          - { label: 'TextLine3', name: 'TextLine3', widget: 'string', required: 'false' }
+          - { label: 'TextLine4', name: 'TextLine4', widget: 'string', required: 'false' }
