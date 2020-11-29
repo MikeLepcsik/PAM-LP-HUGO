@@ -15,7 +15,8 @@
     "All": "Alle",
     "Items": [
       "München",
-      "Hannover"
+      "Hannover /",
+      "Münster"
     ]
   },
   "Title": "Unser Angebot für Berufserfahrene",
