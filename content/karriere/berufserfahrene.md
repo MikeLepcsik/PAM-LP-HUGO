@@ -14,12 +14,14 @@
   "Filtermenu": {
     "All": "Alle",
     "Items": [
-      "München",
+      "München /",
       "Hannover /",
-      "Münster"
+      "Münster /",
+      "Karlsruhe /",
+      "Nürnberg /",
+      "Hamburg /"
     ]
   },
   "Title": "Unser Angebot für Berufserfahrene",
   "description": "Description"
 }
-aaa
