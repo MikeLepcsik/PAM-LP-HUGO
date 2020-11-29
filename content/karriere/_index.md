@@ -3,7 +3,6 @@
 	"translationKey": "karriere/jobs",
     "type": "karriere",
     "Title": "Karriere bei CIB",
-
     "Views": {
 		"Titel": "Finde deinen Traumjob und starte deine Karriere bei CIB! ",
         "TitelSub": "Entdecke deine Leidenschaft und sei bei der Entwicklung zukunftsorientierter Lösungen dabei.",
@@ -13,7 +12,6 @@
         "IMG3": "Sei du selbst",
         "IMG4": "Wachse mit uns weiter"
 	},
-
     "ToJobs": {
 		"Titel": "Willkommen in unserer Jobbörse",
         "TitelSub": "Wähle hier dein Einstieg aus und finde alle unsere aktuellen Jobanzeigen!",
@@ -30,7 +28,6 @@
         "FooterText": "",
         "FooterTextLink": ""
 	},
-
     "Process": {
         "Title": "Dein Weg zu CIB",
         "Header": "Interviewprozess in drei einfachen Schritten",
@@ -43,7 +40,6 @@
         "FooterText": "Hast du weitere Fragen? Einfach anrufen: ",
         "FooterTextLink": " <a class=\"text-danger; link-text22\" href=\"tel: +49 89 14360-101\" target=\"_blank\">+49 89 14360-101</a>"
 	},
-
     "Grid": {
         "Title": "Das sind wir:",
         "IMGTitle1": "Innovativ",
@@ -60,7 +56,6 @@
         "Text6": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
         "FooterTextLink": "Erfahre, was unsere Mitarbeiter im <a class=\"text-danger; link-text22\" href=\"https://blog.cib.de/category/cib-people/\" target=\"_blank\">CIB Blog</a> berichten"
 	},
-
     "Benefits": {
 		"Titel": "Karriere bei CIB",
 		"IMG1": "Flexible Arbeitszeiten mit Kernzeit und HomeOffice",
@@ -73,7 +68,6 @@
         "IMG8": "Kinderbetreuung",
         "IMG9": "Gruppenunfallversicherung"
 	},
-
     "Counter": {
 		"Titel": "CIB in Zahlen",
 		"Counter1": "Mitarbeiter",
@@ -81,7 +75,6 @@
         "Counter3": "Kickerspiele",
         "Counter4": "Jahre Erfahrung"
 	},
-
     "Slider": {
 		"Titel": "Aktuelle Kampagnen",
 		"Header2": "2. Chance CIB! Unser Programm für Querdenker und Studienabbrecher!",
@@ -89,5 +82,4 @@
         "Header1": "CIB impulsa",
 		"Text1": "Wir verhelfen mit gesponserten Projekten Jugendliche dabei, ihre innovative Ideen umzusetzen!"
 	}
-    
 }
