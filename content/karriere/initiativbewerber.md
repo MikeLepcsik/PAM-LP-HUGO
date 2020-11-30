@@ -1,21 +1,18 @@
 {
-"layout": "berufserfahrene",
+"layout": "initiativbewerber",
   "header": {
     "Titel": "Quereinsteiger und Initiativbewerber",
     "Button": "zur Jobbörse"
   },
-  "translationKey": "berufserfahrene",
+  "translationKey": "initiativbewerber",
   "date": "2020-11-30T00:28:41.771Z",
   "NoShowButton": "<span style=\"display: content;\">",
   "Button": {
     "Senden": "Senden",
     "Anfragen": "Anfragen"
   },
-  "Filtermenu": {
-    "All": "XXX"
-  },
   "Title": "Quereinsteiger und Initiativbewerber",
-  "content": {
+  "Content": {
     "TextLine1": "Bei unseren aktuellen Stellenangeboten ist gerade nichts Passendes für dich dabei?",
     "TextLine2": "Macht nichts - dann bewirb dich doch einfach initiativ bei uns!",
     "TextLine3": "Wenn du Teil unseres Teams werden möchtest und in den aktuellen Stellenangeboten nichts Passendes gefunden hast, schicke uns einfach eine Initiativbewerbung und beschreibe möglichst genau, was du suchst und welche Stelle dein Traum ist.",

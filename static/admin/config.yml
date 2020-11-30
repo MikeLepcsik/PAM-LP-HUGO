@@ -17,39 +17,103 @@ collections:
         file: "content/karriere/_index.md"
         format: "json-frontmatter"
         fields:
-          - {label: Title, name: Title, widget: string}
-          - { label: 'Translation key', name: 'translationKey', widget: 'string' }
+          - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+          - { label: 'Translation key', name: 'translationKey', widget: 'string', required: false  }
           - { name: 'type', default: "karriere", widget: "hidden" }
-          - { label: 'Layout', name: 'layout', widget: 'string' }
+          - { label: 'Layout', name: 'layout', widget: 'string', required: false  }
           - label: "Views"
             name: "views"
             widget: "object"
             fields:
-              - { label: 'Titel', name: 'Titel', widget: 'string' }
-              - { label: 'TitelSub', name: 'TitelSub', widget: 'string' }
-              - { label: 'TitelSubText', name: 'TitelSubText', widget: 'string' }
-              - { label: 'IMG1', name: 'IMG1', widget: 'string' }
-              - { label: 'IMG2', name: 'IMG2', widget: 'string' }
-              - { label: 'IMG3', name: 'IMG3', widget: 'string' }
-              - { label: 'IMG4', name: 'IMG4', widget: 'string' }
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'TitelSub', name: 'TitelSub', widget: 'string', required: false  }
+              - { label: 'TitelSubText', name: 'TitelSubText', widget: 'string', required: false  }
+              - { label: 'IMG1', name: 'IMG1', widget: 'string', required: false  }
+              - { label: 'IMG2', name: 'IMG2', widget: 'string', required: false  }
+              - { label: 'IMG3', name: 'IMG3', widget: 'string', required: false  }
+              - { label: 'IMG4', name: 'IMG4', widget: 'string', required: false  }
           - label: "ToJobs"
             name: "tojobs"
             widget: "object"
             fields:
-              - { label: 'Titel', name: 'Titel', widget: 'string' }
-              - { label: 'TitelSub', name: 'TitelSub', widget: 'string' }
-              - { label: 'IMG1', name: 'IMG1', widget: 'string' }
-              - { label: 'IMG2', name: 'IMG2', widget: 'string' }
-              - { label: 'IMG3', name: 'IMG3', widget: 'string' }
-              - { label: 'IMG4', name: 'IMG4', widget: 'string' }
-              - { label: 'HoverText', name: 'HoverText', widget: 'string' }
-              - { label: 'HoverTextCandidate', name: 'HoverTextCandidate', widget: 'string' }
-              - { label: 'Button1', name: 'Button1', widget: 'string' }
-              - { label: 'Button2', name: 'Button2', widget: 'string' }
-              - { label: 'Button3', name: 'Button3', widget: 'string' }
-              - { label: 'Button4', name: 'Button4', widget: 'string' }
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'TitelSub', name: 'TitelSub', widget: 'string', required: false  }
+              - { label: 'IMG1', name: 'IMG1', widget: 'string', required: false  }
+              - { label: 'IMG2', name: 'IMG2', widget: 'string', required: false  }
+              - { label: 'IMG3', name: 'IMG3', widget: 'string', required: false  }
+              - { label: 'IMG4', name: 'IMG4', widget: 'string', required: false  }
+              - { label: 'HoverText', name: 'HoverText', widget: 'string', required: false  }
+              - { label: 'HoverTextCandidate', name: 'HoverTextCandidate', widget: 'string', required: false  }
+              - { label: 'Button1', name: 'Button1', widget: 'string', required: false  }
+              - { label: 'Button2', name: 'Button2', widget: 'string', required: false  }
+              - { label: 'Button3', name: 'Button3', widget: 'string', required: false  }
+              - { label: 'Button4', name: 'Button4', widget: 'string', required: false  }
               - { label: 'FooterText', name: 'FooterText', widget: 'string', required: false }
               - { label: 'FooterTextLink', name: 'FooterTextLink', widget: 'string', required: false }
+          - label: "Process"
+            name: "process"
+            widget: "object"
+            fields:
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'Header', name: 'Header', widget: 'string', required: false  }
+              - { label: 'Subtitle1', name: 'Subtitle1', widget: 'string', required: false  }
+              - { label: 'Text1', name: 'Text1', widget: 'string', required: false  }
+              - { label: 'Subtitle2', name: 'Subtitle2', widget: 'string', required: false  }
+              - { label: 'Text2', name: 'Text2', widget: 'string', required: false  }
+              - { label: 'Subtitle3', name: 'Subtitle3', widget: 'string', required: false  }
+              - { label: 'Text3', name: 'Text3', widget: 'string', required: false  }
+              - { label: 'FooterText', name: 'FooterText', widget: 'string', required: false }
+              - { label: 'FooterTextLink', name: 'FooterTextLink', widget: 'string', required: false }
+          - label: "Grid"
+            name: "grid"
+            widget: "object"
+            fields:
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'IMGTitle1', name: 'IMGTitle1', widget: 'string', required: false  }
+              - { label: 'IMGTitle2', name: 'IMGTitle2', widget: 'string', required: false  }
+              - { label: 'IMGTitle3', name: 'IMGTitle3', widget: 'string', required: false  }
+              - { label: 'IMGTitle4', name: 'IMGTitle4', widget: 'string', required: false  }
+              - { label: 'IMGTitle5', name: 'IMGTitle5', widget: 'string', required: false  }
+              - { label: 'IMGTitle6', name: 'IMGTitle6', widget: 'string', required: false  }
+              - { label: 'Text1', name: 'Text1', widget: 'string', required: false  }
+              - { label: 'Text2', name: 'Text2', widget: 'string', required: false  }
+              - { label: 'Text3', name: 'Text3', widget: 'string', required: false  }
+              - { label: 'Text4', name: 'Text4', widget: 'string', required: false  }
+              - { label: 'Text5', name: 'Text5', widget: 'string', required: false  }
+              - { label: 'Text6', name: 'Text6', widget: 'string', required: false  }
+              - { label: 'FooterTextLink', name: 'FooterTextLink', widget: 'string', required: false }
+          - label: "Benefits"
+            name: "benefits"
+            widget: "object"
+            fields:
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'IMG1', name: 'IMG1', widget: 'string', required: false  }
+              - { label: 'IMG2', name: 'IMG2', widget: 'string', required: false  }
+              - { label: 'IMG3', name: 'IMG3', widget: 'string', required: false  }
+              - { label: 'IMG4', name: 'IMG4', widget: 'string', required: false  }
+              - { label: 'IMG5', name: 'IMG5', widget: 'string', required: false  }
+              - { label: 'IMG6', name: 'IMG6', widget: 'string', required: false  }
+              - { label: 'IMG7', name: 'IMG7', widget: 'string', required: false  }
+              - { label: 'IMG8', name: 'IMG8', widget: 'string', required: false  }
+              - { label: 'IMG9', name: 'IMG9', widget: 'string', required: false  }
+          - label: "Counter"
+            name: "counter"
+            widget: "object"
+            fields:
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'Counter1', name: 'Counter1', widget: 'string', required: false  }
+              - { label: 'Counter2', name: 'Counter2', widget: 'string', required: false  }
+              - { label: 'Counter3', name: 'Counter3', widget: 'string', required: false  }
+              - { label: 'Counter4', name: 'Counter4', widget: 'string', required: false  }
+          - label: "Slider"
+            name: "slider"
+            widget: "object"
+            fields:
+              - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+              - { label: 'Header2', name: 'Header2', widget: 'string', required: false  }
+              - { label: 'Text2', name: 'Text2', widget: 'string', required: false  }
+              - { label: 'Header1', name: 'Header1', widget: 'string', required: false  }
+              - { label: 'Text1', name: 'Text1', widget: 'string', required: false  }
   - name: 'karriere'
     label: 'Karriere'
     folder: content/karriere
@@ -61,29 +125,29 @@ collections:
     editor:
         preview: true
     fields:
-      - { label: 'Title', name: 'Title', widget: 'string' }
-      - { label: 'Translation key', name: 'translationKey', widget: 'string' }
+      - { label: 'Title', name: 'Title', widget: 'string', required: false  }
+      - { label: 'Translation key', name: 'translationKey', widget: 'string', required: false  }
       - { name: 'type', default: "karriere", widget: "hidden" }
-      - { label: 'Layout', name: 'layout', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'string', required: false  }
       - label: "Header"
         name: "header"
         widget: "object"
         fields:
-          - { label: 'Titel', name: 'Titel', widget: 'string' }
-          - { label: 'Button', name: 'Button', widget: 'string' }
+          - { label: 'Titel', name: 'Titel', widget: 'string', required: false  }
+          - { label: 'Button', name: 'Button', widget: 'string', required: false  }
       - label: "Button"
         name: "Button"
         widget: "object"
         fields:
-          - { label: 'Senden', name: 'Senden', widget: 'string' }
-          - { label: 'Anfragen', name: 'Anfragen', widget: 'string' }
-      - { label: 'NoShow', name: 'NoShowButton', widget: 'string' }
+          - { label: 'Senden', name: 'Senden', widget: 'string', required: false  }
+          - { label: 'Anfragen', name: 'Anfragen', widget: 'string', required: false  }
+      - { label: 'NoShow', name: 'NoShowButton', widget: 'string', required: false  }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - label: "Filter menu"
         name: "Filtermenu"
         widget: "object"
         fields:
-          - { label: "All", name: "All", widget: 'string' }
+          - { label: "All", name: "All", widget: 'string', required: false }
           - { label: "Items", name: "Items", widget: 'list' }
       - label: "Content"
         name: "content"
