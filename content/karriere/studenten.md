@@ -1,17 +1,16 @@
 {
-"date": "2020-11-30T01:31:13.612Z",
-  "Title": "Jobbörse: unser Angebot  und Absolventen",
+"layout": "studenten",
   "header": {
     "Titel": "Jobbörse: unser Angebot  und Absolventen",
     "Button": "zur Jobbörse"
   },
   "translationKey": "studenten",
-  "layout": "studenten",
+  "date": "2020-11-30T01:31:13.612Z",
+  "NoShowButton": "<span style=\"display: none;\">",
   "Button": {
     "Senden": "Senden",
     "Anfragen": "Anfragen"
   },
-  "NoShowButton": "<span style=\"display: none;\">",
   "Filtermenu": {
     "All": "Alle",
     "Items": [
@@ -20,5 +19,7 @@
       "Bachelor Master",
       "Duales Studium"
     ]
-  }
+  },
+  "Title": "Jobbörse: unser Angebot  und Absolventen",
+  "description": "Description"
 }
