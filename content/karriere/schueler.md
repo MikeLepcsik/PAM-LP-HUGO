@@ -1,12 +1,12 @@
 {
-"date": "2020-11-29T22:52:10.148Z",
+"date": "2020-11-30T01:29:09.821Z",
   "Title": "Jobbörse: für Schüler",
   "translationKey": "schueler",
+  "layout": "schueler",
   "header": {
     "Titel": "Jobbörse: Unser Angebot für Schüler",
     "Button": "zur Jobbörse"
   },
-  "layout": "schueler",
   "Button": {
     "Senden": "Senden",
     "Anfragen": "Anfragen"
