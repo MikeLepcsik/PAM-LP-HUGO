@@ -1,11 +1,11 @@
 {
-"date": "2020-11-29T22:56:02.187Z",
-  "Title": "Jobbörse: für Studenten und Absolventen",
-  "translationKey": "studenten",
+"date": "2020-11-30T01:31:13.612Z",
+  "Title": "Jobbörse: unser Angebot  und Absolventen",
   "header": {
     "Titel": "Jobbörse: unser Angebot  und Absolventen",
     "Button": "zur Jobbörse"
   },
+  "translationKey": "studenten",
   "layout": "studenten",
   "Button": {
     "Senden": "Senden",
