@@ -6,7 +6,7 @@
   },
   "translationKey": "berufserfahrene",
   "date": "2020-11-29T10:06:26.456Z",
-  "NoShowButton": "<span style=\"display: none;\">",
+  "NoShowButton": "<span style=\"display: none; \">",
   "Button": {
     "Senden": "Senden",
     "Anfragen": "Anfragen"
