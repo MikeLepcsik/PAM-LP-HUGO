@@ -9,8 +9,8 @@ backend:
 media_folder: static/images/karriere
 public_folder: /images
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Karriere Index"
+    name: "karriere_index"
     files:
       - label: "Karriere Index"
         name: "index"
