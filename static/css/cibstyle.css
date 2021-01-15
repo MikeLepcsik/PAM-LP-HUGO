@@ -109,7 +109,7 @@ body {
 }
 
 .dark-bg {
-    background-color: #586371;
+    background-color: #3d82ab;
 }
 
 a {
@@ -141,17 +141,20 @@ a:focus {
 }
 
 .mailto:hover {
-    color: #212934
+    color: #3d82ab
+
 }
 
 h1 {
-    color: #212934;
+    color: #3d82ab
+;
     font-size: 2.8rem;
     margin-bottom: 0rem;
 }
 
 h2 {
-    color: #212934;
+    color: #3d82ab
+;
     font-size: 2.4rem;
     font-weight: 400;
     letter-spacing: -.0625rem;
@@ -162,7 +165,8 @@ h2 {
 h3 {
     font-size: 22px;
     font-weight: 400 !important;
-    color: #212934;
+    color: #3d82ab
+;
     line-height: 34px;
     margin-bottom: 0rem;
 }
@@ -170,7 +174,8 @@ h3 {
 h4 {
     font-size: 28px;
     font-weight: 400 !important;
-    color: #212934;
+    color: #3d82ab
+;
     line-height: 34px;
 }
 
@@ -189,7 +194,8 @@ h5 {
 ----------------------*/
 @media (max-width:992px) {
     h2 {
-        color: #212934;
+        color: #3d82ab
+;
         font-size: 2rem;
         font-weight: 400;
         letter-spacing: -.0625rem;
@@ -200,7 +206,8 @@ h5 {
     h3 {
         font-size: 22px;
         font-weight: 400 !important;
-        color: #212934;
+        color: #3d82ab
+;
         line-height: 30px;
         margin-bottom: 0rem;
     }
@@ -208,7 +215,8 @@ h5 {
     h4 {
         font-size: 24px;
         font-weight: 400 !important;
-        color: #212934;
+        color: #3d82ab
+;
         line-height: 34px;
     }
 }
@@ -233,7 +241,7 @@ h5 {
     padding-bottom: 0;
     padding-top: 0;
     line-height: 42px;
-    border-radius: 6px
+    border-radius: 30px
 }
 
 .btn-pointer {
@@ -248,14 +256,16 @@ h5 {
 
 .btn-CTA1 {
     font-size: 14px;
-    font-weight: 600;
-    width: 150px;
+    font-weight: 500;
+    width: fit-content;
     height: 40px;
     line-height: 38px;
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
     color: #fff;
     cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -265,15 +275,22 @@ h5 {
 }
 
 .btn-CTA1:visited {
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
     color: #fff;
     cursor: pointer;
 }
 
 .btn-CTA1:active {
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
+    cursor: pointer;
+}
+
+.btn-CTA1:hover {
+    background-color: #3d82ab;
+    border-color: #3d82ab;
+    color: #fff!important;
     cursor: pointer;
 }
 
@@ -284,21 +301,14 @@ h5 {
     color: #E11E19 !important;
 }
 
-.btn-CTA1:hover {
-    background-color: #C60006;
-    border-color: #C60006;
-    color: #fff!important;
-    cursor: pointer;
-}
-
 .btn-CTA2 {
     font-size: 18px;
     width: 200px;
     height: 50px;
     line-height: 46px;
-    background-color: #E11E19;
-    border-color: #E11E19;
-    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    color: #3d82ab;
     cursor: pointer;
     margin-top: 10px !important;
 }
@@ -308,22 +318,22 @@ h5 {
 }
 
 .btn-CTA2:visited {
-    background-color: #E11E19;
-    border-color: #E11E19;
-    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    color: #3d82ab;
     cursor: pointer;
 }
 
 .btn-CTA2:active {
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #fff;
+    border-color: #fff;
     cursor: pointer;
 }
 
 .btn-CTA2:hover {
-    background-color: #C60006;
-    border-color: #C60006;
-    color: #fff!important;
+    background-color: #fff;
+    border-color: #fff;
+    color: #3d82ab!important;
     cursor: pointer;
 }
 
@@ -439,8 +449,8 @@ h5 {
     width: 200px;
     height: 50px;
     line-height: 46px;
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
     color: #fff!important;
     cursor: pointer;
 }
@@ -450,21 +460,21 @@ h5 {
 }
 
 .btn-CTA3:visited {
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
     color: #fff;
     cursor: pointer;
 }
 
 .btn-CTA3:active {
-    background-color: #E11E19;
-    border-color: #E11E19;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
     cursor: pointer;
 }
 
 .btn-CTA3:hover {
-    background-color: #C60006;
-    border-color: #C60006;
+    background-color: #3d82ab;
+    border-color: #3d82ab;
     color: #fff!important;
     cursor: pointer;
 }
@@ -601,20 +611,20 @@ h5 {
 ----------------------*/
 
 .navbar-light .navbar-nav .nav-link {
-    color: #212934;
+    color: #1b385e;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #E11E19;
+    color: #1b385e;
 }
 
 .menu a.active {
-    color: #E11E19 !important;
+    color: #1b385e !important;
 }
 
 .menu a:hover {
-    color: #E11E19;
+    color: #1b385e;
 }
 
 /*
@@ -630,12 +640,12 @@ h5 {
 }
 
 .nav-link {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .nav-link:hover {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar-toggler {
@@ -802,7 +812,8 @@ h5 {
     }
 
     h1 {
-        color: #212934;
+        color: #3d82ab
+;
         font-size: 2.4rem;
         font-weight: 400;
         letter-spacing: -0.0625rem;
@@ -813,7 +824,8 @@ h5 {
     .header-text {
         font-size: 24px;
         font-weight: 400;
-        color: #212934;
+        color: #3d82ab
+;
         line-height: 30px;
     }
 }
@@ -828,7 +840,8 @@ h5 {
     font-size: 24px;
     font-weight: 300;
     line-height: 40px;
-    color: #212934;
+    color: #3d82ab
+;
 }
 
 .header-text-top {
@@ -919,7 +932,8 @@ h5 {
     .header-text {
         font-size: 20px !important;
         font-weight: 400;
-        color: #212934;
+        color: #3d82ab
+;
         line-height: 40px;
     }
 }
@@ -949,7 +963,8 @@ header {
 .header-text {
     font-size: 24px;
     font-weight: 400;
-    color: #212934;
+    color: #3d82ab
+;
     line-height: 40px;
 }
 
@@ -962,7 +977,8 @@ header {
 }
 
 .text-link:hover {
-    color: #212934 !important;
+    color: #3d82ab
+ !important;
     cursor: pointer;
     text-decoration: none !important;
     line-height: 1.2em;
@@ -976,7 +992,8 @@ header {
     padding: .75rem 1.25rem;
     transition: all .3s ease;
     margin-bottom: 0;
-    color: #212934;
+    color: #3d82ab
+;
     background-color: #eff1f4;
     background-image: none;
     border-color: #ced6dd;
@@ -1011,7 +1028,8 @@ header {
 
 .order-text {
     font-size: 14px;
-    color: #212934
+    color: #3d82ab
+
 }
 
 .header-bg {
@@ -1039,7 +1057,8 @@ header {
     .card-text {
         font-size: 16px;
         font-weight: 400;
-        color: #212934;
+        color: #3d82ab
+;
         line-height: 1.5rem
     }
 }
@@ -1091,14 +1110,16 @@ header {
 .card-title {
     font-size: 18px;
     font-weight: 400;
-    color: #212934;
+    color: #3d82ab
+;
     line-height: 1.6rem
 }
 
 .card-text {
     font-size: 18px;
     font-weight: 400;
-    color: #212934;
+    color: #3d82ab
+;
     line-height: 1.5rem
 }
 
@@ -1725,11 +1746,13 @@ select.form-control:not([size]):not([multiple]) {
 ----------------------*/
 
 .bg-color {
-    background-color: #212934 !important
+    background-color: #3d82ab
+ !important
 }
 
 .footer {
-    background-color: #212934 !important;
+    background-color: #3d82ab
+ !important;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -1810,7 +1833,8 @@ a {
 
 .footer-text a:hover {
     text-decoration: none;
-    color: #212934;
+    color: #3d82ab
+;
 }
 
 .iconify {
@@ -1902,7 +1926,7 @@ a {
 
 .copyrigth-text {
     font-size: 14px !important;
-    color: #8e919a !important;
+    color: #fff !important;
     text-decoration: none !important;
 }
 

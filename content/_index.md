@@ -1,66 +1,53 @@
 {
 	"_comment": "Title = Search", 
-    "Title": "CIB",
+    "Title": "PAM",
 
 	"header": {
-		"Titel": "Ihr Experte für Korrespondenz Management, Dokumenten Lifecycle und Customer Communication Management",
-		"SubTitle": "",
-		"Text": "Lorem Ipsum / Call to action",
-		"Slide2Titel": "CIB kanzlei app: Die Kanzlei der Zukunft ist digital, einfach, direkt",
-		"Slide3Titel": "CIB fluXkomprimator: PDF komprimieren mit unserem fluXi und deutlich an Speicherplatz sparen!",
-		"Slide4Titel": "CIB deepER: OCR auf Basis von künstlicher Intelligenz für die perfekte Texterkennung.",
-		"Button": "zur Jobbörse"
+		"Titel": "Your Powerful Asset & WorkSpace Managemeent Tool, Bringing Your Organisation Into The #NewWork Age.",
+		"Title1": "<b>pam</b> is your free-to-use and state-of-the-art asset and workspace management solution, allowing you to manage all kinds of different Spaces, offices, Desks… simply tailored needs.",
+		"Title2": "Allow your people to choose from all the different workspace options they need, or desire and lower your costs with <b>pam</b>!",
+		"Title3": "With <b>pam</b> you can offer your employees new workspace environments and see their ideas thrive!"
 	},
 
 	"Expertise": {
-		"Title": "Wir sind Ihre Experten in allen Fragen zu Dokumenten und CCM",
-		"SubTitle": "",
-		"Title1": "Korrespondenz Management",
-		"Title2": "Document Lifecycle Management",
-		"Title3": "Prozess- & Workflowoptimierung",
-		"Title4": "Digitalisierung, Automatisierung",
-		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text4": "Lorem ipsum dolor sit amet, consetetur sadipscing"
+		"Title": "Made With <span class=\"material-icons\" style=\"vertical-align: bottom; font-size: 50px; color: red;\">favorite</span> For Your Business!"
 	},
 
 	"Solution": {
-		"Title": "CIB Lösungen",
-		"SubTitle": "Fragen Sie besser, was wir nicht können!",
-		"Title1": "Businnes Process Management heisst bei uns CIB flow",
-		"Title2": "Die Experten in Sachen Digital Invoicing: CIB eRechnung",
-		"Title3": "Die PDF-Experten: Entdecke alle CIB pdf Lösungen",
-		"Text1": "Das Korrespondenz Management Plattform für das Dokumentenlebenszyklus - effizient Prozesse automatisieren, zentral verwalten und hochwertige Dokumente im workflow erzeugen!.",
-		"Text2": "Mit CIB Lösungen eRechnungen erstellen, prüfen und bearbeiten. Seit November 2020 ist es in Deutschland Pflicht, Rechnungen ab einem Betrag von 1.000 Euro elektronisch auszustellen. Ob ZUGFeRD 1.0, 2.1 (Basic / Comfort), XRechnung, FatturaPA und Factur-X – mit CIB Lösungen meistern Sie sie alle!",
-		"Text3": "All PDF you need! Entdecke PDF-Welt neu: die professionelle PDF-Edition mit drei flex-Lösungen"
+		"Title": "How Can You Benefit From Using Pam?",
+		"Title1": "Take full control of your business",
+		"Title2": "Fewer cancellations and higher review scores",
+		"Title3": "Fill your spaces quicker",
+		"Title4": "Message guests anytime, anywhere",
+		"Text1": "Get real-time updates on new bookings, reviews, guest requests and availability",
+		"Text2": "Our data shows that guests who receive faster responses to their requests tend to cancel less and leave better reviews",
+		"Text3": "As you can easily update your room availability, you will not miss out on any last-minute bookings",
+		"Text4": "PAM provides location and image sharing, message templates and automatic replies – making it easier than ever to communicate with guests."
 	},
 
 	"Integration": {
-		"Title": "Erprobter Erfolg: Migration und Integration",
-		"SubTitle": "",
-		"Title1": "Migration",
-		"Title2": "Integration",
-		"Title3": "Vorlagenservice",
-		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-		"Text2": "Unsere systemunabhängigen Serverkomponenten und Lösungen lassen sich in der bestehenden Architektur integrieren.",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+		"Title": "Upgrade your coworking experience",
+		"Title1": "Full Overview In One Place",
+		"Title2": "Real Time Booking Management",
+		"Title3": "Book Multiple Desks At Once",
+		"Title4": "Full Asset Management",
+		"Text1": "PAM offers you a full and detailed view on your performance indicators: No matter if you want to analyze all locations at ...",
+		"Text2": "With PAM you can manage your on-going bookings, approve, or deny any new booking request, allow instant booking ...",
+		"Text3": "PAM is giving you the freedom to allow your members of your venue to also book more than one desk at a time with...",
+		"Text4": "PAM is giving you the freedom to allow your members of your venue to also book more than one desk at a time with..."
 	},
 
 	"Numbers": {
-		"Title": "Diese Zahlen sprechen für CIB",
-		"SubTitle": "",
-		"Title1": "mit CIB Lösungen erzeugte Dokumente",
-		"Title2": "Arbeitsplätze mit CIB coSys bei der LHM in München",
-		"Title3": "Jährlich mit CIB pdf brewer erzeugte Dokumente",
-		"Title4": "Produktivlizenzen im Einsatz"
+		"Title": "Our Partners",
+		"Title2": "Coworking spaces",
+		"Title3": "Happy user",
+		"Title4": "In cities"
 	},
 
 	"FE": {
-		"HeaderTitle": "Mit dem Blick in die Zukunft: CIB investiert in Forschung und Entwicklung ",
-		"SubTitle": "",
-		"TitleText": "Für Sie investieren wir über 14% des Gesamtumsatzes in Innovation und Zukunftstechnologien. Das entspricht seit 2012 ein Betrag von über 13 Mio. Euro in die Forschung von Technologien im Bereich der Digitalisierung und Automatisierung mit KI.",
-		"Text": "Lorem Ipsum dolor."
+		"HeaderTitle": "Book your guided demo with us!",
+		"TitleText": "Book your guided demo with us! Learn directly from our passionate team, how quick you can start using PAM.",
+		"Button": "Schedule A Demo"
 	},
 
 	"socialCommitment": {
@@ -81,6 +68,6 @@
 	},
 
 	"Button": {
-		"Button": "Mehr erfahren"
+		"Button": "Start Now"
 	}
 }
