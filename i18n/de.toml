@@ -6,12 +6,12 @@ other = "Spanisch"
 other = "Deutsch"
 [page]
 other = "pam by DeskNow"
-[menu_UseCases]
-other = "Use Cases"
-[menu_Features]
-other = "Features"
-[menu_HowItWorks]
-other = "How it Works"
+[menu_Coworking]
+other = "Coworking"
+[menu_Enterprise]
+other = "Enterprise"
+[menu_OurTeam]
+other = "Our Team"
 [menu_OurStory]
 other = "Our Story"
 
