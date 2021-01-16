@@ -6,144 +6,44 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>
+        PAM: Powerful Asset Management Tool for co-working space owners.
+      </title>
+      <meta name="description" content="Powerful Asset Management Tool" />
+      <meta name="keywords" content="Powerful Asset Management Tool" />
+    
+      <!-- favicon -->
+      <link rel="icon" type="image/x-icon" href="/img/pam_favion.ico" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Bootstrap 4.3.1 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- AOS 2.3.1 jQuery plugin CSS (Animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- MYPAM CSS (Styles for all blocks) -->
+    <link href="css/pam.scss" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- jQuery 3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="/img/pam_favion.ico">
-
-    <!-- Bootstrap 4 CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-
-    <!-- Main css -->
-    <link href="/css/cibstyle.css" rel="stylesheet">
-    <link href="/css/style-cookie.css" rel="stylesheet">
-    <link href="/css/new-style.css" rel="stylesheet">
-    <link href="/css/pam.scss" rel="stylesheet">
-
-    <!-- jQuery and Bootstrap -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Libs Vue.JS-->
-    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-    <script src="/js/polyfills.js"></script>
-
-    <!-- Libs Vue.JS-->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
-
-    <!-- Calculator -->
-    <script src="/js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/js/jquery.numeric.min.js"></script>
-
-    <!-- Cookie JS -->
-    <script src="/js/cookies.js"></script>
-
-    <!-- Google Analytics 
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-64370383-1', { 'storage': 'none' });
-        ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
-    </script>
-     End Google Analytics -->
-
-    <!-- Google Analytics
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16015151-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-16015151-1', {
-            'storage': 'none',
-            'anonymize_ip': true,
-            '_setAllowAnchor': true
-        });
-    </script>-->
-
-    <!-- Google Tag Manager 
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-M2T6NHJ');
-    </script>
-     End Google Tag Manager -->
-
-    <!-- Stateful services for Vue -->
-    <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
-    <script src="https://unpkg.com/vuelidate/dist/vuelidate.min.js"></script>
-    <script src="https://unpkg.com/vuelidate/dist/validators.min.js"></script>
-    <script src="https://unpkg.com/vuelidate-error-extractor/dist/vuelidate-error-extractor.js"></script>
-
-    <!-- mega menu -->
-    <style type="text/css">
-        @media all and (min-width: 992px) {
-            .navbar {
-                padding-top: 0;
-                padding-bottom: 0;
-            }
-
-            .navbar .has-megamenu {
-                position: static !important;
-            }
-
-            .navbar .megamenu {
-                left: 0;
-                right: 0;
-                width: 100%;
-                padding: 20px;
-            }
-
-            .navbar .nav-link {
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-            }
-        }
-    </style>
-
-    <script type="text/javascript">
-        /// some script
-
-        // jquery ready start
-        $(document).ready(function () {
-            // jQuery code
-
-            //////////////////////// Prevent closing from click inside dropdown
-            $(document).on('click', '.dropdown-menu', function (e) {
-                e.stopPropagation();
-            });
-            $('.dropdown-menu').addClass('open');
-
-        }); // jquery end
-    </script>
 
 </head>
 
@@ -159,7 +59,7 @@
 
             <!-- Nav -->
             {{ partial "menu.html" . }}
-            
+
             <!-- Content -->
             {{ block "base" . }}
             {{ end }}
@@ -199,7 +99,9 @@
     {{ $built := resources.Get "js/globalsearch.js" | js.Build "globalsearch.js" }}
     <script type="text/javascript" src="{{ $built.RelPermalink }}"></script>
     <script>
-        $(document).ready(function() {window.registerGlobalSearch('global-search-input', 'global-search-results')});
+        $(document).ready(function () {
+            window.registerGlobalSearch('global-search-input', 'global-search-results')
+        });
     </script>
 
     <!-- Spinner-->
@@ -251,7 +153,6 @@
 
             // document ready
         });
-
     </script>
 
     <!-- To Top Button-->
@@ -281,18 +182,20 @@
     <script src="/scripts/index.js"></script>-->
 
     <script type="text/javascript">
-
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-16015151-1']);
         _gaq.push(['_setDomainName', 'cib.de']);
         _gaq.push(['_trackPageview']);
 
         (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
         })();
-
     </script>
 
 </body>
