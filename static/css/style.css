@@ -435,7 +435,7 @@ b, strong {
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -3498,7 +3498,7 @@ a.TextLink.one:hover:after {
   width: 4px;
   height: 4px;
   border-radius: 100%;
-  background: #a583ae;
+  background: #4d6688;
 }
 @media (max-width: 575.98px) {
   .ecommerce_2 .product {
@@ -3624,11 +3624,11 @@ a.TextLink.one:hover:after {
   border-color: #3d82ab;
 }
 .ecommerce_7 .categories .active {
-  color: #a583ae;
-  border-color: #a583ae;
+  color: #4d6688;
+  border-color: #4d6688;
 }
 .ecommerce_7 .categories .active:hover {
-  border-color: #a583ae;
+  border-color: #4d6688;
 }
 .ecommerce_7 .img_link img {
   transition: all 0.25s;
@@ -3791,7 +3791,7 @@ a.TextLink.one:hover:after {
   width: 4px;
   height: 4px;
   border-radius: 100%;
-  background: #a583ae;
+  background: #4d6688;
 }
 .ecommerce_12 .product .btn {
   left: 50%;
@@ -4380,7 +4380,7 @@ a.TextLink.one:hover:after {
   width: 4px;
   height: 4px;
   border-radius: 100%;
-  background: #a583ae;
+  background: #4d6688;
 }
 @media (max-width: 991.98px) {
   .ecommerce_31 .img_link {
@@ -4507,7 +4507,7 @@ a.TextLink.one:hover:after {
   stroke: #4d6688;
 }
 .ecommerce_33 .remove_product svg path {
-  stroke: #a583ae;
+  stroke: #4d6688;
   transition: all 0.25s;
 }
 .ecommerce_33 .img_link img {
@@ -4808,7 +4808,7 @@ a.TextLink.one:hover:after {
   stroke: #4d6688;
 }
 .ecommerce_36 .remove_product svg path {
-  stroke: #a583ae;
+  stroke: #4d6688;
   transition: all 0.25s;
 }
 .ecommerce_36 .total {
@@ -4885,7 +4885,7 @@ a.TextLink.one:hover:after {
   stroke: #4d6688;
 }
 .ecommerce_38 .remove_product svg path {
-  stroke: #a583ae;
+  stroke: #4d6688;
   transition: all 0.25s;
 }
 .ecommerce_38 .total, .ecommerce_38 .subtotal, .ecommerce_38 .delivery {
