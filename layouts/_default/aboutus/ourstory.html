@@ -1,6 +1,10 @@
 {{ define "base" }}
 
-  <!-- full IMG section -->
+<!-- full IMG section -->
+<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <style>
   .content_6 {
@@ -15,14 +19,112 @@
   }
 </style>
 
-<section class="content_6 pt-200 pb-200">
+<section class="content_6 pt-300 pb-200">
   <div class="container px-xl-0 text-center color-white">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10">
-        <h2>Our Story</h2>
+
       </div>
     </div>
   </div>
 </section>
+
+<!-- Our Story -->
+
+<section class="pt-100 pb-100 bg-light content_3">
+  <div class="container px-xl-0">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <h2 class="small text-center">Our Story
+        </h2>
+        <div class="mt-30 row f-18 medium color-heading text-center text-md-left blocks">
+          <div class="mt-30 col-md-6 text-adaptive">The idea got born when I was seeking a quick and easy solution for a
+            workspace at the beginning of 2019. No matter which company I asked, they needed me to read and sign an
+            immersive amount of paperwork just to get signed up for a single work desk. It was a HORROR and entirely
+            OUTDATED!
+            <br><br>
+            Since that time, the idea was hanging around, and I spoke to a bunch of different people about it. One of
+            them was Pavel. We met in an old shady Hotel lobby in the middle of Dortmund at the End of 2019. What shall
+            I say… we, back then, just Pavel & me (Marius), discussed some past projects very briefly, exchanged crazy
+            ideas, and realized relatively quick a kind of bonding…  #BROMANCE TIME! 
+            <br><br>
+            Short later the same week, we concluded: we will develop DeskNow and become the AirBnB in the CoWorking
+            Industry. #AMAZINGENERGY BOOST!
+            <br><br>
+            It did not take us very long to realize that we definitely need more help. Through some beautiful
+            coincidence, I knew Anca and introduced her to our growing idea. Anca needed a full night to digest and
+            joined at the beginning of 2020 to complete us with her energetic approach: Pavel, our balanced technical
+            guru, Anca, our design-oriented energy lady, and me, the family gluey mentor guy. #THETEAM
+          </div>
+          <div class="mt-30 col-md-6 text-adaptive">Our concept for DeskNow was clear, the services around it grew with
+            each day, and since then, we started working with a lot of passion and some external coding help creating a
+            really colossal platform. 
+            <br><br>
+            On our journey, we realized DeskNow is more, and it can’t properly work without a SideKick … a Powerful
+            Asset Management solution… the birth of PAM. #AMAZINGENERGY BOOST AGAIN.
+            <br><br>
+            Our state-of-the-art and free-to-use POWER TOOL to manage any of your CoWorking, FlexOffice, Meeting room,
+            or Shared Office properties. It’s been a whole intensive journey until now, and we are more than excited to
+            be that short before launching. Now it’s time to help our all baby making its first steps.
+          </div>
+
+        </div>
+      </div>
+      <div class="row justify-content-left">
+        <div class="col-xl-5 col-lg-5 col-md-8 mt-5 mt-lg-0 pt-10 right_block">
+          <div class="w-full h-265 radius10 video0" data-ratio="16/9">
+            <div class="radius10 poster" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+              <img srcset="/i/header_3_video_poster@2x.jpg 2x" src="/i/header_3_video_poster.jpg" alt="" />
+              <div class="play red"><i class="fas fa-play"></i></div>
+            </div>
+            <video class="video0" controls>
+              <source src="/video/our_story.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Feature 34 -->
+<section class="pt-100 pb-120 bg-light feature_34">
+  <div class="container px-xl-0">
+    <div class="row align-items-center text-center text-sm-left">
+      <div class="col-xl-1">
+      </div>
+      <div class="col-lg-5 col-sm-6">
+        <h2 class="mb-20">Our Mission</h2>
+        <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive bold">We will make "Work Where You Want!" available
+          to everybody worldwide<br><br>
+        </div>
+        <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">There are thousands of empty spaces available
+          every day, not even counting in the additional unoccupied desks
+          since COVID-19 kicked in. Still, millions of people are tired of commuting on a day-to-day basis to there
+          workplaces. In other cases, it's even worse, where people do not even have a proper workspace because their
+          flat is too small, or their earnings don't allow them one. We want to make it available for everybody… from
+          low or no cost to a fancy high-end space. With DeskNow we are building the platform helping everybody to find
+          hers or his sweet-spot, motivating them the most.
+        </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-5">
+        <img src="/img/pamdashboard.png" srcset="i/feature_34_img@2x.png 2x" alt="" class="img" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- popup with video -->
+<div class="overlay"></div>
+
+<div class="video_popup">
+  <a class="close">
+    <img srcset="i/close_white@2x.png 2x" src="/i/close_white.png" alt="" />
+  </a>
+  <div class="d-flex align-items-center justify-content-center w-full h-full iframe_container"></div>
+</div>
 
 {{ end }}

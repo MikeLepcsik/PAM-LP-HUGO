@@ -257,7 +257,7 @@
   border-color: #ccc;
 }
 .btn.border-dark {
-  border: 2px solid #112148;
+  border: 2px solid #4d6688;
 }
 .btn.border-dark:hover {
   border-color: #24479b;
@@ -344,7 +344,7 @@
   border: 2px solid #fff;
 }
 .input.border-dark {
-  border: 2px solid #112148;
+  border: 2px solid #4d6688;
 }
 .input.border-action-1 {
   border: 2px solid #3d82ab;
@@ -371,7 +371,7 @@
   border-color: #fff;
 }
 .input.focus-dark:focus {
-  border-color: #112148;
+  border-color: #4d6688;
 }
 .input.focus-action-1:focus {
   border-color: #3d82ab;
@@ -526,7 +526,7 @@ input[type=checkbox].border-light + label:before, input[type=radio].border-light
   border: 2px solid #fff;
 }
 input[type=checkbox].border-dark + label:before, input[type=radio].border-dark + label:before {
-  border: 2px solid #112148;
+  border: 2px solid #4d6688;
 }
 input[type=checkbox].border-action-1 + label:before, input[type=radio].border-action-1 + label:before {
   border: 2px solid #3d82ab;
@@ -556,7 +556,7 @@ input[type=checkbox].bg-light + label:before, input[type=radio].bg-light + label
   background-color: #fff;
 }
 input[type=checkbox].bg-dark + label:before, input[type=radio].bg-dark + label:before {
-  background-color: #112148;
+  background-color: #4d6688;
 }
 input[type=checkbox].bg-action-1 + label:before, input[type=radio].bg-action-1 + label:before {
   background-color: #3d82ab;
@@ -590,14 +590,14 @@ input[type=checkbox].focus-light:checked + label:before, input[type=radio].focus
   background-color: #fff;
 }
 input[type=checkbox].focus-dark:checked + label:before, input[type=radio].focus-dark:checked + label:before {
-  border-color: #112148;
-  background-color: #112148;
+  border-color: #4d6688;
+  background-color: #4d6688;
   color: #fff;
 }
 input[type=checkbox].focus-action-1:checked + label:before, input[type=radio].focus-action-1:checked + label:before {
   border-color: #3d82ab;
   background-color: #3d82ab;
-  color: #4d6688;
+  color: #fff;
 }
 input[type=checkbox].focus-action-2:checked + label:before, input[type=radio].focus-action-2:checked + label:before {
   border-color: #50baf2;
@@ -9569,7 +9569,7 @@ input[type=radio] + label:before {
   background-color: #fff !important;
 }
 .bg-dark {
-  background-color: #112148 !important;
+  background-color: #4d6688 !important;
 }
 .bg-main {
   background-color: #4d6688;
