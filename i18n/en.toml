@@ -11,11 +11,11 @@ other = "Coworking"
 [menu_Enterprise]
 other = "Enterprise"
 [menu_OurTeam]
-other = "Nuestro Team"
+other = "Our Team"
 [menu_OurStory]
 other = "Our Story"
 
 [button_Login]
 other = "Login"  
-[button_Register]
-other = "Register" 
+[button_SignUp]
+other = "Sign Up" 

@@ -1,9 +1,9 @@
 {
 	"_comment": "Title = Search", 
-    "Title": "PAM",
+    "Title": "myPAM",
 
 	"header": {
-		"Titel": "Your Powerful Asset & WorkSpace Managemeent Tool, Bringing Your Organisation Into The #NewWork Age.",
+		"Title": "The software to manage your workspaces",
 		"Title1": "<b>pam</b> is your free-to-use and state-of-the-art asset and workspace management solution, allowing you to manage all kinds of different Spaces, offices, Desks… simply tailored needs.",
 		"Title2": "Allow your people to choose from all the different workspace options they need, or desire and lower your costs with <b>pam</b>!",
 		"Title3": "With <b>pam</b> you can offer your employees new workspace environments and see their ideas thrive!"

@@ -1,13 +1,17 @@
-baseURL = "https://template.cib.de/"
-languageCode = "de"
-title = "CIB Group: Ideen mit System"
-DefaultContentLanguage = "de"
+baseURL = "https://mypam.com/"
+languageCode = "en"
+title = "The software to manage your workspaces"
+DefaultContentLanguage = "en"
 [languages]
+    [languages.en]
+        LanguageName = "English"
+        title = "The software to manage your workspaces"
     [languages.de]
         LanguageName = "Deutsch"
+        title = "Die Software zur Verwaltung Ihrer Arbeitsbereiche"
     [languages.es]
         LanguageName = "Español"
-        title = "CIB Group: Ideas con sistemáticas"
+        title = "El software para administrar sus espacios de trabajo"
 [outputFormats]
     [outputFormats.SearchIndex]
         baseName = "search"

@@ -556,7 +556,7 @@ input[type=checkbox].bg-light + label:before, input[type=radio].bg-light + label
   background-color: #fff;
 }
 input[type=checkbox].bg-dark + label:before, input[type=radio].bg-dark + label:before {
-  background-color: #4d6688;
+  background-color: #3d82ab;
 }
 input[type=checkbox].bg-action-1 + label:before, input[type=radio].bg-action-1 + label:before {
   background-color: #3d82ab;
@@ -9569,7 +9569,7 @@ input[type=radio] + label:before {
   background-color: #fff !important;
 }
 .bg-dark {
-  background-color: #4d6688 !important;
+  background-color: #3d82ab !important;
 }
 .bg-main {
   background-color: #4d6688;
