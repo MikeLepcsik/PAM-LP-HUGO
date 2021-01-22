@@ -501,7 +501,7 @@ $(document).ready(function () {
 
     //set defaults
     $("#plan-holder").text('Employees:');
-    $("#device-holder").text('0-101');
+    $("#device-holder").text('0');
     $("#setup-fee").text('+ Setup fee:');
     $(".info-price").html('€ 0 / month');
     $(".annual-price").html('€ 0');
@@ -516,7 +516,7 @@ $(document).ready(function () {
             //set personal
             if (slider_value > 0 && slider_value < 6) {
                 $("#plan-holder").text('Employees:');
-                $("#device-holder").text('0-101');
+                $("#device-holder").text('0');
                 $("#setup-fee").text('+ Setup fee:');
                 $(".info-price").html('€ 0 / month');
                 $(".annual-price").html('€ 0');
@@ -533,18 +533,19 @@ $(document).ready(function () {
                 $("#green-highlight").css("width", "" + (slider_value + 40.5) + "%");
 
                 if (slider_value > 5) {
-                    $(".info-price").html('€ 232.30 / month');
+                    $(".info-price").html('€ 1 / month / Employees');
                     $(".annual-price").html('€ 1500');
                     $("#setup-fee").text('+ Setup fee:');
-                    $("#device-holder").text('101 to 201');
+                    $("#device-holder").text('1-100');
                 }
-                if (slider_value > 11) {
-                    $(".info-price").html('€ 464.60 / month');
+                if (slider_value > 31) {
+                    $(".info-price").html('€ 1 / month / Employees');
                     $(".annual-price").html('€ 1500');
                     $("#setup-fee").text('+ Setup fee:');
-                    $("#device-holder").text('201 to 301');
+                    $("#device-holder").text('1-100');
                 }
-                if (slider_value > 18) {
+
+                /* if (slider_value > 18) {
                     $(".info-price").html('€ 696.90 / month');
                     $(".annual-price").html('€ 1500');
                     $("#setup-fee").text('+ Setup fee:');
@@ -590,7 +591,7 @@ $(document).ready(function () {
                     $(".annual-price").html('€ 1500');
                     $("#setup-fee").text('+ Setup fee:');
                     $("#device-holder").text('901 to 1001');
-                }
+                } */
 
             }
 
@@ -602,11 +603,11 @@ $(document).ready(function () {
                 $("#orange-highlight").show();
                 $("#blue-highlight").hide();
 
-                if (slider_value > 38) {
-                    $(".info-price").html('€ 2555.30 / month');
+                if (slider_value > 32) {
+                    $(".info-price").html('€ 0,90 / month / Employees');
                     $(".annual-price").html('€ 2500');
                     $("#setup-fee").text('+ Setup fee:');
-                    $("#device-holder").text('1001 to 2001');
+                    $("#device-holder").text('101 to 500');
                 }
 
                 if (slider_value < 40) {
@@ -617,10 +618,10 @@ $(document).ready(function () {
                 }
 
                 if (slider_value > 44) {
-                    $(".info-price").html('€ 6969.00 / month');
+                    $(".info-price").html('€ 0,90 / month / Employees');
                     $(".annual-price").html('€ 2500');
                     $("#setup-fee").text('+ Setup fee:');
-                    $("#device-holder").text('2001 to 3001');
+                    $("#device-holder").text('101 to 500');
 
                     $("#orange-highlight").css("width", "" + (slider_value / 2.5) + "%");
                 }
@@ -630,10 +631,10 @@ $(document).ready(function () {
                 }
 
                 if (slider_value > 57) {
-                    $(".info-price").html('€ 11615.00 / month');
-                    $(".annual-price").html('€ 4500');
+                    $(".info-price").html('€ 0,78 / month / Employees');
+                    $(".annual-price").html('€ 2500');
                     $("#setup-fee").text('+ Setup fee:');
-                    $("#device-holder").text('3001 to 5001');
+                    $("#device-holder").text('501 to 2500');
                 }
 
                 if (slider_value > 68) {
@@ -641,10 +642,10 @@ $(document).ready(function () {
                 }
 
                 if (slider_value > 70) {
-                    $(".info-price").html('€ 22997.70 / month');
+                    $(".info-price").html('€ 0,60 / month / Employees');
                     $(".annual-price").html('€ 4500');
                     $("#setup-fee").text('+ Setup fee:');
-                    $("#device-holder").text('5001 to 10001');
+                    $("#device-holder").text('2501 - 10.000');
                 }
             }
 
@@ -669,6 +670,7 @@ $(document).ready(function () {
                 }
 
                 $(".info-price").html('Contact us');
+                $(".info-price2").html('<a href="https://pam.desk-now.com/account/signup" class="text-center mt-10 w-200 btn action-2">Sign Up for free</a>');
                 $(".annual-price").html('');
                 $("#setup-fee").text('');
                 $("#device-holder").text('Unlimited Employees');
