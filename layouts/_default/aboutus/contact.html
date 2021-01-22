@@ -1,0 +1,150 @@
+{{ define "base" }}
+
+<!-- full IMG section -->
+<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<style>
+  .content_6 {
+    background-image: url(/images/our_story_banner.png);
+  }
+
+  @media(-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi) {
+    .content_6 {
+      background-image: url(/images/our_story_banner.png);
+    }
+  }
+</style>
+
+<section class="content_6 pt-300 pb-200">
+  <div class="container px-xl-0 text-center color-white">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact 4 -->
+<section class="pt-100 pb-100 bg-dark color-filter-dark-4 contact_4">
+  <style>
+    .contact_4 {
+      background-image: url(i/contact_4_bg@2x.jpg);
+    }
+
+    @media(-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 120dpi) {
+      .contact_4 {
+        background-image: url(i/contact_4_bg@2x.jpg);
+      }
+    }
+  </style>
+  <div class="container px-xl-0">
+    <div class="row justify-content-center justify-content-lg-between align-items-center">
+      <div class="col-xl-1">
+      </div>
+      <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 color-white">
+        <h2 class="mb-25 small">Let&apos;s Keep in Touch</h2>
+        <div class="pb-10 f-22 text-adaptive">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+          justo duo dolores et ea rebum.
+        </div>
+        <div>
+          <a href="tel:+15555055050" class="mt-45 link color-white d-flex align-items-baseline">
+            <i class="fas fa-phone fa-flip-horizontal w-30 flex-shrink-0 f-14 text-right"></i>
+            <div class="text-adaptive">+49 (0) 2864 - 33032311</div>
+          </a>
+          <a href="mailto:info@designmodo.com" class="mt-45 link color-white d-flex align-items-baseline">
+            <i class="fas fa-envelope w-30 flex-shrink-0"></i>
+            <div class="text-adaptive">info@mypam.com</div>
+          </a>
+          <div class="mt-45 d-flex align-items-baseline">
+            <i class="far fa-building w-30 flex-shrink-0"></i>
+            <div class="text-adaptive">DeskNow GmbH<br> Carl-Benz-Straße 27<br> 48734 Reken
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-5 col-lg-6 col-md-8 mt-50 mt-lg-0">
+        <form action="form-handler.php" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Name</div>
+              <input type="text" name="name" placeholder="First name" required="required"
+                class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
+            </div>
+          </div>
+          <div class="mb-10 f-14 semibold text-uppercase sp-20">Your email</div>
+          <input type="email" name="email" placeholder="name@mail.com" required="required"
+            class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
+          <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Message</div>
+          <textarea name="message" placeholder="Message" required="required"
+            class="input mb-30 w-full radius10 border-gray focus-action-1 color-heading placeholder-heading"></textarea>
+
+          <div class="row justify-content-between align-items-center">
+            <div class="col-sm-12">
+              <input type="checkbox" name="subscribe" id="contact_4_checkbox" checked=""
+                class="input d-none border-gray focus-action-1" />
+              <label class="color-heading" for="contact_4_checkbox">By registering you agree to our Terms And Conditions
+                And you have read our Privacy Policy</label>
+            </div>
+            <div class="col-xl-5 col-sm-12 mt-30">
+              <button class="btn mt-40 mt-sm-0 action-1 w-full">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-xl-1">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- forms alerts -->
+<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+      aria-hidden="true">&times;</span></button>
+  Thanks for your message!
+</div>
+<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+      aria-hidden="true">&times;</span></button>
+  Please, fill in required fields.
+</div>
+<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+      aria-hidden="true">&times;</span></button>
+  <div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how
+    to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank"
+      class="link color-transparent-white">here</a>.</div>
+</div>
+
+<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
+<!--
+<div class="bg-dark op-8 grecaptcha-overlay"></div>
+<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
+  <div class="w-full h-full d-flex justify-content-center align-items-center">
+    <div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
+  </div>
+</div>
+<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+-->
+
+<!-- Bootstrap 4.3.1 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+<script src="/js/jquery.maskedinput.min.js"></script>
+<!-- MYPAM JS (Custom js for all blocks) -->
+<script src="/js/script.js"></script>
+
+{{ end }}
