@@ -60,6 +60,7 @@ $(document).ready(function(){
 		
 	$("form").submit(function(event){
 		event.preventDefault();
+		event.stopImmediatePropagation();
 	 
 		var form = $(this),
 			term = form.serialize(),
@@ -77,6 +78,7 @@ $(document).ready(function(){
 			posting
 			.done(function(data){
 				if(data=="ok"){
+					form.trigger("reset");
 					$(".alert-form-success").fadeIn(200).delay(5000).fadeOut(200);
 				}else{
 					$(".alert-form-error").fadeIn(200).delay(5000).fadeOut(200);

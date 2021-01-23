@@ -1,4 +1,4 @@
-baseURL = "https://mypam.com/"
+baseURL = "http://test.mypam.com/"
 languageCode = "en"
 title = "The software to manage your workspaces"
 DefaultContentLanguage = "en"

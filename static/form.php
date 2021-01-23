@@ -86,7 +86,7 @@ if(!$mail->send()){
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo 'Message has been sent';
+    echo 'ok';
 }
 
 // Reply email
@@ -122,7 +122,5 @@ if ($reply) {
     if(!$mail->send()){
         echo 'Reply message could not be sent.';
         echo 'Mailer Error: ' . $mail->ErrorInfo;
-    } else {
-        echo 'Reply message has been sent';
-    }
+    } 
 }
