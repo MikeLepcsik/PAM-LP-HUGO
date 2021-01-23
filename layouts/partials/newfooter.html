@@ -52,7 +52,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 mb-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                <div class="col-xl-2 col-lg-2 col-md-3 mb-20" data-aos-duration="600" data-aos="fade-down"
+                    data-aos-delay="0">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>{{T "Footer_UsefulLinks"}}</h3>
@@ -66,7 +67,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 mb-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                <div class="col-xl-2 col-lg-2 col-md-3 mb-20" data-aos-duration="600" data-aos="fade-down"
+                    data-aos-delay="0">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>Join</h3>
@@ -77,7 +79,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-5 mb-30" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                <div class="col-xl-3 col-lg-3 col-md-5 mb-30" data-aos-duration="600" data-aos="fade-down"
+                    data-aos-delay="0">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>{{T "Footer_Subscribe"}}</h3>
@@ -87,13 +90,14 @@
                         </div>
                         <div class="subscribe-form">
                             <form action="/form.php?code=subscribe&reply=reply">
-                                <input type="text" placeholder="Email Address">
+                                <input type="text" name="email" placeholder="Email Address">
                                 <button><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 mb-20" data-aos-duration="900" data-aos="fade-down" data-aos-delay="0">
+                <div class="col-xl-2 col-lg-2 col-md-3 mb-20" data-aos-duration="900" data-aos="fade-down"
+                    data-aos-delay="0">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>{{T "Footer_Download"}}</h3>
@@ -102,14 +106,16 @@
                             <!-- google play icon here -->
                             <li>
                                 <a target="_blank"
-                                href='{{"https://play.google.com/store/apps/details?id=com.desknow.host"|relLangURL}}' class="">
+                                    href='{{"https://play.google.com/store/apps/details?id=com.desknow.host"|relLangURL}}'
+                                    class="">
                                     <img src="/images/google-play-store.svg" alt="Google Play Store" />
                                 </a>
                             </li>
 
                             <!-- Apple storee icon here -->
                             <li>
-                                <a target="_blank" href='{{"https://apps.apple.com/us/app/pam-by-desknow/id1529556888"|relLangURL}}'
+                                <a target="_blank"
+                                    href='{{"https://apps.apple.com/us/app/pam-by-desknow/id1529556888"|relLangURL}}'
                                     class="">
                                     <img src="/images/apple-play-store.svg" alt="Apple Play Store" />
                                 </a>
@@ -143,6 +149,26 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- forms alerts -->
+    <div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        Thanks for your message!
+    </div>
+    <div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        Please, fill in required fields.
+    </div>
+    <div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and
+            check how
+            to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler"
+                target="_blank" class="link color-transparent-white">here</a>.</div>
     </div>
 
 </footer>
