@@ -50,7 +50,7 @@
       <div class="col-xl-12 col-lg-6 col-md-8 col-sm-10 color-white">
         <h2 class="mb-25 small text-center">Contact Us</h2>
         <div class="col-xl-12 col-lg-6 col-md-8 mt-50 mt-lg-0">
-          <form action="form-handler.php" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
+          <form action="form.php?code=contact&reply=reply" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
             <div class="row">
               <div class="col-sm-6">
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Name</div>
@@ -61,7 +61,7 @@
                   <div class="mb-10 f-14 semibold text-uppercase sp-20">Subject
                   </div>
                   <select class="input mb-35 px-15 w-full border-gray focus-action-1 color-heading placeholder-heading"
-                    placeholder="Select Subject" name="budget" required="required">
+                    placeholder="Select Subject" name="subject" required="required">
                     <option>Select Subject</option>
                     <option>I need a demo</option>
                     <option>Feature is missing</option>
@@ -73,16 +73,16 @@
                 </div>
 
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">Mobile Number</div>
-                <input type="text" name="name" placeholder="Mobile Number" required="required"
+                <input type="text" name="phone" placeholder="Mobile Number" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
               </div>
               <div class="col-sm-6">
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">Your email</div>
-                <input type="email" name="email" placeholder="name@mail.com" required="required"
+                <input type="email" name="eMail" placeholder="name@mail.com" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">Company Name</div>
-                <input type="text" name="name" placeholder="Company Name" required="required"
+                <input type="text" name="company" placeholder="Company Name" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Message</div>

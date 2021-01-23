@@ -89,8 +89,6 @@ if(!$mail->send()){
     echo 'Message has been sent';
 }
 
-
-
 // Reply email
 if ($reply) {
     $mail = new PHPMailer();
