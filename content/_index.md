@@ -4,70 +4,59 @@
 
 	"header": {
 		"Title": "The software to manage your workspaces",
-		"Title1": "<b>pam</b> is your free-to-use and state-of-the-art asset and workspace management solution, allowing you to manage all kinds of different Spaces, offices, Desks… simply tailored needs.",
-		"Title2": "Allow your people to choose from all the different workspace options they need, or desire and lower your costs with <b>pam</b>!",
-		"Title3": "With <b>pam</b> you can offer your employees new workspace environments and see their ideas thrive!"
+		"Text": "pam is the software solution to manage your workspaces, optimize office costs, create new revenue utilizing your unused space, and give clients or employees tools to book workplaces which inspire them the most.",
+		"Text2": "All in one place running on web and",
+		"CTA": "Sign Up for free"
 	},
 
-	"Expertise": {
-		"Title": "Made With <span class=\"material-icons\" style=\"vertical-align: bottom; font-size: 50px; color: red;\">favorite</span> For Your Business!"
+	"sectionBusiness": {
+		"Title": "What can pam do for your business?",
+		"Text1": "pam  offers a full and detailed view on your performance indicators, no matter if you want to analyze all locations at once, a number of selected properties, a particular desk usage, or all your profits.",
+		"Text2": "All your figures are viewable as graphs or full analytics within your full customized dashboard.",
+		"Text3": "… with pam you get all of it with just a click."
 	},
 
-	"Solution": {
-		"Title": "How Can You Benefit From Using Pam?",
-		"Title1": "Take full control of your business",
-		"Title2": "Fewer cancellations and higher review scores",
-		"Title3": "Fill your spaces quicker",
-		"Title4": "Message guests anytime, anywhere",
-		"Text1": "Get real-time updates on new bookings, reviews, guest requests and availability",
-		"Text2": "Our data shows that guests who receive faster responses to their requests tend to cancel less and leave better reviews",
-		"Text3": "As you can easily update your room availability, you will not miss out on any last-minute bookings",
-		"Text4": "PAM provides location and image sharing, message templates and automatic replies – making it easier than ever to communicate with guests."
+	"sectionFullIMG": {
+		"Title": "Take full control of your business",
+		"Text1": "Get real-time updates on new bookings, reviews, guest requests and availability."
 	},
 
-	"Integration": {
-		"Title": "Upgrade your coworking experience",
-		"Title1": "Full Overview In One Place",
-		"Title2": "Real Time Booking Management",
-		"Title3": "Book Multiple Desks At Once",
-		"Title4": "Full Asset Management",
-		"Text1": "PAM offers you a full and detailed view on your performance indicators: No matter if you want to analyze all locations at ...",
-		"Text2": "With PAM you can manage your on-going bookings, approve, or deny any new booking request, allow instant booking ...",
-		"Text3": "PAM is giving you the freedom to allow your members of your venue to also book more than one desk at a time with...",
-		"Text4": "PAM is giving you the freedom to allow your members of your venue to also book more than one desk at a time with..."
+	"sectionOurPartners": {
+		"Title": "Our Partners"
 	},
 
-	"Numbers": {
-		"Title": "Our Partners",
-		"Title2": "Coworking spaces",
-		"Title3": "Happy user",
-		"Title4": "In cities"
+	"sectionCards": {
+		"Title": "Which of these branches better explain your business?",
+		"TitleCard1": "COWORKING",
+		"InnerTitleCard1": "Coworking",
+		"InnerSubTitleCard1": "Accelerate Your Coworking Space Business",
+		"Card1Point1": "Manage Unlimited Properties and Spaces",
+		"Card1Point2": "Keep Track of Bookings and Clients",
+		"Card1Point3": "See Detailed Space and Property Performance",
+		"Card1Point4": "Reputation Management",
+		"Card1Point5": "Invoicing & Billing Payment",
+		"Card1Point6": "Publish Spaces on DeskNow for more outreach",
+
+		"TitleCard2": "SMB & ENTERPRISE",
+		"InnerTitleCard2": "SMB &amp; Enterprise",
+		"InnerSubTitleCard2": "Keep full controll of your Companies Workspaces",
+		"Card2Point1": "Manage Unlimited Buildings and Workspaces",
+		"Card2Point2": "Import Employees and let them Reserve workspaces",
+		"Card2Point3": "Get Detailed Workspace Usage Reports",
+		"Card2Point4": "Full Privacy and Workhour Tracking protection",
+		"Card2Point5": "Floorplanning and Seating Arrangement",
+		"Card2Point6": "Enable Unused Spaces for external Bookings on DeskNow"
 	},
 
-	"FE": {
-		"HeaderTitle": "Book your guided demo with us!",
-		"TitleText": "Book your guided demo with us! Learn directly from our passionate team, how quick you can start using PAM.",
-		"Button": "Schedule A Demo"
-	},
-
-	"socialCommitment": {
-		"Title": "Das sind wir auch: ökologisch, sozial, innovativ",
-		"SubTitle": "",
-		"Title1": "Ökologisch",
-		"Title2": "Sozial",
-		"Title3": "Innovativ",
-		"Text1": "Lorem ipsum dolor sit amet, consetetur sadipscing",
-		"Text2": "Lorem ipsum dolor sit amet, consetetur sadipscing",
-		"Text3": "Lorem ipsum dolor sit amet, consetetur sadipscing"
-	},
-
-	"CallToAction": {
-		"Title": "Erfahren Sie mehr über unsere Lösungen und darüber, was uns bewegt",
-		"SubTitle": "Aktuellste News aus dem CIB Blog",
-		"Blog": "Zum Blog"
-	},
-
-	"Button": {
-		"Button": "Start Now"
+	"FAQ": {
+		"Title": "All your Questions Answered by Professionals",
+		"Titlefaq1": "What’s DeskNow doing about COVID-19?",
+		"Textfaq1": "Get the latest info on our COVID-19 response and resources for guests, including policy updates, travel restrictions, flexible travel options, and more.",
+		"Titlefaq2": "So, what is host exactly?",
+		"Textfaq2": "Hosts are what make DeskNow unique. Behind every stay is a real person who can give you the details you need to check in and good at your workspace",
+		"Titlefaq3": "What info do I need to provide when I book?",
+		"Textfaq3": "Before booking on DeskNow, we ask everyone who uses DeskNow for a few pieces of information, such as your full name, email address, phone number, and payment details",
+		"Titlefaq4": "Help! What if I need to cancel?",
+		"Textfaq4": "If you must cancel because of an unexpected circumstance that’s out of your control, we may be able to give you a refund or waive the cancellation penalties."
 	}
 }

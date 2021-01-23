@@ -8,18 +8,17 @@
         <div class="col-xl-10">
           <div class="row flex-column-reverse flex-md-row align-items-stretch text-center text-md-left">
             <div class="col-lg-8 col-md-9">
-              <h1 class="mb-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">The free software to
-                manage your coworking space!</h1>
+              <h1 class="mb-20" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                {{.Params.header.Title | safeHTML }}</h1>
               <div class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                pam is your top-notch coworking / flex office software solution. Manage your bookings, enhance your
-                community, connect your tenants!</div>
+                {{.Params.header.Text1 | safeHTML }}</div>
               <p class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                All in one place running on web and <a href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888"
+                {{.Params.header.Text2 | safeHTML }} <a href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888"
                   class="TextLink one" target="_blank">app</a>.
               </p>
 
               <a href="https://pam.desk-now.com/account/login" class="mt-5 btn action-2" data-aos-duration="600"
-                data-aos="fade-down" data-aos-delay="300">Try Right Now</a>
+                data-aos="fade-down" data-aos-delay="300">{{T "button_CTA3"}}</a>
             </div>
 
             <div class="col-lg-4 col-md-3 d-flex align-items-top" data-aos-duration="600" data-aos="fade-down"
@@ -27,23 +26,23 @@
               <!-- Chat -->
               <ul>
                 <li class="msg-receive list" style="--animation-order: 1;">
-                  <p class="mb-0">Hey, I forgot to reserve the presentation room! 🙂</p>
+                  <p class="mb-0">{{.Params.chat.bubble1 | safeHTML }}</p>
                   <p class="mb-0"><img class="foto" alt="" src="/img/ana.jpg" /> Anna- Client</p>
                 </li>
 
                 <li class="msg-reply ml-30 list" style="--animation-order: 2;">
-                  <p class="mb-0">Ok, no problem. You can now make a reservation on your mobile phone.</p>
+                  <p class="mb-0">{{.Params.chat.bubble2 | safeHTML }}</p>
                   <p class="mb-0" style="text-align: end;">Philip-host <img class="foto" alt="" src="/img/phil.jpg" />
                   </p>
                 </li>
 
                 <li class="msg-receive list" style="--animation-order: 3;">
-                  <p class="mb-0">Oh yeah! I'll include 5 person too.</p>
+                  <p class="mb-0">{{.Params.chat.bubble3 | safeHTML }}</p>
                   <p class="mb-0"><img class="foto" alt="" src="/img/ana.jpg" /> Anna- Client</p>
                 </li>
 
                 <li class="msg-reply ml-30 list" style="--animation-order: 4;">
-                  <p class="mb-0">Great, You will get a notification in a moment.</p>
+                  <p class="mb-0">{{.Params.chat.bubble4 | safeHTML }}</p>
                   <p class="mb-0" style="text-align: end;">Philip-host <img class="foto" alt="" src="/img/phil.jpg" />
                   </p>
                 </li>
@@ -70,11 +69,11 @@
       <div class="col-xl-1"></div>
       <div class="col-lg-5 col-md-6 pb-60 pb-lg-0 inner2" data-aos-duration="600" data-aos="fade-down"
         data-aos-delay="0">
-        <h2 class="mt-55 mb-30 small">Book your guided demo with us!</h2>
+        <h2 class="mt-55 mb-30 small">{{.Params.sectionBusiness.Title | safeHTML }}</h2>
         <div class="f-22 color-heading text-adaptive">
-          Book your guided demo with us! Learn directly from our passionate team, how quick you can start using PAM.
+          {{.Params.sectionBusiness.Text1 | safeHTML }}
         </div>
-        <a href='{{"aboutus/contact"|relLangURL}}' class="mt-30 btn action-1">Schedule A Demo</a>
+        <a href='{{"aboutus/contact"|relLangURL}}' class="mt-30 btn action-1">{{T "button_CTA4"}}</a>
       </div>
       <div class="col-md-1"></div>
       <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-8" data-aos-duration="600" data-aos="fade-down"
@@ -92,9 +91,8 @@
     <div class="row align-items-center text-center text-sm-left">
 
       <div class="col-lg-6 col-sm-6" data-aos-duration="300" data-aos="fade-down" data-aos-delay="0">
-        <h2 class="mb-20">Everything in One Place</h2>
-        <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">Get real-time updates on new bookings, reviews,
-          guest requests and availability.
+        <h2 class="mb-20">{{.Params.sectionFeature.Title | safeHTML }}</h2>
+        <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">{{.Params.sectionFeature.Text1 | safeHTML }}
         </div>
       </div>
       <div class="col-sm-1">
@@ -106,29 +104,20 @@
     <div class="mt-95 row justify-content-center text-center blocks">
       <div class="mb-50 mb-md-0 col-md-3 col-sm-8" data-aos-duration="300" data-aos="fade-down" data-aos-delay="0">
         <img srcset="/images/overview.svg 2x" src="/images/overview.svg" alt="" />
-        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Full Overview In One Place</div>
+        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">
+          {{.Params.sectionFeature.FeatureTitle1 | safeHTML }}</div>
 
         <section class="content_18 bg-light">
           <div class="container px-xl-0">
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
                 <div class="opening_tabs">
-                  <div class="pb-25 tab_opener color-heading text-adaptive">PAM offers you a full and detailed view on
-                    your performance indicators:
-                    No matter if you want to analyze all locations at once,...<i class="fas fa-angle-right ml-10"></i>
+                  <div class="pb-25 tab_opener color-heading text-adaptive">
+                    {{.Params.sectionFeature.FeatureText1 | safeHTML }}<i class="fas fa-angle-right ml-10"></i>
                   </div>
                   <div class="color-heading tab_text">
                     <div class="pb-35">
-                      a number of selected properties, a particular desk usage, or all
-                      your profits with a defined key client: with PAM you get all of it with just a click. PAM will
-                      help you understand and analyze the exact performance of each of your defined criteria, as a
-                      whole, or by individual space within your venue, however you want them to be grouped, it’s your
-                      choice. All your figures are viewable as graphs or full analytics within your full customized
-                      dashboard. These summaries offer key insights into the utilization of your venue’s shared spaces,
-                      based on the booking behavior of your members. PAM gives you the ability to review the utilization
-                      of your meeting rooms as well as the average duration and volume of bookings per space. Your
-                      meeting room booking analytics strike the perfect balance between comprehensive and
-                      straightforward.</div>
+                      {{.Params.sectionFeature.FeatureSubText1 | safeHTML }}</div>
                   </div>
                 </div>
               </div>
@@ -138,22 +127,20 @@
       </div>
       <div class="mb-50 mb-md-0 col-md-3 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
         <img srcset="/images/real_time.svg 2x" src="/images/real_time.svg" alt="" />
-        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Real Time Booking Management</div>
+        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">
+          {{.Params.sectionFeature.FeatureTitle2 | safeHTML }}</div>
         <section class="content_18 bg-light">
           <div class="container px-xl-0">
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
                 <div class="opening_tabs">
-                  <div class="pb-25 tab_opener color-heading text-adaptive">With PAM you can manage your on-going
-                    bookings, approve, or deny any
-                    new booking request, allow instant booking ...<i class="fas fa-angle-right ml-10"></i>
+                  <div class="pb-25 tab_opener color-heading text-adaptive">
+                    {{.Params.sectionFeature.FeatureText2 | safeHTML }}
+                    <i class="fas fa-angle-right ml-10"></i>
                   </div>
                   <div class="color-heading tab_text">
                     <div class="pb-35">
-                      functionality for certain cases directly from your listings page. You can easily download your
-                      invoices, have a full history overview or even add external booking. External bookings allow
-                      non-members to book resources, like meeting rooms or technical equipment. Increase your revenue by
-                      optimizing your space resources’ and use every bit of your spaces capacity.</div>
+                      {{.Params.sectionFeature.FeatureSubText2 | safeHTML }}</div>
                   </div>
                 </div>
               </div>
@@ -164,24 +151,19 @@
       </div>
       <div class="mb-50 mb-md-0 col-md-3 col-sm-8" data-aos-duration="900" data-aos="fade-down" data-aos-delay="0">
         <img srcset="/images/book_multiple.svg 2x" src="/images/book_multiple.svg" alt="" />
-        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Book Multiple Desks At Once</div>
+        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">
+          {{.Params.sectionFeature.FeatureTitle3 | safeHTML }}</div>
         <section class="content_18 bg-light">
           <div class="container px-xl-0">
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
                 <div class="opening_tabs">
-                  <div class="pb-25 tab_opener color-heading text-adaptive">PAM is giving you the freedom to allow your
-                    members of your venue to
-                    also book more than one desk at a time with...<i class="fas fa-angle-right ml-10"></i>
+                  <div class="pb-25 tab_opener color-heading text-adaptive">
+                    {{.Params.sectionFeature.FeatureText3 | safeHTML }}<i class="fas fa-angle-right ml-10"></i>
                   </div>
                   <div class="color-heading tab_text">
                     <div class="pb-35">
-                      no need of contractual changes. This allows you special services, for your most
-                      precious clients, so that a certain member (i.e. the team admin of a key client within your
-                      coworking space) could even book a group of desks within your venue just online without any huge
-                      new contracts. You will give the full flexibility, so they’ll have the option to choose the
-                      capacity of their booking and book a group of desks at once. No contract administration for you,
-                      neither for your client, just a simple online process to guarantee client satisfaction.</div>
+                      {{.Params.sectionFeature.FeatureSubText3 | safeHTML }}</div>
                   </div>
                 </div>
               </div>
@@ -192,28 +174,26 @@
       </div>
       <div class="mb-50 mb-md-0 col-md-3 col-sm-8" data-aos-duration="1200" data-aos="fade-down" data-aos-delay="0">
         <img srcset="/images/full_asset.svg 2x" src="/images/full_asset.svg" alt="" />
-        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">Full Asset Management<br><br></div>
+        <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">
+          {{.Params.sectionFeature.FeatureTitle4 | safeHTML }}<br><br></div>
         <section class="content_18 bg-light">
           <div class="container px-xl-0">
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
                 <div class="opening_tabs">
-                  <div class="pb-25 tab_opener color-heading text-adaptive">This absolute intuitive feature lets you
-                    create, edit or even deactivate properties as you need...<i class="fas fa-angle-right ml-10"></i>
+                  <div class="pb-25 tab_opener color-heading text-adaptive">
+                    {{.Params.sectionFeature.FeatureText4 | safeHTML }}
+                    <i class="fas fa-angle-right ml-10"></i>
                   </div>
                   <div class="color-heading tab_text">
                     <div class="pb-35">
-                      You can connect spaces, predefine your calendar schedule and check your real-time occupancy.
-                      Advertising solutions user platforms by promoting your listing. If you already manage several
-                      locations, with pam you can manage everything related to reservations, clients and bookings. One
-                      admin account can be an administrator for all your spaces.</div>
+                      {{.Params.sectionFeature.FeatureSubText4 | safeHTML }}</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
       </div>
     </div>
   </div>
@@ -223,11 +203,10 @@
 
 <section class="pricing_table_8 bg_grey pt-105 pb-100 text-center">
   <div class="container px-xl-0">
-    <h2 class="mb-10 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Fees</h2>
+    <h2 class="mb-10 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+      {{.Params.sectionFees.Title | safeHTML }}</h2>
     <div class="f-22 mb-40 color-heading text-adaptive">
-      Our Transparent Service Fee structure enables you to scale your coworking business as it grows. Only pay for
-      successful bookings and transactions coming through DeskNow. There are no fixed monthly costs to use pam in order
-      to enhance your coworking business.
+      {{.Params.sectionFees.SubTitle | safeHTML }}
     </div>
     <div class="table-responsive-shadow">
       <div class="overflow">
@@ -244,31 +223,31 @@
               data-aos-delay="300">
               <div class="pt-25 pb-25 px-25 w-full block"
                 style="border-bottom: 2px solid #fff; color: #fff; background-color: #3d82ab;">
-                <div class="f-18 medium title">Classic Office</div>
+                <div class="f-18 medium title">{{.Params.sectionFees.HeaderTab1 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="600">
               <div class="pt-25 pb-25 px-25 w-full block" style="border-bottom: 2px solid #fff;">
-                <div class="f-18 medium title">Coworking Basic</div>
+                <div class="f-18 medium title">{{.Params.sectionFees.HeaderTab2 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="900">
               <div class="pt-25 pb-25 px-25 w-full block" style="border-bottom: 2px solid #fff;">
-                <div class="f-18 medium title">Coworking Advance</div>
+                <div class="f-18 medium title">{{.Params.sectionFees.HeaderTab3 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="900">
               <div class="pt-25 pb-25 px-25 w-full block" style="border-bottom: 2px solid #fff;">
-                <div class="f-18 medium title">Coworking Business</div>
+                <div class="f-18 medium title">{{.Params.sectionFees.HeaderTab1 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="900">
               <div class="pt-25 pb-25 px-25 w-full block noborder_right" style="border-bottom: 2px solid #fff;">
-                <div class="f-18 medium title">Coworking Corporate</div>
+                <div class="f-18 medium title">{{.Params.sectionFees.HeaderTab4 | safeHTML }}</div>
               </div>
             </div>
           </div>
@@ -284,7 +263,7 @@
                 <div class="d-inline-block f-36 relative price">
                   <span class="absolute f-18"></span>
                   <b>1</b>
-                  <div class="f-16 medium title">location</div>
+                  <div class="f-16 medium title">{{.Params.sectionFees.location | safeHTML }}</div>
                 </div>
               </div>
             </div>
@@ -293,7 +272,7 @@
               <div class="pt-20 pb-20 px-25 w-full block">
                 <div class="d-inline-block f-36 relative price">
                   <b>≤ 4</b>
-                  <div class="f-16 medium title">location</div>
+                  <div class="f-16 medium title">{{.Params.sectionFees.location | safeHTML }}</div>
                 </div>
               </div>
             </div>
@@ -302,7 +281,7 @@
               <div class="pt-20 pb-20 px-25 w-full block">
                 <div class="d-inline-block f-36 relative price">
                   <b>≤ 40</b>
-                  <div class="f-16 medium title">location</div>
+                  <div class="f-16 medium title">{{.Params.sectionFees.location | safeHTML }}</div>
                 </div>
               </div>
             </div>
@@ -311,7 +290,7 @@
               <div class="pt-20 pb-20 px-25 w-full block">
                 <div class="d-inline-block f-36 relative price">
                   <b>≤ 80</b>
-                  <div class="f-16 medium title">location</div>
+                  <div class="f-16 medium title">{{.Params.sectionFees.location | safeHTML }}</div>
                 </div>
               </div>
             </div>
@@ -320,7 +299,7 @@
               <div class="pt-20 pb-20 px-25 w-full block noborder_right">
                 <div class="d-inline-block f-36 relative price">
                   <b>≥ 81</b>
-                  <div class="f-16 medium title">location</div>
+                  <div class="f-16 medium title">{{.Params.sectionFees.location | safeHTML }}</div>
                 </div>
               </div>
             </div>
@@ -329,7 +308,7 @@
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="0">
               <div class="pt-20 pb-15 px-25 w-full block">
-                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Hourly / Daily</div>
+                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionFees.row1 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
@@ -367,7 +346,7 @@
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="0">
               <div class="pt-20 pb-15 px-25 w-full block">
-                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Weekly</div>
+                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionFees.row2 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
@@ -405,7 +384,7 @@
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
               data-aos-delay="0">
               <div class="pt-20 pb-15 px-25 w-full block">
-                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Monthly</div>
+                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionFees.row3 | safeHTML }}</div>
               </div>
             </div>
             <div class="col-2 d-flex align-items-stretch" data-aos-duration="600" data-aos="fade-down"
@@ -439,8 +418,7 @@
               </div>
             </div>
           </div>
-          <a href='{{"https://pam.desk-now.com/account/signup"|relLangURL}}' class="mt-30 btn action-1">Get Started for
-            Free</a>
+          <a href='{{"https://pam.desk-now.com/account/signup"|relLangURL}}' class="mt-30 btn action-1">{{T "button_CTA5"}}</a>
         </div>
       </div>
     </div>
@@ -452,7 +430,7 @@
           <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
             <div class="opening_tabs">
               <h2 class=" small sp-20 tab_opener" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-                Add-Ons<i class="fas fa-angle-right ml-10"></i></h2>
+                {{.Params.sectionAddOns.Title | safeHTML }}<i class="fas fa-angle-right ml-10"></i></h2>
               <div class="color-heading tab_text">
                 <!-- Add-Ons Table -->
 
@@ -470,17 +448,17 @@
 
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-25 pb-25 px-25 w-full block">
-                                <div class="f-18 medium title">Enhanced</div>
+                                <div class="f-18 medium title">{{.Params.sectionAddOns.HeaderTitle1 | safeHTML }}</div>
                                 <div class="mt-2 text-adaptive">
-                                  Everithing you need for a <br />growing business
+                                  {{.Params.sectionAddOns.HeaderSubTitle1 | safeHTML }}
                                 </div>
                               </div>
                             </div>
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-25 pb-25 px-25 w-full block noborder_right">
-                                <div class="f-18 medium title">Fully Loaded</div>
+                                <div class="f-18 medium title">{{.Params.sectionAddOns.HeaderTitle2 | safeHTML }}</div>
                                 <div class="mt-2 text-adaptive">
-                                  Perfect for companies, <br />agencies &amp; teams
+                                  {{.Params.sectionAddOns.HeaderSubTitle2 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -488,7 +466,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-30 pb-20 px-25 w-full d-flex align-items-center justify-content-end block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-right">Price</div>
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-right">{{.Params.sectionAddOns.row1 | safeHTML }}</div>
                               </div>
                             </div>
 
@@ -512,8 +490,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Full Asset
-                                  Management Tool</div>
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row2 | safeHTML }}</div>
                               </div>
                             </div>
 
@@ -535,8 +512,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Full CRM
-                                  Functionality</div>
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row3 | safeHTML }}</div>
                               </div>
                             </div>
 
@@ -558,9 +534,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Automated
-                                  Payment
-                                  Solution</div>
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row4 | safeHTML }}</div>
                               </div>
                             </div>
 
@@ -582,7 +556,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Check In/Out
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row5 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -605,7 +579,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">App Integration
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row6 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -628,7 +602,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Mobile Apps
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row7 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -651,7 +625,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Seasonal Pricing
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row8 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -674,7 +648,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Dynamic Pricing
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row9 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -697,7 +671,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Ads & Promotions
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row10 | safeHTML }}
                                 </div>
                               </div>
                             </div>
@@ -720,8 +694,7 @@
                           <div class="row no-gutters table_row">
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-20 pb-15 px-25 w-full block">
-                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">Internal Desk
-                                  Menagement*</div>
+                                <div class="color-heading f-14 semibold text-uppercase sp-20 text-left">{{.Params.sectionAddOns.row11 | safeHTML }}</div>
                               </div>
                             </div>
 
@@ -750,13 +723,13 @@
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-40 pb-40 px-10 w-full block">
                                 <a href='{{"https://pam.desk-now.com/account/signup"|relLangURL}}'
-                                  class="btn border-gray color-main">Get Started for Free</a>
+                                  class="btn border-gray color-main">{{T "button_CTA5"}}</a>
                               </div>
                             </div>
                             <div class="col-4 d-flex align-items-stretch">
                               <div class="pt-40 pb-40 px-10 w-full block noborder_right">
                                 <a href='{{"https://pam.desk-now.com/account/signup"|relLangURL}}'
-                                  class="btn action-1">Get Started for Free</a>
+                                  class="btn action-1">{{T "button_CTA5"}}</a>
                               </div>
                             </div>
                           </div>

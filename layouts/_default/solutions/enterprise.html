@@ -8,15 +8,11 @@
         <div class="col-xl-10">
           <div class="row flex-column-reverse flex-md-row align-items-stretch text-center text-md-left">
             <div class="col-lg-8 col-md-9">
-              <h1 class="mb-20 " data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">The software to
-                manage
-                your workspaces</h1>
+              <h1 class="mb-20 " data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">{{.Params.header.Title | safeHTML }}</h1>
               <div class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                pam is the software solution to manage your workspaces, optimize office costs, create new revenue
-                utilizing your unused space, and give clients or employees tools to book workplaces which inspire them
-                the most.</div>
+                {{.Params.header.Text | safeHTML }}</div>
               <p class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                All in one place running on web and <a
+                {{.Params.header.Text2 | safeHTML }} <a
                   href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888" class="TextLink one"
                   target="_blank">app</a>.
               </p>
@@ -24,7 +20,7 @@
             </div>
           </div>
           <a href="https://pam.desk-now.com/account/login" class="mt-5 btn action-2" data-aos-duration="600"
-            data-aos="fade-down" data-aos-delay="300">Sign Up for free</a>
+            data-aos="fade-down" data-aos-delay="300">{{T "button_CTA"}}</a>
         </div>
       </div>
       <div class="container">
@@ -47,12 +43,10 @@
 <!-- Pricing Slider -->
 <section class="pricing_table_3 pt-105 pb-100 text-center" id="down">
   <div class="container px-xl-0">
-    <h2 class="mb-65 small mb-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">pam Enterprise
-      Solutions
+    <h2 class="mb-65 small mb-0" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">{{.Params.PricingSlider.Title | safeHTML }}
     </h2>
     <div class="f-26 pb-5 color-heading text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-      Tailored workspace management Solutions
-      to optimize company ressources
+      {{.Params.PricingSlider.Text | safeHTML }}
     </div>
     <div class="range-holder" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
       <div id="pr-slider" class="dragdealer">
@@ -81,7 +75,7 @@
       </div>
       <div class="f-20 pb-5 color-heading text-adaptive" data-aos-duration="900" data-aos="fade-down"
         data-aos-delay="0">
-        Select Company Size for a custom offer
+        {{.Params.PricingSlider.Text2 | safeHTML }}
       </div>
     </div>
   </div>
