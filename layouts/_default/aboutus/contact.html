@@ -72,21 +72,29 @@
                   </select>
                 </div>
 
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.MobileNumber | safeHTML }}</div>
-                <input type="text" name="phone" placeholder="{{.Params.ContactForm.MobileNumber | safeHTML }}" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.MobileNumber | safeHTML }}
+                </div>
+                <input type="text" name="phone" placeholder="{{.Params.ContactForm.MobileNumber | safeHTML }}"
+                  required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
               </div>
               <div class="col-sm-6">
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourEmail | safeHTML }}</div>
-                <input type="email" name="eMail" placeholder="{{.Params.ContactForm.Email | safeHTML }}" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourEmail | safeHTML }}
+                </div>
+                <input type="email" name="eMail" placeholder="{{.Params.ContactForm.Email | safeHTML }}"
+                  required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.CompanyName | safeHTML }}</div>
-                <input type="text" name="company" placeholder="{{.Params.ContactForm.CompanyName | safeHTML }}" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.CompanyName | safeHTML }}
+                </div>
+                <input type="text" name="company" placeholder="{{.Params.ContactForm.CompanyName | safeHTML }}"
+                  required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourMessage | safeHTML }}</div>
-                <textarea name="message" placeholder="{{.Params.ContactForm.YourMessage | safeHTML }}" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourMessage | safeHTML }}
+                </div>
+                <textarea name="message" placeholder="{{.Params.ContactForm.YourMessage | safeHTML }}"
+                  required="required"
                   class="input mb-30 w-full radius10 border-gray focus-action-1 color-heading placeholder-heading"></textarea>
               </div>
             </div>
@@ -95,7 +103,8 @@
               <div class="col-sm-5">
                 <input type="checkbox" name="subscribe" id="contact_4_checkbox" checked=""
                   class="input d-none border-gray focus-action-1" />
-                <label class="color-heading" for="contact_4_checkbox">{{.Params.ContactForm.TermsText | safeHTML }}</label>
+                <label class="color-heading"
+                  for="contact_4_checkbox">{{.Params.ContactForm.TermsText | safeHTML }}</label>
               </div>
               <div class="col-xl-5 col-sm-12 mt-30">
                 <button class="btn mt-40 mt-sm-0 action-1 w-full">{{T "button_Send"}}</button>
@@ -113,17 +122,17 @@
 <div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
       aria-hidden="true">&times;</span></button>
-      {{.Params.FormAlerts.AlertSuccess | safeHTML }}
+  {{T "Alert_Success"}}
 </div>
 <div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
       aria-hidden="true">&times;</span></button>
-      {{.Params.FormAlerts.AlertWarning | safeHTML }}
+  {{T "Alert_Warning"}}
 </div>
 <div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
       aria-hidden="true">&times;</span></button>
-  <div class="message">{{.Params.FormAlerts.AlertDanger | safeHTML }}</div>
+  <div class="message">{{T "Alert_Danger"}}</div>
 </div>
 
 <!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->

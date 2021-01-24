@@ -66,3 +66,10 @@ other = "Refund"
 other = "Payment"
 [Footer_Imprint]
 other = "Imprint"
+
+[Alert_Success]
+other = "Thanks for your message!"
+[Alert_Warning]
+other = "Please, fill in required fields."
+[Alert_Danger]
+other = "An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending."

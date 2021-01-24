@@ -30,6 +30,7 @@ body.dev {
   background: #ccc;
   min-height: 10000px;
 }
+
 header,
 section {
   overflow: hidden;
@@ -5733,4 +5734,10 @@ li + li {
   color: #939393;
   font-size: 17px;
   width: 110px;
+}
+
+@media (max-width: 1200px) {
+  .mobilehidden {
+    display: none!important;
+  }
 }

@@ -22,11 +22,5 @@
         "CompanyName": "Company Name",
         "YourMessage": "Your Message",
         "TermsText": "By registering you agree to our Terms and Conditions and you have read our Privacy Policy"
-	},
-
-    "FormAlerts": {
-		"AlertSuccess": "Thanks for your message!",
-        "AlertWarning": "Please, fill in required fields.",
-        "AlertDanger": "An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending."
 	}
 }
