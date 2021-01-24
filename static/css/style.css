@@ -5393,6 +5393,12 @@ body {
   transition: border-left-color 0.3s ease-out;
 }
 
+@media (max-width: 992px) {
+  .member-content .details:after  {
+    display: none!important;
+  }
+}
+
 .member-content.right .details:after {
   position: absolute;
   left: auto;
