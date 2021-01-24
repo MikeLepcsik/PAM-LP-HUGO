@@ -19,6 +19,8 @@ other = "Contact Us"
 
 [button_Login]
 other = "Login"  
+[button_Send]
+other = "Send"
 [button_SignUp]
 other = "Sign Up"
 [button_CTA]

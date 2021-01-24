@@ -47,46 +47,46 @@
     <div class="row justify-content-center justify-content-lg-between align-items-center">
       <div class="col-xl-1">
       </div>
-      <div class="col-xl-12 col-lg-6 col-md-8 col-sm-10 color-white">
-        <h2 class="mb-25 small text-center">Contact Us</h2>
-        <div class="col-xl-12 col-lg-6 col-md-8 mt-50 mt-lg-0">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 color-white">
+        <h2 class="mb-25 small text-center">{{.Params.ContactForm.Title | safeHTML }}</h2>
+        <div class="col-xl-12 col-lg-12 col-md-12 mt-50 mt-lg-0">
           <form action="/form.php?code=contact&reply=reply" method="post" class="bg-light px-50 pt-55 pb-55 radius10">
             <div class="row">
               <div class="col-sm-6">
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Name</div>
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourName | safeHTML }}</div>
                 <input type="text" name="name" placeholder="Enter Your Name" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
                 <div class="col-sm-6">
-                  <div class="mb-10 f-14 semibold text-uppercase sp-20">Subject
+                  <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.Subject | safeHTML }}
                   </div>
                   <select class="input mb-35 px-15 w-full border-gray focus-action-1 color-heading placeholder-heading"
-                    placeholder="Select Subject" name="subject" required="required">
-                    <option>Select Subject</option>
-                    <option>I need a demo</option>
-                    <option>Feature is missing</option>
-                    <option>My account</option>
-                    <option>Business inquiry</option>
-                    <option>Report an issue</option>
-                    <option>Payouts</option>
+                    placeholder="{{.Params.ContactForm.SelectSubject | safeHTML }}" name="subject" required="required">
+                    <option>{{.Params.ContactForm.SelectSubject | safeHTML }}</option>
+                    <option>{{.Params.ContactForm.Subject1 | safeHTML }}</option>
+                    <option>{{.Params.ContactForm.Subject2 | safeHTML }}</option>
+                    <option>{{.Params.ContactForm.Subject3 | safeHTML }}</option>
+                    <option>{{.Params.ContactForm.Subject4 | safeHTML }}</option>
+                    <option>{{.Params.ContactForm.Subject5 | safeHTML }}</option>
+                    <option>{{.Params.ContactForm.Subject6 | safeHTML }}</option>
                   </select>
                 </div>
 
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Mobile number</div>
-                <input type="text" name="phone" placeholder="Mobile Number" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.MobileNumber | safeHTML }}</div>
+                <input type="text" name="phone" placeholder="{{.Params.ContactForm.MobileNumber | safeHTML }}" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
               </div>
               <div class="col-sm-6">
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Your email</div>
-                <input type="email" name="eMail" placeholder="name@mail.com" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourEmail | safeHTML }}</div>
+                <input type="email" name="eMail" placeholder="{{.Params.ContactForm.Email | safeHTML }}" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Company Name</div>
-                <input type="text" name="company" placeholder="Company Name" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.CompanyName | safeHTML }}</div>
+                <input type="text" name="company" placeholder="{{.Params.ContactForm.CompanyName | safeHTML }}" required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
-                <div class="mb-10 f-14 semibold text-uppercase sp-20">Your Message</div>
-                <textarea name="message" placeholder="Message" required="required"
+                <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourMessage | safeHTML }}</div>
+                <textarea name="message" placeholder="{{.Params.ContactForm.YourMessage | safeHTML }}" required="required"
                   class="input mb-30 w-full radius10 border-gray focus-action-1 color-heading placeholder-heading"></textarea>
               </div>
             </div>
@@ -95,12 +95,10 @@
               <div class="col-sm-5">
                 <input type="checkbox" name="subscribe" id="contact_4_checkbox" checked=""
                   class="input d-none border-gray focus-action-1" />
-                <label class="color-heading" for="contact_4_checkbox">By registering you agree to our Terms And
-                  Conditions
-                  And you have read our Privacy Policy</label>
+                <label class="color-heading" for="contact_4_checkbox">{{.Params.ContactForm.TermsText | safeHTML }}</label>
               </div>
               <div class="col-xl-5 col-sm-12 mt-30">
-                <button class="btn mt-40 mt-sm-0 action-1 w-full">Send</button>
+                <button class="btn mt-40 mt-sm-0 action-1 w-full">{{T "button_Send"}}</button>
               </div>
             </div>
           </form>
@@ -115,19 +113,17 @@
 <div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
       aria-hidden="true">&times;</span></button>
-  Thanks for your message!
+      {{.Params.FormAlerts.AlertSuccess | safeHTML }}
 </div>
 <div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
       aria-hidden="true">&times;</span></button>
-  Please, fill in required fields.
+      {{.Params.FormAlerts.AlertWarning | safeHTML }}
 </div>
 <div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
       aria-hidden="true">&times;</span></button>
-  <div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how
-    to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank"
-      class="link color-transparent-white">here</a>.</div>
+  <div class="message">{{.Params.FormAlerts.AlertDanger | safeHTML }}</div>
 </div>
 
 <!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
