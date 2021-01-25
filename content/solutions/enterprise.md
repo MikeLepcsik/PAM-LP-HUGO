@@ -38,17 +38,17 @@
 
 		"SlideTitle2": "Fewer cancellations and higher review scores",
 		"SlideText2": "Our data shows that guests who receive faster responses to their requests tend to cancel less and leave better reviews.",
-		"MoreFeature2": "More feature",
-		"UsefulComponents2": "Useful Components",
+		"MoreFeature2": "Full Overview",
+		"UsefulComponents2": "Asset Management",
 
 		"SlideTitle3": "Fill your spaces quicker",
 		"SlideText3": "As you can easily update your room availability, you will not miss out on any last-minute bookings.",
-		"MoreFeature3": "More feature",
-		"UsefulComponents3": "Useful Components",
+		"MoreFeature3": "Booking Management",
+		"UsefulComponents3": "Complete CRM",
 
 		"SlideTitle4": "Message guests anytime, anywhere",
 		"SlideText4": "PAM provides location and image sharing, message templates and automatic replies – making it easier than ever to communicate with guests.",
-		"MoreFeature4": "More feature",
-		"UsefulComponents4": "Useful Components"
+		"MoreFeature4": "Multiple Desks",
+		"UsefulComponents4": "Automated Invoicing"
 	}
 }

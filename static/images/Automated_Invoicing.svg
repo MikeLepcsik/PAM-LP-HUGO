@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Automated_Invoicing" transform="translate(-804 -4035)">
+        <path id="Path_252" fill="none" d="M0 0h80v80H0zm0 0h80v80H0z" transform="translate(804 4035)"/>
+        <g id="invoice_1_" transform="translate(807 4017)">
+            <g id="Group_10965" transform="translate(0 25)">
+                <g id="Group_10964">
+                    <path id="Path_12328" d="M71.461 25H2.157a2.157 2.157 0 1 0 0 4.314h5.176v59.958a2.157 2.157 0 0 0 2.994 1.988l12.823-5.4 12.823 5.4a2.157 2.157 0 0 0 1.674 0l12.822-5.4 12.822 5.4a2.157 2.157 0 0 0 2.994-1.988V29.314h5.176a2.157 2.157 0 1 0 0-4.314zm-9.49 61.023l-10.665-4.49a2.158 2.158 0 0 0-1.674 0l-12.822 5.4-12.823-5.4a2.157 2.157 0 0 0-1.674 0l-10.666 4.491v-56.71h50.324z" class="cls-2" transform="translate(0 -25)"/>
+                </g>
+            </g>
+            <g id="Group_10967" transform="translate(23.868 36.503)">
+                <g id="Group_10966">
+                    <path id="Path_12329" d="M189.725 105h-21.568a2.157 2.157 0 0 0 0 4.314h21.568a2.157 2.157 0 0 0 0-4.314z" class="cls-2" transform="translate(-166 -105)"/>
+                </g>
+            </g>
+            <g id="Group_10969" transform="translate(30.339 53.757)">
+                <g id="Group_10968">
+                    <path id="Path_12330" d="M233.287 225h-20.13a2.157 2.157 0 1 0 0 4.314h20.13a2.157 2.157 0 1 0 0-4.314z" class="cls-2" transform="translate(-211 -225)"/>
+                </g>
+            </g>
+            <g id="Group_10971" transform="translate(18.512 53.926)">
+                <g id="Group_10970">
+                    <circle id="Ellipse_84" cx="2.5" cy="2.5" r="2.5" class="cls-2" transform="translate(.487 .074)"/>
+                </g>
+            </g>
+            <g id="Group_10973" transform="translate(30.339 65.26)">
+                <g id="Group_10972">
+                    <path id="Path_12331" d="M233.287 305h-20.13a2.157 2.157 0 1 0 0 4.314h20.13a2.157 2.157 0 1 0 0-4.314z" class="cls-2" transform="translate(-211 -305)"/>
+                </g>
+            </g>
+            <g id="Group_10975" transform="translate(18.512 64.339)">
+                <g id="Group_10974">
+                    <ellipse id="Ellipse_85" cx="2.5" cy="3" class="cls-2" rx="2.5" ry="3" transform="translate(.487 -.339)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
