@@ -38,7 +38,7 @@
 		"Card1Point6": "Publish Spaces on DeskNow for more outreach",
 
 		"TitleCard2": "SMB & ENTERPRISE",
-		"InnerTitleCard2": "SMB &amp; Enterprise",
+		"InnerTitleCard2": "SMB &amp; Classic office",
 		"InnerSubTitleCard2": "Keep full controll of your Companies Workspaces",
 		"Card2Point1": "Manage Unlimited Buildings and Workspaces",
 		"Card2Point2": "Import Employees and let them Reserve workspaces",

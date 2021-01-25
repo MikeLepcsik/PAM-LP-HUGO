@@ -6,7 +6,7 @@
     "Title": "Enterpise",
 
     "header": {
-		"Title": "pam Enterprise Solutions",
+		"Title": "pam Classic office Solutions",
         "Text": "pam is the software solution to manage your workspaces, optimize office costs, create new revenue utilizing your unused space, and give clients or employees tools to book workplaces which inspire them the most.",
 		"Text2": "All in one place running on web and"
 	},

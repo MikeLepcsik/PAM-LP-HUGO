@@ -9,7 +9,7 @@ other = "pam by DeskNow"
 [menu_Coworking]
 other = "Coworking"
 [menu_Enterprise]
-other = "Enterprise"
+other = "Classic office"
 [menu_OurTeam]
 other = "Our Team"
 [menu_OurStory]
@@ -34,7 +34,7 @@ other = "Try Right Now"
 [button_CTA4]
 other = "Schedule A Demo"
 [button_CTA5]
-other = "Get Started for Free"
+other = "Get Started"
 
 [Footer_Findus]
 other = "Find us"  
