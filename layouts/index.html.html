@@ -8,19 +8,20 @@
         <div class="col-xl-10">
           <div class="row flex-column-reverse flex-md-row align-items-stretch text-center text-md-left">
             <div class="col-lg-8 col-md-9">
-              <h1 class="mb-20 " data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">{{.Params.header.Title | safeHTML }}</h1>
-              <div class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+              <h1 style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);" class="mb-20 " data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+                {{.Params.header.Title | safeHTML }}</h1>
+              <div style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);" class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
                 {{.Params.header.Text | safeHTML }}</div>
-              <p class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                {{.Params.header.Text2 | safeHTML }} <a
-                  href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888" class="TextLink one"
-                  target="_blank">app</a>.
+              <p  style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);" class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+                {{.Params.header.Text2 | safeHTML }} <a href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888"
+                  class="TextLink one" target="_blank">app</a>.
               </p>
 
+              <a href="https://pam.desk-now.com/account/login" class="mt-5 btn action-2" data-aos-duration="600"
+                data-aos="fade-down" data-aos-delay="300">{{T "button_CTA"}}</a>
             </div>
           </div>
-          <a href="https://pam.desk-now.com/account/login" class="mt-5 btn action-2" data-aos-duration="600"
-            data-aos="fade-down" data-aos-delay="300">{{T "button_CTA"}}</a>
+
         </div>
       </div>
       <div class="container">
@@ -32,7 +33,7 @@
         </div>
       </div>
     </div>
-    <video src="/video/Header.mp4" loop muted autoplay>
+    <video src="/video/headerBGligth.mp4" loop muted autoplay>
     </video>
     <div class="overlay">
     </div>
@@ -73,13 +74,13 @@
 
 <style>
   .content_6 {
-    background-image: url(/img/office.jpg);
+    background-image: url(/img/pretty-young-business.jpg);
   }
 
   @media(-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 120dpi) {
     .content_6 {
-      background-image: url(/img/office.jpg);
+      background-image: url(/img/pretty-young-business.jpg);
     }
   }
 </style>
@@ -88,10 +89,10 @@
   <div class="container px-xl-0 text-center color-white">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-10" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
-        <h2 style="text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);">{{.Params.sectionFullIMG.Title | safeHTML }}</h2>
+        <h2 style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);">{{.Params.sectionFullIMG.Title | safeHTML }}</h2>
       </div>
       <div class="mt-35 col-xl-7 col-lg-8 col-md-10 f-26 text-adaptive"
-        style="text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);" data-aos-duration="600" data-aos="fade-down"
+        style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);" data-aos-duration="600" data-aos="fade-down"
         data-aos-delay="300">
         {{.Params.sectionFullIMG.Text1 | safeHTML }}</div>
     </div>
@@ -127,7 +128,8 @@
 <section class="content_31 bg-light pt-100 pb-70 text-center">
   <div class="container px-xl-0">
     <div class="row justify-content-center">
-      <h2 class="small col-lg-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">{{.Params.sectionOurPartners.Title | safeHTML }}</h2>
+      <h2 class="small col-lg-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+        {{.Params.sectionOurPartners.Title | safeHTML }}</h2>
       <div class="col-lg-8 mt-25 mb-55 f-18 medium op-7 text-adaptive">
       </div>
     </div>
@@ -180,7 +182,8 @@
 
 <section class="feature_37 bg-light pt-100 pb-65">
   <div class="row justify-content-center text-center">
-    <h2 class="small col-lg-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">{{.Params.sectionCards.Title | safeHTML }}</h2>
+    <h2 class="small col-lg-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+      {{.Params.sectionCards.Title | safeHTML }}</h2>
     <div class="col-lg-8 mt-25 mb-55 f-18 medium op-7 text-adaptive">
     </div>
   </div>

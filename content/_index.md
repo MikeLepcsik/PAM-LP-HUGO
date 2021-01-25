@@ -26,7 +26,7 @@
 	},
 
 	"sectionCards": {
-		"Title": "Which of these branches better explain your business?",
+		"Title": "Which of these branches better explains your business?",
 		"TitleCard1": "COWORKING",
 		"InnerTitleCard1": "Coworking",
 		"InnerSubTitleCard1": "Accelerate Your Coworking Space Business",
