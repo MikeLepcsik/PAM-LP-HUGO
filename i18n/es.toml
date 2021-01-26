@@ -4,6 +4,8 @@ other = "Inglés"
 other = "Español"
 [de]
 other = "Alemán"
+[hu]
+other = "Húngaro"
 [page]
 other = "pam by DeskNow"
 [menu_Coworking]
@@ -42,6 +44,10 @@ other = "Encontrarnos"
 other = "Comuniquémonos"  
 [Footer_Mailus]
 other = "Correo electrónico" 
+[Footer_Join]
+other = "Participar" 
+[Footer_Email]
+other = "Tu correo electrónico" 
 [Footer_Followus]
 other = "Síguenos" 
 [Footer_UsefulLinks]

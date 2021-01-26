@@ -12,6 +12,9 @@ DefaultContentLanguage = "en"
     [languages.es]
         LanguageName = "Español"
         title = "El software para administrar sus espacios de trabajo"
+    [languages.hu]
+        LanguageName = "Magyar"
+        title = "A munkaterületek kezelésére szolgáló szoftver"
 [outputFormats]
     [outputFormats.SearchIndex]
         baseName = "search"

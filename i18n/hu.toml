@@ -1,0 +1,81 @@
+[en]
+other = "Angol"
+[es]
+other = "Spanyol"
+[de]
+other = "Német"
+[hu]
+other = "Magyar"
+[page]
+other = "pam by DeskNow"
+[menu_Coworking]
+other = "Coworking"
+[menu_Classicoffice]
+other = "Klasszikus iroda"
+[menu_OurTeam]
+other = "Csapatunk"
+[menu_OurStory]
+other = "A mi történetünk"
+[menu_ContactUs]
+other = "Lépjen kapcsolatba"
+
+[button_Login]
+other = "Bejelentkezés"  
+[button_Send]
+other = "Küldés"
+[button_SignUp]
+other = "Regisztráció"
+[button_CTA]
+other = "Ingyenes regisztráció"
+[button_CTA1]
+other = "Kezdjük"
+[button_CTA2]
+other = "Segítség kérése"
+[button_CTA3]
+other = "Próbálja ki most"
+[button_CTA4]
+other = "Menetrend A bemutató"
+[button_CTA5]
+other = "Kezdő lépések"
+
+[Footer_Findus]
+other = "Keressen minket"  
+[Footer_Callus]
+other = "Hívjon minket"  
+[Footer_Mailus]
+other = "Küldjön nekünk eMailt" 
+[Footer_Join]
+other = "Csatlakozzon" 
+[Footer_Email]
+other = "Email cím" 
+[Footer_Followus]
+other = "Kövess minket" 
+[Footer_UsefulLinks]
+other = "Hasznos linkek" 
+[Footer_BecomeMember]
+other = "Legyen tag" 
+[Footer_ForDeskSeekers]
+other = "A DeskSeekerek számára"
+[Footer_Subscribe]
+other = "Feliratkozás"
+[Footer_SubscribeText]
+other = "Ne hagyja ki, hogy iratkozzon fel új hírcsatornáinkra, kérjük, töltse ki az alábbi űrlapot."
+[Footer_Download]
+other = "Letöltés"
+[Footer_Terms]
+other = "Feltételek"
+[Footer_Privacy]
+other = "Adatvédelem"
+[Footer_Refund]
+other = "Visszatérítés"
+[Footer_Payment]
+other = "Fizetés"
+[Footer_Imprint]
+other = "Impresszum"
+
+[Alert_Success]
+other = "Köszönöm az üzenetét!"
+[Alert_Warning]
+other = "Kérjük, töltse ki a kötelező mezőket."
+[Alert_Danger]
+other = "Hiba történt az adatok küldése közben :( Kérjük, ellenőrizze, hogy a tárhely támogatja-e a PHP-t, és ellenőrizze, hogyan kell beállítani az űrlap adatküldését."
