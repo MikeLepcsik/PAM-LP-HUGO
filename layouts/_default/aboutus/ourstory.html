@@ -90,6 +90,135 @@
   </div>
 </section>
 
+<!-- section our team -->
+
+<div class="container pt-100 bootstrap snippets bootdey">
+  <section id="team" class="white-bg padding-top-bottom">
+    <div class="container bootstrap snippets bootdey">
+      <h1 class="section-title text-center page-title" data-aos-duration="300" data-aos="fade-down"
+      data-aos-delay="0">{{.Params.sectionTeam.Title | safeHTML }}</h1>
+      <p class="section-description text-center" data-aos-duration="300" data-aos="fade-down"
+      data-aos-delay="0">{{.Params.sectionTeam.SubTitle | safeHTML }}</p>
+
+      <div class="row member-content right" data-aos-duration="300" data-aos="fade-down"
+      data-aos-delay="0">
+
+        <div class="col-sm-9 col-sm-pull-2 order-2 order-lg-1">
+          <div class="details">
+            <p>{{.Params.sectionTeam.AncaText | safeHTML }}
+            </p>
+            <ul class="social-content">
+              <li><a target="_blank" href="https://www.linkedin.com/in/anca-barsan-8b90b582/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 col-sm-push-8 member-thumb order-1 order-lg-2">
+          <img class="img-responsive img-center img-thumbnail img-circle" src="/img/anca_copy.png" alt="">
+          <h4>Anca</h4>
+
+        </div>
+      </div>
+
+      <div class="row member-content" data-aos-duration="600" data-aos="fade-down"
+      data-aos-delay="0">
+        <div class="col-sm-3 col-sm-offset-1 member-thumb  fade-right in">
+          <img class="img-responsive img-center img-thumbnail img-circle" src="/img/Marius_copy.png" alt="">
+          <h4>Marius</h4>
+
+        </div>
+        <div class="col-sm-9">
+          <div class="details">
+            <p>{{.Params.sectionTeam.MariusText | safeHTML }}</p>
+            <ul class="social-content">
+              <li><a target="_blank" href="https://www.linkedin.com/in/mariusjarzyna/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row member-content right" data-aos-duration="900" data-aos="fade-down"
+      data-aos-delay="0">
+
+        <div class="col-sm-9 col-sm-pull-2 order-2 order-lg-1">
+          <div class="details">
+            <p>{{.Params.sectionTeam.PavelText | safeHTML }}</p>
+            <ul class="social-content">
+              <li><a target="_blank" href="https://www.linkedin.com/in/pavel-schwindt-b02589168/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3 col-sm-push-8 member-thumb order-1 order-lg-2">
+          <img class="img-responsive img-center img-thumbnail img-circle" src="/img/pavel_copy.png" alt="">
+          <h4>Pavel</h4>
+
+        </div>
+      </div>
+
+      <div class="row member-content" data-aos-duration="1200" data-aos="fade-down"
+        data-aos-delay="0"> 
+        <div class="col-sm-3 col-sm-offset-1 member-thumb">
+          <img class="img-responsive img-center img-thumbnail img-circle" src="/img/Mike_copy.png" alt="">
+          <h4>Mike</h4>
+
+        </div>
+        <div class="col-sm-9">
+          <div class="details">
+            <p>{{.Params.sectionTeam.MikeText | safeHTML }}</p>
+            <ul class="social-content">
+              <li><a target="_blank" href="https://www.linkedin.com/in/mike-lepcsik-89a65a160/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Our Values -->
+
+<div class="container pt-100 pb-200 bootstrap snippets bootdey">
+  <section id="team" class="white-bg padding-top-bottom">
+    <div class="container bootstrap snippets bootdey">
+      <h1 class="section-title text-center page-title" data-aos-duration="300" data-aos="fade-down"
+      data-aos-delay="0">{{.Params.sectionValues.Title | safeHTML }}</h1>
+
+      <div class="row member-content" data-aos-duration="600" data-aos="fade-down"
+      data-aos-delay="0">
+        <div class="col-sm-12 col-sm-pull-2">
+          <div class="details">
+            <h3 class="section-title text-center page-title">{{.Params.sectionValues.ValueTitle1 | safeHTML }}</h3>
+            <p class="bold">{{.Params.sectionValues.ValueSubTitle1 | safeHTML }}</p>
+            <p>{{.Params.sectionValues.ValueText1 | safeHTML }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row member-content" data-aos-duration="600" data-aos="fade-down"
+      data-aos-delay="0">
+        <div class="col-sm-12 col-sm-pull-2">
+          <div class="details">
+            <h3 class="section-title text-center page-title">{{.Params.sectionValues.ValueTitle2 | safeHTML }}</h3>
+            <p class="bold">{{.Params.sectionValues.ValueSubTitle2 | safeHTML }}</p>
+            <p>{{.Params.sectionValues.ValueText2 | safeHTML }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row member-content" data-aos-duration="600" data-aos="fade-down"
+      data-aos-delay="0">
+        <div class="col-sm-12 col-sm-pull-2">
+          <div class="details">
+            <h3 class="section-title text-center page-title">{{.Params.sectionValues.ValueTitle3 | safeHTML }}</h3>
+            <p class="bold">{{.Params.sectionValues.ValueSubTitle3 | safeHTML }}</p>
+            <p>{{.Params.sectionValues.ValueText3 | safeHTML }}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
 <!-- popup with video -->
 <div class="overlay"></div>
 

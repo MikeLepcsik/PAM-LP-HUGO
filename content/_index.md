@@ -11,8 +11,9 @@
 
 	"sectionBusiness": {
 		"Title": "What can pam do for your business?",
-		"Text1": "pam  offers a full and detailed view on your performance indicators, no matter if you want to analyze all locations at once, a number of selected properties, a particular desk usage, or all your profits.",
-		"Text2": "All your figures are viewable as graphs or full analytics within your full customized dashboard.",
+		"SubTitle": "When a business operates efficiently, the profits increase and waste decreases, resulting in a healthy bottom line.",
+		"Text1": " <span class=\"font-italic\">By using pam, we successfully reduced the number of unused desks, from 80% to 60% in just 2 months after implementation.</span> <br>E-on manager Anita B.",
+		"Text2": "Facilitate a safe return to the office for your clients and employees. Social distancing is key in safely bringing your employees back to your facilities. Optimize desk utilization, by offering your people access to desknow to book daily, monthly or even hourly spaces into the buildings. The result in your workforce is higher efficiency and improved culture.",
 		"Text3": "… with pam you get all of it with just a click."
 	},
 
@@ -22,30 +23,29 @@
 	},
 
 	"sectionOurPartners": {
-		"Title": "Our Partners"
+		"Title": "They trust us"
 	},
 
 	"sectionCards": {
-		"Title": "Choose the branch which fits your business!",
+		"Title": "Suitable for your business model",
 		"TitleCard1": "COWORKING",
-		"InnerTitleCard1": "Coworking",
+		"InnerTitleCard1": "//Choose the branch which fits your business!// Coworking",
 		"InnerSubTitleCard1": "Accelerate Your Coworking Space Business",
-		"Card1Point1": "Manage Unlimited Properties and Spaces",
-		"Card1Point2": "Keep Track of Bookings and Clients",
-		"Card1Point3": "See Detailed Space and Property Performance",
-		"Card1Point4": "Reputation Management",
-		"Card1Point5": "Invoicing & Billing Payment",
-		"Card1Point6": "Publish Spaces on DeskNow for more outreach",
+		"Card1Point1": "Mobile apps",
+		"Card1Point2": "Simplicity of use",
+		"Card1Point3": "Automated payments",
+		"Card1Point4": "Manage all your spaces",
+		"Card1Point5": "Keep track of bookings",
+		"Card1Point6": "Detailed space and property performance",
 
 		"TitleCard2": "CLASSIC OFFICE",
 		"InnerTitleCard2": "Classic Office",
 		"InnerSubTitleCard2": "Keep full controll of your Companies Workspaces",
-		"Card2Point1": "Manage Unlimited Buildings and Workspaces",
-		"Card2Point2": "Import Employees and let them Reserve workspaces",
+		"Card2Point1": "Import employee database and cut down office costs by optimizing the desk usage",
+		"Card2Point2": "Floor planning and seating arrangement",
 		"Card2Point3": "Get Detailed Workspace Usage Reports",
-		"Card2Point4": "Full Privacy and Workhour Tracking protection",
-		"Card2Point5": "Floorplanning and Seating Arrangement",
-		"Card2Point6": "Enable Unused Spaces for external Bookings on DeskNow"
+		"Card2Point4": "Rent spaces for external booking using desknow",
+		"Card2Point5": "Privacy and work hours overview"
 	},
 
 	"FAQ": {

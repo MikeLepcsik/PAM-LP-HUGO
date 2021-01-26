@@ -50,14 +50,14 @@
         <h2 class="mb-20 small">
           {{.Params.sectionBusiness.Title | safeHTML }}
         </h2>
+        <div class="mb-25 f-24 medium color-heading text-adaptive">
+          {{.Params.sectionBusiness.SubTitle | safeHTML }}
+        </div>
         <div class="mb-25 f-18 medium color-heading text-adaptive">
           {{.Params.sectionBusiness.Text1 | safeHTML }}
         </div>
         <div class="mb-25 f-18 medium color-heading text-adaptive">
           {{.Params.sectionBusiness.Text2 | safeHTML }}
-        </div>
-        <div class="mb-25 f-18 medium color-heading text-adaptive">
-          {{.Params.sectionBusiness.Text3 | safeHTML }}
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -188,19 +188,16 @@
     </div>
   </div>
   <div class="content">
-    <a class="cardd" href='{{"/solutions/coworking"|relLangURL}}' data-aos-duration="300" data-aos="fade-down"
+    <a class="cardd" style="margin-inline-end: auto;" href='{{"/solutions/coworking"|relLangURL}}' data-aos-duration="300" data-aos="fade-down"
       data-aos-delay="0">
-      <div class="front" style="background-image: url('/img/coworking-center.jpg')">
+      <div class="front" style="background-image: url('/img/coworking-card.jpg')">
         <p style="text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);">{{.Params.sectionCards.TitleCard1 | safeHTML }}</p>
       </div>
       <div class="back">
         <div class="text-left f-18 medium color-heading text-adaptive">
           <table class="custom-list-header">
             <tbody>
-              <div class="f-18 medium text-adaptive">
-                {{.Params.sectionCards.InnerTitleCard1 | safeHTML }}
-              </div>
-              <div class="f-16 medium text-adaptive">
+              <div class="f-16 pb-10 medium text-adaptive">
                 {{.Params.sectionCards.InnerSubTitleCard1 | safeHTML }}
               </div>
               <tr>
@@ -244,10 +241,7 @@
         <div class="text-left f-18 medium color-heading text-adaptive">
           <table class="custom-list-header">
             <tbody>
-              <div class="f-18 medium text-adaptive">
-                {{.Params.sectionCards.InnerTitleCard2 | safeHTML }}
-              </div>
-              <div class="f-16 medium text-adaptive">
+              <div class="f-16 pb-10 medium text-adaptive">
                 {{.Params.sectionCards.InnerSubTitleCard2 | safeHTML }}
               </div>
               <tr>
@@ -269,10 +263,6 @@
               <tr>
                 <td class=" pr-2 align-items-center"><span class="material-icons align-text-bottom">done</span></td>
                 <td class="f-14 medium text-adaptive"> {{.Params.sectionCards.Card2Point5 | safeHTML }}</td>
-              </tr>
-              <tr>
-                <td class=" pr-2 align-items-center"><span class="material-icons align-text-bottom">done</span></td>
-                <td class="f-14 medium text-adaptive"> {{.Params.sectionCards.Card2Point6 | safeHTML }}</td>
               </tr>
             </tbody>
           </table>

@@ -37,6 +37,8 @@ other = "Try Right Now"
 other = "Schedule A Demo"
 [button_CTA5]
 other = "Get Started"
+[button_CTA6]
+other = "Find out more"
 
 [Footer_Findus]
 other = "Find us"  
