@@ -54,14 +54,14 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourName | safeHTML }}</div>
-                <input type="text" name="name" placeholder="Enter Your Name" required="required"
+                <input type="text" name="name" placeholder="Enter Your Name"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
                 <div class="col-sm-6">
                   <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.Subject | safeHTML }}
                   </div>
                   <select class="input mb-35 px-15 w-full border-gray focus-action-1 color-heading placeholder-heading"
-                    placeholder="{{.Params.ContactForm.SelectSubject | safeHTML }}" name="subject" required="required">
+                    placeholder="{{.Params.ContactForm.SelectSubject | safeHTML }}" name="subject">
                     <option>{{.Params.ContactForm.SelectSubject | safeHTML }}</option>
                     <option>{{.Params.ContactForm.Subject1 | safeHTML }}</option>
                     <option>{{.Params.ContactForm.Subject2 | safeHTML }}</option>
@@ -88,7 +88,6 @@
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.CompanyName | safeHTML }}
                 </div>
                 <input type="text" name="company" placeholder="{{.Params.ContactForm.CompanyName | safeHTML }}"
-                  required="required"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourMessage | safeHTML }}
@@ -101,7 +100,7 @@
 
             <div class="row justify-content-between align-items-center">
               <div class="col-sm-5">
-                <input type="checkbox" name="subscribe" id="contact_4_checkbox" checked=""
+                <input type="checkbox" name="subscribe" id="contact_4_checkbox" required="required"
                   class="input d-none border-gray focus-action-1" />
                 <label class="color-heading"
                   for="contact_4_checkbox">{{.Params.ContactForm.TermsText | safeHTML }}</label>

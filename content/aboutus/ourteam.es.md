@@ -3,30 +3,32 @@
 	"translationKey": "aboutus/ourteam",
 
     "_comment": "Title = Search", 
-    "Title": "Our Team",
+    "Title": "Nuestro equipo",
 
     "sectionTeam": {
-		"Title": "Meet our team",
-		"SubTitle": "We are a small team with great skills.",
-		"AncaText": "Our big city girl, full of positive energy and always focused on maximizing the user experience. Of course, the rest of #THETEAM is energetic and cheerful, too; Anca has just a sparkle more... every day. User experience and a smooth design are not just tasks for our Anca, it’s a mission, sometimes even close to her own crusade 😉  Of course, there is a downside to it: no talks before the first-morning espresso!!!",
+		"Title": "Conoce a nuestro equipo",
+		"SubTitle": "Somos un equipo pequeño con grandes habilidades.",
 
-        "MariusText": "One of the most charismatic persons you´ll ever get to know, and that is a promise(!), wait till you meet him. His dreams and visions have become a passion for many... His positivity and energy will inspire anybody who has a will to succeed (in life or a professional level). Despite of being the initiator, *he had the brilliant idea for DeskNow* working with Marius is challenging and fun. He acts like a mentor, sometimes as a father and even though he has the answers almost all the time, he is empowering us to search till we find it.",
+		"AncaText": "Somos un equipo pequeño con grandes habilidades",
+        "AncaText": "Nuestra chica de la gran ciudad, llena de energía positiva y siempre enfocada en maximizar la experiencia del usuario. Por supuesto, el resto de #THETEAM es enérgico y alegre también; Anca tiene un brillo más ... cada día. La experiencia del usuario y un diseño fluido no son solo tareas para nuestra Anca, es una misión, a veces incluso cercana a su propia cruzada 😉 Por supuesto, tiene una desventaja: ¡¡¡no hay charlas antes del espresso de la primera mañana !!! ",
 
-        "PavelText": "If you think you know the tech world, you never met with him. Our meat loving technical brain is always online, and this is not just a phrase, he is literally always in exchange with our programmers. Constantly seeking for improvements, some new ideas, the latest APPs to improve the backend functionality and supply our lovely customers with even more. Our always calm tech brain has also his Kryptonite and guess what it is? #VEGGIES!!! Strange: he really would prefer to starve before eating vegetables.",
+        "MariusText": "Una de las personas más carismáticas que jamás conocerás, y eso es una promesa (!), Espera a conocerlo. Sus sueños y visiones se han convertido en una pasión para muchos ... Su positividad y La energía inspirará a cualquiera que tenga la voluntad de triunfar (en la vida o en un nivel profesional). A pesar de ser el iniciador, * tuvo la brillante idea de DeskNow * trabajar con Marius es desafiante y divertido. Actúa como un mentor, a veces como un padre y aunque tiene las respuestas casi todo el tiempo, nos está empoderando para buscar hasta encontrarlas.",
 
-        "MikeText": "No Code is safe from being edited, modified, and optimized by our programming guru Mike! Loaded with vitamin D from the Canary sun, Mike takes care of a clean and well programed code for our website. What for others looks like hieroglyphics for him is a Rubik cube to be solved under 2 minutes. Not only he has a great experience in programming and landscape design (we know, great combo, right?) but his sense of humanity and family spirit makes him a perfect match for DeskNow."
+        "PavelText": "Si crees que conoces el mundo de la tecnología, nunca lo conociste. Nuestro cerebro técnico amante de la carne siempre está en línea, y esto no es solo una frase, literalmente siempre está a cambio de nuestros programadores. Constantemente buscando mejoras, algunas ideas nuevas, las últimas aplicaciones para mejorar la funcionalidad del backend y proporcionar a nuestros encantadores clientes aún más. Nuestro cerebro tecnológico siempre tranquilo también tiene su Kryptonita y ¿adivinen qué es? #VEGGIES !!! Extraño: realmente preferiría morir de hambre antes de comer verduras.",
+
+        "MikeText": "Ningún código está a salvo de ser editado, modificado y optimizado por nuestro gurú de la programación Mike. Cargado con vitamina D del sol de Canarias, Mike se encarga de un código limpio y bien programado para nuestro sitio web. Lo que otros buscan como jeroglíficos para él es un cubo de Rubik que debe resolverse en 2 minutos. No solo tiene una gran experiencia en programación y diseño de paisajes (lo sabemos, gran combinación, ¿no?), sino que su sentido de humanidad y espíritu familiar lo convierten en la pareja perfecta. para DeskNow."
 	},
 
     "sectionValues": {
-		"Title": "Our Values",
-		"ValueTitle1": "#Family #Humanity",
-        "ValueSubTitle1": "We are family and care about each other.",
-        "ValueText1": "We are the family we all choose to be part of, and this is a tremendous gift. For us, it’s important that everybody feels valued, trusted, and supported the same way. We treat everybody with the highest of respect and are grateful for the joint journey. Seriously, we are fortunate that we met in this endless and chaotic universe. Therefore we value everybody we have the pleasure to meet, work or have a coffee with.",
-        "ValueTitle2": "#Passion #Ownership",
-        "ValueSubTitle2": "We don‘t believe in titles but in ownership.",
-        "ValueText2": "We don’t define our tasks or experiences by any fancy titles. We think that every person has areas they love and are great at. We love to share our passion and ideas in the same way every constructive criticism, aiming to support our joint journey, is appreciated. Mutual respect is what defines our day-to-day life and work.",
-        "ValueTitle3": "#Diversity #Integrity",
-        "ValueSubTitle3": "We love individuality and equality",
-        "ValueText3": "The same as titles don’t fit into our minds; we don’t allow any form of inequality within our day-to-day actions. We support all forms of individuality and encourage every person to follow their ideas and visions."
+		"Title": "Nuestros valores",
+		"ValueTitle1": "#Familia #Humanidad",
+        "ValueSubTitle1": "Somos familia y nos preocupamos el uno por el otro",
+        "ValueText1": "Somos la familia de la que todos elegimos formar parte, y este es un gran regalo. Para nosotros, es importante que todos se sientan valorados, confiables y apoyados de la misma manera. Tratamos a todos con el mayor respeto y estamos agradecidos por el viaje conjunto. En serio, tenemos la suerte de habernos conocido en este universo infinito y caótico. Por eso valoramos a todas las personas con las que tenemos el placer de conocer, trabajar o tomar un café.",
+        "ValueTitle2": "# Pasión #Propiedad",
+        "ValueSubTitle2": "No creemos en los títulos, sino en la propiedad",
+        "ValueText2": "No definimos nuestras tareas o experiencias con títulos extravagantes. Creemos que cada persona tiene áreas que ama y en las que es excelente. Nos encanta compartir nuestra pasión e ideas de la misma manera que cada crítica constructiva, con el objetivo para apoyar nuestro viaje conjunto, se agradece. El respeto mutuo es lo que define nuestro día a día y nuestro trabajo.",
+        "ValueTitle3": "#Diversidad #Integridad",
+        "ValueSubTitle3": "Amamos la individualidad y la igualdad",
+        "ValueText3": "Lo mismo que los títulos no caben en nuestras mentes; no permitimos ninguna forma de desigualdad en nuestras acciones diarias. Apoyamos todas las formas de individualidad y alentamos a todas las personas a seguir sus ideas y visiones."
 	}
 }

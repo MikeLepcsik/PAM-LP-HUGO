@@ -3,24 +3,24 @@
 	"translationKey": "aboutus/contact",
 
     "_comment": "Title = Search", 
-    "Title": "Contact",
+    "Title": "Contacto",
 
     "ContactForm": {
-		"Title": "Contact Us",
-        "YourName": "Your Name",
-		"Subject": "Subject",
-        "SelectSubject": "Select Subject",
-        "Subject1": "I need a demo",
-        "Subject2": "Feature is missing",
-        "Subject3": "My account",
-        "Subject4": "Business inquiry",
-        "Subject5": "Report an issue",
-        "Subject6": "Payouts",
-        "MobileNumber": "Mobile number",
-        "YourEmail": "Your email",
+		"Title": "Contacto",
+        "YourName": "Su nombre",
+		"Subject": "Asunto",
+        "SelectSubject": "Seleccionar asunto",
+        "Subject1": "Necesito una demostración",
+        "Subject2": "Falta la función",
+        "Subject3": "Mi cuenta",
+        "Subject4": "Consulta empresarial",
+        "Subject5": "Informar un problema",
+        "Subject6": "Pagos",
+        "MobileNumber": "Número de móvil",
+        "YourEmail": "Su correo electrónico",
         "Email": "name@mail.com",
-        "CompanyName": "Company Name",
-        "YourMessage": "Your Message",
-        "TermsText": "By registering you agree to our Terms and Conditions and you have read our Privacy Policy"
+        "CompanyName": "Nombre de la empresa",
+        "YourMessage": "Tu mensaje",
+        "TermsText": "Al registrarse, acepta nuestros <a class=\"text-danger link-text-AGB\" href='{{\"useful/terms-conditions\"|relLangURL}}' target=\"_blank\">Términos y condiciones</a> y ha leído nuestra <a class=\"text-danger link-text-AGB\" href='{{\"useful/privacy-policy\"|relLangURL}}' target=\"_blank\">Política de privacidad</a>"
 	}
 }

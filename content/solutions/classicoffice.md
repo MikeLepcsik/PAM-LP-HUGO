@@ -1,12 +1,12 @@
 {
-    "layout": "solutions/enterprise",
-	"translationKey": "solutions/enterprise",
+    "layout": "solutions/classicoffice",
+	"translationKey": "solutions/classicoffice",
 
     "_comment": "Title = Search", 
-    "Title": "Enterpise",
+    "Title": "Classic Office",
 
     "header": {
-		"Title": "pam Classic office Solutions",
+		"Title": "pam Classic Office Solutions",
         "Text": "pam is the software solution to manage your workspaces, optimize office costs, create new revenue utilizing your unused space, and give clients or employees tools to book workplaces which inspire them the most.",
 		"Text2": "All in one place running on web and"
 	},
@@ -22,6 +22,7 @@
 	},
 
 	"sectionCards": {
+		"Free": "Free",
 		"Card2Point1": "Manage Unlimited Buildings and Workspaces",
 		"Card2Point2": "Import Employees and let them Reserve workspaces",
 		"Card2Point3": "Get Detailed Workspace Usage Reports",

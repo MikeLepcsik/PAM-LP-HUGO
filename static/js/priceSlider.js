@@ -656,7 +656,7 @@ $(document).ready(function () {
                 }
             }
 
-            //set enterprise
+            //set Classic Office
             if (slider_value > 83) {
                 $("#plan-holder").text('Employees:');
                 $("#orange-highlight").css("width", "433px");

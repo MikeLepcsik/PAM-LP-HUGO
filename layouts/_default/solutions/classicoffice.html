@@ -77,7 +77,7 @@
             <div class="pricing-item-header">
               <div class="pricing-item-title">{{.Params.PricingSlider.Price | safeHTML }}</div>
               <div class="pricing-item-price" data-price-output='{
-                "0": ["", "Free", ""],
+                "0": ["", "{{.Params.sectionCards.Free | safeHTML }}", ""],
                 "1": ["€ ", " 1", "/{{.Params.PricingSlider.Month | safeHTML }}"],
                 "2": ["€ ", " 0,90", "/{{.Params.PricingSlider.Month | safeHTML }}"],
                 "3": ["€ ", " 0,78", "/{{.Params.PricingSlider.Month | safeHTML }}"],
@@ -117,7 +117,7 @@
             </div>
           </div>
           <div class="text-center">
-            <button href='{{"/solutions/enterprise"|relLangURL}}' class="mt-3 btn action-1">{{T "button_CTA5"}}</button>
+            <button href='{{"/solutions/classicoffice"|relLangURL}}' class="mt-3 btn action-1">{{T "button_CTA5"}}</button>
           </div>
         </div>
       </div>

@@ -6,73 +6,73 @@
     "Title": "Coworking",
 
     "header": {
-		"Title": "The free software to manage your coworking space!",
-		"Text1": "pam is your top-notch coworking / flex office software solution. Manage your bookings, enhance your community, connect your tenants!",
-        "Text2": "All in one place running on web and"
+		"Title": "¡El software gratuito para gestionar tu espacio de coworking!",
+		"Text1": "pam es su solución de software de oficina flexible / coworking de primer nivel. ¡Administre sus reservas, mejore su comunidad, conecte a sus inquilinos!",
+        "Text2": "Todo en un solo lugar que se ejecuta en la Web y"
 	},
 
     "chat": {
-		"bubble1": "Hey, I forgot to reserve the presentation room! 🙂",
-		"bubble2": "Ok, no problem. You can now make a reservation on your mobile phone.",
-        "bubble3": "Oh yeah! I'll include 5 person too.",
-        "bubble4": "Great, You will get a notification in a moment."
+		"bubble1": "¡Oye, olvidé reservar la sala de presentación! 🙂",
+		"bubble2": "Ok, no hay problema. Ahora puedes hacer una reserva en tu teléfono móvil.",
+        "bubble3": "¡Oh, sí! Incluiré a 5 personas también.",
+        "bubble4": "Genial. Recibirás una notificación en un momento."
 	},
 
     "sectionBusiness": {
-		"Title": "Book your guided demo with us!",
-		"Text1": "Book your guided demo with us! Learn directly from our passionate team, how quick you can start using PAM."
+		"Title": "¡Reserva tu demo guiada con nosotros!",
+		"Text1": "¡Reserva tu demo guiada con nosotros! Aprende directamente de nuestro apasionado equipo, lo rápido que puedes empezar a usar PAM."
 	},
 
     "sectionFeature": {
-		"Title": "Everything in One Place",
-		"Text1": "Get real-time updates on new bookings, reviews, guest requests and availability.",
-        "FeatureTitle1": "Full Overview In One Place",
-        "FeatureText1": "PAM offers you a full and detailed view on your performance indicators: No matter if you want to analyze all locations at once,...",
-        "FeatureSubText1": "a number of selected properties, a particular desk usage, or all your profits with a defined key client: with PAM you get all of it with just a click. PAM will help you understand and analyze the exact performance of each of your defined criteria, as a whole, or by individual space within your venue, however you want them to be grouped, it’s your choice. All your figures are viewable as graphs or full analytics within your full customized dashboard. These summaries offer key insights into the utilization of your venue’s shared spaces, based on the booking behavior of your members. PAM gives you the ability to review the utilization of your meeting rooms as well as the average duration and volume of bookings per space. Your meeting room booking analytics strike the perfect balance between comprehensive and straightforward.",
+		"Title": "Todo en un solo lugar",
+		"Text1": "Obtén actualizaciones en tiempo real sobre nuevas reservas, reseñas, solicitudes de huéspedes y disponibilidad",
+        "FeatureTitle1": "Visión general completa en un lugar",
+        "FeatureText1": "PAM le ofrece una vista completa y detallada de sus indicadores de rendimiento: No importa si desea analizar todas las ubicaciones en...",
+        "FeatureSubText1": "a la vez, una serie de propiedades seleccionadas, un uso de escritorio en particular, o todos sus beneficios con un cliente clave definido: con PAM se obtiene todo con un solo clic. PAM le ayudará a entender y analizar el rendimiento exacto de cada uno de sus criterios definidos, en su conjunto, o por espacio individual dentro de su lugar, como desee que se agrupe, es su elección. Todas sus figuras se pueden ver como gráficos o análisis completos dentro de su panel personalizado completo. Estos resúmenes ofrecen información clave sobre la utilización de los espacios compartidos de su lugar, en función del comportamiento de reserva de sus miembros. PAM le ofrece la posibilidad de revisar la utilización de sus salas de reuniones, así como la duración media y el volumen de reservas por espacio. El análisis de reservas de su sala de reuniones logra el equilibrio perfecto entre completo y sencillo.",
 
-        "FeatureTitle2": "Real Time Booking Management",
-        "FeatureText2": "With PAM you can manage your on-going bookings, approve, or deny any new booking request, allow instant booking ...",
-        "FeatureSubText2": "functionality for certain cases directly from your listings page. You can easily download your invoices, have a full history overview or even add external booking. External bookings allow non-members to book resources, like meeting rooms or technical equipment. Increase your revenue by optimizing your space resources’ and use every bit of your spaces capacity.",
+        "FeatureTitle2": "Gestión de reservas en tiempo real",
+        "FeatureText2": "Con PAM puede gestionar sus reservas en marcha, aprobar o denegar cualquier nueva solicitud de reserva, permitir la reserva instantánea ...",
+        "FeatureSubText2": "para ciertos casos directamente desde su página de anuncios. Puede descargar fácilmente sus facturas, tener una visión general completa del historial o incluso agregar reserva externa. Las reservas externas permiten a los no miembros reservar recursos, como salas de reuniones o equipos técnicos. Aumente sus ingresos optimizando sus recursos espaciales y utilizando cada bit de la capacidad de su espacio.",
 
-        "FeatureTitle3": "Book Multiple Desks At Once",
-        "FeatureText3": "PAM is giving you the freedom to allow your members of your venue to also book more than one desk at a time with...",
-        "FeatureSubText3": "no need of contractual changes. This allows you special services, for your most precious clients, so that a certain member (i.e. the team admin of a key client within your coworking space) could even book a group of desks within your venue just online without any huge new contracts. You will give the full flexibility, so they’ll have the option to choose the capacity of their booking and book a group of desks at once. No contract administration for you, neither for your client, just a simple online process to guarantee client satisfaction.",
+        "FeatureTitle3": "Escritorios Múltiples a la vez",
+        "FeatureText3": "PAM le da la libertad de permitir que sus miembros de su lugar también reserven más de un escritorio a la vez ...",
+        "FeatureSubText3": "sin necesidad de cambios contractuales. Esto le permite servicios especiales, para sus clientes más preciados, para que un determinado miembro (es decir, el administrador del equipo de un cliente clave dentro de su espacio de coworking) incluso podría reservar un grupo de escritorios dentro de su lugar sólo en línea sin ningún nuevo contrato enorme. Usted dará toda la flexibilidad, por lo que tendrán la opción de elegir la capacidad de su reserva y reservar un grupo de escritorios a la vez. No hay administración de contratos para usted, ni para su cliente, sólo un simple proceso en línea para garantizar la satisfacción del cliente.",
 
-        "FeatureTitle4": "Full Asset Management",
-        "FeatureText4": "This absolute intuitive feature lets you create, edit or even deactivate properties as you need...",
-        "FeatureSubText4": "You can connect spaces, predefine your calendar schedule and check your real-time occupancy. Advertising solutions user platforms by promoting your listing. If you already manage several locations, with pam you can manage everything related to reservations, clients and bookings. One admin account can be an administrator for all your spaces."
+        "FeatureTitle4": "Herramienta completa de gestión de activos",
+        "FeatureText4": "Esta característica intuitiva absoluta le permite crear, editar o incluso desactivar propiedades según lo necesite...",
+        "FeatureSubText4": "Puede conectar espacios, predefinir su calendario y comprobar su ocupación en tiempo real. Plataformas de usuarios de soluciones publicitarias mediante la promoción de su anuncio. Si ya gestionas varias ubicaciones, con pam podrás gestionar todo lo relacionado con reservas, clientes y reservas.  Una cuenta de administrador puede ser administrador de todos sus espacios."
 	},
 
     "sectionFees": {
-		"Title": "Fees",
-		"SubTitle": "Our Transparent Service Fee structure enables you to scale your coworking business as it grows. Only pay for successful bookings and transactions coming through DeskNow. There are no fixed monthly costs to use pam in order to enhance your coworking business.",
-        "HeaderTab1": "Classic Office",
-        "HeaderTab2": "Coworking Basic",
-        "HeaderTab3": "Coworking Advance",
-        "HeaderTab4": "Coworking Business",
-        "HeaderTab5": "Coworking Corporate",
-        "location": "location",
+		"Title": "Tarifa",
+		"SubTitle": "Nuestra estructura transparente de tarifas de servicio le permite escalar su negocio de coworking a medida que crece. Pague solo por reservas y transacciones exitosas que se realicen a través de DeskNow. No hay costos mensuales fijos para usar pam con el fin de mejorar su negocio de coworking.",
+        "HeaderTab1": "Oficina clásica",
+        "HeaderTab2": "Coworking básico",
+        "HeaderTab3": "Avance de coworking",
+        "HeaderTab4": "Negocio de coworking",
+        "HeaderTab5": "Coworking corporativo",
+        "location": "ubicación",
         "row1": "HOURLY / DAILY",
-        "row2": "WEEKLY",
-        "row3": "MONTHLY"
+        "row2": "SEMANALMENTE",
+        "row3": "MENSUALMENTE"
 	},
 
     "sectionAddOns": {
-		"Title": "Add-Ons",
-        "HeaderTitle1": "Enhanced",
-        "HeaderSubTitle1": "Everithing you need for a <br/>growing business",
-        "HeaderTitle2": "Fully Loaded",
-        "HeaderSubTitle2": "Perfect for companies, <br />agencies &amp; teams",
-        "row1": "Price",
-        "row2": "Full Asset Management Tool",
-        "row3": "Full CRM Functionality",
-        "row4": "Automated Payment Solution",
-        "row5": "Check In/Out",
-        "row6": "App Integration",
-        "row7": "Mobile Apps",
-        "row8": "Seasonal Pricing",
-        "row9": "Dynamic Pricing",
-        "row10": "Ads & Promotions",
-        "row11": "Internal Desk Menagement"
+		"Title": "Complementos",
+        "HeaderTitle1": "Mejorado",
+        "HeaderSubTitle1": "Todo lo que necesita para una <br/> empresa en crecimiento",
+        "HeaderTitle2": "Totalmente cargado",
+        "HeaderSubTitle2": "Perfecto para empresas, <br /> agencias y equipos",
+        "row1": "Precio",
+        "row2": "Herramienta de gestión de activos completa",
+        "row3": "Funcionalidad CRM completa",
+        "row4": "Solución de pago automatizada",
+        "row5": "Registro de entrada / salida",
+        "row6": "Integración de aplicaciones",
+        "row7": "Aplicaciones móviles",
+        "row8": "Precios de temporada",
+        "row9": "Precios dinámicos",
+        "row10": "Anuncios y promociones",
+        "row11": "Administración de escritorio interno"
 	}
 }

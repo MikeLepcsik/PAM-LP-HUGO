@@ -26,7 +26,7 @@
 	},
 
 	"sectionCards": {
-		"Title": "Which of these branches better explains your business?",
+		"Title": "Choose the branch which fits your business!",
 		"TitleCard1": "COWORKING",
 		"InnerTitleCard1": "Coworking",
 		"InnerSubTitleCard1": "Accelerate Your Coworking Space Business",
@@ -37,8 +37,8 @@
 		"Card1Point5": "Invoicing & Billing Payment",
 		"Card1Point6": "Publish Spaces on DeskNow for more outreach",
 
-		"TitleCard2": "SMB & CLASSIC OFFICE",
-		"InnerTitleCard2": "SMB &amp; Classic office",
+		"TitleCard2": "CLASSIC OFFICE",
+		"InnerTitleCard2": "Classic Office",
 		"InnerSubTitleCard2": "Keep full controll of your Companies Workspaces",
 		"Card2Point1": "Manage Unlimited Buildings and Workspaces",
 		"Card2Point2": "Import Employees and let them Reserve workspaces",

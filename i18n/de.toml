@@ -8,8 +8,8 @@ other = "Deutsch"
 other = "pam by DeskNow"
 [menu_Coworking]
 other = "Coworking"
-[menu_Enterprise]
-other = "Classic office"
+[menu_Classicoffice]
+other = "Classic Office"
 [menu_OurTeam]
 other = "Our Team"
 [menu_OurStory]

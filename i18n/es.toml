@@ -1,75 +1,75 @@
 [en]
-other = "English"
+other = "Inglés"
 [es]
-other = "Spanisch"
+other = "Español"
 [de]
-other = "Deutsch"
+other = "Alemán"
 [page]
 other = "pam by DeskNow"
 [menu_Coworking]
 other = "Coworking"
-[menu_Enterprise]
-other = "Classic office"
+[menu_Classicoffice]
+other = "Oficina clásica"
 [menu_OurTeam]
-other = "Our Team"
+other = "Nuestro equipo"
 [menu_OurStory]
-other = "Our Story"
+other = "Nuestra historia"
 [menu_ContactUs]
-other = "Contact Us"
+other = "Contáctenos"
 
 [button_Login]
-other = "Login"  
+other = "Iniciar sesión"  
 [button_Send]
-other = "Send"
+other = "Enviar"
 [button_SignUp]
-other = "Sign Up"
+other = "Registrarse"
 [button_CTA]
-other = "Sign Up for free"
+other = "Registrarse gratis"
 [button_CTA1]
-other = "Let's start"
+other = "Empecemos"
 [button_CTA2]
-other = "Get Help"
+other = "Obtener ayuda"
 [button_CTA3]
-other = "Try Right Now"
+other = "Pruebe Ahora"
 [button_CTA4]
-other = "Schedule A Demo"
+other = "Solicitar una prueba"
 [button_CTA5]
-other = "Get Started for Free"
+other = "Comienza de forma gratuita"
 
 [Footer_Findus]
-other = "Find us"  
+other = "Encontrarnos"  
 [Footer_Callus]
-other = "Call us"  
+other = "Comuniquémonos"  
 [Footer_Mailus]
-other = "Mail us" 
+other = "Correo electrónico" 
 [Footer_Followus]
-other = "Follow us" 
+other = "Síguenos" 
 [Footer_UsefulLinks]
-other = "Useful Links" 
+other = "Enlaces útiles" 
 [Footer_BecomeMember]
-other = "Become a Member" 
+other = "Hágase Miembro" 
 [Footer_ForDeskSeekers]
-other = "For DeskSeekers"
+other = "Para DeskSeekers"
 [Footer_Subscribe]
-other = "Subscribe"
+other = "Suscribirse"
 [Footer_SubscribeText]
-other = "Don’t miss to subscribe to our new feeds, kindly fill the form below."
+other = "Apúntate a nuestros nuevos Newsletter, por favor complete el formulario a continuación."
 [Footer_Download]
-other = "Download"
+other = "Descargar"
 [Footer_Terms]
-other = "Terms"
+other = "Condiciones"
 [Footer_Privacy]
-other = "Privacy"
+other = "Política de Privacidad"
 [Footer_Refund]
-other = "Refund"
+other = "Condiciones de Reembolso"
 [Footer_Payment]
-other = "Payment"
+other = "Condiciones de pago"
 [Footer_Imprint]
-other = "Imprint"
+other = "Nota legal"
 
 [Alert_Success]
-other = "Thanks for your message!"
+other = "¡Gracias por tu mensaje!"
 [Alert_Warning]
-other = "Please, fill in required fields."
+other = "Por favor, complete los campos obligatorios"
 [Alert_Danger]
-other = "An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending."
+other = "Ocurrió un error al enviar datos :( Por favor, verifique si su alojamiento es compatible con PHP y verifique cómo configurar el envío de datos del formulario"
