@@ -5344,9 +5344,9 @@ body {
   position: relative;
   padding: 30px;
   padding-left: 100px;
-  background: #f5f5f5;
+  background: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -5372,7 +5372,7 @@ body {
 
 .member-content.right .details {
   margin: 20px 20px 0 0;
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .member-content .details:after {
