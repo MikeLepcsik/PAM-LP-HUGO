@@ -54,9 +54,6 @@
           {{.Params.sectionBusiness.SubTitle | safeHTML }}
         </div>
         <div class="mb-25 f-18 medium color-heading text-adaptive">
-          {{.Params.sectionBusiness.Text1 | safeHTML }}
-        </div>
-        <div class="mb-25 f-18 medium color-heading text-adaptive">
           {{.Params.sectionBusiness.Text2 | safeHTML }}
         </div>
       </div>
@@ -176,6 +173,38 @@
       </div>
     </div>
   </div>
+</section>
+
+<!-- Testimonial 1 -->
+
+<section class="testimonial_1 bg-light pt-80 pb-80">
+	<div class="container px-xl-0">
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+				<div class="hr bg-gray h-2"></div>
+			</div>
+		</div>
+		<div class="row pt-30 pb-50 inner" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+			<div class="col-xl-2 col-lg-1"></div>
+			<div class="col-md-1 col-sm-2">
+				<i class="fas fa-quote-left f-36 color-gray"></i>
+			</div>
+			<div class="col-xl-7 col-lg-8 col-sm-10">
+				<div class="pt-10 f-22 text-adaptive">
+					{{.Params.sectionBusiness.Text1 | safeHTML }}
+				</div>
+				<div class="mt-20 d-flex align-items-center author_info">
+					<img srcset="/img/anitaB.jpg 2x" src="/img/anitaB.jpg" class="w-60 h-60 radius_full" alt="" />
+					<div class="ml-15 color-heading f-14 semibold text-uppercase sp-20">E-on manager Anita B.</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+				<div class="hr bg-gray h-2"></div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- CARDS -->

@@ -16,6 +16,8 @@ other = "Classic Office"
 other = "Our Team"
 [menu_OurStory]
 other = "Our Story"
+[menu_FAQ]
+other = "FAQ"
 [menu_ContactUs]
 other = "Contact Us"
 

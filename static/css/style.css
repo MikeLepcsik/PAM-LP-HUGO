@@ -2981,7 +2981,7 @@ a.TextLink.one:hover:after {
 .pricing_table_5 ul li:not(.disabled):before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "\f00c";
+  content: none; /*content: "\f00c";*/
   display: block;
   position: absolute;
   left: -25px;
@@ -5111,7 +5111,7 @@ a.TextLink.one:hover:after {
   cursor: pointer;
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   display: none;
 }
 
@@ -5817,7 +5817,7 @@ input[type="range"]::-moz-focus-outer {
 }
 
 .pricing-slider {
-  max-width: 280px;
+  max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -5843,8 +5843,7 @@ input[type="range"]::-moz-focus-outer {
   margin-top: -12px;
 }
 .pricing-item {
-  flex-basis: 320px;
-  max-width: 320px;
+  max-width: fit-content; /*flex-basis: 320px;*/
   box-sizing: content-box;
   padding: 12px;
 }
@@ -5854,7 +5853,7 @@ input[type="range"]::-moz-focus-outer {
   flex-direction: column;
   height: 100%;
   padding: 24px;
-  box-shadow: 0 8px 16px rgba(46, 52, 88, 0.16);
+  box-shadow: none; /* box-shadow: 0 8px 16px rgba(46, 52, 88, 0.16); */
 }
 .pricing-item-title {
   font-weight: 500;

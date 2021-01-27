@@ -16,6 +16,8 @@ other = "Oficina clásica"
 other = "Nuestro equipo"
 [menu_OurStory]
 other = "Nuestra historia"
+[menu_FAQ]
+other = "FAQ"
 [menu_ContactUs]
 other = "Contáctenos"
 

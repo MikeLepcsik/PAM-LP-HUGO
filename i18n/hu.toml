@@ -16,6 +16,8 @@ other = "Klasszikus iroda"
 other = "Csapatunk"
 [menu_OurStory]
 other = "A mi történetünk"
+[menu_FAQ]
+other = "FAQ"
 [menu_ContactUs]
 other = "Lépjen kapcsolatba"
 

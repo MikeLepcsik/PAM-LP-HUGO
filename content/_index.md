@@ -12,7 +12,7 @@
 	"sectionBusiness": {
 		"Title": "What can pam do for your business?",
 		"SubTitle": "When a business operates efficiently, the profits increase and waste decreases, resulting in a healthy bottom line.",
-		"Text1": " <span class=\"font-italic\">By using pam, we successfully reduced the number of unused desks, from 80% to 60% in just 2 months after implementation.</span> <br>E-on manager Anita B.",
+		"Text1": " <span class=\"font-italic\">By using pam, we successfully reduced the number of unused desks, from 80% to 60% in just 2 months after implementation.</span>",
 		"Text2": "Facilitate a safe return to the office for your clients and employees. Social distancing is key in safely bringing your employees back to your facilities. Optimize desk utilization, by offering your people access to desknow to book daily, monthly or even hourly spaces into the buildings. The result in your workforce is higher efficiency and improved culture.",
 		"Text3": "… with pam you get all of it with just a click."
 	},

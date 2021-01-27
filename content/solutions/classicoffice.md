@@ -11,6 +11,30 @@
 		"Text2": "All in one place running on web and"
 	},
 
+	"sectionFeature": {
+		"Title": "How pam by DeskNow enhances Corporate Coworking ",
+		"Text1": "Pam by DeskNow is an enterprise-level workspace management platform that removes the operational barriers in developing coworking space within your organization. By adopting pam and introducing coworking to your workspace, corporations can optimize collaboration, innovation and employee retention. Pam by DeskNow coworking software frees your employees by allowing them to work from a different desk each day, check in automatically and check out when they have finished. The result in your workforce is higher efficiency and improved culture.",
+
+		"FeatureTitle": "Benefits For Corporate Coworking Spaces",
+		"FeatureSubTitle": "Help your workplace evolve from fixed to flexible",
+
+        "FeatureTitle1": "Disrupting corporate culture",
+        "FeatureText1": "Traditional office design is not always conducive to productivity and innovation. Your employees may feel confined and...",
+        "FeatureSubText1": "hindered by the lack of collaboration. Pam by DeskNow’s coworking management solution allow you to easily create a flexible workspace environment with an atmosphere and culture that fosters creativity, open lines of communication, independence and balance. <br><br>Coworking environments, powered by Pam by DeskNow, transform the stale corporate culture and daily monotony into an energized and motivated workforce community. ",
+
+        "FeatureTitle2": "Minimizing costs",
+        "FeatureText2": "<br>Using Pam by DeskNow, you can incorporate coworking into your workspace strategy. Allow your members to use the coworking hotdesk model,...",
+        "FeatureSubText2": "which allocates an office desk to be shared by multiple workers on different shifts, as opposed to each staff member having a designated personal desk. The result is a large reduction in your commercial footprint – up to 30% in some cases – significantly reducing your corporate overhead.",
+
+        "FeatureTitle3": "Attracting talent ",
+        "FeatureText3": "<br>You may find that the most talented workers today are seeking opportunities where they have the freedom work more independently and...",
+        "FeatureSubText3": "on a flexible schedule. This has created a generational phenomenon known as the gig economy.  <br><br>Pam by DeskNow allows corporations to easily introducing coworking into their workspace strategy. Coworking is geared toward collaboration, inclusiveness, flexibility and community, which allows this new generation of workers to thrive. Pam by DeskNow provides the bridge for your corporation to attract the best talent. ",
+
+        "FeatureTitle4": "Driving innovation",
+        "FeatureText4": "You may find that your workforce is no longer driving innovation or providing new ideas to boost your company forward...",
+        "FeatureSubText4": "Flexible workspace solutions enable you to introduce coworking into your office and, ultimately, drive collaboration within your workforce. By allowing your teams to interact and share ideas, you engage your team and improve morale. Pam by DeskNow can help bring your team a few steps closer that the next big idea."
+	},
+
     "PricingSlider": {
 		"Title": "The software to manage your workspaces",
 		"Text": "Tailored workspace management Solutions to optimize company ressources",
@@ -18,6 +42,7 @@
 		"Text3": "How many Employees do you have?",
 		"Price": "Price/Month/Employees",
 		"Month": "Month/Employees",
+		"SetupFee": "+ Setup fee",
 		"ContactUs": "Contact us"
 	},
 
