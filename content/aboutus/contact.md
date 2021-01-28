@@ -21,6 +21,8 @@
         "Email": "name@mail.com",
         "CompanyName": "Company Name",
         "YourMessage": "Your Message",
-        "TermsText": "By registering you agree to our <a class=\"text-danger link-text-AGB\" href='{{\"useful/terms-conditions\"|relLangURL}}' target=\"_blank\">Terms and Conditions</a> and you have read our <a class=\"text-danger link-text-AGB\" href='{{\"useful/privacy-policy\"|relLangURL}}' target=\"_blank\">Privacy Policy</a>"
+        "TermsText": "We updated our ",
+        "TermsText2": " and ",
+        "TermsText3": " By sending this for you accept these terms and policies."
 	}
 }

@@ -41,6 +41,8 @@ other = "Schedule A Demo"
 other = "Get Started"
 [button_CTA6]
 other = "Find out more"
+[link_text]
+other = "click here"
 
 [Footer_Findus]
 other = "Find us"  

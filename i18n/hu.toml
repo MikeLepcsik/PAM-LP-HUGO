@@ -20,6 +20,8 @@ other = "A mi történetünk"
 other = "FAQ"
 [menu_ContactUs]
 other = "Lépjen kapcsolatba"
+[link_text]
+other = "click here"
 
 [button_Login]
 other = "Bejelentkezés"  

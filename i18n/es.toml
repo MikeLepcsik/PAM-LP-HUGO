@@ -39,6 +39,8 @@ other = "Pruebe Ahora"
 other = "Solicitar una prueba"
 [button_CTA5]
 other = "Comienza de forma gratuita"
+[link_text]
+other = "click here"
 
 [Footer_Findus]
 other = "Encontrarnos"  
