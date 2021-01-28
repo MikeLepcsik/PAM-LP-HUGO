@@ -71,12 +71,12 @@
     <div class="row align-items-center text-center text-sm-left">
 
       <div class="col-lg-6 col-sm-6">
-        <h2 class="mb-20" data-aos-duration="300" data-aos="fade-down"
+        <h2 class="mb-20 small" data-aos-duration="300" data-aos="fade-down"
         data-aos-delay="0">{{.Params.OurMission.Title | safeHTML }}</h2>
-        <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive bold" data-aos-duration="600" data-aos="fade-down"
+        <div class="mb-40 mb-sm-0 f-24 color-heading text-adaptive" data-aos-duration="600" data-aos="fade-down"
         data-aos-delay="0">{{.Params.OurMission.SubTitle | safeHTML }}<br><br>
         </div>
-        <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive" data-aos-duration="600" data-aos="fade-down"
+        <div class="mb-40 mb-sm-0 f-18 color-heading text-adaptive" data-aos-duration="600" data-aos="fade-down"
         data-aos-delay="0">{{.Params.OurMission.Text | safeHTML }}
         </div>
       </div>
@@ -95,9 +95,9 @@
 <div class="container pt-100 bootstrap snippets bootdey">
   <section id="team" class="white-bg padding-top-bottom">
     <div class="container bootstrap snippets bootdey">
-      <h1 class="section-title text-center page-title" data-aos-duration="300" data-aos="fade-down"
-      data-aos-delay="0">{{.Params.sectionTeam.Title | safeHTML }}</h1>
-      <p class="section-description text-center" data-aos-duration="300" data-aos="fade-down"
+      <h2 class="section-title text-center page-title small" data-aos-duration="300" data-aos="fade-down"
+      data-aos-delay="0">{{.Params.sectionTeam.Title | safeHTML }}</h2>
+      <p class="f-24 color-heading text-adaptive text-center" data-aos-duration="300" data-aos="fade-down"
       data-aos-delay="0">{{.Params.sectionTeam.SubTitle | safeHTML }}</p>
 
       <div class="row member-content right" data-aos-duration="300" data-aos="fade-down"
@@ -105,7 +105,7 @@
 
         <div class="col-sm-9 col-sm-pull-2 order-2 order-lg-1">
           <div class="details">
-            <p>{{.Params.sectionTeam.AncaText | safeHTML }}
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionTeam.AncaText | safeHTML }}
             </p>
             <ul class="social-content">
               <li><a target="_blank" href="https://www.linkedin.com/in/anca-barsan-8b90b582/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
@@ -130,7 +130,7 @@
         </div>
         <div class="col-sm-9">
           <div class="details">
-            <p>{{.Params.sectionTeam.MariusText | safeHTML }}</p>
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionTeam.MariusText | safeHTML }}</p>
             <ul class="social-content">
               <li><a target="_blank" href="https://www.linkedin.com/in/mariusjarzyna/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
               <li><a href="mailto:marius[at]desk-now.com"><i style="color: #3d82ab" class="fas fa-envelope f-30"></i></a></li>
@@ -145,7 +145,7 @@
 
         <div class="col-sm-9 col-sm-pull-2 order-2 order-lg-1">
           <div class="details">
-            <p>{{.Params.sectionTeam.PavelText | safeHTML }}</p>
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionTeam.PavelText | safeHTML }}</p>
             <ul class="social-content">
               <li><a target="_blank" href="https://www.linkedin.com/in/pavel-schwindt-b02589168/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
               <li><a href="mailto:pavel[at]desk-now.com"><i style="color: #3d82ab" class="fas fa-envelope f-30"></i></a></li>
@@ -169,7 +169,7 @@
         </div>
         <div class="col-sm-9">
           <div class="details">
-            <p>{{.Params.sectionTeam.MikeText | safeHTML }}</p>
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionTeam.MikeText | safeHTML }}</p>
             <ul class="social-content">
               <li><a target="_blank" href="https://www.linkedin.com/in/mike-lepcsik-89a65a160/"><i style="color: #3d82ab" class="fab fa-linkedin f-30"></i></a></li>
               <li><a href="mailto:mike[at]desk-now.com"><i style="color: #3d82ab" class="fas fa-envelope f-30"></i></a></li>
@@ -187,16 +187,16 @@
 <div class="container pt-100 pb-200 bootstrap snippets bootdey">
   <section id="team" class="white-bg padding-top-bottom">
     <div class="container bootstrap snippets bootdey">
-      <h1 class="section-title text-center page-title" data-aos-duration="300" data-aos="fade-down"
-      data-aos-delay="0">{{.Params.sectionValues.Title | safeHTML }}</h1>
+      <h2 class="section-title text-center page-title small" data-aos-duration="300" data-aos="fade-down"
+      data-aos-delay="0">{{.Params.sectionValues.Title | safeHTML }}</h2>
 
       <div class="row member-content" data-aos-duration="600" data-aos="fade-down"
       data-aos-delay="0">
         <div class="col-sm-12 col-sm-pull-2">
           <div class="details">
-            <h3 class="section-title text-center page-title">{{.Params.sectionValues.ValueTitle1 | safeHTML }}</h3>
+            <p class="f-26 color-heading text-adaptive text-left">{{.Params.sectionValues.ValueTitle1 | safeHTML }}</p>
             <p class="bold">{{.Params.sectionValues.ValueSubTitle1 | safeHTML }}</p>
-            <p>{{.Params.sectionValues.ValueText1 | safeHTML }}</p>
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionValues.ValueText1 | safeHTML }}</p>
           </div>
         </div>
       </div>
@@ -205,9 +205,9 @@
       data-aos-delay="0">
         <div class="col-sm-12 col-sm-pull-2">
           <div class="details">
-            <h3 class="section-title text-center page-title">{{.Params.sectionValues.ValueTitle2 | safeHTML }}</h3>
+            <p class="f-26 color-heading text-adaptive text-left">{{.Params.sectionValues.ValueTitle2 | safeHTML }}</p>
             <p class="bold">{{.Params.sectionValues.ValueSubTitle2 | safeHTML }}</p>
-            <p>{{.Params.sectionValues.ValueText2 | safeHTML }}</p>
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionValues.ValueText2 | safeHTML }}</p>
           </div>
         </div>
       </div>
@@ -216,9 +216,9 @@
       data-aos-delay="0">
         <div class="col-sm-12 col-sm-pull-2">
           <div class="details">
-            <h3 class="section-title text-center page-title">{{.Params.sectionValues.ValueTitle3 | safeHTML }}</h3>
+            <p class="f-26 color-heading text-adaptive text-left">{{.Params.sectionValues.ValueTitle3 | safeHTML }}</p>
             <p class="bold">{{.Params.sectionValues.ValueSubTitle3 | safeHTML }}</p>
-            <p>{{.Params.sectionValues.ValueText3 | safeHTML }}</p>
+            <p class="f-18 color-heading text-adaptive">{{.Params.sectionValues.ValueText3 | safeHTML }}</p>
           </div>
         </div>
       </div>
