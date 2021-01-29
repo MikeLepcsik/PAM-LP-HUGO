@@ -4116,14 +4116,17 @@ a.TextLink.one:hover:after {
   transition: all 0.25s;
 }
 .ecommerce_18 .link_holder:hover {
-  background: #d8d4d9;
+  background: #509dc9;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
 }
 .ecommerce_18 .img_link img {
   min-height: 100%;
   transition: all 0.25s;
 }
 .ecommerce_18 .img_link:hover img {
-  opacity: 0.8;
+  opacity: 1;
 }
 .ecommerce_18 .buttons {
   left: 0;
@@ -5394,8 +5397,8 @@ body {
 }
 
 @media (max-width: 992px) {
-  .member-content .details:after  {
-    display: none!important;
+  .member-content .details:after {
+    display: none !important;
   }
 }
 
@@ -5744,7 +5747,7 @@ li + li {
 
 @media (max-width: 1200px) {
   .mobilehidden {
-    display: none!important;
+    display: none !important;
   }
 }
 
@@ -5907,44 +5910,73 @@ input[type="range"]::-moz-focus-outer {
 }
 
 /*Left Side Buttons Start*/
-.sticky-left-container{
-  padding: 0px;
-  margin: 0px;
-  position: fixed;
-  left: -158px;
-  top:40%;
-  width: 200px;
-  z-index:2;
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
-.sticky-left li{
-  list-style-type: none;
-  background-color: none;
-  color: #efefef;
-  height: 43px;
-  padding: 0px;
-  margin: 0px 0px 1px 0px;
-  -webkit-transition:all 0.25s ease-in-out;
-  -moz-transition:all 0.25s ease-in-out;
-  -o-transition:all 0.25s ease-in-out;
-  transition:all 0.25s ease-in-out;
-  cursor: pointer; 
+
+.cf:after {
+  clear: both;
 }
-.sticky-left li:hover{
-  margin-right: -150px;
-  background:#333;
-  border-radius: 25px 25px 25px 0;
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+  *zoom: 1;
 }
-.sticky-left li img{
-  float: right;
-  border-radius:50%; 
-  margin: 5px 5px;
-  margin-left: 10px;
+.wrapper {
+  width: 100%;
+  max-width: 590px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 200px;
 }
-.sticky-left li p{
-  padding: 0px;
-  float:right;
-  margin: 0px;
-  text-transform: uppercase;
-  line-height: 43px;
+.content {
+  padding: 0 15px;
+  width: 360px;
+}
+.content h1 {
+  margin-top: 0;
+}
+.content p,
+.sidebar p {
+  font-family: "BLOKKNeue-Regular";
+}
+.sidebar {
+  padding: 20px;
+  width: 190px;
+  background-color: #3d82ab;
+  color: #fff;
+  border-radius: 0px 20px 20px 0px;
+}
+.sidebar h3 {
+  margin: 0;
+}
+.content,
+.sidebar {
+  float: left;
+}
+
+/* The sticky */
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*Left Side Buttons End*/

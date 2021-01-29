@@ -63,24 +63,16 @@
 <!-- section business-->
 
 <!--Left Side Buttons Start
-<div class="sticky-left-container">
-  <ul class="sticky-left">
-    <li>
-      <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1yz1jMRdqLQWBx10eFLSWTMGWmKrL9sM6"/>
-      <p>Phone</p>
-    </li>
-    <li>
-      <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1ha6UAQlGBFXnExIXUMgs2l1QwUNgE09K" />
-      <p><a href="#down" class="f-22 link-down btn"><span style="font-size: 40px;" class="material-icons">
-          expand_more
-        </span></a></p>
-    </li>
-    <li>
-      <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1Jthmdc-CZpBoymeHEW06x9OTj8_lW7gM" />
-      <p>Email</p>
-  </li>
-</ul>
-</div>-->	
+
+<div id="sidebar" class="sidebar ecommerce_18">
+
+  <div class="py-1 px-15 link_holder"><a href="#down" class="link color-white">Book your Demo</a></div>
+  <div class="py-1 px-15 link_holder"><a href="#OnePlace" class="link color-white">One Place</a></div>
+  <div class="py-1 px-15 link_holder"><a href="#Fees" class="link color-white">Fees</a></div>
+  <div class="py-1 px-15 link_holder"><a href='{{"https://pam.desk-now.com/account/signup"|relLangURL}}' class="link color-white">Get Started</a></div>
+
+</div>-->
+
 <!--Left Side Buttons End-->
 
 <section class="feature_44 book_demo_sec_wrap bg_grey text-center text-md-left" id="down">
@@ -144,7 +136,7 @@
           </div>
         </section>
       </div>
-      <div class="mb-50 mb-md-0 col-md-3 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+      <div class="mb-50 mb-md-0 col-md-3 col-sm-8" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0" id="OnePlace">
         <img srcset="/images/real_time.svg 2x" src="/images/real_time.svg" alt="" />
         <div class="mt-20 mb-20 f-14 semibold text-uppercase sp-20 title">
           {{.Params.sectionFeature.FeatureTitle2 | safeHTML }}</div>
@@ -153,12 +145,12 @@
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 
-                  <a class="pb-25 tab_opener color-heading text-adaptive" data-toggle="modal"
+                <a class="pb-25 tab_opener color-heading text-adaptive" data-toggle="modal"
                   data-target="#sectionFeature2">
-                    {{.Params.sectionFeature.FeatureText2 | safeHTML }}
-                    <i class="fas fa-angle-right ml-10"></i>
-                  </a>
-       
+                  {{.Params.sectionFeature.FeatureText2 | safeHTML }}
+                  <i class="fas fa-angle-right ml-10"></i>
+                </a>
+
               </div>
             </div>
           </div>
@@ -174,10 +166,10 @@
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 
-                  <div class="pb-25 tab_opener color-heading text-adaptive" data-toggle="modal"
+                <div class="pb-25 tab_opener color-heading text-adaptive" data-toggle="modal"
                   data-target="#sectionFeature3">
-                    {{.Params.sectionFeature.FeatureText3 | safeHTML }}<i class="fas fa-angle-right ml-10"></i>
-                  </div>
+                  {{.Params.sectionFeature.FeatureText3 | safeHTML }}<i class="fas fa-angle-right ml-10"></i>
+                </div>
 
               </div>
             </div>
@@ -194,11 +186,11 @@
             <div class="row">
               <div class="col-lg-12" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
 
-                  <div class="pb-25 tab_opener color-heading text-adaptive" data-toggle="modal"
+                <div class="pb-25 tab_opener color-heading text-adaptive" data-toggle="modal"
                   data-target="#sectionFeature4">
-                    {{.Params.sectionFeature.FeatureText4 | safeHTML }}
-                    <i class="fas fa-angle-right ml-10"></i>
-                  </div>
+                  {{.Params.sectionFeature.FeatureText4 | safeHTML }}
+                  <i class="fas fa-angle-right ml-10"></i>
+                </div>
 
               </div>
             </div>
@@ -279,7 +271,7 @@
 
 <!-- Fees Table -->
 
-<section class="pricing_table_8 bg_grey pt-105 pb-100 text-center">
+<section class="pricing_table_8 bg_grey pt-105 pb-100 text-center" id="Fees">
   <div class="container px-xl-0">
     <h2 class="mb-10 small" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
       {{.Params.sectionFees.Title | safeHTML }}</h2>
@@ -826,6 +818,13 @@
       </div>
     </section>-->
 </section>
+
+</div>
+
+<script>
+  var sidebar = document.getElementById('sidebar');
+  Stickyfill.add(sidebar);
+</script>
 
 <!-- Bootstrap 4.3.1 JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
