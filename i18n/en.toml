@@ -79,6 +79,11 @@ other = "Payment"
 [Footer_Imprint]
 other = "Imprint"
 
+[Form_TermsOfService]
+other = "Terms of Service"
+[Form_PrivacyPolicy]
+other = "Privacy Policy"
+
 [Alert_Success]
 other = "Thanks for your message!"
 [Alert_Warning]

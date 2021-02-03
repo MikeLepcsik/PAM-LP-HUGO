@@ -6,53 +6,53 @@
     "Title": "Coworking",
 
     "header": {
-		"Title": "Az ingyenes szoftver a munkatársak kezelésére!",
+		"Title": "Az ingyenes szoftver a megosztott munkaállomésok kezelésére!",
         "Text1": "a pam a legkiválóbb coworking / flex irodai szoftver megoldás. Kezelje foglalásait, fejlessze közösségét, kösse össze bérlőit!",
-         "Text2": "Minden egy helyen fut az interneten és"
+         "Text2": "Minden egy helyen fut, weben és applikációban"
 	},
 
     "chat": {
-		"bubble1": "Hé, elfelejtettem lefoglalni a bemutatótermet! 🙂",
-        "bubble2": "Ok, semmi gond. Most már lefoglalhat mobiltelefonján.",
-        "bubble3": "Na igen! 5 főt is beveszek.",
-        "bubble4": "Remek, pillanatok alatt értesítést kap."
+		"bubble1": "Szia, elfelejtettem lefoglalni a termet a prezentációhoz! 🙂",
+        "bubble2": "Semmi gond. Most már a telefonon is tudsz foglalni!",
+        "bubble3": "Rendben! 5 főre foglalnék.",
+        "bubble4": "Remek, néhány pillanat és érkezik a megerősítés."
 	},
 
     "sectionBusiness": {
-		"Title": "Foglalja le nálunk az irányított bemutatót!",
-        "Text1": "Foglalja le nálunk az irányított bemutatót! Tanulja meg közvetlenül szenvedélyes csapatunktól, milyen gyorsan kezdheti el használni a PAM-ot."
+		"Title": "Foglaljon le egy szoftverbemutatót!",
+        "Text1": "Foglalja le nálunk az irányított szoftverbemutatót! Lelkes csapatunktól bemutatja, hogy milyen gyorsan és könnyen kezdheti el a PAM használatát!"
 	},
 
     "sectionFeature": {
 		"Title": "Minden egy helyen",
-        "Text1": "Valós idejű frissítéseket kaphat az új foglalásokról, véleményekről, vendégkérésekről és a rendelkezésre állásról.",
+        "Text1": "Valós idejű frissítéseket kaphat az új foglalásokról, véleményekről, igénylésekről és a rendelkezésre állásról.",
         "FeatureTitle1": "Teljes áttekintés egy helyen",
         "FeatureText1": "A PAM teljes és részletes képet nyújt a teljesítménymutatókról: Nem számít, ha az összes helyet egyszerre szeretné elemezni, ...",
-        "FeatureSubText1": "számos kiválasztott tulajdonság, egy adott asztali használat vagy az összes nyereség egy meghatározott kulcs klienssel: a PAM segítségével mindezt csak egy kattintással érheti el. A PAM segít megérteni és elemezni az egyes termékek pontos teljesítményét a megadott kritériumok közül egészében, vagy a helyszínen belüli egyéni tér szerint, bárhogy is szeretné csoportosítani őket, az Ön választása. Minden ábrája grafikonként vagy teljes elemzésként tekinthető meg a teljes testreszabott irányítópulton. Ezek az összefoglalók kulcsfontosságú betekintést kínálnak a helyszín megosztott tereinek kihasználásában, a tagok foglalási magatartása alapján. A PAM lehetőséget nyújt arra, hogy áttekintse a tárgyalók kihasználtságát, valamint a helyenkénti foglalások átlagos időtartamát és mennyiségét. a tökéletes egyensúly az átfogó és az egyszerű között. ",
+        "FeatureSubText1": "számos kiválasztott tulajdonság, egy adott asztal kihasználtsága vagy egy meghatározott ügyfél általi összes profit - a PAM segítségével mindezt egy kattintással elérheti. A PAM segít megérteni és elemezni az egyes termékek pontos teljesítményét a megadott kritériumok tekintetében, vagy egyes munkaállomásokat egy adott helyszín helyszínen belüli - bárhogy is szeretné csoportosítani őket, az Ön választása. Minden adat megtekinthető grafikonként vagy részletes elemzésként a testreszabott irányítópulton. Ezek az összefoglalók kulcsfontosságú betekintést kínálnak az adott helyszín megosztott tereinek kihasználásáról az ügyfelek vagy kollégák foglalási magatartása alapján. A PAM lehetőséget nyújt arra, hogy áttekintse a tárgyalók kihasználtságát, valamint a helyenkénti foglalások átlagos időtartamát és mennyiségét. Az elemzések jelentik a tökéletes egyensúlyt az átfogó és az egyszerű között. ",
 
         "FeatureTitle2": "Valós idejű foglalások kezelése",
         "FeatureText2": "A PAM segítségével kezelheti a folyamatban lévő foglalásait, jóváhagyhat vagy elutasíthat minden új foglalási kérelmet, engedélyezheti az azonnali foglalást ...",
-        "FeatureSubText2": "funkcionalitás bizonyos esetekben közvetlenül a listázási oldalról. Könnyedén letöltheti számláit, teljes áttekintést kaphat az előzményekről, vagy akár külső foglalásokat is felvehet. A külső foglalások lehetővé teszik a nem tagok számára, hogy erőforrásokat foglaljanak le, például tárgyalókat vagy technikai felszereléseket. Növelje bevételeit az űrforrások optimalizálásával, és használja ki az űrkapacitás minden bitjét. ",
+        "FeatureSubText2": "több funkció esetén egyenesen az irányítópultról. Könnyedén letöltheti számláit, teljes áttekintést kaphat az előzményekről, vagy akár külső foglalásokat is felvehet. A külső foglalások lehetővé teszik a nem tagok számára, hogy erőforrásokat foglaljanak le, például tárgyalókat vagy technikai felszereléseket. Növelje bevételeit az erőforrások optimalizálásával, és használja ki azok teljes kapacitását. ",
 
         "FeatureTitle3": "Több asztal foglalása egyszerre",
-        "FeatureText3": "A PAM szabadságot ad arra, hogy a helyszín tagjai egyszerre több asztalt foglalhassanak a ...",
-        "FeatureSubText3": "nincs szükség szerződéses változtatásokra. Ez lehetővé teszi a legértékesebb ügyfelek számára a speciális szolgáltatásokat, így egy bizonyos tag (azaz egy kulcsfontosságú ügyfél csapatadminisztrátora a munkatársai körében) akár egy csoportot is lefoglalhat az asztalon belül. a helyszíne csak online, hatalmas új szerződések nélkül. Megadja a teljes rugalmasságot, így lehetőségük lesz kiválasztani a foglalás kapacitását, és egyszerre lefoglalni egy íróasztal-csoportot. Nincs szerződés-adminisztráció az Ön számára, sem az ügyfelének , csak egy egyszerű online folyamat garantálja az ügyfelek elégedettségét. ",
+        "FeatureText3": "A PAM szabadságot ad arra, hogy a tag egy időben több asztalt is foglalhassanak...",
+        "FeatureSubText3": "viszont nincs szükség szerződéses változtatásokra. Ez lehetővé teszi a legértékesebb ügyfelek számára a speciális szolgáltatásokat, így egy bizonyos tag (azaz egy kulcsfontosságú ügyfél csapatadminisztrátora a munkatársai körében) akár egy egy csoportra elegendő asztalt is foglalhat online, új szerződések nélkül. Megadja a teljes rugalmasságot, így lehetőségük lesz kiválasztani a foglalás kapacitását, és egyszerre lefoglalni egy asztalcsoportot. Nincs szerződés-adminisztráció az Ön számára, sem az ügyfelének, csak egy egyszerű online folyamat, ami garantálja az ügyfelek elégedettségét. ",
 
         "FeatureTitle4": "Teljes eszközkezelés",
-        "FeatureText4": "Ez az abszolút intuitív funkció lehetővé teszi a tulajdonságok létrehozását, szerkesztését vagy akár deaktiválását, amire szüksége van ...",
-        "FeatureSubText4": "Összekapcsolhatja a szóközöket, előre meghatározhatja a naptár ütemezését és ellenőrizheti valós idejű foglaltságát. Hirdetési megoldások felhasználói platformjai az Ön listájának népszerűsítésével. Ha már több helyet kezel, a pam segítségével mindent kezelhet, ami a foglalásokhoz, az ügyfelekhez és foglalások. Egy rendszergazdai fiók rendszergazda lehet az összes helyén. "
+        "FeatureText4": "Ez az intuitív funkció lehetővé teszi a egyéni beállítások létrehozását, szerkesztését vagy akár deaktiválását az igényeket figyelembe véve...",
+        "FeatureSubText4": "Összekapcsolhatja munkaállomásokat, előre meghatározhatja a naptár ütemezését és ellenőrizheti a valós idejű foglaltságot. Hirdetési megoldások felhasználói platformjai által elérhető az Ön listájának népszerűsítése. Ha több helyszínt kezel, a pam segítségével mindent intézhet, ami a foglalásokhoz, az ügyfelekhez kapcsolódik. Egy rendszergazdai fiók rendszergazda lehet az összes helyszínen. "
 	},
 
     "sectionFees": {
-		"Title": "Díjak",
-        "SubTitle": "Átlátszó szolgáltatási díjszerkezetünk lehetővé teszi a munkatársi vállalkozások méretének növekedését. Csak a DeskNow-n keresztül érkező sikeres foglalásokért és tranzakciókért kell fizetni. Nincs havi fix költség a pam használatára a munkatársak fejlesztése érdekében." ,
+		"Title": "Árak",
+        "SubTitle": "Átlátható árazásunk lehetővé teszi a vállalkozások méretének növekedését. Csak a DeskNow-on keresztül érkező sikeres foglalásokért és tranzakciókért kell fizetni. Nincs havi fix költség a pam használatára a munkatársak fejlesztése érdekében.",
          "HeaderTab1": "Klasszikus iroda",
         "HeaderTab2": "Coworking Alapvető",
         "HeaderTab3": "Coworking Előleg",
         "HeaderTab4": "Coworking Üzleti",
         "HeaderTab5": "Coworking Társasági",
         "location": "hely",
-        "row1": "ÓRÁNAK / NAPI",
+        "row1": "ÓRA / NAP",
         "row2": "HETI",
         "row3": "HAVI"
 	},

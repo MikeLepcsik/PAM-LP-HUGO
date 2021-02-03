@@ -3,17 +3,17 @@
 	"translationKey": "aboutus/contact",
 
     "_comment": "Title = Search", 
-    "Title": "Lépjen kapcsolatba",
+    "Title": "Kapcsolat",
 
     "ContactForm": {
-		"Title": "Lépjen kapcsolatba",
+		"Title": "Kapcsolat",
         "YourName": "Az Ön neve",
         "Subject": "Téma",
         "SelectSubject": "Téma kiválasztása",
         "Subject1": "Demóra van szükségem",
-        "Subject2": "Hiányzik a szolgáltatás",
+        "Subject2": "Hiányzik egy funkció",
         "Subject3": "Saját fiók",
-        "Subject4": "Üzleti vizsgálat",
+        "Subject4": "Üzleti megkeresés",
         "Subject5": "Hibabejelentés",
         "Subject6": "Kifizetések",
         "MobileNumber": "Mobil szám",
@@ -21,8 +21,7 @@
         "Email": "név@mail.com",
         "CompanyName": "Cég neve",
         "YourMessage": "Az Ön üzenete",   
-        "TermsText": "A regisztrációval elfogadja az <a class=\"text-danger link-text-AGB\" href='{{\"useful/terms-conditions\"|relLangURL}}' target=\"_blank\">Általános Szerződési Feltételeket,</a> és elolvasta az <a class=\"text-danger link-text-AGB\" href='{{\"useful/privacy-policy\"|relLangURL}}' target=\"_blank\">Adatvédelmi irányelveket.</a>"
-          
-
+        "TermsText": "Az üzenet elküldésével elfogadja az",
+        "TermsText2": " és az "
 	}
 }

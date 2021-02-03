@@ -54,7 +54,7 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="mb-10 f-14 semibold text-uppercase sp-20">{{.Params.ContactForm.YourName | safeHTML }}</div>
-                <input type="text" name="name" placeholder="Enter Your Name"
+                <input type="text" name="name" placeholder="{{.Params.ContactForm.YourName | safeHTML }}"
                   class="input mb-35 w-full border-gray focus-action-1 color-heading placeholder-heading" />
 
                 <div class="col-sm-12 px-0">
@@ -104,9 +104,9 @@
                   class="input d-none border-gray focus-action-1" />
                 <label class="color-heading"
                   for="contact_4_checkbox">{{.Params.ContactForm.TermsText | safeHTML }}
-                  <a class="text-danger link-text-AGB" href='{{"https://mypam.com/useful/terms-conditions/" | absLangURL }}' target="_blank">Terms of Service</a>
+                  <a class="text-danger link-text-AGB" href='{{"https://mypam.com/useful/terms-conditions/" | absLangURL }}' target="_blank">{{T "Form_TermsOfService"}}</a>
                   {{.Params.ContactForm.TermsText2 | safeHTML }} 
-                  <a class="text-danger link-text-AGB" href='{{"https://mypam.com/useful/privacy-policy/" | absLangURL }}' target="_blank">Privacy Policy</a>
+                  <a class="text-danger link-text-AGB" href='{{"https://mypam.com/useful/privacy-policy/" | absLangURL }}' target="_blank">{{T "Form_PrivacyPolicy"}}</a>
                   {{.Params.ContactForm.TermsText3 | safeHTML }}</label>
               </div>
               <div class="col-xl-5 col-sm-12 mt-30">

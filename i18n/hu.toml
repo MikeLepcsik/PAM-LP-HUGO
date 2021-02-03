@@ -15,13 +15,11 @@ other = "Klasszikus iroda"
 [menu_OurTeam]
 other = "Csapatunk"
 [menu_OurStory]
-other = "A mi történetünk"
+other = "Történetünk"
 [menu_FAQ]
 other = "FAQ"
 [menu_ContactUs]
-other = "Lépjen kapcsolatba"
-[link_text]
-other = "click here"
+other = "Kapcsolatba"
 
 [button_Login]
 other = "Bejelentkezés"  
@@ -38,9 +36,13 @@ other = "Segítség kérése"
 [button_CTA3]
 other = "Próbálja ki most"
 [button_CTA4]
-other = "Menetrend A bemutató"
+other = "Próbáld ki demót"
 [button_CTA5]
 other = "Kezdő lépések"
+[button_CTA6]
+other = "Tudj meg többet"
+[link_text]
+other = "Kattints ide"
 
 [Footer_Findus]
 other = "Keressen minket"  
@@ -51,7 +53,7 @@ other = "Küldjön nekünk eMailt"
 [Footer_Join]
 other = "Csatlakozzon" 
 [Footer_Email]
-other = "Email cím" 
+other = "e-mail cím" 
 [Footer_Followus]
 other = "Kövess minket" 
 [Footer_UsefulLinks]
@@ -76,6 +78,11 @@ other = "Visszatérítés"
 other = "Fizetés"
 [Footer_Imprint]
 other = "Impresszum"
+
+[Form_TermsOfService]
+other = "Általános Szerződési Feltételeket"
+[Form_PrivacyPolicy]
+other = "Adatvédelmi irányelveket"
 
 [Alert_Success]
 other = "Köszönöm az üzenetét!"
