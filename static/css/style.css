@@ -5945,14 +5945,14 @@ input[type="range"]::-moz-focus-outer {
   margin-top: 60px;
   margin-bottom: 200px;
 }
-.content {
+.contentt {
   padding: 0 15px;
   width: 360px;
 }
-.content h1 {
+.contentt h1 {
   margin-top: 0;
 }
-.content p,
+.contentt p,
 .sidebar p {
   font-family: "BLOKKNeue-Regular";
 }
@@ -5966,7 +5966,7 @@ input[type="range"]::-moz-focus-outer {
 .sidebar h3 {
   margin: 0;
 }
-.content,
+.contentt,
 .sidebar {
   float: left;
 }
