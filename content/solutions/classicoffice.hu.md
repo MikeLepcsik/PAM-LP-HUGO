@@ -12,28 +12,28 @@
 	},
 
 	"sectionFeature": {
-		"Title": "Hogyan javítja a DeskNow pam a vállalati együttműködést",
-		"Text1": "A Pam by DeskNow egy vállalati szintű munkaterület-kezelő platform, amely megszünteti a szervezeti munkatársak kialakításának akadályait. A pam bevezetésével és a munkatársi munkaterület bevezetésével a vállalatok optimalizálhatják az együttműködést, az innovációt és az alkalmazottak megtartását. Pam by DeskNow a coworking szoftver felszabadítja az alkalmazottaidat azáltal, hogy lehetővé teszik számukra, hogy minden nap más asztalról dolgozhassanak, automatikusan bejelentkezzenek és kijelentkezhessenek, amikor befejezték. Az eredmény a munkaerőnél nagyobb hatékonyságot és jobb kultúrát jelent. ",
+        "Title": "Hogyan segíti a DeskNow pam a vállalati együttműködést?",
+        "Text1": "A Pam by DeskNow egy vállalati szintű munkaterület-kezelő platform, amely megszünteti a megosztott munkaterületek / coworking bevezetésének akadályait. A pam alkalmazásával és a coworking bevezetésével a vállalatok optimalizálni tudják az együttműködést, az innovációt és az alkalmazottak megtartását. A Pam by DeskNow alkalmazásával a munkatársak szabadon választhatják meg munkaterületüket, akár minden nap máshol (akár más munkaasztalról) dolgozhatnak, automatikusan be- és kijelentkezhetnek a munka kezdetén és végén. Ez hozzájárulhat a munka hatékonyságához és fejleszti a vállalati kultúrát. ",
 
-		"FeatureTitle": "Előnyök a vállalati együttműködési terek számára",
-		"FeatureSubTitle": "Segítsen a munkahelyednek fixről rugalmasra fejlődni",
+        "FeatureTitle": "Előnyök a coworking munkaterületek számára",
+        "FeatureSubTitle": "Fejlessze munkahelyét fixről rugalmasra",
 
-        "FeatureTitle1": "A vállalati kultúra megzavarása",
-        "FeatureText1": "A hagyományos irodai tervezés nem mindig segíti elő a termelékenységet és az innovációt. Az alkalmazottak korlátozottnak érezhetik magukat és ...",
-        "FeatureSubText1": "akadályozza az együttműködés hiánya. A PamN a DeskNow munkatársi menedzsment megoldása lehetővé teszi, hogy könnyedén létrehozzon egy rugalmas munkaterületet olyan légkörrel és kultúrával, amely elősegíti a kreativitást, a kommunikáció nyitott vonalait, a függetlenséget és az egyensúlyt. <br> <br > A Pam által a DeskNow által működtetett coworking-környezetek az elavult vállalati kultúrát és a napi monotóniát energikus és motivált munkaerő-közösséggé alakítják. ",
+        "FeatureTitle1": "A vállalati kultúra nehézségei",
+        "FeatureText1": "A hagyományos irodai munka nem mindig segíti elő a termelékenységet és az innovációt. Az alkalmazottak korlátozottnak érezhetik magukat és ...",
+        "FeatureSubText1": "hátráltatva lehet a közöttük lévő együttműködés. A Pam by DeskNow munkaterület menedzsment megoldása lehetővé teszi, hogy könnyedén létrehozzon egy rugalmas munkaterületet olyan légkörrel és kultúrával, amely elősegíti a kreativitást, a hatékony kommunikációt, a függetlenséget és az egyensúlyt. <br> <br > A Pam by DeskNow által működtetett coworking-környezetek az elavult vállalati kultúrát és a napi monotóniát energikus és motivált közösséggé alakítják. ",
 
         "FeatureTitle2": "A költségek minimalizálása",
-        "FeatureText2": "<br> A Pam by DeskNow használatával beépítheti a munkatársat a munkaterület stratégiájába. Engedélyezheti tagjainak, hogy használják a coworking hotdesk modellt, ...",
-        "FeatureSubText2": "amely kioszt egy irodai íróasztalt, amelyet több munkavállaló oszt meg különböző műszakokban, szemben azzal, hogy minden alkalmazott rendelkezik kijelölt személyes íróasztallal. Ennek eredményeként jelentősen csökken az üzleti lábnyom - egyes esetekben akár 30% is - jelentősen csökkenti a vállalati rezsit. ",
+        "FeatureText2": "<br> A Pam by DeskNow használatával beépítheti a coworking rendszerét a vállalat stratégiájába. A felhasználók használhatják a \"coworking hotdesk\" modellt, ...",
+        "FeatureSubText2": "amelyben egy kijelölt irodai munkaterületet több munkavállaló is megoszthat, akár különböző műszakokban - szemben azzal, amikor minden alkalmazott rendelkezik kijelölt személyes íróasztallal. Ennek eredményeként jelentősen csökkenthető - egyes esetekben akár 30%-al is - a vállalat által kifizetett irodai költség, illetve rezsi.",
 
-        "FeatureTitle3": "Tehetségek vonzása",
-        "FeatureText3": "<br> Megállapíthatja, hogy a legtehetségesebb munkavállalók manapság olyan lehetőségeket keresnek, ahol szabadságuk van, és függetlenebben dolgoznak, és ...",
-        "FeatureSubText3": "rugalmas ütemezéssel. Ez létrehozott egy generációs jelenséget, amelyet gigazdaságnak neveznek. <br> <br> A Pam by DeskNow lehetővé teszi a vállalatok számára, hogy könnyedén bevezessék a munkatársakat a munkaterület-stratégiájukba. A coworking az együttműködésre, az inkluzivitásra, rugalmasság és közösség, amely lehetővé teszi a munkavállalók új generációjának boldogulását. A Pam by DeskNow biztosítja a hidat a vállalat számára, hogy vonzza a legjobb tehetségeket. ",
+        "FeatureTitle3": "Tehetségek megnyerése",
+        "FeatureText3": "<br> Láthatjuk, hogy manapság a legtehetségesebb munkavállalók olyan lehetőségeket keresnek, hogy önállóan és szabadon dolgozhassanak, ...",
+        "FeatureSubText3": "és ehhez rugalmas időbosztás is kapcsolódjon. Ez létrehozta a \"gig economy\" néven ismert jelenséget. <br> <br> A Pam by DeskNow lehetővé teszi a vállalatok számára, hogy könnyedén bevezessék ezeket a munkatársakat a munkaterületekkel kapcsolatos stratégiájukba. A coworking az együttműködésre, az integrációra, rugalmasságra és közösségre épül, amely lehetővé teszi a munkavállalók új generációjának boldogulását. A Pam by DeskNow biztosítja a hidat a vállalat és a szakmai tehetségek között. ",
 
         "FeatureTitle4": "Innováció ösztönzése",
-        "FeatureText4": "Előfordulhat, hogy a munkaerő már nem ösztönzi az innovációt vagy új ötleteket kínál a vállalat előmozdításához ...",
-        "FeatureSubText4": "A rugalmas munkaterület-megoldások lehetővé teszik a munkatársak beillesztését az irodába és végső soron az együttműködés ösztönzését a munkaerőn belül. Ha lehetővé teszi a csapatok számára, hogy kölcsönhatásba lépjenek és ötleteket osszanak meg, akkor bevonják a csapatot és javítják a morált. A Pam by DeskNow segíthet csapata néhány lépéssel közelebb van a következő nagy ötlethez. "
-	},
+        "FeatureText4": "Előfordulhat, hogy a munkaerő már nem ösztönzi az innovációt, vagy nem viszi előre a vállalat jövöjét új ötletekkel...",
+        "FeatureSubText4": "A rugalmas munkaterület-megoldások lehetővé teszik a munkatársak irodai jelenlétét, és végső soron az együttműködés ösztönzését a munkatársak között. Ha lehetővé teszi a csapatok számára, hogy közösen dolgozhassanak és ötleteket osszanak meg, akkor a kollégák elkötelezettebbé válhatnak, és javulhat a vállalati morál. A Pam by DeskNow segíthet csapatának néhány lépéssel közelebb kerülni a következő nagy ötlethez. "
+    },
 
     "PricingSlider": {
 		"Title": "A szoftver a munkaterületek kezelésére",
