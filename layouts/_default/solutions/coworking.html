@@ -13,11 +13,18 @@
               <div class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
                 {{.Params.header.Text1 | safeHTML }}</div>
               <p class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                {{.Params.header.Text2 | safeHTML }} <a href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888"
-                  class="TextLink one" target="_blank">app</a>.
+                {{.Params.header.Text2 | safeHTML }} <br>
+                <a target="_blank"
+                  href='{{"https://play.google.com/store/apps/details?id=com.desknow.host"|relLangURL}}'>
+                  <img src="/images/google-play-store.svg" class="w-150" alt="Google Play Store" />
+                </a>
+
+                <a target="_blank" href='{{"https://apps.apple.com/us/app/pam-by-desknow/id1529556888"|relLangURL}}'>
+                  <img src="/images/apple-play-store.svg" class="w-150" alt="Apple Play Store" />
+                </a>
               </p>
 
-              <a href="https://pam.desk-now.com/account/signup" class="mt-5 btn action-2" data-aos-duration="600"
+              <a href="https://pam.desk-now.com/account/signup" class="mt-5 btn action-1" data-aos-duration="600"
                 data-aos="fade-down" data-aos-delay="300">{{T "button_CTA"}}</a>
             </div>
             <div class="col-lg-1 col-md-1" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200"></div>
@@ -107,6 +114,8 @@
         <h2 class="mb-20">{{.Params.sectionFeature.Title | safeHTML }}</h2>
         <div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">{{.Params.sectionFeature.Text1 | safeHTML }}
         </div>
+        <a href="https://pam.desk-now.com/account/signup" class="mt-5 btn action-1" data-aos-duration="600"
+                data-aos="fade-down" data-aos-delay="300">{{T "button_CTA"}}</a>
       </div>
       <div class="col-sm-1">
       </div>
@@ -268,6 +277,31 @@
     </div>
   </div>
 </div>
+
+<!-- Fees -->
+
+<section class="feature_44 book_demo_sec_wrap bg_grey text-center text-md-left" id="down">
+  <div class="container px-xl-0">
+    <div
+      class="mt-75 mb-75 row justify-content-center justify-content-md-between align-items-end align-items-lg-start flex-row-reverse row2">
+      <div class="col-xl-1"></div>
+      <div class="col-lg-5 col-md-6 pb-60 pb-lg-0 inner2" data-aos-duration="600" data-aos="fade-down"
+        data-aos-delay="0">
+        <h2 class="mt-55 mb-30 small">{{.Params.sectionFees.Title | safeHTML }}</h2>
+        <div class="f-22 color-heading text-adaptive">
+          {{.Params.sectionFees.SubTitle | safeHTML }}
+        </div>
+        <a href='{{"aboutus/contact"|relLangURL}}' class="mt-30 btn action-1">{{T "button_CTA"}}</a>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-8" data-aos-duration="600" data-aos="fade-down"
+        data-aos-delay="300">
+        <img srcset="i/feature_44_img_2@2x.png 2x" src="/images/0euro.svg" class="img-fluid img" alt="" />
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- Fees Table 
 

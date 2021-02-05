@@ -45,7 +45,7 @@
 
     "sectionFees": {
 		"Title": "Fees",
-		"SubTitle": "Our Transparent Service Fee structure enables you to scale your coworking business as it grows. Only pay for successful bookings and transactions coming through DeskNow. There are no fixed monthly costs to use pam in order to enhance your coworking business.",
+		"SubTitle": "Using pam is free of charge. 0 costs! <br>Our transparent service fee structure enables you to scale your coworking business as it grows. Only pay 10% for successful bookings and transactions coming through DeskNow. There are no fixed monthly costs to use pam in order to enhance your coworking business.",
         "HeaderTab1": "Classic Office",
         "HeaderTab2": "Coworking Basic",
         "HeaderTab3": "Coworking Advance",

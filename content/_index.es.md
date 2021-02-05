@@ -4,21 +4,21 @@
 
 	"header": {
 		"Title": "El software para administrar sus espacios de trabajo",
-		"Text": "pam es la solución de software para administrar sus espacios de trabajo, optimizar los costos de oficina, crear nuevos ingresos utilizando su espacio no utilizado y brindar a los clientes o empleados herramientas para reservar los lugares de trabajo que más los inspiran",
+		"Text": "PAM es la solución de software para administrar sus espacios de trabajo, optimizar los costos de oficina, crear nuevos ingresos activando el espacio no utilizado y brindar a los clientes o empleados herramientas para reservar los lugares de trabajo que más los inspiran",
 		"Text2": "Todo en un solo lugar que se ejecuta en la Web y",
 		"CTA": "Regístrate gratis"
 	},
 
 	"sectionBusiness": {
 		"Title": "¿Qué puede hacer Pam por tu negocio?",
-		"Text1": "pam ofrece una vista completa y detallada de sus indicadores de rendimiento, no importa si desea analizar todas las ubicaciones a la vez, una serie de propiedades seleccionadas, un uso particular del escritorio o todos sus beneficios.",
+		"Text1": "Cuando una empresa opera de manera eficiente, las ganancias aumentan y las pérdidas disminuye, lo que da lugar a un resultado saludable. Al usar PAM logramos reducir con éxito la cantidad de espacios de trabajo sin usar, del 80% al 60% en solo 2 meses después de la implementación. Facilite un regreso seguro a la oficina para sus clientes y empleados. El distanciamiento social es clave para que sus empleados regresen a sus instalaciones de manera segura. Optimice la utilización de sus espacios de trabajo, ofreciéndole acceso a su clientela para que reserven dichos espacios de trabajo en su edificio tanto diariamente, como mensualmente o incluso por horas. El resultado en su fuerza laboral es una mayor eficiencia y una cultura de coworking mejorada. PAM ofrece una vista completa y detallada de sus indicadores de rendimiento, no importa si desea analizar todas las ubicaciones a la vez, una serie de propiedades seleccionadas, un uso particular de los espacios o todos sus beneficios.",
 		"Text2": "Todas sus figuras son visibles como gráficos o análisis completos dentro de su panel personalizado completo.",
-		"Text3": "... con pam se obtiene todo con sólo un clic."
+		"Text3": "... con PAM se obtiene todo con sólo un clic."
 	},
 
 	"sectionFullIMG": {
 		"Title": "Toma el control total de tu negocio",
-		"Text1": "Obtenga actualizaciones en tiempo real sobre nuevas reservas, reseñas, solicitudes de huéspedes y disponibilidad."
+		"Text1": "Obtenga actualizaciones en tiempo real sobre nuevas reservas, solicitudes de huéspedes y disponibilidad."
 	},
 
 	"sectionOurPartners": {
@@ -37,8 +37,8 @@
 		"Card1Point5": "Facturación y pago de facturación",
 		"Card1Point6": "Publica espacios en DeskNow para una mayor difusión",
 
-		"TitleCard2": "OFICINA CLÁSICA",
-		"InnerTitleCard2": "Oficina clásica",
+		"TitleCard2": "OFICINA TRADICIONAL",
+		"InnerTitleCard2": "Oficina tradicional",
 		"InnerSubTitleCard2": "Mantenga el control total de los espacios de trabajo de su empresa",
 		"Card2Point1": "Administrar edificios y espacios de trabajo ilimitados",
 		"Card2Point2": "Importar empleados y dejar que reserven espacios de trabajo",

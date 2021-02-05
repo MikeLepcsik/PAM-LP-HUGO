@@ -13,11 +13,18 @@
               <div style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);" class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
                 {{.Params.header.Text | safeHTML }}</div>
               <p  style="text-shadow: 0 2px 6px rgba(0, 0, 0, 1.0);" class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                {{.Params.header.Text2 | safeHTML }} <a href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888"
-                  class="TextLink one" target="_blank">app</a>.
+                {{.Params.header.Text2 | safeHTML }} <br>
+                <a target="_blank"
+                  href='{{"https://play.google.com/store/apps/details?id=com.desknow.host"|relLangURL}}'>
+                  <img src="/images/google-play-store.svg" class="w-150" alt="Google Play Store" />
+                </a>
+
+                <a target="_blank" href='{{"https://apps.apple.com/us/app/pam-by-desknow/id1529556888"|relLangURL}}'>
+                  <img src="/images/apple-play-store.svg" class="w-150" alt="Apple Play Store" />
+                </a>
               </p>
 
-              <a href="https://pam.desk-now.com/account/login" class="mt-5 btn action-2" data-aos-duration="600"
+              <a href="https://pam.desk-now.com/account/login" class="mt-5 btn action-1" data-aos-duration="600"
                 data-aos="fade-down" data-aos-delay="300">{{T "button_CTA"}}</a>
             </div>
           </div>

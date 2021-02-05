@@ -19,7 +19,7 @@ other = "Nuestra historia"
 [menu_FAQ]
 other = "FAQ"
 [menu_ContactUs]
-other = "Contáctenos"
+other = "Contáctanos"
 
 [button_Login]
 other = "Iniciar sesión"  
@@ -34,18 +34,20 @@ other = "Empecemos"
 [button_CTA2]
 other = "Obtener ayuda"
 [button_CTA3]
-other = "Pruebe Ahora"
+other = "Prueba ahora"
 [button_CTA4]
 other = "Solicitar una prueba"
 [button_CTA5]
 other = "Comienza de forma gratuita"
+[button_CTA6]
+other = "Saber más"
 [link_text]
-other = "click here"
+other = "Pincha aquí"
 
 [Footer_Findus]
-other = "Encontrarnos"  
+other = "Dirección"  
 [Footer_Callus]
-other = "Comuniquémonos"  
+other = "Contáctanos"  
 [Footer_Mailus]
 other = "Correo electrónico" 
 [Footer_Join]
@@ -57,7 +59,7 @@ other = "Síguenos"
 [Footer_UsefulLinks]
 other = "Enlaces útiles" 
 [Footer_BecomeMember]
-other = "Hágase Miembro" 
+other = "Hágase miembro" 
 [Footer_ForDeskSeekers]
 other = "Para DeskSeekers"
 [Footer_Subscribe]
@@ -69,13 +71,18 @@ other = "Descargar"
 [Footer_Terms]
 other = "Condiciones"
 [Footer_Privacy]
-other = "Política de Privacidad"
+other = "Política de privacidad"
 [Footer_Refund]
-other = "Condiciones de Reembolso"
+other = "Condiciones de reembolso"
 [Footer_Payment]
 other = "Condiciones de pago"
 [Footer_Imprint]
 other = "Nota legal"
+
+[Form_TermsOfService]
+other = "Términos de servicio"
+[Form_PrivacyPolicy]
+other = "Política de privacidad"
 
 [Alert_Success]
 other = "¡Gracias por tu mensaje!"

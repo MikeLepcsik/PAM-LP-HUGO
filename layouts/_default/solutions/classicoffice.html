@@ -3,7 +3,8 @@
 <!-- Header -->
 <section style="position: relative; height: 900px; background-color: #fff; z-index: 1;">
   <div class="bg-video-wrap">
-    <div class="container top px-xl-0 color-white">
+    <div class="container px-xl-0 top color-white">
+
       <div class="row justify-content-left">
         <div class="col-xl-10">
           <div class="row flex-column-reverse flex-md-row align-items-stretch text-center text-md-left">
@@ -13,13 +14,21 @@
               <div class="f-22 pt-30 text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
                 {{.Params.header.Text | safeHTML }}</div>
               <p class="f-22 text-adaptive pt-4" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                {{.Params.header.Text2 | safeHTML }} <a href="https://apps.apple.com/us/app/pam-by-desknow/id1529556888"
-                  class="TextLink one" target="_blank">app</a>.
+                {{.Params.header.Text2 | safeHTML }} <br>
+                <a target="_blank"
+                  href='{{"https://play.google.com/store/apps/details?id=com.desknow.host"|relLangURL}}'>
+                  <img src="/images/google-play-store.svg" class="w-150" alt="Google Play Store" />
+                </a>
+
+                <a target="_blank" href='{{"https://apps.apple.com/us/app/pam-by-desknow/id1529556888"|relLangURL}}'>
+                  <img src="/images/apple-play-store.svg" class="w-150" alt="Apple Play Store" />
+                </a>
+
               </p>
 
             </div>
           </div>
-          <a href="#down" class="mt-5 btn action-2" data-aos-duration="600" data-aos="fade-down"
+          <a href="#down" class="mt-5 btn action-1" data-aos-duration="600" data-aos="fade-down"
             data-aos-delay="300">{{T "button_CTA6"}}</a>
         </div>
       </div>
@@ -36,7 +45,6 @@
     </video>
     <div class="overlay">
     </div>
-
   </div>
 </section>
 
@@ -201,8 +209,7 @@
           data-aos-delay="0">
           {{.Params.PricingSlider.Text3 | safeHTML }}
         </div>
-        <input data-aos-duration="600" data-aos="fade-down"
-        data-aos-delay="0" type="range" value="0" data-price-input='{
+        <input data-aos-duration="600" data-aos="fade-down" data-aos-delay="0" type="range" value="0" data-price-input='{
             "0": "0",
             "1": "1-100",
             "2": "101-500",
